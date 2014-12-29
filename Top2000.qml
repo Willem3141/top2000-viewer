@@ -3,6 +3,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 1.2
 
 import "top2014.js" as Top2000
+import "levenshtein.js" as Levenshtein
 
 Rectangle {
     
@@ -271,8 +272,8 @@ Rectangle {
                   || Top2000.top2000[i].title[0] !== newTitle[0]) {
                     continue;
                 }
-                var levenshtein = levenshteinenator(newArtist, Top2000.top2000[i].artist);
-                levenshtein += levenshteinenator(newTitle, Top2000.top2000[i].title);
+                var levenshtein = Levenshtein.getEditDistance(newArtist, Top2000.top2000[i].artist);
+                levenshtein += Levenshtein.getEditDistance(newTitle, Top2000.top2000[i].title);
                 if (levenshtein < closestLevenshtein) {
                     closestMatch = i;
                     closestLevenshtein = levenshtein;
@@ -281,19 +282,30 @@ Rectangle {
                     break;
                 }
             }
-            console.log("Time for Levenshtein algorithm: " + (new Date().getTime() - beginTime) + " ms");
             
             numberText.text = closestMatch + 1;
             artistText.text = Top2000.top2000[closestMatch].artist;
             titleText.text = Top2000.top2000[closestMatch].title;
             
-            previousNumberText.text = closestMatch + 2;
-            previousArtistText.text = Top2000.top2000[closestMatch + 1].artist;
-            previousTitleText.text = Top2000.top2000[closestMatch + 1].title;
+            if (closestMatch < 1999) {
+                previousNumberText.text = closestMatch + 2;
+                previousArtistText.text = Top2000.top2000[closestMatch + 1].artist;
+                previousTitleText.text = Top2000.top2000[closestMatch + 1].title;
+            } else {
+                previousNumberText.text = "";
+                previousArtistText.text = "";
+                previousTitleText.text = "";
+            }
             
-            nextNumberText.text = closestMatch;
-            nextArtistText.text = Top2000.top2000[closestMatch - 1].artist;
-            nextTitleText.text = Top2000.top2000[closestMatch - 1].title;
+            if (closestMatch > 0) {
+                nextNumberText.text = closestMatch;
+                nextArtistText.text = Top2000.top2000[closestMatch - 1].artist;
+                nextTitleText.text = Top2000.top2000[closestMatch - 1].title;
+            } else {
+                nextNumberText.text = "";
+                nextArtistText.text = "";
+                nextTitleText.text = "";
+            }
             
             if (!previousArtist) {
                 startdatetime = Date.parse(json["results"][0]["startdatetime"]) + 15000;
@@ -306,50 +318,5 @@ Rectangle {
             previousArtist = newArtist;
             previousTitle = newTitle;
         }
-    }
-    
-    /**
-     * @param String a
-     * @param String b
-     * @return Array
-     */
-    function levenshteinenator(a, b) {
-        var cost;
-        var m = a.length;
-        var n = b.length;
-
-        // make sure a.length >= b.length to use O(min(n,m)) space, whatever that is
-        if (m < n) {
-            var c = a; a = b; b = c;
-            var o = m; m = n; n = o;
-        }
-
-        var r = []; r[0] = [];
-        for (var c = 0; c < n + 1; ++c) {
-            r[0][c] = c;
-        }
-
-        for (var i = 1; i < m + 1; ++i) {
-            r[i] = []; r[i][0] = i;
-            for ( var j = 1; j < n + 1; ++j ) {
-                cost = a.charAt( i - 1 ) === b.charAt( j - 1 ) ? 0 : 1;
-                r[i][j] = minimator( r[i-1][j] + 1, r[i][j-1] + 1, r[i-1][j-1] + cost );
-            }
-        }
-
-        return r[m][n];
-    }
-
-    /**
-     * Return the smallest of the three numbers passed in
-     * @param Number x
-     * @param Number y
-     * @param Number z
-     * @return Number
-     */
-    function minimator(x, y, z) {
-        if (x < y && x < z) return x;
-        if (y < x && y < z) return y;
-        return z;
     }
 }
