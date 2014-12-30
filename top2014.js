@@ -1,8002 +1,2002 @@
 var top2000 = [
-  {
-    "artist": "Eagles",
-    "title": "Hotel California"
-  },
-  {
-    "artist": "Queen",
-    "title": "Bohemian Rhapsody"
-  },
-  {
-    "artist": "Led Zeppelin",
-    "title": "Stairway To Heaven"
-  },
-  {
-    "artist": "Deep Purple",
-    "title": "Child In Time"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Avond"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Wish You Were Here"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "Piano Man"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Comfortably Numb"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Shine On You Crazy Diamond"
-  },
-  {
-    "artist": "Guns N' Roses",
-    "title": "November Rain"
-  },
-  {
-    "artist": "Metallica",
-    "title": "Nothing Else Matters"
-  },
-  {
-    "artist": "Pearl Jam",
-    "title": "Black"
-  },
-  {
-    "artist": "The Beach Boys",
-    "title": "God Only Knows"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Brothers In Arms"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Fix You"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "The River"
-  },
-  {
-    "artist": "Meat Loaf",
-    "title": "Paradise By The Dashboard Light"
-  },
-  {
-    "artist": "Metallica",
-    "title": "One"
-  },
-  {
-    "artist": "Claudia De Breij",
-    "title": "Mag Ik Dan Bij Jou"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Clocks"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Oceaan"
-  },
-  {
-    "artist": "U2",
-    "title": "One"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Viva La Vida"
-  },
-  {
-    "artist": "AC/DC",
-    "title": "Thunderstruck"
-  },
-  {
-    "artist": "Pharrel Williams",
-    "title": "Happy"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Radar Love"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Sultans Of Swing"
-  },
-  {
-    "artist": "The Alan Parsons Project",
-    "title": "Old And Wise"
-  },
-  {
-    "artist": "Johnny Cash",
-    "title": "Hurt"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Go Your Own Way"
-  },
-  {
-    "artist": "Nirvana",
-    "title": "Smells Like Teen Spirit"
-  },
-  {
-    "artist": "Stromae",
-    "title": "Formidable"
-  },
-  {
-    "artist": "Guus Meeuwis",
-    "title": "Brabant"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Heroes"
-  },
-  {
-    "artist": "Adele",
-    "title": "Someone Like You"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "The Scientist"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Sympathy For The Devil"
-  },
-  {
-    "artist": "John Lennon",
-    "title": "Imagine"
-  },
-  {
-    "artist": "Wim Sonneveld",
-    "title": "Het Dorp"
-  },
-  {
-    "artist": "The Doors",
-    "title": "Riders On The Storm "
-  },
-  {
-    "artist": "Supertramp",
-    "title": "School"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "The Sound Of Silence"
-  },
-  {
-    "artist": "AC/DC",
-    "title": "Whole Lotta Rosie"
-  },
-  {
-    "artist": "Queen",
-    "title": "Innuendo"
-  },
-  {
-    "artist": "U2",
-    "title": "With Or Without You"
-  },
-  {
-    "artist": "Pearl Jam",
-    "title": "Just Breathe"
-  },
-  {
-    "artist": "Ramses Shaffy & Liesbeth List",
-    "title": "Pastorale"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "Bridge Over Troubled Water"
-  },
-  {
-    "artist": "The Cure",
-    "title": "A Forest"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Let It Be"
-  },
-  {
-    "artist": "Toto",
-    "title": "Africa"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Telegraph Road"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Gimme Shelter"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Angie"
-  },
-  {
-    "artist": "Eagles",
-    "title": "The Last Resort"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Another Brick In The Wall"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Paint It Black"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Hey Jude"
-  },
-  {
-    "artist": "Pearl Jam",
-    "title": "Alive"
-  },
-  {
-    "artist": "Klein Orkest",
-    "title": "Over De Muur"
-  },
-  {
-    "artist": "Adele",
-    "title": "Make You Feel My Love"
-  },
-  {
-    "artist": "U2",
-    "title": "Sunday Bloody Sunday"
-  },
-  {
-    "artist": "Mr. Probz",
-    "title": "Waves"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Under The Bridge"
-  },
-  {
-    "artist": "Guns N' Roses",
-    "title": "Sweet Child O' Mine"
-  },
-  {
-    "artist": "AC/DC",
-    "title": "Highway To Hell"
-  },
-  {
-    "artist": "Otis Redding",
-    "title": "(Sittin' On) The Dock Of The Bay"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Dochters"
-  },
-  {
-    "artist": "Queen",
-    "title": "Love Of My Life"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Private Investigations"
-  },
-  {
-    "artist": "Prince",
-    "title": "Purple Rain"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Fool's Overture"
-  },
-  {
-    "artist": "Eric Clapton",
-    "title": "Tears In Heaven"
-  },
-  {
-    "artist": "John Legend",
-    "title": "All Of Me"
-  },
-  {
-    "artist": "Robbie Williams",
-    "title": "Angels"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Nights In White Satin"
-  },
-  {
-    "artist": "Acda en De Munnik",
-    "title": "Het Regent Zonnestralen"
-  },
-  {
-    "artist": "The Animals",
-    "title": "House Of The Rising Sun"
-  },
-  {
-    "artist": "Metallica",
-    "title": "Enter Sandman"
-  },
-  {
-    "artist": "Snow Patrol",
-    "title": "Chasing Cars"
-  },
-  {
-    "artist": "Queen",
-    "title": "Somebody To Love"
-  },
-  {
-    "artist": "Dotan",
-    "title": "Home"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "Goodnight Saigon"
-  },
-  {
-    "artist": "The Verve",
-    "title": "Bitter Sweet Symphony"
-  },
-  {
-    "artist": "Bette Midler",
-    "title": "The Rose"
-  },
-  {
-    "artist": "Sting",
-    "title": "Fragile"
-  },
-  {
-    "artist": "Rage Against The Machine",
-    "title": "Killing In The Name Of"
-  },
-  {
-    "artist": "Adele",
-    "title": "Rolling In The Deep"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Yesterday"
-  },
-  {
-    "artist": "Electric Light Orchestra",
-    "title": "Mr. Blue Sky"
-  },
-  {
-    "artist": "Van Dik Hout",
-    "title": "Stil In Mij"
-  },
-  {
-    "artist": "Lou Reed",
-    "title": "Perfect Day"
-  },
-  {
-    "artist": "Adele",
-    "title": "Skyfall"
-  },
-  {
-    "artist": "Passenger",
-    "title": "Let Her Go"
-  },
-  {
-    "artist": "Jackson Browne",
-    "title": "The Load Out / Stay"
-  },
-  {
-    "artist": "Led Zeppelin",
-    "title": "Whole Lotta Love"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "In The Air Tonight"
-  },
-  {
-    "artist": "Procol Harum",
-    "title": "A Whiter Shade Of Pale"
-  },
-  {
-    "artist": "Jeff Buckley",
-    "title": "Hallelujah"
-  },
-  {
-    "artist": "Queen",
-    "title": "Who Wants To Live Forever"
-  },
-  {
-    "artist": "Stef Bos",
-    "title": "Papa"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "Creep"
-  },
-  {
-    "artist": "Simple Minds",
-    "title": "Belfast Child"
-  },
-  {
-    "artist": "Black Sabbath",
-    "title": "Paranoid"
-  },
-  {
-    "artist": "Deep Purple",
-    "title": "Smoke On The Water"
-  },
-  {
-    "artist": "Adele",
-    "title": "Set Fire To The Rain"
-  },
-  {
-    "artist": "Foo Fighters",
-    "title": "The Pretender"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Blackbird"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Love You More"
-  },
-  {
-    "artist": "Frans Halsema",
-    "title": "Voor Haar"
-  },
-  {
-    "artist": "Queen",
-    "title": "Don't Stop Me Now"
-  },
-  {
-    "artist": "Mark & Clark Band",
-    "title": "Worn Down Piano"
-  },
-  {
-    "artist": "Kyteman",
-    "title": "Sorry  "
-  },
-  {
-    "artist": "Eagles",
-    "title": "Desperado"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Hurricane"
-  },
-  {
-    "artist": "John Miles",
-    "title": "Music"
-  },
-  {
-    "artist": "Kate Bush",
-    "title": "Wuthering Heights"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Earth Song"
-  },
-  {
-    "artist": "Gotye",
-    "title": "Somebody That I Used To Know"
-  },
-  {
-    "artist": "U2",
-    "title": "Where The Streets Have No Name"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Here Comes The Sun"
-  },
-  {
-    "artist": "U2",
-    "title": "The Unforgettable Fire"
-  },
-  {
-    "artist": "Gary Moore",
-    "title": "Still Got The Blues"
-  },
-  {
-    "artist": "U2",
-    "title": "I Still Haven't Found What I'm Looking For"
-  },
-  {
-    "artist": "The Amazing Stroopwafels",
-    "title": "Oude Maasweg"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "Losing My Religion"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Dancing Queen"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Billie Jean"
-  },
-  {
-    "artist": "Alicia Keys",
-    "title": "Empire State Of Mind"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Space Oddity"
-  },
-  {
-    "artist": "Ramses Shaffy",
-    "title": "Laat Me"
-  },
-  {
-    "artist": "Falco",
-    "title": "Jeanny"
-  },
-  {
-    "artist": "ABBA",
-    "title": "The Day Before You Came"
-  },
-  {
-    "artist": "Frank Boeijen",
-    "title": "Zeg Me Dat Het Niet Zo Is"
-  },
-  {
-    "artist": "ABBA",
-    "title": "The Winner Takes It All"
-  },
-  {
-    "artist": "Cuby & The Blizzards",
-    "title": "Window Of My Eyes"
-  },
-  {
-    "artist": "Charles Aznavour",
-    "title": "She"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "Everybody Hurts"
-  },
-  {
-    "artist": "Kings Of Leon",
-    "title": "Sex On Fire"
-  },
-  {
-    "artist": "Maaike Ouboter",
-    "title": "Dat Ik Je Mis"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "Street Spirit"
-  },
-  {
-    "artist": "Depeche Mode",
-    "title": "Enjoy The Silence"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "I Put A Spell On You"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "The Boxer"
-  },
-  {
-    "artist": "The Common Linnets",
-    "title": "Calm After The Storm"
-  },
-  {
-    "artist": "Armin van Buuren",
-    "title": "This Is What It Feels Like"
-  },
-  {
-    "artist": "Nirvana",
-    "title": "Come As You Are"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "A Day In The Life"
-  },
-  {
-    "artist": "U2 & Mary J Blige",
-    "title": "One"
-  },
-  {
-    "artist": "Jacques Brel",
-    "title": "Ne me Quitte Pas"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Suspicious Minds"
-  },
-  {
-    "artist": "The Doors",
-    "title": "The End"
-  },
-  {
-    "artist": "Amy Winehouse",
-    "title": "Back To Black"
-  },
-  {
-    "artist": "Leonard Cohen",
-    "title": "Hallelujah"
-  },
-  {
-    "artist": "U2",
-    "title": "Bad"
-  },
-  {
-    "artist": "Jimi Hendrix Experience",
-    "title": "All Along The Watchtower"
-  },
-  {
-    "artist": "Sting",
-    "title": "Fields Of Gold"
-  },
-  {
-    "artist": "Queen",
-    "title": "The Show Must Go On"
-  },
-  {
-    "artist": "Muse",
-    "title": "Uprising"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Don't Give Up The Fight"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "When The Lady Smiles"
-  },
-  {
-    "artist": "3 Doors Down",
-    "title": "Kryptonite"
-  },
-  {
-    "artist": "Marillion",
-    "title": "Kayleigh"
-  },
-  {
-    "artist": "Oasis",
-    "title": "Wonderwall"
-  },
-  {
-    "artist": "The Scene",
-    "title": "Iedereen Is Van De Wereld"
-  },
-  {
-    "artist": "Muse",
-    "title": "Knights Of Cydonia"
-  },
-  {
-    "artist": "Led Zeppelin",
-    "title": "Kashmir"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Nobody's Wife"
-  },
-  {
-    "artist": "Herman Brood",
-    "title": "Saturday Night"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "Bloed, Zweet En Tranen "
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Echoes"
-  },
-  {
-    "artist": "Ramses Shaffy",
-    "title": "Zing Vecht Huil Bid Lach Werk En Bewonder"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Born To Run"
-  },
-  {
-    "artist": "Daft Punk",
-    "title": "Get Lucky"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Californication "
-  },
-  {
-    "artist": "The Beatles",
-    "title": "While My Guitar Gently Weeps"
-  },
-  {
-    "artist": "Elbow",
-    "title": "One Day Like This"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "Paranoid Android"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "You Can't Always Get What You Want"
-  },
-  {
-    "artist": "Kensington",
-    "title": "Home Again"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Like A Hurricane"
-  },
-  {
-    "artist": "U2",
-    "title": "Beautiful Day"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Streets Of Philadelphia"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Shoes Of Lightning"
-  },
-  {
-    "artist": "Kayak",
-    "title": "Ruthless Queen"
-  },
-  {
-    "artist": "The Who",
-    "title": "Baba O'Riley"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Heart Of Gold"
-  },
-  {
-    "artist": "Kate Bush",
-    "title": "The Man With The Child In His Eyes"
-  },
-  {
-    "artist": "Linkin Park",
-    "title": "In The End"
-  },
-  {
-    "artist": "Peter Gabriel & Kate Bush",
-    "title": "Don't Give Up"
-  },
-  {
-    "artist": "Stromae",
-    "title": "Papaoutai"
-  },
-  {
-    "artist": "10CC",
-    "title": "Dreadlock Holiday"
-  },
-  {
-    "artist": "Queen & David Bowie",
-    "title": "Under Pressure"
-  },
-  {
-    "artist": "Simple Minds",
-    "title": "Don't You (Forget About Me)"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Yellow"
-  },
-  {
-    "artist": "Pearl Jam",
-    "title": "Jeremy"
-  },
-  {
-    "artist": "Bryan Adams",
-    "title": "Summer Of '69"
-  },
-  {
-    "artist": "Guns N' Roses",
-    "title": "Paradise City"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Man In The Mirror"
-  },
-  {
-    "artist": "Mumford & Sons",
-    "title": "The Cave"
-  },
-  {
-    "artist": "Foo Fighters",
-    "title": "Everlong"
-  },
-  {
-    "artist": "Ike & Tina Turner",
-    "title": "Proud Mary"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "Bed Of Roses"
-  },
-  {
-    "artist": "Caro Emerald",
-    "title": "A Night Like This"
-  },
-  {
-    "artist": "The White Stripes",
-    "title": "Seven Nation Army"
-  },
-  {
-    "artist": "Triggerfinger",
-    "title": "I Follow Rivers"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "Graceland"
-  },
-  {
-    "artist": "Nirvana",
-    "title": "Lithium"
-  },
-  {
-    "artist": "Alice Cooper",
-    "title": "Halo Of Flies"
-  },
-  {
-    "artist": "Slayer",
-    "title": "Angel Of Death"
-  },
-  {
-    "artist": "Boudewijn De Groot",
-    "title": "Testament"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Thriller"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Birds"
-  },
-  {
-    "artist": "Peter Fox",
-    "title": "Haus Am See"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Mama"
-  },
-  {
-    "artist": "Santana",
-    "title": "Samba Pa Ti"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Als Ze Er Niet Is"
-  },
-  {
-    "artist": "Within Temptation",
-    "title": "Ice Queen"
-  },
-  {
-    "artist": "Queen",
-    "title": "I Want To Break Free"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Paradise"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "Karma Police"
-  },
-  {
-    "artist": "The Scene",
-    "title": "Blauw"
-  },
-  {
-    "artist": "Boudewijn De Groot",
-    "title": "De Vondeling Van Ameland"
-  },
-  {
-    "artist": "Kansas",
-    "title": "Dust In The Wind"
-  },
-  {
-    "artist": "Aerosmith",
-    "title": "Dream On"
-  },
-  {
-    "artist": "Ed Sheeran",
-    "title": "Give Me Love"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Sara"
-  },
-  {
-    "artist": "Live",
-    "title": "Lightning Crashes"
-  },
-  {
-    "artist": "Blof",
-    "title": "Zo Stil"
-  },
-  {
-    "artist": "Keane",
-    "title": "Somewhere Only We Know"
-  },
-  {
-    "artist": "Ed Sheeran",
-    "title": "The A Team"
-  },
-  {
-    "artist": "Scorpions",
-    "title": "Wind Of Change"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "No Woman No Cry"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Money For Nothing"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Old Man"
-  },
-  {
-    "artist": "Avicii",
-    "title": "Wake Me Up"
-  },
-  {
-    "artist": "The Mamas & The Papas",
-    "title": "California Dreamin'"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "(I Can't Get No) Satisfaction"
-  },
-  {
-    "artist": "Jefferson Airplane",
-    "title": "White Rabbit"
-  },
-  {
-    "artist": "Herbert Gronemeyer",
-    "title": "Halt Mich"
-  },
-  {
-    "artist": "Eddie Vedder",
-    "title": "Society"
-  },
-  {
-    "artist": "Queen",
-    "title": "These Are the Days Of Our Lives"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Eagle"
-  },
-  {
-    "artist": "Eric Clapton",
-    "title": "Layla"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Lost"
-  },
-  {
-    "artist": "Mr. Probz",
-    "title": "Nothing Really Matters"
-  },
-  {
-    "artist": "Bastille",
-    "title": "Pompeii"
-  },
-  {
-    "artist": "Sinead O'Connor",
-    "title": "Troy"
-  },
-  {
-    "artist": "Freddie Mercury",
-    "title": "Barcelona"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "Redemption Song"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Verdronken Vlinder"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Liverpool Rain"
-  },
-  {
-    "artist": "The Beach Boys",
-    "title": "Good Vibrations"
-  },
-  {
-    "artist": "The Script",
-    "title": "The Man Who Can't Be Moved"
-  },
-  {
-    "artist": "Ramses Shaffy & Liesbeth List & Alderliefste",
-    "title": "Laat Me (Vivre)"
-  },
-  {
-    "artist": "Racoon",
-    "title": "No Mercy"
-  },
-  {
-    "artist": "Bill Withers",
-    "title": "Ain't No Sunshine"
-  },
-  {
-    "artist": "Johnny Cash",
-    "title": "Ring Of Fire"
-  },
-  {
-    "artist": "Iron Maiden",
-    "title": "Can I Play With Madness"
-  },
-  {
-    "artist": "The Cult",
-    "title": "She Sells Sanctuary"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Like A Rollin' Stone"
-  },
-  {
-    "artist": "Peter Gabriel",
-    "title": "Solsbury Hill"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Dreams"
-  },
-  {
-    "artist": "The Cranberries",
-    "title": "Zombie"
-  },
-  {
-    "artist": "Janis Joplin",
-    "title": "Me And Bobby McGee"
-  },
-  {
-    "artist": "Elvis Costello",
-    "title": "She"
-  },
-  {
-    "artist": "Van Morrison",
-    "title": "Have I Told You Lately That I Love You"
-  },
-  {
-    "artist": "Marvin Gaye",
-    "title": "What's Going On"
-  },
-  {
-    "artist": "Within Temptation",
-    "title": "Mother Earth"
-  },
-  {
-    "artist": "Santana",
-    "title": "She's Not There"
-  },
-  {
-    "artist": "Normaal",
-    "title": "Oerend Hard"
-  },
-  {
-    "artist": "Boston",
-    "title": "More Than A Feeling"
-  },
-  {
-    "artist": "Skik",
-    "title": "Op Fietse"
-  },
-  {
-    "artist": "Frank Boeijen Groep",
-    "title": "Kronenburg Park"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "Zij Gelooft In Mij"
-  },
-  {
-    "artist": "Cat Stevens",
-    "title": "Morning Has Broken"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Time"
-  },
-  {
-    "artist": "Peter Maffay",
-    "title": "Du"
-  },
-  {
-    "artist": "Earth Wind & Fire",
-    "title": "September"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Have You Ever Seen The Rain"
-  },
-  {
-    "artist": "Alphaville",
-    "title": "Forever Young"
-  },
-  {
-    "artist": "Journey",
-    "title": "Don't Stop Believin'"
-  },
-  {
-    "artist": "Blof",
-    "title": "Liefs Uit Londen"
-  },
-  {
-    "artist": "A-Ha",
-    "title": "Take On Me"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Thunder Road"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "The Great Gig In The Sky"
-  },
-  {
-    "artist": "The Police",
-    "title": "Roxanne"
-  },
-  {
-    "artist": "Snow Patrol",
-    "title": "Run"
-  },
-  {
-    "artist": "The Doors",
-    "title": "Light My Fire"
-  },
-  {
-    "artist": "10CC",
-    "title": "I'm Not In Love"
-  },
-  {
-    "artist": "Van Morrison",
-    "title": "Brown Eyed Girl"
-  },
-  {
-    "artist": "Tracy Chapman",
-    "title": "Fast Car"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Dancing In The Dark"
-  },
-  {
-    "artist": "U2",
-    "title": "Ordinary Love"
-  },
-  {
-    "artist": "Madness",
-    "title": "One Step Beyond"
-  },
-  {
-    "artist": "Robbie Williams",
-    "title": "Feel"
-  },
-  {
-    "artist": "Elvis Costello",
-    "title": "I Want You"
-  },
-  {
-    "artist": "Gerry Rafferty",
-    "title": "Baker Street"
-  },
-  {
-    "artist": "Seal",
-    "title": "Kiss From A Rose"
-  },
-  {
-    "artist": "Guns N' Roses",
-    "title": "Knocking On Heaven's Door"
-  },
-  {
-    "artist": "Guus Meeuwis",
-    "title": "Geef Mij Je Angst"
-  },
-  {
-    "artist": "Muse",
-    "title": "Plug In Baby"
-  },
-  {
-    "artist": "Queensrÿche",
-    "title": "Silent Lucidity"
-  },
-  {
-    "artist": "Vangelis",
-    "title": "Conquest Of Paradise"
-  },
-  {
-    "artist": "Joy Division",
-    "title": "Love Will Tear Us Apart"
-  },
-  {
-    "artist": "Queen",
-    "title": "Killer Queen"
-  },
-  {
-    "artist": "Acda En De Munnik",
-    "title": "Lopen Tot De Zon Komt"
-  },
-  {
-    "artist": "Damien Rice",
-    "title": "9 Crimes"
-  },
-  {
-    "artist": "Meat Loaf",
-    "title": "Bat Out Of Hell"
-  },
-  {
-    "artist": "Ultravox",
-    "title": "Vienna"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Another 45 Miles"
-  },
-  {
-    "artist": "The Doors",
-    "title": "L.A. Woman"
-  },
-  {
-    "artist": "Herbert Gronemeyer",
-    "title": "Der Weg"
-  },
-  {
-    "artist": "Paul De Leeuw",
-    "title": "'K Heb Je Lief"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "Three Little Birds"
-  },
-  {
-    "artist": "Tom Odell",
-    "title": "Another Love"
-  },
-  {
-    "artist": "Sting",
-    "title": "Englishman In New York"
-  },
-  {
-    "artist": "The Temptations",
-    "title": "Papa Was A Rolling Stone"
-  },
-  {
-    "artist": "Blof",
-    "title": "Aan De Kust"
-  },
-  {
-    "artist": "Leonard Cohen",
-    "title": "Suzanne"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "In The Ghetto"
-  },
-  {
-    "artist": "Eva Cassidy",
-    "title": "Fields Of Gold"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Money"
-  },
-  {
-    "artist": "The Band",
-    "title": "The Weight"
-  },
-  {
-    "artist": "Eric Clapton",
-    "title": "Wonderful Tonight"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "I Still Cry"
-  },
-  {
-    "artist": "Sinead O'Connor",
-    "title": "Nothing Compares 2 U"
-  },
-  {
-    "artist": "Ed Sheeran",
-    "title": "Thinking Out Loud"
-  },
-  {
-    "artist": "Daniel Lohues",
-    "title": "Prachtig Mooie Dag"
-  },
-  {
-    "artist": "The Police",
-    "title": "Every Breath You Take"
-  },
-  {
-    "artist": "Green Day",
-    "title": "Boulevard Of Broken Dreams"
-  },
-  {
-    "artist": "Kiss",
-    "title": "I Was Made For Loving You"
-  },
-  {
-    "artist": "Jim Croce",
-    "title": "Time In A Bottle"
-  },
-  {
-    "artist": "America",
-    "title": "A Horse With No Name"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "I'm On Fire"
-  },
-  {
-    "artist": "Daniel Lohues",
-    "title": "Hier Kom Ik Weg"
-  },
-  {
-    "artist": "Counting Crows & Blof",
-    "title": "Holiday In Spain"
-  },
-  {
-    "artist": "Ram Jam",
-    "title": "Black Betty"
-  },
-  {
-    "artist": "Avicii",
-    "title": "Hey Brother"
-  },
-  {
-    "artist": "Henk Westbroek",
-    "title": "Zelfs Je Naam Is Mooi"
-  },
-  {
-    "artist": "Evanescence",
-    "title": "My Immortal"
-  },
-  {
-    "artist": "Ben Howard",
-    "title": "Keep Your Head Up"
-  },
-  {
-    "artist": "Jimi Hendrix Experience",
-    "title": "Hey Joe"
-  },
-  {
-    "artist": "Rowwen Heze",
-    "title": "November"
-  },
-  {
-    "artist": "Michel Fugain",
-    "title": "Une Belle Histoire"
-  },
-  {
-    "artist": "Faithless",
-    "title": "Insomnia"
-  },
-  {
-    "artist": "U2",
-    "title": "Pride"
-  },
-  {
-    "artist": "Eagles",
-    "title": "One Of These Nights"
-  },
-  {
-    "artist": "The Waterboys",
-    "title": "The Whole Of The Moon"
-  },
-  {
-    "artist": "Herman van Veen",
-    "title": "Liefde Van Later"
-  },
-  {
-    "artist": "Uriah Heep",
-    "title": "Easy Livin'"
-  },
-  {
-    "artist": "Editors",
-    "title": "Papillon"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Romeo And Juliet"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Margherita"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Walk Of Life"
-  },
-  {
-    "artist": "Mumford & Sons",
-    "title": "Little Lion Man"
-  },
-  {
-    "artist": "The Smiths",
-    "title": "There Is A Light That Never Goes Out"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Rockin' In The Free World"
-  },
-  {
-    "artist": "Metallica",
-    "title": "Sad But True"
-  },
-  {
-    "artist": "Van Halen",
-    "title": "Running With The Devil"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "Kleine Jongen"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Badlands"
-  },
-  {
-    "artist": "Muse",
-    "title": "Starlight"
-  },
-  {
-    "artist": "Joe Cocker",
-    "title": "With A Little Help From My Friends"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Twilight Zone"
-  },
-  {
-    "artist": "Lynyrd Skynyrd",
-    "title": "Free Bird"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "Leningrad"
-  },
-  {
-    "artist": "Queen",
-    "title": "We Will Rock You"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Bad Moon Rising"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "Against All Odds"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "Geef Mij Je Angst"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Follow You Follow Me"
-  },
-  {
-    "artist": "Ge Reinders",
-    "title": "Bloasmuziek"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Rood"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "Lola"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Thank You For The Music"
-  },
-  {
-    "artist": "Cockney Rebel",
-    "title": "Sebastian"
-  },
-  {
-    "artist": "Aerosmith",
-    "title": "I Don't Want To Miss A Thing"
-  },
-  {
-    "artist": "Yes",
-    "title": "Owner Of A Lonely Heart"
-  },
-  {
-    "artist": "Goo Goo Dolls",
-    "title": "Iris"
-  },
-  {
-    "artist": "Earth Wind & Fire",
-    "title": "Fantasy"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Wild Horses"
-  },
-  {
-    "artist": "Blof",
-    "title": "Harder Dan Ik Hebben Kan"
-  },
-  {
-    "artist": "Orchestral Manoeuvres In The Dark",
-    "title": "Joan Of Arc (Maid Of Orleans)"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Mag Het Licht Uit"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Snow (Hey Oh)"
-  },
-  {
-    "artist": "Focus",
-    "title": "Hocus Pocus"
-  },
-  {
-    "artist": "Karin Bloemen",
-    "title": "Geen Kind Meer"
-  },
-  {
-    "artist": "Massive Attack",
-    "title": "Unfinished Sympathy"
-  },
-  {
-    "artist": "Oasis",
-    "title": "Don't Look Back In Anger"
-  },
-  {
-    "artist": "Kings Of Leon",
-    "title": "Use Somebody"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "Another Day In Paradise"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Michel"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "I Am... I Said"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Strawberry Fields Forever"
-  },
-  {
-    "artist": "Chef'Special",
-    "title": "In Your Arms"
-  },
-  {
-    "artist": "Santana",
-    "title": "Black Magic Woman"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Songbird"
-  },
-  {
-    "artist": "Scorpions",
-    "title": "Still Loving You"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Eleanor Rigby"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "She's Always A Woman To Me"
-  },
-  {
-    "artist": "The Black Eyed Peas",
-    "title": "I Gotta Feeling"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "The Logical Song"
-  },
-  {
-    "artist": "Simply Red",
-    "title": "Holding Back The Years"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Dansen Op De Vulkaan"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "De Vlieger"
-  },
-  {
-    "artist": "Frank Sinatra",
-    "title": "My Way"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Fortunate Son"
-  },
-  {
-    "artist": "Talking Heads",
-    "title": "Slippery People"
-  },
-  {
-    "artist": "Louis Armstrong",
-    "title": "What A Wonderful World"
-  },
-  {
-    "artist": "The Alan Parsons Project",
-    "title": "The Turn Of A Friendly Card"
-  },
-  {
-    "artist": "U2",
-    "title": "New Years Day"
-  },
-  {
-    "artist": "Nena",
-    "title": "99 Luftballons"
-  },
-  {
-    "artist": "Al Stewart",
-    "title": "Year Of The Cat"
-  },
-  {
-    "artist": "Cream",
-    "title": "White Room"
-  },
-  {
-    "artist": "Mike Oldfield",
-    "title": "Tubular Bells"
-  },
-  {
-    "artist": "ZZ Top",
-    "title": "Gimme All Your Lovin'"
-  },
-  {
-    "artist": "Queen",
-    "title": "Radio Ga Ga"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Beat It"
-  },
-  {
-    "artist": "Led Zeppelin",
-    "title": "Immigrant Song"
-  },
-  {
-    "artist": "The Alan Parsons Project",
-    "title": "Eye In The Sky"
-  },
-  {
-    "artist": "Lynyrd Skynyrd",
-    "title": "Sweet Home Alabama"
-  },
-  {
-    "artist": "Abel",
-    "title": "Onderweg"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Albatross"
-  },
-  {
-    "artist": "Krezip",
-    "title": "I Would Stay"
-  },
-  {
-    "artist": "Andrea Bocelli & Sarah Brightman",
-    "title": "Time To Say Goodbye"
-  },
-  {
-    "artist": "Edith Piaf",
-    "title": "Non Je Ne Regrette Rien"
-  },
-  {
-    "artist": "Acda En De Munnik",
-    "title": "Ren Lenny Ren"
-  },
-  {
-    "artist": "Anouk",
-    "title": "For Bitter Or Worse"
-  },
-  {
-    "artist": "ZZ Top",
-    "title": "Sharp Dressed Man"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "Miracle"
-  },
-  {
-    "artist": "Chi Coltrane",
-    "title": "Go Like Elijah"
-  },
-  {
-    "artist": "Alice Cooper",
-    "title": "Poison"
-  },
-  {
-    "artist": "Mumford & Sons",
-    "title": "I Will Wait"
-  },
-  {
-    "artist": "Don McLean",
-    "title": "Vincent"
-  },
-  {
-    "artist": "Dolly Parton",
-    "title": "Jolene"
-  },
-  {
-    "artist": "The Police",
-    "title": "Message In A Bottle"
-  },
-  {
-    "artist": "Status Quo",
-    "title": "Roll Over Lay Down"
-  },
-  {
-    "artist": "Joe Jackson",
-    "title": "Is She Really Going Out With Him"
-  },
-  {
-    "artist": "Blof",
-    "title": "Omarm"
-  },
-  {
-    "artist": "Ed Sheeran",
-    "title": "I See Fire"
-  },
-  {
-    "artist": "Venice",
-    "title": "The Family Tree"
-  },
-  {
-    "artist": "Blof",
-    "title": "Dansen Aan Zee"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Trouble"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Norwegian Wood (This Bird Has Flown)"
-  },
-  {
-    "artist": "Whitney Houston",
-    "title": "I Will Always Love You"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Tusk"
-  },
-  {
-    "artist": "Mark Knopfler",
-    "title": "What It Is"
-  },
-  {
-    "artist": "Amy Winehouse",
-    "title": "Rehab"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Smooth Criminal"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Need Your Love So Bad"
-  },
-  {
-    "artist": "Toto",
-    "title": "Hold The Line"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "The Long And Winding Road"
-  },
-  {
-    "artist": "Jimi Hendrix",
-    "title": "Little Wing"
-  },
-  {
-    "artist": "New Order",
-    "title": "Blue Monday"
-  },
-  {
-    "artist": "Barry White",
-    "title": "You're The First The Last My Everything"
-  },
-  {
-    "artist": "The Stranglers",
-    "title": "Golden Brown"
-  },
-  {
-    "artist": "The Who",
-    "title": "Pinball Wizard"
-  },
-  {
-    "artist": "Van Halen",
-    "title": "Jump"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Welterusten Meneer De President"
-  },
-  {
-    "artist": "Tavares",
-    "title": "Heaven Must Be Missing An Angel"
-  },
-  {
-    "artist": "Buena Vista Social Club",
-    "title": "Chan Chan"
-  },
-  {
-    "artist": "B.B. King",
-    "title": "The Thrill Is Gone"
-  },
-  {
-    "artist": "Frank Boeijen Groep",
-    "title": "De Verzoening"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Your Song"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Afscheid Nemen Bestaat Niet"
-  },
-  {
-    "artist": "Johnny Cash",
-    "title": "A Boy Named Sue"
-  },
-  {
-    "artist": "Amy Macdonald",
-    "title": "This Is The Life"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Scar Tissue"
-  },
-  {
-    "artist": "Faithless",
-    "title": "God Is A DJ"
-  },
-  {
-    "artist": "Foreigner",
-    "title": "I Want To Know What Love Is"
-  },
-  {
-    "artist": "Katie Melua",
-    "title": "Nine Million Bicycles"
-  },
-  {
-    "artist": "Beyoncé",
-    "title": "Halo"
-  },
-  {
-    "artist": "Talk Talk",
-    "title": "Such A Shame"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Question"
-  },
-  {
-    "artist": "Cat Stevens",
-    "title": "Father And Son"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Life On Mars"
-  },
-  {
-    "artist": "Kate Bush",
-    "title": "Cloudbusting"
-  },
-  {
-    "artist": "Acda en De Munnik",
-    "title": "Niet Of Nooit Geweest"
-  },
-  {
-    "artist": "Talking Heads",
-    "title": "Psycho Killer"
-  },
-  {
-    "artist": "Imagine Dragons",
-    "title": "On Top Of The World"
-  },
-  {
-    "artist": "Adele",
-    "title": "Chasing Pavements"
-  },
-  {
-    "artist": "Paul de Leeuw & Simone Kleinsma",
-    "title": "Zonder Jou"
-  },
-  {
-    "artist": "Alain Clark",
-    "title": "Father And Friend"
-  },
-  {
-    "artist": "Don Henley",
-    "title": "The Boys Of Summer"
-  },
-  {
-    "artist": "Guus Meeuwis",
-    "title": "Dat Komt Door Jou"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Fool On The Hill"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Blowing In The Wind"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Born In The USA"
-  },
-  {
-    "artist": "BAP",
-    "title": "Kristallnach"
-  },
-  {
-    "artist": "Eagles",
-    "title": "Take It Easy"
-  },
-  {
-    "artist": "The Babys",
-    "title": "Everytime I Think Of You"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "New York State Of Mind"
-  },
-  {
-    "artist": "Pink & Nate Ruess",
-    "title": "Just Give Me A Reason"
-  },
-  {
-    "artist": "Het Goede Doel",
-    "title": "Alles Geprobeerd"
-  },
-  {
-    "artist": "Foo Fighters",
-    "title": "Learn To Fly"
-  },
-  {
-    "artist": "Live",
-    "title": "Overcome"
-  },
-  {
-    "artist": "Kane",
-    "title": "Rain Down On Me"
-  },
-  {
-    "artist": "Nazareth",
-    "title": "Love Hurts"
-  },
-  {
-    "artist": "Toto",
-    "title": "Stop Loving You"
-  },
-  {
-    "artist": "The Doors",
-    "title": "People Are Strange"
-  },
-  {
-    "artist": "U2",
-    "title": "I Will Follow"
-  },
-  {
-    "artist": "Paolo Conte",
-    "title": "Max"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "Living On A Prayer"
-  },
-  {
-    "artist": "Talking Heads",
-    "title": "Once In A Lifetime"
-  },
-  {
-    "artist": "Jimi Hendrix Experience",
-    "title": "The Wind Cries Mary"
-  },
-  {
-    "artist": "Lou Reed",
-    "title": "Walk On The Wild Side"
-  },
-  {
-    "artist": "Eagles",
-    "title": "New Kid In Town"
-  },
-  {
-    "artist": "Crosby, Stills, Nash & Young",
-    "title": "Almost Cut My Hair"
-  },
-  {
-    "artist": "Blof",
-    "title": "Mooie Dag"
-  },
-  {
-    "artist": "U2",
-    "title": "All I Want Is You"
-  },
-  {
-    "artist": "Queen",
-    "title": "Another One Bites The Dust"
-  },
-  {
-    "artist": "Nick & Simon",
-    "title": "Pak Maar M'n Hand"
-  },
-  {
-    "artist": "Simple Minds",
-    "title": "Alive & Kicking"
-  },
-  {
-    "artist": "Gilbert O'Sullivan",
-    "title": "Nothing Rhymed"
-  },
-  {
-    "artist": "Air",
-    "title": "All I Need"
-  },
-  {
-    "artist": "Golden Earrings",
-    "title": "Just a Little Bit of Peace in My Heart"
-  },
-  {
-    "artist": "Marvin Gaye",
-    "title": "I Heard It Through The Grapevine"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Something"
-  },
-  {
-    "artist": "Fischer-Z",
-    "title": "So Long"
-  },
-  {
-    "artist": "Hozier",
-    "title": "Take Me To Church"
-  },
-  {
-    "artist": "Amy Winehouse",
-    "title": "Valerie"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Daughters"
-  },
-  {
-    "artist": "Nits",
-    "title": "In The Dutch Mountains"
-  },
-  {
-    "artist": "Stevie Wonder",
-    "title": "Superstition"
-  },
-  {
-    "artist": "Anouk",
-    "title": "One Word"
-  },
-  {
-    "artist": "The Killers",
-    "title": "Human"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Ik Kan Het Niet Alleen"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Penny Lane"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Lea"
-  },
-  {
-    "artist": "3 Doors Down",
-    "title": "Here Without You"
-  },
-  {
-    "artist": "The Who",
-    "title": "See Me Feel Me"
-  },
-  {
-    "artist": "Melissa Etheridge",
-    "title": "Like The Way I Do"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "One Of These Days"
-  },
-  {
-    "artist": "Ike & Tina Turner",
-    "title": "River Deep Mountain High"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "Woman In Love"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "My Hometown"
-  },
-  {
-    "artist": "Spandau Ballet",
-    "title": "Through The Barricades"
-  },
-  {
-    "artist": "Soundgarden",
-    "title": "Black Hole Sun"
-  },
-  {
-    "artist": "The Cats",
-    "title": "One Way Wind"
-  },
-  {
-    "artist": "Iron Butterfly",
-    "title": "In-A-Gadda-Da-Vida"
-  },
-  {
-    "artist": "Leonard Cohen",
-    "title": "So Long Marianne"
-  },
-  {
-    "artist": "Iggy Pop",
-    "title": "Lust For Life"
-  },
-  {
-    "artist": "Sam Smith",
-    "title": "Stay With Me"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Always On My Mind"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Kan Ik Iets Voor Je Doen?"
-  },
-  {
-    "artist": "Heart",
-    "title": "Alone"
-  },
-  {
-    "artist": "The Blue Nile",
-    "title": "Tinseltown In The Rain"
-  },
-  {
-    "artist": "The Script",
-    "title": "If You Could See Me Now"
-  },
-  {
-    "artist": "Dave Brubeck",
-    "title": "Take Five"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "The Chain"
-  },
-  {
-    "artist": "Bastille",
-    "title": "Things We Lost In The Fire"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Going To The Run"
-  },
-  {
-    "artist": "Tom Waits",
-    "title": "Tom Traubert's Blues"
-  },
-  {
-    "artist": "Frankie Goes To Hollywood",
-    "title": "The Power Of Love"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Ben"
-  },
-  {
-    "artist": "Joe Jackson",
-    "title": "Be My Number Two"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "You'll Be In My Heart"
-  },
-  {
-    "artist": "Niels Geusebroek",
-    "title": "Take Your Time Girl"
-  },
-  {
-    "artist": "Keane",
-    "title": "Sovereign Light Cafe"
-  },
-  {
-    "artist": "Eros Ramazzotti",
-    "title": "Musica E"
-  },
-  {
-    "artist": "Don McLean",
-    "title": "American Pie"
-  },
-  {
-    "artist": "Adele",
-    "title": "Turning Tables"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "It's My Life"
-  },
-  {
-    "artist": "The Clash",
-    "title": "London Calling"
-  },
-  {
-    "artist": "Barry Ryan",
-    "title": "Eloise"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Rhiannon"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Land Of Confusion"
-  },
-  {
-    "artist": "Earth Wind & Fire",
-    "title": "Boogie Wonderland"
-  },
-  {
-    "artist": "Men At Work",
-    "title": "Down Under"
-  },
-  {
-    "artist": "Joe Cocker",
-    "title": "You Are So Beautiful"
-  },
-  {
-    "artist": "Stromae",
-    "title": "Alors On Danse"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Ziggy Stardust"
-  },
-  {
-    "artist": "Thin Lizzy",
-    "title": "Whiskey In The Jar"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Gravity"
-  },
-  {
-    "artist": "De Poema's",
-    "title": "Zij Maakt Het Verschil"
-  },
-  {
-    "artist": "Train",
-    "title": "Drops Of Jupiter (Tell Me)"
-  },
-  {
-    "artist": "Lana Del Rey",
-    "title": "Video Games"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Staying Alive"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "Man On The Moon"
-  },
-  {
-    "artist": "Kensington",
-    "title": "Streets"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Beautiful Noise"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Every Teardrop Is A Waterfall"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Bloedend Hart"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Dirty Diana"
-  },
-  {
-    "artist": "Jimi Hendrix",
-    "title": "Purple Haze"
-  },
-  {
-    "artist": "Prince",
-    "title": "When Doves Cry"
-  },
-  {
-    "artist": "Eagles",
-    "title": "Lyin' Eyes "
-  },
-  {
-    "artist": "Europe",
-    "title": "The Final Countdown"
-  },
-  {
-    "artist": "De Poema's",
-    "title": "Mijn Houten Hart"
-  },
-  {
-    "artist": "Michael Buble",
-    "title": "Feeling Good"
-  },
-  {
-    "artist": "Nickelback",
-    "title": "How You Remind Me"
-  },
-  {
-    "artist": "Lisa Lois",
-    "title": "Hallelujah"
-  },
-  {
-    "artist": "Editors",
-    "title": "Smokers Outside The Hospital Doors"
-  },
-  {
-    "artist": "Green Day",
-    "title": "Wake Me Up When September Ends"
-  },
-  {
-    "artist": "Kate Bush",
-    "title": "Running Up That Hill"
-  },
-  {
-    "artist": "Joe Jackson",
-    "title": "Real Men"
-  },
-  {
-    "artist": "Ed Sheeran",
-    "title": "Lego House"
-  },
-  {
-    "artist": "Green Day",
-    "title": "Basket Case"
-  },
-  {
-    "artist": "George Baker Selection",
-    "title": "Little Green Bag"
-  },
-  {
-    "artist": "Chris De Burgh",
-    "title": "The Lady In Red"
-  },
-  {
-    "artist": "Underworld",
-    "title": "Born Slippy"
-  },
-  {
-    "artist": "Alice Cooper",
-    "title": "How You Gonna See Me Now"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "Memory"
-  },
-  {
-    "artist": "Elbow",
-    "title": "Lippy Kids"
-  },
-  {
-    "artist": "Van Morrison",
-    "title": "Moondance"
-  },
-  {
-    "artist": "James Taylor",
-    "title": "You've Got A Friend"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Don't Stop"
-  },
-  {
-    "artist": "Gary Jules",
-    "title": "Mad World"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Oh Well - Part 1"
-  },
-  {
-    "artist": "Ten Years After",
-    "title": "I'm Going Home"
-  },
-  {
-    "artist": "The Righteous Brothers",
-    "title": "Unchained Melody"
-  },
-  {
-    "artist": "Amy Winehouse",
-    "title": "You Know I'm No Good"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Come Together"
-  },
-  {
-    "artist": "De Kast",
-    "title": "In Nije Dei"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "Nightswimming"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "My Boy"
-  },
-  {
-    "artist": "Herman Van Veen",
-    "title": "Suzanne"
-  },
-  {
-    "artist": "JJ Cale",
-    "title": "After Midnight"
-  },
-  {
-    "artist": "Guus Meeuwis & Vagant",
-    "title": "Het Is Een Nacht"
-  },
-  {
-    "artist": "Jason Mraz",
-    "title": "I Won't Give Up"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Frozen"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Tunnel Of Love "
-  },
-  {
-    "artist": "Kane",
-    "title": "No Surrender"
-  },
-  {
-    "artist": "The Who",
-    "title": "Won't Get Fooled Again"
-  },
-  {
-    "artist": "John Hiatt",
-    "title": "Have A Little Faith In Me"
-  },
-  {
-    "artist": "Chicago",
-    "title": "If You Leave Me Now"
-  },
-  {
-    "artist": "Wham",
-    "title": "Last Christmas"
-  },
-  {
-    "artist": "Status Quo",
-    "title": "Whatever You Want"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Who'll Stop The Rain"
-  },
-  {
-    "artist": "Art Garfunkel",
-    "title": "Bright Eyes"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "So Incredible"
-  },
-  {
-    "artist": "Derek & The Dominos",
-    "title": "Layla"
-  },
-  {
-    "artist": "Youp van 't Hek",
-    "title": "Flappie"
-  },
-  {
-    "artist": "The Who",
-    "title": "My Generation"
-  },
-  {
-    "artist": "Jethro Tull",
-    "title": "Locomotive Breath"
-  },
-  {
-    "artist": "K's choice",
-    "title": "Not An Addict"
-  },
-  {
-    "artist": "Carole King",
-    "title": "You've Got A Friend"
-  },
-  {
-    "artist": "Bachman Turner Overdrive",
-    "title": "You Ain't Seen Nothing Yet"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Sweet Caroline"
-  },
-  {
-    "artist": "John Denver",
-    "title": "Take Me Home, Country Roads"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "Mrs. Robinson"
-  },
-  {
-    "artist": "Otis Redding",
-    "title": "I've Got Dreams To Remember"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Zij"
-  },
-  {
-    "artist": "Bonnie Tyler",
-    "title": "Total Eclipse Of The Heart"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "They Don't Care About Us"
-  },
-  {
-    "artist": "Simple Minds",
-    "title": "Waterfront"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Careless Whisper"
-  },
-  {
-    "artist": "Lorde",
-    "title": "Royals"
-  },
-  {
-    "artist": "Rod Stewart",
-    "title": "Sailing"
-  },
-  {
-    "artist": "Meat Loaf",
-    "title": "I'd Do Anything For Love"
-  },
-  {
-    "artist": "Sting",
-    "title": "Russians"
-  },
-  {
-    "artist": "Tina Turner",
-    "title": "The Best"
-  },
-  {
-    "artist": "INXS",
-    "title": "Never Tear Us Apart"
-  },
-  {
-    "artist": "Acda En De Munnik",
-    "title": "Als Het Vuur Gedoofd Is"
-  },
-  {
-    "artist": "Shocking Blue",
-    "title": "Venus"
-  },
-  {
-    "artist": "Krezip",
-    "title": "Sweet Goodbyes"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Otherside"
-  },
-  {
-    "artist": "Split Enz",
-    "title": "Message To My Girl"
-  },
-  {
-    "artist": "Bryan Adams",
-    "title": "(Everything I Do) I Do It For You"
-  },
-  {
-    "artist": "Alanis Morissette",
-    "title": "Ironic"
-  },
-  {
-    "artist": "Wings",
-    "title": "Band On The Run"
-  },
-  {
-    "artist": "Queen",
-    "title": "'39"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Mamma Mia"
-  },
-  {
-    "artist": "Fish",
-    "title": "A Gentleman's Excuse Me"
-  },
-  {
-    "artist": "Bangles",
-    "title": "Eternal Flame"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "A Sky Full Of Stars"
-  },
-  {
-    "artist": "Nina Simone",
-    "title": "Ain't Got No - I Got Life"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Brown Sugar"
-  },
-  {
-    "artist": "Enya",
-    "title": "Only Time"
-  },
-  {
-    "artist": "Gerry & The Pacemakers",
-    "title": "You'll Never Walk Alone"
-  },
-  {
-    "artist": "Queen",
-    "title": "We Are The Champions"
-  },
-  {
-    "artist": "Band Aid",
-    "title": "Do They Know It's Christmas"
-  },
-  {
-    "artist": "Robin Thicke",
-    "title": "Blurred Lines"
-  },
-  {
-    "artist": "Pink",
-    "title": "Try"
-  },
-  {
-    "artist": "Yes",
-    "title": "Close To The Edge"
-  },
-  {
-    "artist": "Chris Rea",
-    "title": "Driving Home For Christmas"
-  },
-  {
-    "artist": "Doe Maar",
-    "title": "Sinds 1 Dag Of 2 (32 Jaar)"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Waiting On A Friend"
-  },
-  {
-    "artist": "Eagles",
-    "title": "Tequila Sunrise"
-  },
-  {
-    "artist": "Aretha Franklin",
-    "title": "Think"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Knocking On Heaven's Door"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "How Deep Is Your Love"
-  },
-  {
-    "artist": "Rowwen Heze",
-    "title": "Limburg"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Let's Dance"
-  },
-  {
-    "artist": "The Police",
-    "title": "Every Little Thing She Does Is Magic"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Dreamer"
-  },
-  {
-    "artist": "Status Quo",
-    "title": "Down Down"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "Always"
-  },
-  {
-    "artist": "Rob de Nijs",
-    "title": "Het Werd Zomer"
-  },
-  {
-    "artist": "Peter Gabriel",
-    "title": "Biko"
-  },
-  {
-    "artist": "John Denver",
-    "title": "Leaving On A Jet Plane"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "You Can Call Me Al"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Three Days In A Row"
-  },
-  {
-    "artist": "Tina Turner & David Bowie",
-    "title": "Tonight"
-  },
-  {
-    "artist": "Ennio Morricone",
-    "title": "Once Upon A Time In The West"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "I Heard It Through The Grapevine"
-  },
-  {
-    "artist": "Rob de Nijs",
-    "title": "Foto Van Vroeger"
-  },
-  {
-    "artist": "UB40",
-    "title": "Red Red Wine"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Get Back"
-  },
-  {
-    "artist": "The Hollies",
-    "title": "He Ain't Heavy He's My Brother"
-  },
-  {
-    "artist": "Paul de Leeuw & André Hazes",
-    "title": "Droomland"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Michelle"
-  },
-  {
-    "artist": "Linkin Park",
-    "title": "Breaking The Habit"
-  },
-  {
-    "artist": "Kraftwerk",
-    "title": "Autobahn"
-  },
-  {
-    "artist": "Blur",
-    "title": "Song 2"
-  },
-  {
-    "artist": "Rihanna feat. Mikky Ekko",
-    "title": "Stay"
-  },
-  {
-    "artist": "Eurythmics",
-    "title": "Sweet Dreams"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "The Times Are A-Changing"
-  },
-  {
-    "artist": "Marvin Gaye",
-    "title": "Sexual Healing"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "She Flies On Strange Wings"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Slowdancing In A Burning Room"
-  },
-  {
-    "artist": "Herman van Veen",
-    "title": "Anne"
-  },
-  {
-    "artist": "Carly Simon",
-    "title": "You're So Vain"
-  },
-  {
-    "artist": "Sade",
-    "title": "Smooth Operator"
-  },
-  {
-    "artist": "Massive Attack",
-    "title": "Teardrop"
-  },
-  {
-    "artist": "Counting Crows",
-    "title": "Mr. Jones"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "I Am The Walrus"
-  },
-  {
-    "artist": "Paul Weller",
-    "title": "You Do Something To Me"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Jumping Jack Flash"
-  },
-  {
-    "artist": "The Beach Boys",
-    "title": "Sloop John B"
-  },
-  {
-    "artist": "The Script & will.i.am",
-    "title": "Hall Of Fame"
-  },
-  {
-    "artist": "Prince",
-    "title": "Sign 'O' The Times"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Jimmy"
-  },
-  {
-    "artist": "Lenny Kravitz",
-    "title": "Let Love Rule"
-  },
-  {
-    "artist": "John Denver",
-    "title": "Annie's Song"
-  },
-  {
-    "artist": "Queen",
-    "title": "Crazy Little Thing Called Love"
-  },
-  {
-    "artist": "Herbert Gronemeyer",
-    "title": "Mensch"
-  },
-  {
-    "artist": "Jeff Wayne & Justin Hayward",
-    "title": "The Eve Of The War"
-  },
-  {
-    "artist": "Survivor",
-    "title": "Eye Of The Tiger"
-  },
-  {
-    "artist": "Keane",
-    "title": "Bedshaped"
-  },
-  {
-    "artist": "Ten Sharp",
-    "title": "You"
-  },
-  {
-    "artist": "James Taylor & Mark Knopfler",
-    "title": "Sailing To Philadelphia"
-  },
-  {
-    "artist": "Whitesnake",
-    "title": "Here i go again"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "De Blues Verlaat Je Nooit"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Ashes To Ashes"
-  },
-  {
-    "artist": "M.A.S.H.",
-    "title": "Suicide Is Painless"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "Can't Stop Loving You"
-  },
-  {
-    "artist": "Tina Turner",
-    "title": "Private Dancer"
-  },
-  {
-    "artist": "Madness",
-    "title": "Baggy Trousers"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Suzie Q"
-  },
-  {
-    "artist": "Snow Patrol",
-    "title": "Just Say Yes"
-  },
-  {
-    "artist": "James Brown",
-    "title": "It's A Man's Man's World"
-  },
-  {
-    "artist": "Live",
-    "title": "I Alone"
-  },
-  {
-    "artist": "Christina Aguilera",
-    "title": "Hurt"
-  },
-  {
-    "artist": "The Cure",
-    "title": "Lullaby"
-  },
-  {
-    "artist": "One Republic",
-    "title": "Counting Stars"
-  },
-  {
-    "artist": "Queen",
-    "title": "You're My Best Friend"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Niemand In De Stad"
-  },
-  {
-    "artist": "Chris Isaak",
-    "title": "Wicked Game"
-  },
-  {
-    "artist": "Crosby, Stills, Nash & Young",
-    "title": "Teach Your Children"
-  },
-  {
-    "artist": "Hero",
-    "title": "Toen Ik Je Zag"
-  },
-  {
-    "artist": "James Taylor",
-    "title": "Fire And Rain"
-  },
-  {
-    "artist": "Blof",
-    "title": "Blauwe Ruis"
-  },
-  {
-    "artist": "Crosby, Stills, Nash & Young",
-    "title": "Our House"
-  },
-  {
-    "artist": "Zucchero Fornaciari",
-    "title": "Il Volo"
-  },
-  {
-    "artist": "Cuby & The Blizzards",
-    "title": "Somebody Will Know Somebody"
-  },
-  {
-    "artist": "Snow Patrol",
-    "title": "Shut Your Eyes"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "I'm Not So Tough"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "The One I Love"
-  },
-  {
-    "artist": "Mumford & Sons",
-    "title": "Lover Of The Light"
-  },
-  {
-    "artist": "De Jeugd Van Tegenwoordig",
-    "title": "Sterrenstof"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Atlas"
-  },
-  {
-    "artist": "Jacques Brel",
-    "title": "Mijn Vlakke Land"
-  },
-  {
-    "artist": "Guus Meeuwis",
-    "title": "Tranen Gelachen"
-  },
-  {
-    "artist": "JJ Cale",
-    "title": "Cocaine"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "Scarborough Fair"
-  },
-  {
-    "artist": "Robbie Williams",
-    "title": "Let Me Entertain You"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Binnen Zonder Kloppen"
-  },
-  {
-    "artist": "The Blues Brothers",
-    "title": "Everybody Needs Somebody To Love"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Happy New Year"
-  },
-  {
-    "artist": "London Grammar",
-    "title": "Strong"
-  },
-  {
-    "artist": "Liquido",
-    "title": "Narcotic"
-  },
-  {
-    "artist": "The Shadows",
-    "title": "Apache"
-  },
-  {
-    "artist": "Queen",
-    "title": "A Kind Of Magic"
-  },
-  {
-    "artist": "Herman Brood",
-    "title": "Never Be Clever"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Sgt Pepper's Lonely Hearts Club Band"
-  },
-  {
-    "artist": "Blondie",
-    "title": "Denis"
-  },
-  {
-    "artist": "Nena & Kim Wilde",
-    "title": "Anyplace, Anywhere, Anytime"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "China Girl"
-  },
-  {
-    "artist": "Poppys",
-    "title": "Non Non Rien N'A Changé "
-  },
-  {
-    "artist": "Aretha Franklin",
-    "title": "Respect"
-  },
-  {
-    "artist": "Queen",
-    "title": "Breakthru"
-  },
-  {
-    "artist": "ABBA",
-    "title": "I Have A Dream"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Massachusetts"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Jailhouse Rock"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Chiquitita"
-  },
-  {
-    "artist": "Alice Cooper",
-    "title": "School's Out"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Jesus He knows me"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Heal The World"
-  },
-  {
-    "artist": "Carpenters",
-    "title": "Top Of The World"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Words"
-  },
-  {
-    "artist": "Aretha Franklin",
-    "title": "I Say A Little Prayer"
-  },
-  {
-    "artist": "Toto",
-    "title": "Rosanna"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "I Just Can't Help Believin'"
-  },
-  {
-    "artist": "Midnight Oil",
-    "title": "Beds Are Burning"
-  },
-  {
-    "artist": "Maarten van Roozendaal",
-    "title": "Red Mij Niet"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Sound And Vision"
-  },
-  {
-    "artist": "4 Non Blondes",
-    "title": "What's Up"
-  },
-  {
-    "artist": "Jeff Wayne & Justin Hayward",
-    "title": "Forever Autumn"
-  },
-  {
-    "artist": "Blue Oyster Cult",
-    "title": "Don't Fear The Reaper"
-  },
-  {
-    "artist": "Queen",
-    "title": "I Want It All"
-  },
-  {
-    "artist": "The Script",
-    "title": "Breakeven"
-  },
-  {
-    "artist": "Acda en De Munnik",
-    "title": "Mooi Liedje"
-  },
-  {
-    "artist": "Kylie Minogue & Nick Cave",
-    "title": "Where The Wild Roses Grow"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Talk"
-  },
-  {
-    "artist": "The Police",
-    "title": "So Lonely"
-  },
-  {
-    "artist": "Adele",
-    "title": "Rumour Has It"
-  },
-  {
-    "artist": "One Direction",
-    "title": "Story Of My Life"
-  },
-  {
-    "artist": "Heart",
-    "title": "Crazy On You"
-  },
-  {
-    "artist": "The Fray",
-    "title": "How To Save A Life"
-  },
-  {
-    "artist": "Seal",
-    "title": "Crazy"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Mijn Van Straat Geredde Roos"
-  },
-  {
-    "artist": "Brainbox",
-    "title": "Summertime"
-  },
-  {
-    "artist": "Labi Siffre",
-    "title": "(Something Inside) So Strong"
-  },
-  {
-    "artist": "Clannad",
-    "title": "In A Lifetime"
-  },
-  {
-    "artist": "Kansas",
-    "title": "Carry On Wayward Son"
-  },
-  {
-    "artist": "Blof",
-    "title": "Alles Is Liefde"
-  },
-  {
-    "artist": "Mike Oldfield & Maggie Reilly",
-    "title": "Moonlight Shadow"
-  },
-  {
-    "artist": "Michael Buble",
-    "title": "Home"
-  },
-  {
-    "artist": "Manic Street Preachers",
-    "title": "Motorcycle Emptiness"
-  },
-  {
-    "artist": "Japan",
-    "title": "Nightporter"
-  },
-  {
-    "artist": "Crowded House",
-    "title": "Four Seasons In One Day"
-  },
-  {
-    "artist": "Q65",
-    "title": "The Life I Live"
-  },
-  {
-    "artist": "Little River Band",
-    "title": "It's A Long Way There"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Speed Of Sound"
-  },
-  {
-    "artist": "Frank Sinatra",
-    "title": "Fly Me To The Moon"
-  },
-  {
-    "artist": "Youssou N'Dour & Neneh Cherry",
-    "title": "7 Seconds"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Girl"
-  },
-  {
-    "artist": "Fats Domino",
-    "title": "Blueberry Hill"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Black Or White"
-  },
-  {
-    "artist": "Meat Loaf",
-    "title": "You Took The Words Right Out Of My Mouth"
-  },
-  {
-    "artist": "Cuby & The Blizzards",
-    "title": "Appleknockers Flophouse"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "When I Was Your Man"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Ruby Tuesday"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Little Lies"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Nikita"
-  },
-  {
-    "artist": "Fools Garden",
-    "title": "Lemon Tree"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Glory Days"
-  },
-  {
-    "artist": "Madness",
-    "title": "Nightboat To Cairo"
-  },
-  {
-    "artist": "Meat Loaf",
-    "title": "Two Out Of Three Ain't Bad"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Tuesday Afternoon"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "Fake Plastic Trees"
-  },
-  {
-    "artist": "Ilse Delange",
-    "title": "Blue Bittersweet"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Breakfast In America"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "Could You Be Loved"
-  },
-  {
-    "artist": "Chuck Berry",
-    "title": "Johnny B. Goode"
-  },
-  {
-    "artist": "Janis Joplin",
-    "title": "Mercedes Benz"
-  },
-  {
-    "artist": "Guus Meeuwis",
-    "title": "De Weg"
-  },
-  {
-    "artist": "The Cranberries",
-    "title": "Linger"
-  },
-  {
-    "artist": "Duran Duran",
-    "title": "Ordinary World"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Dani California"
-  },
-  {
-    "artist": "Smashing Pumpkins",
-    "title": "Disarm"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Fool To Cry"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Groot Hart"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Honky Tonk Women"
-  },
-  {
-    "artist": "Donna Summer",
-    "title": "State Of Independence"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Harvest"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Miss You"
-  },
-  {
-    "artist": "Nits",
-    "title": "Nescio"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Everywhere"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "Drive"
-  },
-  {
-    "artist": "3JS",
-    "title": "Watermensen"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Nergens Goed Voor"
-  },
-  {
-    "artist": "Santana",
-    "title": "Europa (Earth's Cry Heaven Smile)"
-  },
-  {
-    "artist": "Lenny Kravitz",
-    "title": "Are You Gonna Go My Way"
-  },
-  {
-    "artist": "Justin Timberlake",
-    "title": "Mirrors"
-  },
-  {
-    "artist": "Emerson, Lake & Palmer",
-    "title": "Peter Gunn "
-  },
-  {
-    "artist": "Frank Sinatra",
-    "title": "It Was A Very Good Year"
-  },
-  {
-    "artist": "Rare Earth",
-    "title": "Get Ready"
-  },
-  {
-    "artist": "The Boxer Rebellion",
-    "title": "Diamonds"
-  },
-  {
-    "artist": "Charles Aznavour",
-    "title": "Yesterday When I Was Young"
-  },
-  {
-    "artist": "Frank Zappa",
-    "title": "Dancin' Fool"
-  },
-  {
-    "artist": "The The",
-    "title": "Uncertain Smile"
-  },
-  {
-    "artist": "Novastar",
-    "title": "Wrong"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "Locked Out of Heaven"
-  },
-  {
-    "artist": "Joe Cocker",
-    "title": "Unchain My Heart"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Start Me Up"
-  },
-  {
-    "artist": "Katy Perry",
-    "title": "Roar"
-  },
-  {
-    "artist": "Talking Heads",
-    "title": "Road To Nowhere"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Rebel Rebel"
-  },
-  {
-    "artist": "Snowy White",
-    "title": "Bird Of Paradise"
-  },
-  {
-    "artist": "Sam Cooke",
-    "title": "A Change Is Gonna Come"
-  },
-  {
-    "artist": "Steppenwolf",
-    "title": "Born To Be Wild"
-  },
-  {
-    "artist": "Passenger",
-    "title": "Holes"
-  },
-  {
-    "artist": "Earth & Fire",
-    "title": "Storm And Thunder"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Like A Prayer"
-  },
-  {
-    "artist": "Robert Long",
-    "title": "Kalverliefde"
-  },
-  {
-    "artist": "Valensia",
-    "title": "Gaia"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Waterloo"
-  },
-  {
-    "artist": "The Doors",
-    "title": "Touch Me"
-  },
-  {
-    "artist": "The Trammps",
-    "title": "Disco Inferno"
-  },
-  {
-    "artist": "Queens Of The Stone Age",
-    "title": "No One Knows"
-  },
-  {
-    "artist": "Lionel Richie",
-    "title": "Hello"
-  },
-  {
-    "artist": "John Farnham",
-    "title": "You're The Voice"
-  },
-  {
-    "artist": "Mike & The Mechanics",
-    "title": "The Living Years"
-  },
-  {
-    "artist": "Het Goede Doel",
-    "title": "Belgie"
-  },
-  {
-    "artist": "Andrea Bocelli",
-    "title": "Con Te Partiro"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Candle In The Wind (1997)"
-  },
-  {
-    "artist": "Eva Cassidy",
-    "title": "Songbird"
-  },
-  {
-    "artist": "Prodigy",
-    "title": "Firestarter"
-  },
-  {
-    "artist": "UB40",
-    "title": "Kingston Town"
-  },
-  {
-    "artist": "Rufus Wainwright",
-    "title": "Going To A Town"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "Papa Can You Hear Me?"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Marian"
-  },
-  {
-    "artist": "The Hollies",
-    "title": "The Air That I Breathe"
-  },
-  {
-    "artist": "Donna Summer",
-    "title": "MacArthur Park"
-  },
-  {
-    "artist": "Pat Benatar",
-    "title": "Love Is A Battlefield"
-  },
-  {
-    "artist": "Robert Plant",
-    "title": "Big Log"
-  },
-  {
-    "artist": "David Guetta & Sia",
-    "title": "Titanium"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Waiting On A Sunny Day"
-  },
-  {
-    "artist": "Joe Cocker",
-    "title": "N'oubliez Jamais"
-  },
-  {
-    "artist": "Portishead",
-    "title": "Glory Box"
-  },
-  {
-    "artist": "Ramones",
-    "title": "Rock 'n Roll Highschool"
-  },
-  {
-    "artist": "Damien Rice",
-    "title": "The Blower's Daughter"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "No Surprises"
-  },
-  {
-    "artist": "John Lennon",
-    "title": "Working Class Hero"
-  },
-  {
-    "artist": "Fischer-Z",
-    "title": "The Worker"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Help"
-  },
-  {
-    "artist": "Stef Bos",
-    "title": "Ik Heb Je Lief"
-  },
-  {
-    "artist": "Dexy's Midnight Runners",
-    "title": "Come On Eileen"
-  },
-  {
-    "artist": "Celine Dion",
-    "title": "My Heart Will Go On"
-  },
-  {
-    "artist": "Ralph McTell",
-    "title": "Streets Of London"
-  },
-  {
-    "artist": "Veldhuis & Kemper",
-    "title": "Ik Wou Dat Ik Jou Was"
-  },
-  {
-    "artist": "10CC",
-    "title": "The Wall Street Shuffle"
-  },
-  {
-    "artist": "Talk Talk",
-    "title": "Life's What You Make It"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "El Condor Pasa"
-  },
-  {
-    "artist": "Tears For Fears",
-    "title": "Everybody Wants To Rule The World"
-  },
-  {
-    "artist": "Robert Long",
-    "title": "Flink Zijn"
-  },
-  {
-    "artist": "Blof",
-    "title": "Aanzoek Zonder Ringen"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Hide In Your Shell"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Can't Help Falling In Love With You"
-  },
-  {
-    "artist": "Jason Mraz",
-    "title": "I'm Yours"
-  },
-  {
-    "artist": "George Harrison",
-    "title": "My Sweet Lord"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Working On A Dream"
-  },
-  {
-    "artist": "Talk Talk",
-    "title": "It's My Life"
-  },
-  {
-    "artist": "The Offspring",
-    "title": "Self Esteem"
-  },
-  {
-    "artist": "Matt Simons",
-    "title": "With You"
-  },
-  {
-    "artist": "Dan Hartman",
-    "title": "Relight My Fire"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "On Every Street"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Somebody To Love"
-  },
-  {
-    "artist": "A-Ha",
-    "title": "Hunting High And Low"
-  },
-  {
-    "artist": "REO Speedwagon",
-    "title": "Keep On Loving You"
-  },
-  {
-    "artist": "Anita Meyer",
-    "title": "Why Tell Me Why"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Lay All Your Love On Me"
-  },
-  {
-    "artist": "Stevie Wonder",
-    "title": "I Wish"
-  },
-  {
-    "artist": "Killing Joke",
-    "title": "Love Like Blood"
-  },
-  {
-    "artist": "Scott McKenzie",
-    "title": "San Francisco"
-  },
-  {
-    "artist": "Richard Harris",
-    "title": "MacArthur Park"
-  },
-  {
-    "artist": "Sting",
-    "title": "Shape of my heart"
-  },
-  {
-    "artist": "U2",
-    "title": "Stuck In A Moment"
-  },
-  {
-    "artist": "James Brown",
-    "title": "Sex Machine"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Lucy In The Sky With Diamonds"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "When I'm Sixty Four"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "As Tears Go By"
-  },
-  {
-    "artist": "Yes",
-    "title": "Yours Is No Disgrace"
-  },
-  {
-    "artist": "No Doubt",
-    "title": "Don't Speak"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Scarlet Ribbons"
-  },
-  {
-    "artist": "Daft Punk",
-    "title": "One More Time"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "Wanted Dead Or Alive"
-  },
-  {
-    "artist": "Gloria Gaynor",
-    "title": "I Will Survive"
-  },
-  {
-    "artist": "The Doobie Brothers",
-    "title": "Listen To The Music"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "I Want You"
-  },
-  {
-    "artist": "Roger Glover & Guests",
-    "title": "Love Is All"
-  },
-  {
-    "artist": "Iggy Pop & Kate Pierson",
-    "title": "Candy"
-  },
-  {
-    "artist": "Sam Cooke",
-    "title": "Wonderful World"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Cowboys And Angels"
-  },
-  {
-    "artist": "John Legend",
-    "title": "Ordinary People"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "In My Life"
-  },
-  {
-    "artist": "Queen",
-    "title": "Bicycle Race"
-  },
-  {
-    "artist": "Simply Red",
-    "title": "If You Don't Know Me By Now"
-  },
-  {
-    "artist": "Yes",
-    "title": "Roundabout "
-  },
-  {
-    "artist": "David Bowie & Pat Metheny",
-    "title": "This Is Not America"
-  },
-  {
-    "artist": "Spinvis",
-    "title": "Voor Ik Vergeet"
-  },
-  {
-    "artist": "Peter Gabriel",
-    "title": "Sledgehammer"
-  },
-  {
-    "artist": "Paul McCartney",
-    "title": "We All Stand Together"
-  },
-  {
-    "artist": "Depeche Mode",
-    "title": "Just Can't Get Enough"
-  },
-  {
-    "artist": "Queen",
-    "title": "Tie Your Mother Down"
-  },
-  {
-    "artist": "Ray Charles",
-    "title": "Georgia On My Mind"
-  },
-  {
-    "artist": "Roxy Music",
-    "title": "Avalon"
-  },
-  {
-    "artist": "Bruce Hornsby & The Range",
-    "title": "The Way It Is"
-  },
-  {
-    "artist": "Melanie",
-    "title": "Beautiful People"
-  },
-  {
-    "artist": "Steve Harley & Cockney Rebel",
-    "title": "Make Me Smile (Come Up And See Me)"
-  },
-  {
-    "artist": "Cream",
-    "title": "Sunshine Of Your Love"
-  },
-  {
-    "artist": "Emili Sandé",
-    "title": "Read All About It pt.III"
-  },
-  {
-    "artist": "Maggie MacNeal",
-    "title": "Terug Naar De Kust"
-  },
-  {
-    "artist": "Wings",
-    "title": "Mull Of Kintyre"
-  },
-  {
-    "artist": "David Bowie & Mick Jagger",
-    "title": "Dancing In The Street"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "She's A Rainbow"
-  },
-  {
-    "artist": "Alanis Morissette",
-    "title": "You Oughta Know"
-  },
-  {
-    "artist": "Acda en De Munnik",
-    "title": "De Kapitein Deel II"
-  },
-  {
-    "artist": "Deep Purple",
-    "title": "Black Night"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Why Worry"
-  },
-  {
-    "artist": "Lucifer",
-    "title": "House For Sale"
-  },
-  {
-    "artist": "Rowwen Heze",
-    "title": "Auto Vliegtuug"
-  },
-  {
-    "artist": "Of Monsters and Men",
-    "title": "Little Talks"
-  },
-  {
-    "artist": "The Beach Boys",
-    "title": "Tears in the morning"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Proud Mary"
-  },
-  {
-    "artist": "Manic Street Preachers",
-    "title": "If You Tolerate This Your Children Will Be Next"
-  },
-  {
-    "artist": "Frank Boeijen",
-    "title": "Zwart Wit"
-  },
-  {
-    "artist": "U2",
-    "title": "Sometimes You Can't Make It On Your Own"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "Waterloo Sunset"
-  },
-  {
-    "artist": "Green Day",
-    "title": "Good Riddance (Time Of Your Life)"
-  },
-  {
-    "artist": "Crowded House",
-    "title": "Don't Dream It's Over"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Circle Of Life"
-  },
-  {
-    "artist": "Enya",
-    "title": "Orinoco Flow"
-  },
-  {
-    "artist": "George Michael",
-    "title": "A Different Corner"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Give A Little Bit"
-  },
-  {
-    "artist": "Neet Oet Lottum",
-    "title": "Hald Mich 's Vas"
-  },
-  {
-    "artist": "John Denver",
-    "title": "Perhaps Love"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "Stir It Up"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "An American Trilogy"
-  },
-  {
-    "artist": "Nick & Simon",
-    "title": "Kijk Omhoog"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "She's Leaving Home"
-  },
-  {
-    "artist": "The Cure",
-    "title": "Close To Me"
-  },
-  {
-    "artist": "Sammy Davis Jr.",
-    "title": "Mr. Bojangles"
-  },
-  {
-    "artist": "Ramses Shaffy",
-    "title": "Sammy"
-  },
-  {
-    "artist": "Dusty Springfield",
-    "title": "Son Of A Preacher Man"
-  },
-  {
-    "artist": "Keane",
-    "title": "Everybody's Changing"
-  },
-  {
-    "artist": "Lady Antebellum",
-    "title": "Need You Now"
-  },
-  {
-    "artist": "James Blunt",
-    "title": "You're Beautiful"
-  },
-  {
-    "artist": "De Kast",
-    "title": "Hart Van Mijn Gevoel"
-  },
-  {
-    "artist": "U2",
-    "title": "Vertigo"
-  },
-  {
-    "artist": "Skunk Anansie",
-    "title": "Weak"
-  },
-  {
-    "artist": "Andrea Bocelli",
-    "title": "Vivo Per Lei"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Brother"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Magic"
-  },
-  {
-    "artist": "Moby",
-    "title": "Porcelain"
-  },
-  {
-    "artist": "Arctic Monkeys",
-    "title": "Do I Wanna Know"
-  },
-  {
-    "artist": "Roberta Flack",
-    "title": "The First Time Ever I Saw Your Face"
-  },
-  {
-    "artist": "Spandau Ballet",
-    "title": "Gold"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Heartbreak Warfare"
-  },
-  {
-    "artist": "Paul De Leeuw & Alderliefste",
-    "title": "Une Belle Histoire"
-  },
-  {
-    "artist": "Brainbox",
-    "title": "Down Man"
-  },
-  {
-    "artist": "The Police",
-    "title": "Walking On The Moon"
-  },
-  {
-    "artist": "Tears For Fears",
-    "title": "Shout!"
-  },
-  {
-    "artist": "Clouseau",
-    "title": "Daar Gaat Ze"
-  },
-  {
-    "artist": "The Mamas & The Papas",
-    "title": "Monday Monday"
-  },
-  {
-    "artist": "Dolly Parton & Kenny Rogers",
-    "title": "Islands In The Stream"
-  },
-  {
-    "artist": "The Buoys",
-    "title": "Give Up Your Guns"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Binnen"
-  },
-  {
-    "artist": "Earth & Fire",
-    "title": "Song Of The Marching Children"
-  },
-  {
-    "artist": "Ben E. King",
-    "title": "Stand By Me"
-  },
-  {
-    "artist": "Passenger",
-    "title": "The Wrong Direction"
-  },
-  {
-    "artist": "The Who",
-    "title": "Ouverture"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Hungry Heart"
-  },
-  {
-    "artist": "Level 42",
-    "title": "Lessons In Love"
-  },
-  {
-    "artist": "Jean Michel Jarre",
-    "title": "Oxygene IV"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "World Of Hurt"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "I Wish It Would Rain Down"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "I Started A Joke"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Als Het Golft"
-  },
-  {
-    "artist": "George Ezra",
-    "title": "Budapest"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "The Rising"
-  },
-  {
-    "artist": "Anouk",
-    "title": "I Don't Wanna Hurt"
-  },
-  {
-    "artist": "James Blunt",
-    "title": "Goodbye My Lover"
-  },
-  {
-    "artist": "Rihanna",
-    "title": "Diamonds"
-  },
-  {
-    "artist": "Tears For Fears",
-    "title": "Sowing The Seeds Of Love"
-  },
-  {
-    "artist": "Lou Reed",
-    "title": "Intro / Sweet Jane"
-  },
-  {
-    "artist": "Herman Brood",
-    "title": "Still Believe"
-  },
-  {
-    "artist": "Mumford & Sons",
-    "title": "Babel"
-  },
-  {
-    "artist": "Birdy",
-    "title": "People Help The People"
-  },
-  {
-    "artist": "Sandy Coast",
-    "title": "The Eyes Of Jenny"
-  },
-  {
-    "artist": "Otis Redding",
-    "title": "I've Been Loving You Too Long"
-  },
-  {
-    "artist": "U2",
-    "title": "Magnificent"
-  },
-  {
-    "artist": "The Black Eyed Peas",
-    "title": "Where Is The Love"
-  },
-  {
-    "artist": "Zager & Evans",
-    "title": "In The Year 2525"
-  },
-  {
-    "artist": "Cheap Trick",
-    "title": "I Want You To Want Me"
-  },
-  {
-    "artist": "Clannad",
-    "title": "Theme From Harry's game"
-  },
-  {
-    "artist": "Canned Heat",
-    "title": "On The Road Again"
-  },
-  {
-    "artist": "Chicago",
-    "title": "25 Or 6 To 4"
-  },
-  {
-    "artist": "David Sylvian",
-    "title": "Forbidden Colours"
-  },
-  {
-    "artist": "Bryan Adams",
-    "title": "Heaven"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Long As I Can See The Light"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Take The Long Way Home"
-  },
-  {
-    "artist": "Curtis Mayfield",
-    "title": "Move On Up"
-  },
-  {
-    "artist": "Patrick Bruel",
-    "title": "Casser La Voix (Live)"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Jesus To A Child"
-  },
-  {
-    "artist": "Michael Prins",
-    "title": "Close To You"
-  },
-  {
-    "artist": "Aretha Franklin",
-    "title": "You Make Me Feel Like A Natural Woman"
-  },
-  {
-    "artist": "Bronski Beat",
-    "title": "Smalltown Boy"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Waiting On The World To Change"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "De Bestemming"
-  },
-  {
-    "artist": "Barry Manilow",
-    "title": "Mandy"
-  },
-  {
-    "artist": "Counting Crows",
-    "title": "A Long December"
-  },
-  {
-    "artist": "The Cure",
-    "title": "Friday I'm In Love"
-  },
-  {
-    "artist": "The Script",
-    "title": "For The First Time"
-  },
-  {
-    "artist": "Live",
-    "title": "The Dolphin’s Cry"
-  },
-  {
-    "artist": "Doe Maar",
-    "title": "Belle Helene"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Boulevard De La Madeleine"
-  },
-  {
-    "artist": "Peter Frampton",
-    "title": "Show Me The Way"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Human Nature"
-  },
-  {
-    "artist": "Chris Rea",
-    "title": "Josephine"
-  },
-  {
-    "artist": "Black Crowes",
-    "title": "Remedy"
-  },
-  {
-    "artist": "Weather Girls",
-    "title": "It's Raining Men"
-  },
-  {
-    "artist": "Jacques Brel",
-    "title": "Voir Un Ami Pleurer"
-  },
-  {
-    "artist": "Caro Emerald",
-    "title": "Back It Up"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "The Way You Make Me Feel"
-  },
-  {
-    "artist": "Maroon 5",
-    "title": "She Will Be Loved"
-  },
-  {
-    "artist": "Santana & Rob Thomas",
-    "title": "Smooth"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Fernando"
-  },
-  {
-    "artist": "Nielson & Miss Montreal",
-    "title": "Hoe"
-  },
-  {
-    "artist": "Rick Astley",
-    "title": "Never Gonna Give You Up"
-  },
-  {
-    "artist": "Extreme",
-    "title": "More Than Words"
-  },
-  {
-    "artist": "Bette Midler",
-    "title": "Beast Of Burden"
-  },
-  {
-    "artist": "Don Henley",
-    "title": "New York Minute"
-  },
-  {
-    "artist": "Genesis",
-    "title": "No Son Of Mine"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Het Land Van Maas En Waal"
-  },
-  {
-    "artist": "Niels Geusebroek",
-    "title": "Year Of Summer (acoustic)"
-  },
-  {
-    "artist": "Donna Summer",
-    "title": "I Feel Love"
-  },
-  {
-    "artist": "Toto",
-    "title": "Mushanga"
-  },
-  {
-    "artist": "Imagine Dragons",
-    "title": "Demons"
-  },
-  {
-    "artist": "Frans Halsema & Jenny Arean",
-    "title": "Vluchten Kan Niet Meer"
-  },
-  {
-    "artist": "Cyndi Lauper",
-    "title": "True Colours"
-  },
-  {
-    "artist": "Them",
-    "title": "Gloria"
-  },
-  {
-    "artist": "The Cure",
-    "title": "Boys Don't Cry"
-  },
-  {
-    "artist": "Roy Orbison",
-    "title": "In Dreams"
-  },
-  {
-    "artist": "Sniff 'n The Tears",
-    "title": "Driver's Seat"
-  },
-  {
-    "artist": "Michael Buble",
-    "title": "Everything"
-  },
-  {
-    "artist": "Handsome Poets",
-    "title": "Sky On Fire"
-  },
-  {
-    "artist": "Blof",
-    "title": "Wat Zou Je Doen"
-  },
-  {
-    "artist": "Vicki Brown & New London Chorale",
-    "title": "Stay With Me Till The Morning"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Had To Fall In Love"
-  },
-  {
-    "artist": "Bonnie Raitt",
-    "title": "I Can't Make You Love Me "
-  },
-  {
-    "artist": "Herman van Veen",
-    "title": "Hilversum 3"
-  },
-  {
-    "artist": "Bryan Adams",
-    "title": "Run To You"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Midnight Rambler"
-  },
-  {
-    "artist": "Dubliners",
-    "title": "Wild Rover"
-  },
-  {
-    "artist": "Rob de Nijs",
-    "title": "Banger Hart"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "Celluloid Heroes"
-  },
-  {
-    "artist": "Janis Ian",
-    "title": "At Seventeen"
-  },
-  {
-    "artist": "Ella Fitzgerald & Louis Armstrong",
-    "title": "Summertime"
-  },
-  {
-    "artist": "Rod Stewart",
-    "title": "Maggie May"
-  },
-  {
-    "artist": "The Doors",
-    "title": "Love Her Madly"
-  },
-  {
-    "artist": "Marc Cohn",
-    "title": "Walking In Memphis"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Speeltuin"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Jerusalem"
-  },
-  {
-    "artist": "Daft Punk",
-    "title": "Around The World"
-  },
-  {
-    "artist": "Michael Buble",
-    "title": "It's  A Beautiful Day"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Back Home"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Lost"
-  },
-  {
-    "artist": "Soft Cell",
-    "title": "Tainted Love"
-  },
-  {
-    "artist": "Santa Esmeralda",
-    "title": "Don't Let Me Be Misunderstood"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "September Morn'"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Dromen Zijn Bedrog"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Absolute Beginners"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Big Love"
-  },
-  {
-    "artist": "The Babys",
-    "title": "Isn't It Time"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "Zeg Maar Niets Meer"
-  },
-  {
-    "artist": "Muddy Waters",
-    "title": "Mannish Boy"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Born On The Bayou"
-  },
-  {
-    "artist": "Patti Smith",
-    "title": "Because The Night"
-  },
-  {
-    "artist": "Chic",
-    "title": "Le Freak"
-  },
-  {
-    "artist": "Keane",
-    "title": "Bend And Break"
-  },
-  {
-    "artist": "Monty Python",
-    "title": "Always Look On The Bright Side Of Life"
-  },
-  {
-    "artist": "Stevie Wonder",
-    "title": "Sir Duke"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "De Waarheid"
-  },
-  {
-    "artist": "Frank Boeijen",
-    "title": "Winter In Hamburg"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "All You Need Is Love"
-  },
-  {
-    "artist": "Drs. P",
-    "title": "Dodenrit"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Little Red Rooster"
-  },
-  {
-    "artist": "Duran Duran",
-    "title": "Save A Prayer "
-  },
-  {
-    "artist": "Sting",
-    "title": "Moon Over Bourbon Street"
-  },
-  {
-    "artist": "Editors",
-    "title": "A Ton of Love"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Human Touch"
-  },
-  {
-    "artist": "Manu Chao",
-    "title": "Me Gustas Tu"
-  },
-  {
-    "artist": "The Alan Parsons Project",
-    "title": "Don't Answer Me"
-  },
-  {
-    "artist": "Roxette",
-    "title": "Listen To Your Heart"
-  },
-  {
-    "artist": "Imagine Dragons",
-    "title": "Radioactive"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "The Way We Were"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "50 Ways To Leave Your Lover"
-  },
-  {
-    "artist": "Bram Vermeulen",
-    "title": "De Wedstrijd"
-  },
-  {
-    "artist": "Mr Mister",
-    "title": "Broken Wings"
-  },
-  {
-    "artist": "Blof & Sabrina Starke",
-    "title": "Meer Kan Het Niet Zijn"
-  },
-  {
-    "artist": "The Killers",
-    "title": "Mr. Brightside"
-  },
-  {
-    "artist": "Wet Wet Wet",
-    "title": "Love Is All Around"
-  },
-  {
-    "artist": "Focus",
-    "title": "Sylvia"
-  },
-  {
-    "artist": "Smashing Pumpkins",
-    "title": "1979"
-  },
-  {
-    "artist": "Duncan Browne",
-    "title": "Wild Places"
-  },
-  {
-    "artist": "Lee Towers",
-    "title": "You'll Never Walk Alone"
-  },
-  {
-    "artist": "3JS",
-    "title": "Geloven In Het Leven"
-  },
-  {
-    "artist": "DC Lewis",
-    "title": "Mijn Gebed"
-  },
-  {
-    "artist": "Stevie Wonder",
-    "title": "Isn't She Lovely"
-  },
-  {
-    "artist": "Owl City",
-    "title": "Fireflies"
-  },
-  {
-    "artist": "Willie Nelson",
-    "title": "Always On My Mind"
-  },
-  {
-    "artist": "Allman Brothers Band",
-    "title": "Jessica"
-  },
-  {
-    "artist": "Marco Borsato & Trijntje Oosterhuis",
-    "title": "Ik zou het zo weer overdoen"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Brilliant Disguise"
-  },
-  {
-    "artist": "Is Ook Schitterend",
-    "title": "Voltooid Verleden Tijd"
-  },
-  {
-    "artist": "Birdy",
-    "title": "Skinny Love"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "Sunny Afternoon"
-  },
-  {
-    "artist": "John Denver",
-    "title": "Calypso"
-  },
-  {
-    "artist": "Mink DeVille",
-    "title": "Spanish Stroll"
-  },
-  {
-    "artist": "Kiss",
-    "title": "Sure Know Something"
-  },
-  {
-    "artist": "Beth Hart",
-    "title": "Leave The Light On"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "The Hardest Part"
-  },
-  {
-    "artist": "Paul De Leeuw",
-    "title": "Vlieg Met Me Mee"
-  },
-  {
-    "artist": "Roxy Music",
-    "title": "If There's Something"
-  },
-  {
-    "artist": "Johnny Cash",
-    "title": "A Thing Called Love"
-  },
-  {
-    "artist": "R.E.M.",
-    "title": "Shiny Happy People"
-  },
-  {
-    "artist": "Jim Croce",
-    "title": "I Got A Name"
-  },
-  {
-    "artist": "Blof & Nielson",
-    "title": "Mannenharten"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Ik Leef Niet Meer Voor Jou"
-  },
-  {
-    "artist": "Manfred Mann's Earth band",
-    "title": "Blinded By The Light"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Stranger In Moscow"
-  },
-  {
-    "artist": "Fun.",
-    "title": "Some Nights"
-  },
-  {
-    "artist": "Ellen Foley",
-    "title": "We Belong To The Night"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "Guilty"
-  },
-  {
-    "artist": "Earth & Fire",
-    "title": "Memories"
-  },
-  {
-    "artist": "Cock Robin",
-    "title": "The Promise You Made"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Don't Stop Till You Get Enough"
-  },
-  {
-    "artist": "Zucchero Fornaciari",
-    "title": "Senza Una Donna"
-  },
-  {
-    "artist": "Michel Sardou",
-    "title": "Les Lacs Du Connemara"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Spicks And Specks"
-  },
-  {
-    "artist": "Prince",
-    "title": "1999"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Life In Technicolor II"
-  },
-  {
-    "artist": "Kane",
-    "title": "Damn Those Eyes"
-  },
-  {
-    "artist": "Traveling Wilburys",
-    "title": "Handle With Care"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Violet Hill"
-  },
-  {
-    "artist": "Simply Red",
-    "title": "Home"
-  },
-  {
-    "artist": "Tanita Tikaram",
-    "title": "Twist In My Sobriety"
-  },
-  {
-    "artist": "Annie Lennox",
-    "title": "Why"
-  },
-  {
-    "artist": "Percy Sledge",
-    "title": "When A Man Loves A Woman"
-  },
-  {
-    "artist": "The Script",
-    "title": "Superheroes"
-  },
-  {
-    "artist": "Toto",
-    "title": "I'll Be Over You"
-  },
-  {
-    "artist": "Joe Cocker",
-    "title": "You Can Leave Your Hat On"
-  },
-  {
-    "artist": "Hans De Booij",
-    "title": "Annabel"
-  },
-  {
-    "artist": "Van Morrison",
-    "title": "Bright Side Of The Road"
-  },
-  {
-    "artist": "The B-52'S",
-    "title": "Love Shack"
-  },
-  {
-    "artist": "The Jam",
-    "title": "A Town Called Malice"
-  },
-  {
-    "artist": "Prince",
-    "title": "Raspberry Beret"
-  },
-  {
-    "artist": "Charlie Daniels Band",
-    "title": "The Devil Went Down To Georgia"
-  },
-  {
-    "artist": "Maitre Gims",
-    "title": "J'me Tire"
-  },
-  {
-    "artist": "Backstreet Boys",
-    "title": "I Want It That Way"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Charlie Brown"
-  },
-  {
-    "artist": "Bad Company",
-    "title": "Feel Like Making Love"
-  },
-  {
-    "artist": "Marianne Rosenberg",
-    "title": "Ich Bin Wie Du"
-  },
-  {
-    "artist": "Prince",
-    "title": "Kiss"
-  },
-  {
-    "artist": "Crash Test Dummies",
-    "title": "Mmm Mmm Mmm Mmm"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "I'm Just A Singer (In A Rock & Roll Band)"
-  },
-  {
-    "artist": "Doe Maar",
-    "title": "Is Dit Alles"
-  },
-  {
-    "artist": "Whitney Houston",
-    "title": "One Moment In Time"
-  },
-  {
-    "artist": "Phil Collins & Philip Bailey",
-    "title": "Easy Lover"
-  },
-  {
-    "artist": "Katie Melua",
-    "title": "The Closest Thing To Crazy"
-  },
-  {
-    "artist": "Norah Jones",
-    "title": "Don't Know Why"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Lay Lady Lay"
-  },
-  {
-    "artist": "Twarres",
-    "title": "Wer Bisto"
-  },
-  {
-    "artist": "Moby",
-    "title": "Why Does My Heart Feel So Bad?"
-  },
-  {
-    "artist": "Bette Midler",
-    "title": "Wind Beneath My Wings"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Golden Years"
-  },
-  {
-    "artist": "Blof",
-    "title": "Later Als Ik Groter Ben"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Love On The Rocks"
-  },
-  {
-    "artist": "Tim Hardin",
-    "title": "How Can We Hang On To A Dream"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "Still Crazy After All These Years"
-  },
-  {
-    "artist": "Kim Wilde",
-    "title": "Cambodia"
-  },
-  {
-    "artist": "Level 42",
-    "title": "Love Games"
-  },
-  {
-    "artist": "Queen",
-    "title": "Heaven For Everyone"
-  },
-  {
-    "artist": "Jim Croce",
-    "title": "I'll Have To Say I Love You In A Song"
-  },
-  {
-    "artist": "Het Goede Doel",
-    "title": "Vriendschap"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Go Now"
-  },
-  {
-    "artist": "Emerson, Lake & Palmer",
-    "title": "Lucky Man"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Does Your Mother Know"
-  },
-  {
-    "artist": "Gilbert Becaud",
-    "title": "Nathalie"
-  },
-  {
-    "artist": "Brian May",
-    "title": "Too Much Love Will Kill You"
-  },
-  {
-    "artist": "Tom Jones",
-    "title": "Green Green Grass Of Home"
-  },
-  {
-    "artist": "Simply Red",
-    "title": "Fairground"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Father Figure"
-  },
-  {
-    "artist": "Steely Dan",
-    "title": "Do It Again"
-  },
-  {
-    "artist": "Barbra Streisand & Neil Diamond",
-    "title": "You Don't Bring Me Flowers"
-  },
-  {
-    "artist": "Live",
-    "title": "Run To The Water"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Burning Love"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Knowing Me Knowing You"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Will You Be There"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Sacrifice"
-  },
-  {
-    "artist": "Deep Purple",
-    "title": "Woman From Tokyo"
-  },
-  {
-    "artist": "Lange Frans & Thé Lau",
-    "title": "Zing Voor Me"
-  },
-  {
-    "artist": "Eagle Eye Cherry",
-    "title": "Save Tonight"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "Just The Way You Are"
-  },
-  {
-    "artist": "Armand",
-    "title": "Ben Ik Te Min"
-  },
-  {
-    "artist": "Labrinth feat. Emeli Sandé",
-    "title": "Beneath Your Beautiful"
-  },
-  {
-    "artist": "Doe Maar",
-    "title": "De Bom"
-  },
-  {
-    "artist": "Electric Light Orchestra",
-    "title": "Don't Bring Me Down"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "For No One"
-  },
-  {
-    "artist": "Cat Stevens",
-    "title": "Lady d'Arbanville"
-  },
-  {
-    "artist": "Ellen Ten Damme & 3JS",
-    "title": "Wat Is Dromen"
-  },
-  {
-    "artist": "ABBA",
-    "title": "One Of Us"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "The Jean Genie"
-  },
-  {
-    "artist": "Electric Light Orchestra",
-    "title": "Can't Get It Out Of My Head"
-  },
-  {
-    "artist": "Aerosmith",
-    "title": "Love In An Elevator"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Modern World"
-  },
-  {
-    "artist": "The Communards",
-    "title": "Don't Leave Me This Way"
-  },
-  {
-    "artist": "Crowded House",
-    "title": "Into Temptation"
-  },
-  {
-    "artist": "Jefferson Airplane",
-    "title": "Somebody To Love"
-  },
-  {
-    "artist": "Robbie Williams",
-    "title": "The Road To Mandalay"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Why"
-  },
-  {
-    "artist": "UK",
-    "title": "Rendez-Vous 6:02"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Twist And Shout"
-  },
-  {
-    "artist": "Spice Girls",
-    "title": "Wannabe"
-  },
-  {
-    "artist": "Eva De Roovere",
-    "title": "Fantastig Toch"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Girl You'll Be A Woman Soon"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Fame"
-  },
-  {
-    "artist": "Kayak",
-    "title": "Starlight Dancer"
-  },
-  {
-    "artist": "Dolly Parton",
-    "title": "I Will Always Love You"
-  },
-  {
-    "artist": "Stealers Wheel",
-    "title": "Stuck In The Middle With You"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Gimme Gimme Gimme"
-  },
-  {
-    "artist": "Dr Hook",
-    "title": "Sylvia's Mother"
-  },
-  {
-    "artist": "Mariah Carey",
-    "title": "All I Want For Christmas Is You"
-  },
-  {
-    "artist": "Eagles",
-    "title": "Peaceful Easy Feelin'"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Meester Prikkebeen"
-  },
-  {
-    "artist": "The Byrds",
-    "title": "Mr. Tambourine Man"
-  },
-  {
-    "artist": "Robert Long",
-    "title": "Liefste Mijn Liefste"
-  },
-  {
-    "artist": "Keane",
-    "title": "Silenced By The Night"
-  },
-  {
-    "artist": "Nina Simone",
-    "title": "My Baby Just Cares For Me"
-  },
-  {
-    "artist": "Cliff Richard & The Young Ones",
-    "title": "Living Doll"
-  },
-  {
-    "artist": "Nina Hagen",
-    "title": "Unbeschreiblich Weiblich"
-  },
-  {
-    "artist": "U2",
-    "title": "Angel Of Harlem"
-  },
-  {
-    "artist": "The Common Linnets",
-    "title": "Love Goes On"
-  },
-  {
-    "artist": "The Black Keys",
-    "title": "Little Black Submarines"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Subterranean Homesick Blues"
-  },
-  {
-    "artist": "Kaiser Chiefs",
-    "title": "Ruby"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "You Give Love A Bad Name"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Arnold Layne"
-  },
-  {
-    "artist": "Blunt, James",
-    "title": "Bonfire Heart"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "You Really Got Me"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "It's All Over Now"
-  },
-  {
-    "artist": "UB40",
-    "title": "Food For Thought"
-  },
-  {
-    "artist": "Scorpions",
-    "title": "Send me an angel"
-  },
-  {
-    "artist": "Jan Smit",
-    "title": "Als De Morgen Is Gekomen"
-  },
-  {
-    "artist": "The Walker Brothers",
-    "title": "No Regrets"
-  },
-  {
-    "artist": "Nick & Simon",
-    "title": "Rosanne"
-  },
-  {
-    "artist": "Philip Lynott",
-    "title": "Old Town"
-  },
-  {
-    "artist": "Marco Borsato",
-    "title": "Waarom Nou Jij"
-  },
-  {
-    "artist": "Level 42",
-    "title": "It's Over"
-  },
-  {
-    "artist": "Eric Clapton",
-    "title": "Let It Grow"
-  },
-  {
-    "artist": "Macklemore & Ryan Lewis",
-    "title": "Same Love"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Off The Wall"
-  },
-  {
-    "artist": "The Cure",
-    "title": "In Between Days"
-  },
-  {
-    "artist": "Carpenters",
-    "title": "(They Long To Be) Close To You"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Live To Tell"
-  },
-  {
-    "artist": "ZZ en de Maskers",
-    "title": "La Comparsa"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "Honesty"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "Late In The Evening"
-  },
-  {
-    "artist": "Kid Rock",
-    "title": "All Summer Long"
-  },
-  {
-    "artist": "Status Quo",
-    "title": "Rockin' All Over The World"
-  },
-  {
-    "artist": "The Trammps",
-    "title": "Shout"
-  },
-  {
-    "artist": "Blof",
-    "title": "Hou Vol Hou Vast"
-  },
-  {
-    "artist": "George Michael & Elton John",
-    "title": "Don't Let The Sun Go Down On Me"
-  },
-  {
-    "artist": "Shirley Bassey",
-    "title": "This Is My Life"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Lady Jane"
-  },
-  {
-    "artist": "The Robert Cray Band",
-    "title": "Right Next Door"
-  },
-  {
-    "artist": "Sade",
-    "title": "No Ordinary Love"
-  },
-  {
-    "artist": "Pink",
-    "title": "Family Portrait"
-  },
-  {
-    "artist": "Chris De Burgh",
-    "title": "The Head And The Heart"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Where Have I Been Wrong"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Nights On Broadway"
-  },
-  {
-    "artist": "Dave Berry",
-    "title": "This Strange Effect"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "Hurricane"
-  },
-  {
-    "artist": "Beyoncé",
-    "title": "If I Were A Boy"
-  },
-  {
-    "artist": "Matthias Reim",
-    "title": "Verdammt Ich Lieb' Dich"
-  },
-  {
-    "artist": "Sugarhill Gang",
-    "title": "Rappers Delight"
-  },
-  {
-    "artist": "Bob Dylan",
-    "title": "Just Like A Woman"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Love Me Tender"
-  },
-  {
-    "artist": "Dido",
-    "title": "White Flag"
-  },
-  {
-    "artist": "Duran Duran",
-    "title": "The Reflex"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Here There And Everywhere"
-  },
-  {
-    "artist": "Robert Palmer",
-    "title": "Every Kinda People"
-  },
-  {
-    "artist": "Doe Maar",
-    "title": "Smoorverliefd"
-  },
-  {
-    "artist": "The Who",
-    "title": "Who Are You"
-  },
-  {
-    "artist": "Amy Macdonald",
-    "title": "Mr. Rock & Roll"
-  },
-  {
-    "artist": "The Doors",
-    "title": "Waiting For The Sun"
-  },
-  {
-    "artist": "The Mavericks",
-    "title": "Dance The Night Away"
-  },
-  {
-    "artist": "Foreigner",
-    "title": "Cold As Ice"
-  },
-  {
-    "artist": "Norah Jones",
-    "title": "Sunrise"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "See Emily Play"
-  },
-  {
-    "artist": "Maroon 5 & Christina Aguilera",
-    "title": "Moves Like Jagger"
-  },
-  {
-    "artist": "Jewel",
-    "title": "Foolish Games"
-  },
-  {
-    "artist": "Gladys Knight & The Pips",
-    "title": "Midnight Train To Georgia"
-  },
-  {
-    "artist": "Amanda Marshall",
-    "title": "Beautiful Goodbye"
-  },
-  {
-    "artist": "Magna Carta",
-    "title": "Lord Of The Ages"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Een Meisje Van 16"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "So Far Away"
-  },
-  {
-    "artist": "Blof",
-    "title": "Hemingway"
-  },
-  {
-    "artist": "Marianne Faithfull",
-    "title": "The Ballad Of Lucy Jordan"
-  },
-  {
-    "artist": "China Crisis",
-    "title": "Wishful Thinking"
-  },
-  {
-    "artist": "Long John Baldry",
-    "title": "(Walk Me Out) In The Morning Dew"
-  },
-  {
-    "artist": "Steve Miller Band",
-    "title": "Fly Like An Eagle"
-  },
-  {
-    "artist": "Caro Emerald",
-    "title": "That Man"
-  },
-  {
-    "artist": "Robbie Williams",
-    "title": "She's The One"
-  },
-  {
-    "artist": "The Script",
-    "title": "Six Degrees of Separation"
-  },
-  {
-    "artist": "Frank Sinatra",
-    "title": "I've Got You Under My Skin"
-  },
-  {
-    "artist": "Madonna",
-    "title": "La Isla Bonita"
-  },
-  {
-    "artist": "Alannah Myles",
-    "title": "Black Velvet"
-  },
-  {
-    "artist": "Zucchero Fornaciari",
-    "title": "Diamante"
-  },
-  {
-    "artist": "Al Green",
-    "title": "Let's Stay Together"
-  },
-  {
-    "artist": "Rita Hovink",
-    "title": "Laat Me Alleen"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "Cecilia"
-  },
-  {
-    "artist": "Crosby, Stills & Nash",
-    "title": "Suite: Judy Blue Eyes"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "One Love - People Get Ready"
-  },
-  {
-    "artist": "Mecano",
-    "title": "Hijo De La Luna"
-  },
-  {
-    "artist": "Crosby, Stills, Nash & Young",
-    "title": "Carry On"
-  },
-  {
-    "artist": "Bob Seger",
-    "title": "Against The Wind"
-  },
-  {
-    "artist": "Pet Shop Boys",
-    "title": "West End Girls"
-  },
-  {
-    "artist": "Trockener Kecks",
-    "title": "Met Hart En Ziel"
-  },
-  {
-    "artist": "Joe Jackson",
-    "title": "Steppin' Out"
-  },
-  {
-    "artist": "Bad English",
-    "title": "Time Stood Still"
-  },
-  {
-    "artist": "Rowwen Hèze",
-    "title": "De Peel In Brand"
-  },
-  {
-    "artist": "Mocedades",
-    "title": "Eres Tu"
-  },
-  {
-    "artist": "Boston",
-    "title": "Don't Look Back"
-  },
-  {
-    "artist": "Earth Wind & Fire",
-    "title": "After The Love Has Gone"
-  },
-  {
-    "artist": "Prince",
-    "title": "Let's Go Crazy"
-  },
-  {
-    "artist": "Candy Dulfer & Dave Stewart",
-    "title": "Lily Was Here"
-  },
-  {
-    "artist": "ZZ Top",
-    "title": "Legs"
-  },
-  {
-    "artist": "Loreen",
-    "title": "Euphoria"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "Grenade"
-  },
-  {
-    "artist": "Pet Shop Boys",
-    "title": "It's A Sin"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Freedom"
-  },
-  {
-    "artist": "Skunk Anansie",
-    "title": "Hedonism"
-  },
-  {
-    "artist": "Rene Klijn",
-    "title": "Mr. Blue"
-  },
-  {
-    "artist": "Vaya con Dios",
-    "title": "What's A Woman"
-  },
-  {
-    "artist": "Freddie Aguilar",
-    "title": "Anak"
-  },
-  {
-    "artist": "Lenny Kravitz",
-    "title": "Always On The Run"
-  },
-  {
-    "artist": "Toto",
-    "title": "Pamela"
-  },
-  {
-    "artist": "The Osmonds",
-    "title": "Crazy Horses"
-  },
-  {
-    "artist": "Faithless",
-    "title": "We Come 1"
-  },
-  {
-    "artist": "Zijlstra",
-    "title": "Durgerdam Slaapt"
-  },
-  {
-    "artist": "Genesis",
-    "title": "I Can't Dance"
-  },
-  {
-    "artist": "Rob de Nijs",
-    "title": "Malle Babbe"
-  },
-  {
-    "artist": "Kensington",
-    "title": "All For Nothing"
-  },
-  {
-    "artist": "Outkast",
-    "title": "Hey Ya!"
-  },
-  {
-    "artist": "The 5th Dimension",
-    "title": "Aquarius / Let The Sunshine In"
-  },
-  {
-    "artist": "Frankie goes to Hollywood",
-    "title": "Relax"
-  },
-  {
-    "artist": "Boudewijn de Groot",
-    "title": "Als De Rook Om Je Hoofd Is Verdwenen"
-  },
-  {
-    "artist": "Prodigy",
-    "title": "Out Of Space"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Song Sung Blue"
-  },
-  {
-    "artist": "Al Stewart",
-    "title": "On The Border"
-  },
-  {
-    "artist": "Raymond van het Groenewoud",
-    "title": "Je Veux De L'amour"
-  },
-  {
-    "artist": "Rob de Nijs",
-    "title": "Open Einde"
-  },
-  {
-    "artist": "Vitesse",
-    "title": "Rosalyn"
-  },
-  {
-    "artist": "Waylon",
-    "title": "Wicked Way"
-  },
-  {
-    "artist": "Al Jarreau",
-    "title": "Roof Garden"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Tragedy"
-  },
-  {
-    "artist": "The Zombies",
-    "title": "Time Of The Season"
-  },
-  {
-    "artist": "Simple Minds",
-    "title": "Promised You A Miracle"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Hello Again"
-  },
-  {
-    "artist": "Crowded House",
-    "title": "Weather With You"
-  },
-  {
-    "artist": "Suzanne Vega",
-    "title": "Luka"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Laugh About It"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Where Are We Now"
-  },
-  {
-    "artist": "Randy Newman",
-    "title": "Birmingham"
-  },
-  {
-    "artist": "Rowwen Heze",
-    "title": "Bestel Mar"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Only Love Can Break Your Heart"
-  },
-  {
-    "artist": "Anouk",
-    "title": "R U Kiddin' Me"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "You Make Lovin' Fun"
-  },
-  {
-    "artist": "Marco Borsato & Trijntje Oosterhuis",
-    "title": "Wereld Zonder Jou"
-  },
-  {
-    "artist": "Ronan Keating",
-    "title": "When You Say Nothing At All"
-  },
-  {
-    "artist": "Amy Winehouse",
-    "title": "Our Day Will Come"
-  },
-  {
-    "artist": "Karin Bloemen",
-    "title": "Zuid-Afrika"
-  },
-  {
-    "artist": "Vangelis",
-    "title": "Chariots Of Fire"
-  },
-  {
-    "artist": "Electric Light Orchestra",
-    "title": "Livin' Thing"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Mooier Dan Nu"
-  },
-  {
-    "artist": "Alphaville",
-    "title": "Big In Japan"
-  },
-  {
-    "artist": "Justin Timberlake",
-    "title": "Cry Me A River"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "Tell Him"
-  },
-  {
-    "artist": "Heart",
-    "title": "Magic man"
-  },
-  {
-    "artist": "Saybia",
-    "title": "The Day After Tomorrow"
-  },
-  {
-    "artist": "Therapy?",
-    "title": "Diane"
-  },
-  {
-    "artist": "Coolio",
-    "title": "Gangsta's Paradise"
-  },
-  {
-    "artist": "Roxy Music",
-    "title": "Love Is The Drug"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Memory Motel"
-  },
-  {
-    "artist": "Metallica",
-    "title": "Master of Puppets"
-  },
-  {
-    "artist": "U2",
-    "title": "Walk On"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Times Were When"
-  },
-  {
-    "artist": "Reinhard Mey",
-    "title": "Als De Dag Van Toen"
-  },
-  {
-    "artist": "Motörhead",
-    "title": "Ace Of Spades"
-  },
-  {
-    "artist": "The Pointer Sisters",
-    "title": "Fire"
-  },
-  {
-    "artist": "Ekseption",
-    "title": "The 5th"
-  },
-  {
-    "artist": "Enigma",
-    "title": "Sadeness Part 1"
-  },
-  {
-    "artist": "Frank Sinatra",
-    "title": "Theme From 'New York, New York'"
-  },
-  {
-    "artist": "Jon & Vangelis",
-    "title": "I'll Find My Way Home"
-  },
-  {
-    "artist": "Grace Jones",
-    "title": "La Vie En Rose"
-  },
-  {
-    "artist": "City To City",
-    "title": "The Road Ahead"
-  },
-  {
-    "artist": "Barry White",
-    "title": "Let The Music Play"
-  },
-  {
-    "artist": "Barry McGuire",
-    "title": "Eve Of Destruction"
-  },
-  {
-    "artist": "Katy Perry",
-    "title": "Firework"
-  },
-  {
-    "artist": "Laura Pausini",
-    "title": "La Solitudine"
-  },
-  {
-    "artist": "PHD",
-    "title": "I Won't Let You Down"
-  },
-  {
-    "artist": "Alanis Morissette",
-    "title": "Thank You"
-  },
-  {
-    "artist": "ABC",
-    "title": "All Of My Heart"
-  },
-  {
-    "artist": "Johnny Guitar Watson",
-    "title": "A Real Mother For Ya "
-  },
-  {
-    "artist": "The Beatles",
-    "title": "I Saw Her Standing There"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Are You Lonesome Tonight"
-  },
-  {
-    "artist": "Van Dik Hout",
-    "title": "Laat Het Los"
-  },
-  {
-    "artist": "Wham",
-    "title": "Wake Me Up Before You Gogo"
-  },
-  {
-    "artist": "Eric Clapton",
-    "title": "Forever Man"
-  },
-  {
-    "artist": "Ike & Tina Turner",
-    "title": "Nutbush City Limits"
-  },
-  {
-    "artist": "Ruth Jacott",
-    "title": "Leun Op Mij"
-  },
-  {
-    "artist": "The Cranberries",
-    "title": "Ode To My Family"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "I've Just Lost Somebody"
-  },
-  {
-    "artist": "Charles Aznavour",
-    "title": "La Mamma"
-  },
-  {
-    "artist": "Benny Neyman",
-    "title": "Waarom Fluister Ik Je Naam Nog"
-  },
-  {
-    "artist": "Eagles",
-    "title": "Witchy Woman"
-  },
-  {
-    "artist": "Whitney Houston",
-    "title": "Greatest Love Of All"
-  },
-  {
-    "artist": "Jonathan Jeremiah",
-    "title": "Happiness"
-  },
-  {
-    "artist": "Françoise Hardy",
-    "title": "Tous Les Garcons Et Les Filles"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "Just The Way You Are"
-  },
-  {
-    "artist": "Elvis vs JXL",
-    "title": "A Little Less Conversation"
-  },
-  {
-    "artist": "Peter Koelewijn",
-    "title": "KL 204 (Als Ik God Was)"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Take A Chance On Me"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "Days"
-  },
-  {
-    "artist": "The Four Seasons",
-    "title": "December 1963 (Oh What A Night)"
-  },
-  {
-    "artist": "Billy Idol",
-    "title": "Eyes Without A Face"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "The Story In Your Eyes"
-  },
-  {
-    "artist": "Golden Earrings",
-    "title": "Sound Of The Screaming Day"
-  },
-  {
-    "artist": "Jan Smit",
-    "title": "Laura"
-  },
-  {
-    "artist": "Acda en De Munnik",
-    "title": "Voetstuk Staan"
-  },
-  {
-    "artist": "Earth & Fire",
-    "title": "Weekend"
-  },
-  {
-    "artist": "Smashing Pumpkins",
-    "title": "Tonight Tonight"
-  },
-  {
-    "artist": "Peter Sarstedt",
-    "title": "Where Do You Go To My Lovely"
-  },
-  {
-    "artist": "Tori Amos",
-    "title": "Cornflake Girl"
-  },
-  {
-    "artist": "The Wiz Stars",
-    "title": "A Brand New Day"
-  },
-  {
-    "artist": "Caro Emerald",
-    "title": "Liquid Lunch"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "The Great Escape"
-  },
-  {
-    "artist": "Simon & Garfunkel",
-    "title": "Homeward Bound"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "A Hard Day's Night"
-  },
-  {
-    "artist": "Mud",
-    "title": "Dynamite"
-  },
-  {
-    "artist": "Toontje Lager",
-    "title": "Stiekem Gedanst"
-  },
-  {
-    "artist": "Manfred Mann's Earth band",
-    "title": "Davy's On The Road Again"
-  },
-  {
-    "artist": "Saybia",
-    "title": "I Surrender "
-  },
-  {
-    "artist": "Roxy Music",
-    "title": "Jealous Guy"
-  },
-  {
-    "artist": "Laura Jansen",
-    "title": "Use Somebody"
-  },
-  {
-    "artist": "Hot Chocolate",
-    "title": "Emma"
-  },
-  {
-    "artist": "XTC",
-    "title": "Making Plans For Nigel"
-  },
-  {
-    "artist": "Supertramp",
-    "title": "Goodbye Stranger"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Vogue"
-  },
-  {
-    "artist": "Sam & Dave",
-    "title": "Soul Man"
-  },
-  {
-    "artist": "Prince",
-    "title": "I Would Die 4 U"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Time Is On My Side"
-  },
-  {
-    "artist": "Elvis Costello",
-    "title": "Good Year For The Roses"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Weekend Love"
-  },
-  {
-    "artist": "Jackson 5",
-    "title": "I Want You Back"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Wanna Be Startin' Something"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Time Waits For No One"
-  },
-  {
-    "artist": "Yazoo",
-    "title": "Don't Go"
-  },
-  {
-    "artist": "A Balladeer",
-    "title": "Swim With Sam"
-  },
-  {
-    "artist": "Lady Gaga",
-    "title": "Bad Romance"
-  },
-  {
-    "artist": "Stevie Wonder",
-    "title": "As"
-  },
-  {
-    "artist": "Queen",
-    "title": "You Don't Fool Me"
-  },
-  {
-    "artist": "Frankie goes to Hollywood",
-    "title": "Two Tribes"
-  },
-  {
-    "artist": "Bill Withers",
-    "title": "Lovely Day"
-  },
-  {
-    "artist": "Randy Crawford",
-    "title": "One Day I'll Fly Away"
-  },
-  {
-    "artist": "Motions",
-    "title": "Wasted Words"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Yellow Submarine"
-  },
-  {
-    "artist": "Ekseption",
-    "title": "Air"
-  },
-  {
-    "artist": "Beyoncé",
-    "title": "Single Ladies (put a ring on it)"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Bad"
-  },
-  {
-    "artist": "Anouk",
-    "title": "Woman"
-  },
-  {
-    "artist": "John Mayer & Taylor Swift",
-    "title": "Half Of My Heart"
-  },
-  {
-    "artist": "White Soxx",
-    "title": "Versailles"
-  },
-  {
-    "artist": "Bon Jovi",
-    "title": "In These Arms"
-  },
-  {
-    "artist": "Reinhard Mey",
-    "title": "Gute Nacht Freunde"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Took A Hit"
-  },
-  {
-    "artist": "Steely Dan",
-    "title": "Rikki Don't Lose That Number"
-  },
-  {
-    "artist": "Enrique Iglesias",
-    "title": "Hero"
-  },
-  {
-    "artist": "Mink DeVille",
-    "title": "Demasiado Corazon"
-  },
-  {
-    "artist": "The Police",
-    "title": "Don't Stand To Close To Me"
-  },
-  {
-    "artist": "Living Colour",
-    "title": "Love Rears Its Ugly Head"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "We Can Work It Out"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "You Can't Hurry Love"
-  },
-  {
-    "artist": "ABBA",
-    "title": "The Name Of The Game"
-  },
-  {
-    "artist": "Steve Winwood",
-    "title": "While You See A Chance"
-  },
-  {
-    "artist": "UB40",
-    "title": "Sing Our Own Song"
-  },
-  {
-    "artist": "Christina Aguilera",
-    "title": "Beautiful"
-  },
-  {
-    "artist": "Wings",
-    "title": "Maybe I'm Amazed"
-  },
-  {
-    "artist": "Jacques Brel",
-    "title": "Marieke"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Who Says"
-  },
-  {
-    "artist": "Madness",
-    "title": "Embarrassment"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "You Win Again"
-  },
-  {
-    "artist": "Trijntje Oosterhuis",
-    "title": "De Zee"
-  },
-  {
-    "artist": "Dotan",
-    "title": "Fall"
-  },
-  {
-    "artist": "Blind Melon",
-    "title": "No Rain"
-  },
-  {
-    "artist": "Ultravox",
-    "title": "Dancing With Tears In My Eyes"
-  },
-  {
-    "artist": "System Of A Down",
-    "title": "Chop Suey!"
-  },
-  {
-    "artist": "The Kooks",
-    "title": "She Moves In Her Own Way"
-  },
-  {
-    "artist": "The Specials",
-    "title": "A Message To You Rudy"
-  },
-  {
-    "artist": "Chris Isaak",
-    "title": "Blue Hotel"
-  },
-  {
-    "artist": "John Lennon",
-    "title": "Woman"
-  },
-  {
-    "artist": "Orchestral Manoeuvres In The Dark",
-    "title": "Enola Gay "
-  },
-  {
-    "artist": "Kraftwerk",
-    "title": "The Model"
-  },
-  {
-    "artist": "Style Council",
-    "title": "My Ever Changing Moods"
-  },
-  {
-    "artist": "Procol Harum",
-    "title": "A Salty Dog"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "Something Happened On The Way To Heaven"
-  },
-  {
-    "artist": "Carpenters",
-    "title": "Yesterday Once More"
-  },
-  {
-    "artist": "Ry Cooder",
-    "title": "He'll Have To Go"
-  },
-  {
-    "artist": "The Lumineers",
-    "title": "Ho Hey"
-  },
-  {
-    "artist": "Dusty Springfield",
-    "title": "I Close My Eyes (And Count To Ten)"
-  },
-  {
-    "artist": "Patrick Hernandez",
-    "title": "Born To Be Alive"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Under My Thumb"
-  },
-  {
-    "artist": "John Legend",
-    "title": "This Time"
-  },
-  {
-    "artist": "Aerosmith",
-    "title": "Crying"
-  },
-  {
-    "artist": "UB40 & Chrissie Hynde",
-    "title": "I Got You Babe"
-  },
-  {
-    "artist": "Taylor Swift ft. Ed Sheeran",
-    "title": "Everything Has Changed"
-  },
-  {
-    "artist": "Dan Fogelberg",
-    "title": "Netherlands"
-  },
-  {
-    "artist": "Zen",
-    "title": "Hair"
-  },
-  {
-    "artist": "Beyoncé",
-    "title": "Crazy In Love"
-  },
-  {
-    "artist": "John Newman",
-    "title": "Love me again"
-  },
-  {
-    "artist": "Rufus & Chaka Khan",
-    "title": "Ain't Nobody"
-  },
-  {
-    "artist": "Edward Sharpe & The Magnetic Zeros",
-    "title": "Home"
-  },
-  {
-    "artist": "The Doobie Brothers",
-    "title": "Long Train Runnin'"
-  },
-  {
-    "artist": "Yes",
-    "title": "I've Seen All Good People"
-  },
-  {
-    "artist": "Pussycat",
-    "title": "Mississippi"
-  },
-  {
-    "artist": "Tina Turner & Eros Ramazzotti",
-    "title": "Cose Della Vita"
-  },
-  {
-    "artist": "The Verve",
-    "title": "The drugs don't work"
-  },
-  {
-    "artist": "Pink",
-    "title": "Raise Your Glass"
-  },
-  {
-    "artist": "Foreigner",
-    "title": "That Was Yesterday"
-  },
-  {
-    "artist": "Lady Gaga",
-    "title": "Poker Face"
-  },
-  {
-    "artist": "Jacques Dutronc",
-    "title": "Il Est Cinq Heures Paris S'Éveille"
-  },
-  {
-    "artist": "Diana Ross",
-    "title": "Theme From Mahogany"
-  },
-  {
-    "artist": "Tom Petty",
-    "title": "Refugee"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Night Fever"
-  },
-  {
-    "artist": "The Cars",
-    "title": "Drive"
-  },
-  {
-    "artist": "Gnarls Barkley",
-    "title": "Crazy"
-  },
-  {
-    "artist": "Kyu Sakamoto",
-    "title": "Sukiyaki"
-  },
-  {
-    "artist": "Counting Crows",
-    "title": "Accidentally In Love"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "'n Beetje Verliefd"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Secret Garden"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "You're The Devil In Disguise"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "Boy In The Bubble"
-  },
-  {
-    "artist": "BZN",
-    "title": "Mon Amour"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Down On The Corner"
-  },
-  {
-    "artist": "The Police",
-    "title": "Can't Stand Losing You"
-  },
-  {
-    "artist": "Velvet Underground",
-    "title": "Sweet Jane"
-  },
-  {
-    "artist": "Santana",
-    "title": "Oye Como Va"
-  },
-  {
-    "artist": "Sam Smith",
-    "title": "I'm Not The Only One"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "Jungleland"
-  },
-  {
-    "artist": "Slade",
-    "title": "Merry Xmas Everybody"
-  },
-  {
-    "artist": "Plain White T'S",
-    "title": "Hey There Delilah"
-  },
-  {
-    "artist": "Simply Red",
-    "title": "Stars"
-  },
-  {
-    "artist": "Bryan Ferry",
-    "title": "Let's Stick Together"
-  },
-  {
-    "artist": "Eurythmics",
-    "title": "There Must Be An Angel"
-  },
-  {
-    "artist": "Roy Orbison",
-    "title": "Oh, Pretty Woman"
-  },
-  {
-    "artist": "Eric Clapton",
-    "title": "After Midnight"
-  },
-  {
-    "artist": "Rod Stewart",
-    "title": "I Don't Want To Talk About It"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Ray Of Light"
-  },
-  {
-    "artist": "Bread",
-    "title": "If"
-  },
-  {
-    "artist": "Q65",
-    "title": "Ann"
-  },
-  {
-    "artist": "Adamo",
-    "title": "Vous Permettez Monsieur"
-  },
-  {
-    "artist": "Redbone",
-    "title": "We Were All Wounded At Wounded Knee"
-  },
-  {
-    "artist": "Doe Maar",
-    "title": "Pa"
-  },
-  {
-    "artist": "The Righteous Brothers",
-    "title": "You've Lost That Loving Feeling"
-  },
-  {
-    "artist": "Cyndi Lauper",
-    "title": "Time After Time"
-  },
-  {
-    "artist": "Free",
-    "title": "All Right Now"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "Treasure"
-  },
-  {
-    "artist": "Blof",
-    "title": "Hier"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Water Of Love"
-  },
-  {
-    "artist": "Harry Nilsson",
-    "title": "Without You"
-  },
-  {
-    "artist": "Steely Dan",
-    "title": "Reelin' In The Years"
-  },
-  {
-    "artist": "Icehouse",
-    "title": "Crazy"
-  },
-  {
-    "artist": "Clean Bandit",
-    "title": "Rather Be"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Lady Madonna"
-  },
-  {
-    "artist": "Black Crowes",
-    "title": "Hard to handle"
-  },
-  {
-    "artist": "Stone Roses",
-    "title": "Fools Gold"
-  },
-  {
-    "artist": "Ramses Shaffy",
-    "title": "We Zullen Doorgaan"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "Don't Forget To Remember"
-  },
-  {
-    "artist": "The Baseballs",
-    "title": "Umbrella"
-  },
-  {
-    "artist": "ABBA",
-    "title": "S.O.S."
-  },
-  {
-    "artist": "Paul Young",
-    "title": "Love Of The Common People"
-  },
-  {
-    "artist": "Natalie Imbruglia",
-    "title": "Torn"
-  },
-  {
-    "artist": "Blof",
-    "title": "Dichterbij Dan Ooit"
-  },
-  {
-    "artist": "Laura Jansen",
-    "title": "Queen Of Elba"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "Next To Me"
-  },
-  {
-    "artist": "Backstreet Boys",
-    "title": "Everybody"
-  },
-  {
-    "artist": "Small Faces",
-    "title": "Tin Soldier"
-  },
-  {
-    "artist": "Procol Harum",
-    "title": "Grand Hotel"
-  },
-  {
-    "artist": "Ramses Shaffy & Liesbeth List",
-    "title": "Shaffy Cantate"
-  },
-  {
-    "artist": "Black",
-    "title": "Wonderful Life"
-  },
-  {
-    "artist": "The Byrds",
-    "title": "Turn Turn Turn"
-  },
-  {
-    "artist": "Volumia!",
-    "title": "Hou Me Vast"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "We Are One"
-  },
-  {
-    "artist": "Lenny Kravitz",
-    "title": "It Ain't Over Till It's Over"
-  },
-  {
-    "artist": "Snow Patrol",
-    "title": "Crack The Shutters"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Dead Flowers"
-  },
-  {
-    "artist": "Frida Boccara",
-    "title": "Cent Mille Chansons"
-  },
-  {
-    "artist": "Neil Young",
-    "title": "Alabama"
-  },
-  {
-    "artist": "Santana feat. Product G&B",
-    "title": "Maria Maria"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "The Green Manalishi"
-  },
-  {
-    "artist": "Spider Murphy Gang",
-    "title": "Skandal Im Sperrbezirk"
-  },
-  {
-    "artist": "David Gray",
-    "title": "Babylon"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Sorry Seems To Be The Hardest Word"
-  },
-  {
-    "artist": "Tom Petty",
-    "title": "A Face In The Crowd"
-  },
-  {
-    "artist": "The Cats",
-    "title": "The End Of The Show"
-  },
-  {
-    "artist": "INXS",
-    "title": "Need You Tonight"
-  },
-  {
-    "artist": "The Doobie Brothers",
-    "title": "What A Fool Believes"
-  },
-  {
-    "artist": "Carel Kraayenhof ",
-    "title": "Adios Nonino"
-  },
-  {
-    "artist": "Aerosmith",
-    "title": "Crazy"
-  },
-  {
-    "artist": "Fatboy Slim",
-    "title": "Praise You"
-  },
-  {
-    "artist": "Michael Buble",
-    "title": "Haven't Met You Yet"
-  },
-  {
-    "artist": "Earth & Fire",
-    "title": "Seasons"
-  },
-  {
-    "artist": "Marianne Faithfull",
-    "title": "As Tears Go By"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Invisible Touch"
-  },
-  {
-    "artist": "Keane",
-    "title": "This Is The Last Time"
-  },
-  {
-    "artist": "Buffalo Springfield",
-    "title": "For What It's Worth"
-  },
-  {
-    "artist": "Pearl Jam",
-    "title": "Oceans"
-  },
-  {
-    "artist": "Bob Marley & The Wailers",
-    "title": "Get Up Stand Up"
-  },
-  {
-    "artist": "John Denver",
-    "title": "Thank God I'm a Country Boy"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Across The Universe"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "As Long As You Follow"
-  },
-  {
-    "artist": "Celine Dion",
-    "title": "Pour Que Tu M'Aimes Encore"
-  },
-  {
-    "artist": "Dire Straits",
-    "title": "Calling Elvis"
-  },
-  {
-    "artist": "Zucchero Fornaciari",
-    "title": "Cosi Celeste"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "War"
-  },
-  {
-    "artist": "Kane & Ilse DeLange",
-    "title": "Before You Let Me Go"
-  },
-  {
-    "artist": "Heart",
-    "title": "All I Wanna Do Is Make Love To You"
-  },
-  {
-    "artist": "John Mayall",
-    "title": "Room To Move"
-  },
-  {
-    "artist": "Rein de Vries",
-    "title": "Patsy"
-  },
-  {
-    "artist": "The Clash",
-    "title": "Should I Stay Or Should I Go"
-  },
-  {
-    "artist": "Stealers Wheel",
-    "title": "Late Again"
-  },
-  {
-    "artist": "Gerard Lenorman",
-    "title": "La Ballade Des Gens Heureux"
-  },
-  {
-    "artist": "Kate Bush",
-    "title": "Babooshka"
-  },
-  {
-    "artist": "Kamahl",
-    "title": "The Elephant Song"
-  },
-  {
-    "artist": "Santana & John Lee Hooker",
-    "title": "The Healer"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Rock 'n Roll"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Hold On My Heart"
-  },
-  {
-    "artist": "The Cats",
-    "title": "Vaya Con Dios"
-  },
-  {
-    "artist": "Di-rect",
-    "title": "Times Are Changing"
-  },
-  {
-    "artist": "The Shoes",
-    "title": "Osaka"
-  },
-  {
-    "artist": "Saybia",
-    "title": "The Second You Sleep"
-  },
-  {
-    "artist": "Womack & Womack",
-    "title": "Teardrops"
-  },
-  {
-    "artist": "Roxy Music",
-    "title": "More Than This"
-  },
-  {
-    "artist": "Bob Carlisle",
-    "title": "Butterfly Kisses"
-  },
-  {
-    "artist": "Oleta Adams",
-    "title": "Get Here"
-  },
-  {
-    "artist": "Jackson Browne",
-    "title": "The Pretender"
-  },
-  {
-    "artist": "The Clash",
-    "title": "Rock The Casbah"
-  },
-  {
-    "artist": "The Jacksons",
-    "title": "Can You Feel It"
-  },
-  {
-    "artist": "Steve Miller Band",
-    "title": "The Joker"
-  },
-  {
-    "artist": "The Monkees",
-    "title": "I'm A Believer"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "Marry You"
-  },
-  {
-    "artist": "De Dijk",
-    "title": "Laat Het Vanavond Gebeuren"
-  },
-  {
-    "artist": "Bill Medley & Jennifer Warnes",
-    "title": "I've Had The Time Of My Life"
-  },
-  {
-    "artist": "USA for Africa",
-    "title": "We Are The World"
-  },
-  {
-    "artist": "Chicago",
-    "title": "You're The Inspiration "
-  },
-  {
-    "artist": "Robbie Williams",
-    "title": "Candy"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Let's Spend The Night Together"
-  },
-  {
-    "artist": "Joe Cocker & Jennifer Warnes",
-    "title": "Up Where We Belong"
-  },
-  {
-    "artist": "Falco",
-    "title": "Rock Me Amadeus"
-  },
-  {
-    "artist": "Jack Johnson",
-    "title": "Sitting, Waiting, Wishing"
-  },
-  {
-    "artist": "Procol Harum",
-    "title": "Homburg"
-  },
-  {
-    "artist": "Stereophonics",
-    "title": "Maybe Tomorrow"
-  },
-  {
-    "artist": "T'Pau",
-    "title": "China In Your Hand"
-  },
-  {
-    "artist": "Julio Iglesias",
-    "title": "Un Canto A Galicia"
-  },
-  {
-    "artist": "Buffalo Springfield",
-    "title": "Expecting To Fly"
-  },
-  {
-    "artist": "The Walker Brothers",
-    "title": "The Sun Ain't Gonna Shine Anymore"
-  },
-  {
-    "artist": "Sandy Coast",
-    "title": "True Love That's A Wonder"
-  },
-  {
-    "artist": "Herman van Veen",
-    "title": "Toveren"
-  },
-  {
-    "artist": "The Dizzy Man's Band",
-    "title": "The Opera"
-  },
-  {
-    "artist": "Jamiroquai",
-    "title": "Virtual Insanity"
-  },
-  {
-    "artist": "Glennis Grace",
-    "title": "Afscheid"
-  },
-  {
-    "artist": "U2",
-    "title": "Stay (So Close Far Away)"
-  },
-  {
-    "artist": "Nielson",
-    "title": "Sexy Als Ik Dans"
-  },
-  {
-    "artist": "The Babys",
-    "title": "A Piece Of The Action"
-  },
-  {
-    "artist": "Run D.M.C.",
-    "title": "Walk This Way"
-  },
-  {
-    "artist": "Commodores",
-    "title": "Three Times A Lady"
-  },
-  {
-    "artist": "Gare Du Nord",
-    "title": "Beautiful day"
-  },
-  {
-    "artist": "Beck",
-    "title": "Loser"
-  },
-  {
-    "artist": "Sparks",
-    "title": "This Town Ain't Big Enough For Both Of Us"
-  },
-  {
-    "artist": "Crosby, Stills, Nash & Young",
-    "title": "Helpless"
-  },
-  {
-    "artist": "Little River Band",
-    "title": "Home On A Monday"
-  },
-  {
-    "artist": "Katrina & the Waves",
-    "title": "Walking On Sunshine"
-  },
-  {
-    "artist": "Wings",
-    "title": "Live And Let Die"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Papa Don't Preach"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Faith"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "Rock With You"
-  },
-  {
-    "artist": "Village People",
-    "title": "YMCA"
-  },
-  {
-    "artist": "Katie Melua",
-    "title": "If You Were A Sailboat"
-  },
-  {
-    "artist": "Alessandro Safina",
-    "title": "Luna"
-  },
-  {
-    "artist": "U2",
-    "title": "Mysterious Ways"
-  },
-  {
-    "artist": "Styx",
-    "title": "Babe"
-  },
-  {
-    "artist": "Sam Brown",
-    "title": "Stop"
-  },
-  {
-    "artist": "George Michael",
-    "title": "You Have Been Loved"
-  },
-  {
-    "artist": "Het Goede Doel",
-    "title": "Hou Van Mij"
-  },
-  {
-    "artist": "The Beach Boys",
-    "title": "Wouldn't It Be Nice"
-  },
-  {
-    "artist": "Diesel",
-    "title": "Sausolito Summernight"
-  },
-  {
-    "artist": "Paul De Leeuw",
-    "title": "Blijf Bij Mij"
-  },
-  {
-    "artist": "Paul Weller",
-    "title": "Wild wood"
-  },
-  {
-    "artist": "Michael Buble",
-    "title": "Lost"
-  },
-  {
-    "artist": "Dusty Springfield",
-    "title": "Summer Is Over"
-  },
-  {
-    "artist": "The Human League",
-    "title": "Don't You Want Me"
-  },
-  {
-    "artist": "Berlin",
-    "title": "Take My Breath Away"
-  },
-  {
-    "artist": "Rod Stewart",
-    "title": "You're In My Heart"
-  },
-  {
-    "artist": "R. Kelly",
-    "title": "I Believe I Can Fly"
-  },
-  {
-    "artist": "Propaganda",
-    "title": "Duel (Eye To Eye)"
-  },
-  {
-    "artist": "Celine Dion",
-    "title": "The Power Of Love"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "All My Loving"
-  },
-  {
-    "artist": "Anna & Kate McGarrigle",
-    "title": "Complainte Pour Ste. Catherine"
-  },
-  {
-    "artist": "Green Day",
-    "title": "When I Come Around"
-  },
-  {
-    "artist": "Barbra Streisand",
-    "title": "Evergreen"
-  },
-  {
-    "artist": "Inxs",
-    "title": "Original Sin"
-  },
-  {
-    "artist": "Bruce Springsteen",
-    "title": "We Take Care Of Our Own"
-  },
-  {
-    "artist": "Billie Holiday",
-    "title": "Strange Fruit"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "The Last Time"
-  },
-  {
-    "artist": "Frank Sinatra",
-    "title": "Strangers In The Night"
-  },
-  {
-    "artist": "Nancy Sinatra",
-    "title": "These Boots Are Made For Walking"
-  },
-  {
-    "artist": "Maroon 5",
-    "title": "This Love"
-  },
-  {
-    "artist": "One Republic",
-    "title": "Secrets"
-  },
-  {
-    "artist": "Julien Clerc",
-    "title": "This Melody"
-  },
-  {
-    "artist": "John Mayer",
-    "title": "Perfectly Lonely"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "Heartbreak Hotel"
-  },
-  {
-    "artist": "Booker T & The MG's ",
-    "title": "Green Onions"
-  },
-  {
-    "artist": "The Animals",
-    "title": "We've Got To Get Out Of This Place"
-  },
-  {
-    "artist": "Simply Red",
-    "title": "Sunrise"
-  },
-  {
-    "artist": "Michael Kiwanuka",
-    "title": "Home Again"
-  },
-  {
-    "artist": "Lenny Kravitz",
-    "title": "Fly Away"
-  },
-  {
-    "artist": "Alicia Keys",
-    "title": "Girl On Fire"
-  },
-  {
-    "artist": "Them",
-    "title": "It's All Over Now, Baby Blue"
-  },
-  {
-    "artist": "The Sweet",
-    "title": "The Ballroom Blitz"
-  },
-  {
-    "artist": "Take That",
-    "title": "The Flood"
-  },
-  {
-    "artist": "Matia Bazar",
-    "title": "Ti Sento"
-  },
-  {
-    "artist": "Roxette",
-    "title": "It Must Have Been Love"
-  },
-  {
-    "artist": "Andrew Gold",
-    "title": "Lonely Boy"
-  },
-  {
-    "artist": "The Monkees",
-    "title": "Daydream Believer"
-  },
-  {
-    "artist": "Alquin",
-    "title": "Wheelchair Groupie"
-  },
-  {
-    "artist": "Blondie",
-    "title": "Heart Of Glass"
-  },
-  {
-    "artist": "Charles Trenet",
-    "title": "La Mer"
-  },
-  {
-    "artist": "Demis Roussos",
-    "title": "My Friend The Wind"
-  },
-  {
-    "artist": "Boney M",
-    "title": "Rivers Of Babylon"
-  },
-  {
-    "artist": "Deep Blue Something",
-    "title": "Breakfast At Tiffany's"
-  },
-  {
-    "artist": "Foreigner",
-    "title": "Waiting For A Girl Like You"
-  },
-  {
-    "artist": "A-Ha",
-    "title": "The Sun Always Shines On TV"
-  },
-  {
-    "artist": "Rammstein",
-    "title": "Sonne"
-  },
-  {
-    "artist": "Will And The People",
-    "title": "Lion In The Morning Sun"
-  },
-  {
-    "artist": "Harry Klorkestein",
-    "title": "Oh Oh Den Haag"
-  },
-  {
-    "artist": "Eros Ramazzotti",
-    "title": "Un Emozione Per Sempre"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "I Just Can't Stop Loving You"
-  },
-  {
-    "artist": "10CC",
-    "title": "I'm Mandy Fly Me"
-  },
-  {
-    "artist": "Eurythmics",
-    "title": "Here Comes The Rain Again"
-  },
-  {
-    "artist": "Tom Browne",
-    "title": "Funkin' For Jamaica"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "Het Is Koud Zonder Jou"
-  },
-  {
-    "artist": "Laura Pausini",
-    "title": "Strani Amori"
-  },
-  {
-    "artist": "Phil Collins",
-    "title": "One More Night"
-  },
-  {
-    "artist": "Adamo",
-    "title": "Tombe La Neige"
-  },
-  {
-    "artist": "Wild Cherry",
-    "title": "Play That Funky Music"
-  },
-  {
-    "artist": "Gavin DeGraw",
-    "title": "Soldier"
-  },
-  {
-    "artist": "Tom Petty",
-    "title": "Into The Great Wide Open"
-  },
-  {
-    "artist": "Jethro Tull",
-    "title": "Bourrée"
-  },
-  {
-    "artist": "Vaya con Dios",
-    "title": "Nah Neh Nah"
-  },
-  {
-    "artist": "Mika",
-    "title": "Grace Kelly"
-  },
-  {
-    "artist": "The Boomtown Rats",
-    "title": "I Don't Like Mondays"
-  },
-  {
-    "artist": "James Blake",
-    "title": "Limit To Your Love"
-  },
-  {
-    "artist": "Pet Shop Boys",
-    "title": "Always On My Mind"
-  },
-  {
-    "artist": "Piet Veerman",
-    "title": "Sailing Home"
-  },
-  {
-    "artist": "Andre Hazes",
-    "title": "'n Vriend"
-  },
-  {
-    "artist": "The Animals",
-    "title": "Bring It On Home To Me"
-  },
-  {
-    "artist": "Percy Sledge",
-    "title": "My Special Prayer"
-  },
-  {
-    "artist": "Chicken Shack",
-    "title": "I'd Rather Go Blind"
-  },
-  {
-    "artist": "Guus Meeuwis & Vagant",
-    "title": "Per Spoor (Kedeng Kedeng)"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Tumbling Dice"
-  },
-  {
-    "artist": "Jamiroquai",
-    "title": "Seven Days In Sunny June"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Super Trouper"
-  },
-  {
-    "artist": "Leo Sayer",
-    "title": "Orchard Road"
-  },
-  {
-    "artist": "The Script",
-    "title": "Nothing"
-  },
-  {
-    "artist": "Creedence Clearwater Revival",
-    "title": "Up Around The Bend"
-  },
-  {
-    "artist": "Maria Mena",
-    "title": "Just Hold Me"
-  },
-  {
-    "artist": "John Lennon",
-    "title": "Jealous Guy"
-  },
-  {
-    "artist": "Bots",
-    "title": "Zeven Dagen Lang"
-  },
-  {
-    "artist": "Little River Band",
-    "title": "Forever Blue"
-  },
-  {
-    "artist": "Paul De Leeuw",
-    "title": "Blijf Tot De Zon Je Komt Halen "
-  },
-  {
-    "artist": "Tsjechov",
-    "title": "Vanmorgen Vloog Ze Nog"
-  },
-  {
-    "artist": "Guns N' Roses",
-    "title": "Estranged"
-  },
-  {
-    "artist": "Mama Cass",
-    "title": "Dream A Little Dream Of Me"
-  },
-  {
-    "artist": "Caro Emerald",
-    "title": "Tangled Up"
-  },
-  {
-    "artist": "Duffy",
-    "title": "Warwick Avenue"
-  },
-  {
-    "artist": "Kelly Clarkson",
-    "title": "Because Of You"
-  },
-  {
-    "artist": "Sade",
-    "title": "The Sweetest Taboo"
-  },
-  {
-    "artist": "Blaudzun",
-    "title": "Promises Of No Man's Land"
-  },
-  {
-    "artist": "Elvis Presley",
-    "title": "One Night"
-  },
-  {
-    "artist": "George Harrison",
-    "title": "What Is Life"
-  },
-  {
-    "artist": "Pet Shop Boys",
-    "title": "Go West"
-  },
-  {
-    "artist": "Astrud Gilberto",
-    "title": "The Girl From Ipanema"
-  },
-  {
-    "artist": "Paul De Leeuw",
-    "title": "Ik Wil Niet Dat Je Liegt"
-  },
-  {
-    "artist": "David Guetta & Kelly Rowland",
-    "title": "When Love Takes Over"
-  },
-  {
-    "artist": "The Moody Blues",
-    "title": "Ride My See-Saw"
-  },
-  {
-    "artist": "Bob Seger",
-    "title": "Mainstreet"
-  },
-  {
-    "artist": "Robert Palmer",
-    "title": "Best Of Both Worlds"
-  },
-  {
-    "artist": "Whitney Houston",
-    "title": "I Wanna Dance With Somebody"
-  },
-  {
-    "artist": "Boudewijn De Groot",
-    "title": "Een Tip Van De Sluier"
-  },
-  {
-    "artist": "Raymond Van Het Groenewoud",
-    "title": "Twee Meisjes"
-  },
-  {
-    "artist": "Joni Mitchell",
-    "title": "Big Yellow Taxi"
-  },
-  {
-    "artist": "The Beach Boys",
-    "title": "I Can Hear Music"
-  },
-  {
-    "artist": "Outsiders",
-    "title": "Lying All The Time"
-  },
-  {
-    "artist": "Melanie & Edwin Hawkins Singers",
-    "title": "Lay Down"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Daniel"
-  },
-  {
-    "artist": "Marco Borsato & Ali B",
-    "title": "Wat Zou Je Doen"
-  },
-  {
-    "artist": "The Rolling Stones",
-    "title": "Beast Of Burden"
-  },
-  {
-    "artist": "Haddaway",
-    "title": "What Is Love"
-  },
-  {
-    "artist": "Donovan",
-    "title": "Atlantis"
-  },
-  {
-    "artist": "De Kast",
-    "title": "Eltse Grins Foarby"
-  },
-  {
-    "artist": "Roy Orbison",
-    "title": "Only The Lonely"
-  },
-  {
-    "artist": "The Everly Brothers",
-    "title": "On The Wings Of A Nightingale"
-  },
-  {
-    "artist": "Four Tops",
-    "title": "Reach Out I'll Be There"
-  },
-  {
-    "artist": "Vera Lynn",
-    "title": "We'll Meet Again"
-  },
-  {
-    "artist": "Joe Jackson",
-    "title": "Happy Ending"
-  },
-  {
-    "artist": "Joshua Kadison",
-    "title": "Jessie"
-  },
-  {
-    "artist": "Flash & The Pan",
-    "title": "Hey St. Peter"
-  },
-  {
-    "artist": "Bread",
-    "title": "The Guitar Man"
-  },
-  {
-    "artist": "Golden Earring",
-    "title": "Bombay"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Lovers In Japan"
-  },
-  {
-    "artist": "Jason Mraz",
-    "title": "Butterfly"
-  },
-  {
-    "artist": "Rihanna",
-    "title": "Man Down"
-  },
-  {
-    "artist": "Status Quo",
-    "title": "In The Army Now"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "I Want To Hold Your Hand"
-  },
-  {
-    "artist": "Kayak",
-    "title": "Wintertime"
-  },
-  {
-    "artist": "Fugees",
-    "title": "Killing Me Softly"
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "title": "Tell Me Baby"
-  },
-  {
-    "artist": "Vader Abraham",
-    "title": "Het Kleine Cafe Aan De Haven"
-  },
-  {
-    "artist": "Script",
-    "title": "Millionaires"
-  },
-  {
-    "artist": "Racoon",
-    "title": "Lucky All My Life"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "The Longest Time"
-  },
-  {
-    "artist": "Cyndi Lauper",
-    "title": "Girls Just Want To Have Fun"
-  },
-  {
-    "artist": "Elton John",
-    "title": "Can You Feel The Love Tonight"
-  },
-  {
-    "artist": "Supersister",
-    "title": "She Was Naked"
-  },
-  {
-    "artist": "Chi Coltrane",
-    "title": "You Were My Friend"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "And I Love Her"
-  },
-  {
-    "artist": "Nina Simone",
-    "title": "Don't Let Me Be Misunderstood"
-  },
-  {
-    "artist": "Earth & Fire",
-    "title": "Maybe Tomorrow Maybe Tonight"
-  },
-  {
-    "artist": "Rob de Nijs",
-    "title": "Alles Wat Ademt"
-  },
-  {
-    "artist": "The Kinks",
-    "title": "Dedicated Follower Of Fashion"
-  },
-  {
-    "artist": "Feargal Sharkey",
-    "title": "A Good Heart"
-  },
-  {
-    "artist": "Willy Alberti",
-    "title": "De Glimlach Van Een Kind"
-  },
-  {
-    "artist": "Genesis",
-    "title": "Firth Of Fifth"
-  },
-  {
-    "artist": "O'Jays",
-    "title": "Backstabbers"
-  },
-  {
-    "artist": "Roy Orbison",
-    "title": "You Got It"
-  },
-  {
-    "artist": "Gers Pardoel",
-    "title": "Ik Neem Je Mee"
-  },
-  {
-    "artist": "Linda Ronstadt",
-    "title": "Blue Bayou"
-  },
-  {
-    "artist": "Eros Ramazzotti & Anastacia",
-    "title": "I Belong To You"
-  },
-  {
-    "artist": "Billy Joel",
-    "title": "We didn't start the fire"
-  },
-  {
-    "artist": "Rammstein",
-    "title": "Du hast"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Love Me Do"
-  },
-  {
-    "artist": "Chaka Khan",
-    "title": "I'm Every Woman"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Pretty Amazing Grace"
-  },
-  {
-    "artist": "The Sweet",
-    "title": "Fox On The Run"
-  },
-  {
-    "artist": "UB40",
-    "title": "Can't Help Falling In Love"
-  },
-  {
-    "artist": "Train",
-    "title": "Hey Soul Sister"
-  },
-  {
-    "artist": "PSY",
-    "title": "Gangnam Style"
-  },
-  {
-    "artist": "INXS",
-    "title": "Suicide Blonde"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Girl"
-  },
-  {
-    "artist": "Julie Covington",
-    "title": "Don't Cry For Me Argentina"
-  },
-  {
-    "artist": "Fleetwood Mac",
-    "title": "Man Of The World"
-  },
-  {
-    "artist": "Kelly Family",
-    "title": "David's Song"
-  },
-  {
-    "artist": "Alicia Keys",
-    "title": "Fallin'"
-  },
-  {
-    "artist": "Adiemus",
-    "title": "Adiemus"
-  },
-  {
-    "artist": "Michael Jackson",
-    "title": "P.Y.T."
-  },
-  {
-    "artist": "Charles Aznavour",
-    "title": "For Me Formidable"
-  },
-  {
-    "artist": "Bee Gees",
-    "title": "To Love Somebody"
-  },
-  {
-    "artist": "Bruno Mars",
-    "title": "The Lazy Song"
-  },
-  {
-    "artist": "The Byrds",
-    "title": "Eight Miles High"
-  },
-  {
-    "artist": "Andre Rieu",
-    "title": "Second Waltz"
-  },
-  {
-    "artist": "Chris Rea",
-    "title": "On The Beach"
-  },
-  {
-    "artist": "Adamski",
-    "title": "Killer"
-  },
-  {
-    "artist": "The Amazing Stroopwafels",
-    "title": "Ik Ga Naar Frankrijk"
-  },
-  {
-    "artist": "B.B. King",
-    "title": "Ain't Nobody Home"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "Beautiful Distraction"
-  },
-  {
-    "artist": "Spandau Ballet",
-    "title": "True"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Paperback Writer"
-  },
-  {
-    "artist": "The Offspring",
-    "title": "Pretty Fly (For A White Guy)"
-  },
-  {
-    "artist": "Lou Reed",
-    "title": "Satellite Of Love"
-  },
-  {
-    "artist": "Neil Diamond",
-    "title": "Play Me"
-  },
-  {
-    "artist": "Ilse DeLange",
-    "title": "Winter Of Love"
-  },
-  {
-    "artist": "Carole King",
-    "title": "It's Too Late"
-  },
-  {
-    "artist": "Clouseau",
-    "title": "Passie"
-  },
-  {
-    "artist": "The Shirts",
-    "title": "Tell Me Your Plans"
-  },
-  {
-    "artist": "America",
-    "title": "Ventura Highway"
-  },
-  {
-    "artist": "Rod Stewart",
-    "title": "Reason To Believe"
-  },
-  {
-    "artist": "The Hollies",
-    "title": "The Day That Curly Billy Show Down Crazy Sam McGee"
-  },
-  {
-    "artist": "Adamo",
-    "title": "Inch' Allah"
-  },
-  {
-    "artist": "ABBA",
-    "title": "Voulez-Vous"
-  },
-  {
-    "artist": "King Crimson",
-    "title": "Starless"
-  },
-  {
-    "artist": "David Bowie",
-    "title": "Young Americans"
-  },
-  {
-    "artist": "Buddy Holly",
-    "title": "Peggy Sue"
-  },
-  {
-    "artist": "Willeke Alberti",
-    "title": "Telkens Weer"
-  },
-  {
-    "artist": "Donna Summer",
-    "title": "Last Dance"
-  },
-  {
-    "artist": "Oleta Adams",
-    "title": "Window Of Hope"
-  },
-  {
-    "artist": "Paul Simon",
-    "title": "Kodachrome"
-  },
-  {
-    "artist": "Di-rect",
-    "title": "This Is Who We Are"
-  },
-  {
-    "artist": "Gavin DeGraw",
-    "title": "Not Over You"
-  },
-  {
-    "artist": "Radiohead",
-    "title": "High And Dry"
-  },
-  {
-    "artist": "George Michael",
-    "title": "Freedom"
-  },
-  {
-    "artist": "Chicago",
-    "title": "Hard To Say I'm Sorry"
-  },
-  {
-    "artist": "Eros Ramazzotti",
-    "title": "Se Bastasse Una Canzone"
-  },
-  {
-    "artist": "The Hollies",
-    "title": "Bus Stop"
-  },
-  {
-    "artist": "Herman Brood & Henny Vrienten",
-    "title": "Als Je Wint"
-  },
-  {
-    "artist": "Miley Cyrus",
-    "title": "Wrecking Ball"
-  },
-  {
-    "artist": "The Motors",
-    "title": "Airport"
-  },
-  {
-    "artist": "The Beatles",
-    "title": "Back In The USSR"
-  },
-  {
-    "artist": "Joan Jett & The Blackhearts",
-    "title": "I Love Rock 'N' Roll"
-  },
-  {
-    "artist": "Grand Funk Railroad",
-    "title": "Some Kind Of Wonderful"
-  },
-  {
-    "artist": "Smokie",
-    "title": "Living Next Door To Alice"
-  },
-  {
-    "artist": "Backstreet Boys",
-    "title": "As Long As You Love Me"
-  },
-  {
-    "artist": "Barclay James Harvest",
-    "title": "Titles"
-  },
-  {
-    "artist": "The Who",
-    "title": "Substitute"
-  },
-  {
-    "artist": "Madonna",
-    "title": "Borderline"
-  },
-  {
-    "artist": "Stevie Wonder",
-    "title": "Master Blaster (Jammin')"
-  }
+{"artist":"Eagles","title":"Hotel California","year":"1977","previous":["2","4","3","3","2","2","3","3","3","2","2","1","2","2","2","1"]},
+{"artist":"Queen","title":"Bohemian Rhapsody","year":"1975","previous":["1","1","1","1","1","1","2","1","1","1","1","2","1","1","1","2"]},
+{"artist":"Led Zeppelin","title":"Stairway To Heaven","year":"1971","previous":["4","3","4","4","4","4","5","5","5","5","4","5","5","3","3","3"]},
+{"artist":"Deep Purple","title":"Child In Time","year":"1972","previous":["3","2","2","2","3","3","4","4","4","4","5","4","3","4","4","4"]},
+{"artist":"Boudewijn de Groot","title":"Avond","year":"1997","previous":["428","121","41","25","8","5","1","2","2","3","3","3","4","5","5","5"]},
+{"artist":"Pink Floyd","title":"Wish You Were Here","year":"1975","previous":["0","45","25","29","20","21","16","8","14","12","9","6","7","6","6","6"]},
+{"artist":"Billy Joel","title":"Piano Man","year":"1974","previous":["121","83","57","58","60","66","49","54","34","50","45","45","29","36","18","7"]},
+{"artist":"Pink Floyd","title":"Comfortably Numb","year":"1979","previous":["0","74","0","1356","358","53","25","19","17","34","15","13","12","10","8","8"]},
+{"artist":"Pink Floyd","title":"Shine On You Crazy Diamond","year":"1975","previous":["0","50","47","33","26","25","12","14","21","19","13","15","16","7","10","9"]},
+{"artist":"Guns N' Roses","title":"November Rain","year":"1992","previous":["0","10","18","17","6","7","10","13","20","9","16","17","17","12","13","10"]},
+{"artist":"Metallica","title":"Nothing Else Matters","year":"1992","previous":["0","0","1014","99","16","19","20","10","15","14","19","11","14","14","9","11"]},
+{"artist":"Pearl Jam","title":"Black","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","803","452","40","24","16","12"]},
+{"artist":"The Beach Boys","title":"God Only Knows","year":"1966","previous":["123","117","137","110","117","88","80","68","42","59","20","20","31","44","59","13"]},
+{"artist":"Dire Straits","title":"Brothers In Arms","year":"1985","previous":["28","22","7","9","11","15","19","20","19","13","21","19","15","11","11","14"]},
+{"artist":"Coldplay","title":"Fix You","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","1494","235","69","40","20","15"]},
+{"artist":"Bruce Springsteen","title":"The River","year":"1981","previous":["48","33","26","19","30","20","27","40","11","21","30","30","10","15","7","16"]},
+{"artist":"Meat Loaf","title":"Paradise By The Dashboard Light","year":"1978","previous":["5","5","5","5","5","6","6","7","10","6","12","9","11","19","22","17"]},
+{"artist":"Metallica","title":"One","year":"1994","previous":["0","0","0","0","478","23","40","30","13","35","31","34","32","20","14","18"]},
+{"artist":"Claudia De Breij","title":"Mag Ik Dan Bij Jou","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1565","472","19"]},
+{"artist":"Coldplay","title":"Clocks","year":"2003","previous":["0","0","0","0","733","10","7","9","6","11","8","8","8","9","12","20"]},
+{"artist":"Racoon","title":"Oceaan","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","33","21"]},
+{"artist":"U2","title":"One","year":"1992","previous":["0","0","689","766","82","14","17","6","8","10","14","14","13","17","19","22"]},
+{"artist":"Coldplay","title":"Viva La Vida","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","11","7","9","16","15","23"]},
+{"artist":"AC/DC","title":"Thunderstruck","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1086","882","61","48","54","24"]},
+{"artist":"Pharrel Williams","title":"Happy","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","587","25"]},
+{"artist":"Golden Earring","title":"Radar Love","year":"1973","previous":["23","21","21","27","27","12","13","16","23","17","24","16","18","18","24","26"]},
+{"artist":"Dire Straits","title":"Sultans Of Swing","year":"1978","previous":["20","16","10","16","15","27","28","27","28","23","32","25","30","28","21","27"]},
+{"artist":"The Alan Parsons Project","title":"Old And Wise","year":"1982","previous":["24","28","13","8","9","11","9","11","9","8","18","10","20","21","31","28"]},
+{"artist":"Johnny Cash","title":"Hurt","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","168","118","43","29","17","29"]},
+{"artist":"Fleetwood Mac","title":"Go Your Own Way","year":"1977","previous":["64","67","73","71","69","79","77","94","102","85","63","67","71","81","41","30"]},
+{"artist":"Nirvana","title":"Smells Like Teen Spirit","year":"1991","previous":["0","0","0","0","0","0","105","53","62","124","48","71","36","30","26","31"]},
+{"artist":"Stromae","title":"Formidable","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1314","32"]},
+{"artist":"Guus Meeuwis","title":"Brabant","year":"2004","previous":["0","0","0","0","0","0","144","37","25","74","22","23","22","27","27","33"]},
+{"artist":"David Bowie","title":"Heroes","year":"1977","previous":["70","62","77","63","71","99","137","125","130","112","123","112","145","119","79","34"]},
+{"artist":"Adele","title":"Someone Like You","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","6","8","25","35"]},
+{"artist":"Coldplay","title":"The Scientist","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","84","89","39","34","29","36"]},
+{"artist":"The Rolling Stones","title":"Sympathy For The Devil","year":"1973","previous":["29","34","44","28","14","26","38","45","59","38","43","43","46","50","35","37"]},
+{"artist":"John Lennon","title":"Imagine","year":"1971","previous":["7","7","11","11","13","9","15","15","41","15","41","26","28","22","23","38"]},
+{"artist":"Wim Sonneveld","title":"Het Dorp","year":"1974","previous":["36","32","39","38","48","47","44","29","53","42","40","40","57","69","36","39"]},
+{"artist":"The Doors","title":"Riders On The Storm ","year":"1971","previous":["12","14","12","10","12","16","24","26","33","22","26","27","23","32","30","40"]},
+{"artist":"Supertramp","title":"School","year":"1974","previous":["26","17","16","14","21","34","37","36","52","33","46","44","37","35","37","41"]},
+{"artist":"Simon & Garfunkel","title":"The Sound Of Silence","year":"1966","previous":["49","71","61","64","76","85","101","81","153","92","82","74","58","70","32","42"]},
+{"artist":"AC/DC","title":"Whole Lotta Rosie","year":"1978","previous":["53","29","15","13","19","17","21","33","12","18","17","28","34","45","64","43"]},
+{"artist":"Queen","title":"Innuendo","year":"1991","previous":["0","0","0","0","0","0","0","393","117","470","96","101","63","54","44","44"]},
+{"artist":"U2","title":"With Or Without You","year":"1987","previous":["51","26","52","35","40","38","47","48","48","46","62","62","86","53","47","45"]},
+{"artist":"Pearl Jam","title":"Just Breathe","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","120","114","94","69","46"]},
+{"artist":"Ramses Shaffy & Liesbeth List","title":"Pastorale","year":"1969","previous":["80","119","58","40","51","43","33","24","51","40","6","21","27","46","42","47"]},
+{"artist":"Simon & Garfunkel","title":"Bridge Over Troubled Water","year":"1970","previous":["9","27","17","32","32","45","42","43","66","43","39","32","33","38","38","48"]},
+{"artist":"The Cure","title":"A Forest","year":"1980","previous":["0","44","82","67","61","62","87","85","71","71","68","69","76","42","50","49"]},
+{"artist":"The Beatles","title":"Let It Be","year":"1970","previous":["27","37","40","47","23","41","55","58","57","49","54","46","56","52","39","50"]},
+{"artist":"Toto","title":"Africa","year":"1982","previous":["34","49","33","39","52","63","70","75","110","66","100","97","87","62","28","51"]},
+{"artist":"Dire Straits","title":"Telegraph Road","year":"1982","previous":["0","0","0","0","0","0","0","329","85","371","81","73","97","73","52","52"]},
+{"artist":"The Rolling Stones","title":"Gimme Shelter","year":"1969","previous":["0","370","512","259","179","240","273","241","224","229","192","189","185","182","112","53"]},
+{"artist":"The Rolling Stones","title":"Angie","year":"1973","previous":["8","9","22","12","10","13","18","21","45","20","36","35","41","26","46","54"]},
+{"artist":"Eagles","title":"The Last Resort","year":"1976","previous":["176","101","59","48","29","48","30","35","26","30","38","39","64","66","60","55"]},
+{"artist":"Pink Floyd","title":"Another Brick In The Wall","year":"1979","previous":["17","20","20","26","39","32","52","46","86","45","56","47","53","39","48","56"]},
+{"artist":"The Rolling Stones","title":"Paint It Black","year":"1966","previous":["33","48","62","60","54","54","68","57","107","63","65","63","82","43","49","57"]},
+{"artist":"The Beatles","title":"Hey Jude","year":"1968","previous":["11","6","9","15","18","18","14","22","18","16","23","24","24","33","45","58"]},
+{"artist":"Pearl Jam","title":"Alive","year":"1992","previous":["0","0","0","0","0","0","0","0","591","1870","49","202","95","59","57","59"]},
+{"artist":"Klein Orkest","title":"Over De Muur","year":"1984","previous":["32","38","54","50","59","56","48","47","64","52","47","56","83","71","84","60"]},
+{"artist":"Adele","title":"Make You Feel My Love","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","28","12","19","23","53","61"]},
+{"artist":"U2","title":"Sunday Bloody Sunday","year":"1985","previous":["18","13","31","24","37","29","39","41","65","41","57","55","66","55","62","62"]},
+{"artist":"Mr. Probz","title":"Waves","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1245","63"]},
+{"artist":"Red Hot Chili Peppers","title":"Under The Bridge","year":"1992","previous":["0","0","0","0","0","0","0","71","72","185","35","59","54","60","43","64"]},
+{"artist":"Guns N' Roses","title":"Sweet Child O' Mine","year":"1988","previous":["0","0","0","0","0","0","0","0","144","890","89","103","67","57","58","65"]},
+{"artist":"AC/DC","title":"Highway To Hell","year":"1979","previous":["0","0","0","0","0","0","0","0","0","0","0","0","128","114","121","66"]},
+{"artist":"Otis Redding","title":"(Sittin' On) The Dock Of The Bay","year":"1968","previous":["240","450","371","344","239","257","285","253","297","259","195","155","84","31","51","67"]},
+{"artist":"Marco Borsato","title":"Dochters","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","25","31","42","47","72","68"]},
+{"artist":"Queen","title":"Love Of My Life","year":"1975","previous":["0","82","108","97","111","115","78","69","82","82","73","78","75","76","82","69"]},
+{"artist":"Dire Straits","title":"Private Investigations","year":"1982","previous":["57","19","14","7","17","24","29","31","35","25","37","36","47","49","66","70"]},
+{"artist":"Prince","title":"Purple Rain","year":"1984","previous":["54","90","160","120","160","104","152","126","148","132","169","79","80","74","77","71"]},
+{"artist":"Supertramp","title":"Fool's Overture","year":"1977","previous":["0","0","1916","0","0","180","141","133","139","174","107","98","101","64","70","72"]},
+{"artist":"Eric Clapton","title":"Tears In Heaven","year":"1992","previous":["21","31","35","34","43","40","41","44","46","36","60","50","44","77","65","73"]},
+{"artist":"John Legend","title":"All Of Me","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","634","74"]},
+{"artist":"Robbie Williams","title":"Angels","year":"1998","previous":["0","0","364","114","24","44","11","18","39","24","34","37","55","41","40","75"]},
+{"artist":"The Moody Blues","title":"Nights In White Satin","year":"1968","previous":["15","25","29","23","28","33","35","23","50","31","42","41","45","65","68","76"]},
+{"artist":"Acda en De Munnik","title":"Het Regent Zonnestralen","year":"1998","previous":["0","0","0","0","1061","97","60","64","31","67","61","52","60","98","87","77"]},
+{"artist":"The Animals","title":"House Of The Rising Sun","year":"1964","previous":["13","12","6","6","7","8","8","12","7","7","29","18","25","51","55","78"]},
+{"artist":"Metallica","title":"Enter Sandman","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","144","176","137","89","67","79"]},
+{"artist":"Snow Patrol","title":"Chasing Cars","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","342","90","49","63","56","80"]},
+{"artist":"Queen","title":"Somebody To Love","year":"1976","previous":["82","65","88","74","104","119","126","129","150","122","134","116","104","87","91","81"]},
+{"artist":"Dotan","title":"Home","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","82"]},
+{"artist":"Billy Joel","title":"Goodnight Saigon","year":"1983","previous":["14","11","8","18","25","22","34","51","38","32","53","38","62","80","90","83"]},
+{"artist":"The Verve","title":"Bitter Sweet Symphony","year":"1997","previous":["0","0","0","0","0","0","350","242","166","391","164","153","117","84","81","84"]},
+{"artist":"Bette Midler","title":"The Rose","year":"1980","previous":["47","35","30","43","44","36","32","34","24","27","33","29","35","86","105","85"]},
+{"artist":"Sting","title":"Fragile","year":"1988","previous":["136","249","99","118","99","105","98","90","115","98","117","110","111","78","74","86"]},
+{"artist":"Rage Against The Machine","title":"Killing In The Name Of","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1454","188","94","87"]},
+{"artist":"Adele","title":"Rolling In The Deep","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","21","13","75","88"]},
+{"artist":"The Beatles","title":"Yesterday","year":"1965","previous":["6","8","24","30","34","37","46","39","32","28","44","33","50","85","76","89"]},
+{"artist":"Electric Light Orchestra","title":"Mr. Blue Sky","year":"1978","previous":["69","59","42","68","80","90","73","84","112","81","85","88","92","115","85","90"]},
+{"artist":"Van Dik Hout","title":"Stil In Mij","year":"1994","previous":["65","70","85","49","38","35","53","50","58","48","59","51","52","92","95","91"]},
+{"artist":"Lou Reed","title":"Perfect Day","year":"1972","previous":["195","0","271","231","129","80","109","103","121","115","125","111","119","160","34","92"]},
+{"artist":"Adele","title":"Skyfall","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","112","61","93"]},
+{"artist":"Passenger","title":"Let Her Go","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","351","89","94"]},
+{"artist":"Jackson Browne","title":"The Load Out / Stay","year":"1977","previous":["438","177","114","80","100","109","95","91","74","88","80","95","108","128","131","95"]},
+{"artist":"Led Zeppelin","title":"Whole Lotta Love","year":"1969","previous":["209","120","185","132","93","124","158","192","211","151","93","136","135","91","86","96"]},
+{"artist":"Phil Collins","title":"In The Air Tonight","year":"1981","previous":["72","127","81","81","56","75","106","102","143","95","109","113","115","102","106","97"]},
+{"artist":"Procol Harum","title":"A Whiter Shade Of Pale","year":"1967","previous":["10","18","23","20","22","28","22","25","47","26","50","42","65","61","83","98"]},
+{"artist":"Jeff Buckley","title":"Hallelujah","year":"1994","previous":["0","0","0","0","0","0","0","0","943","0","51","60","73","68","78","99"]},
+{"artist":"Queen","title":"Who Wants To Live Forever","year":"1986","previous":["30","23","34","22","45","50","74","74","120","62","77","87","94","134","100","100"]},
+{"artist":"Stef Bos","title":"Papa","year":"1991","previous":["116","86","98","87","65","94","43","28","43","44","72","84","51","75","80","101"]},
+{"artist":"Radiohead","title":"Creep","year":"1993","previous":["0","0","0","0","0","0","0","0","176","1018","283","130","129","116","115","102"]},
+{"artist":"Simple Minds","title":"Belfast Child","year":"1989","previous":["0","116","69","62","79","89","118","116","159","114","116","119","125","110","102","103"]},
+{"artist":"Black Sabbath","title":"Paranoid","year":"1970","previous":["68","0","79","52","42","58","96","124","105","80","112","114","103","88","71","104"]},
+{"artist":"Deep Purple","title":"Smoke On The Water","year":"1973","previous":["200","110","109","77","67","72","90","89","116","87","64","82","89","104","118","105"]},
+{"artist":"Adele","title":"Set Fire To The Rain","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","26","37","103","106"]},
+{"artist":"Foo Fighters","title":"The Pretender","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1498","154","96","107"]},
+{"artist":"The Beatles","title":"Blackbird","year":"1968","previous":["413","523","368","330","251","239","460","142","122","164","132","86","90","67","92","108"]},
+{"artist":"Racoon","title":"Love You More","year":"2005","previous":["0","0","0","0","0","0","195","106","305","294","172","203","191","117","101","109"]},
+{"artist":"Frans Halsema","title":"Voor Haar","year":"1977","previous":["177","141","123","127","110","100","50","56","36","53","69","57","98","109","88","110"]},
+{"artist":"Queen","title":"Don't Stop Me Now","year":"1979","previous":["300","204","196","162","157","138","142","154","155","139","165","171","112","90","114","111"]},
+{"artist":"Mark & Clark Band","title":"Worn Down Piano","year":"1977","previous":["164","78","66","59","72","81","64","73","83","72","95","80","127","107","125","112"]},
+{"artist":"Kyteman","title":"Sorry  ","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","1005","156","160","158","148","113"]},
+{"artist":"Eagles","title":"Desperado","year":"1973","previous":["193","209","163","86","106","137","115","108","93","106","75","96","100","127","119","114"]},
+{"artist":"Bob Dylan","title":"Hurricane","year":"1975","previous":["144","56","56","66","83","60","66","70","55","61","58","58","70","95","73","115"]},
+{"artist":"John Miles","title":"Music","year":"1976","previous":["19","39","32","37","36","67","75","65","76","56","111","122","123","113","129","116"]},
+{"artist":"Kate Bush","title":"Wuthering Heights","year":"1978","previous":["67","77","96","95","116","93","99","119","111","102","101","102","132","144","164","117"]},
+{"artist":"Michael Jackson","title":"Earth Song","year":"1995","previous":["246","0","0","561","615","634","780","583","940","692","88","148","152","147","113","118"]},
+{"artist":"Gotye","title":"Somebody That I Used To Know","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","424","25","63","119"]},
+{"artist":"U2","title":"Where The Streets Have No Name","year":"1987","previous":["0","64","143","92","114","118","103","98","109","103","122","117","146","148","107","120"]},
+{"artist":"The Beatles","title":"Here Comes The Sun","year":"1969","previous":["477","383","523","258","275","242","251","185","161","195","154","100","105","143","104","121"]},
+{"artist":"U2","title":"The Unforgettable Fire","year":"1985","previous":["0","42","74","56","73","83","117","114","129","97","127","150","157","129","124","122"]},
+{"artist":"Gary Moore","title":"Still Got The Blues","year":"1990","previous":["364","428","324","265","224","191","190","173","185","180","223","233","164","184","190","123"]},
+{"artist":"U2","title":"I Still Haven't Found What I'm Looking For","year":"1987","previous":["75","0","97","88","118","111","92","72","73","84","102","107","102","121","116","124"]},
+{"artist":"The Amazing Stroopwafels","title":"Oude Maasweg","year":"1982","previous":["191","112","46","44","49","69","26","38","16","29","66","49","81","103","108","125"]},
+{"artist":"R.E.M.","title":"Losing My Religion","year":"1991","previous":["25","15","37","42","33","46","76","79","132","60","67","83","68","118","111","126"]},
+{"artist":"ABBA","title":"Dancing Queen","year":"1976","previous":["16","30","28","41","46","42","36","49","29","37","70","68","88","111","160","127"]},
+{"artist":"Michael Jackson","title":"Billie Jean","year":"1983","previous":["173","422","310","313","315","222","239","260","370","266","27","64","96","83","132","128"]},
+{"artist":"Alicia Keys","title":"Empire State Of Mind","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","712","173","72","110","129"]},
+{"artist":"David Bowie","title":"Space Oddity","year":"1969","previous":["59","75","144","104","135","78","191","205","278","156","156","185","202","205","161","130"]},
+{"artist":"Ramses Shaffy","title":"Laat Me","year":"1978","previous":["796","591","579","398","452","310","138","175","264","213","10","48","93","153","134","131"]},
+{"artist":"Falco","title":"Jeanny","year":"1985","previous":["103","58","67","70","94","101","143","141","207","133","188","182","169","165","193","132"]},
+{"artist":"ABBA","title":"The Day Before You Came","year":"1982","previous":["76","73","65","65","55","91","65","104","44","57","78","91","139","191","183","133"]},
+{"artist":"Frank Boeijen","title":"Zeg Me Dat Het Niet Zo Is","year":"1990","previous":["217","0","301","287","192","246","229","200","205","208","236","284","344","255","256","134"]},
+{"artist":"ABBA","title":"The Winner Takes It All","year":"1980","previous":["35","92","106","103","77","133","113","140","94","107","121","104","176","201","197","135"]},
+{"artist":"Cuby & The Blizzards","title":"Window Of My Eyes","year":"1968","previous":["230","91","45","84","84","84","89","88","69","76","87","81","38","106","142","136"]},
+{"artist":"Charles Aznavour","title":"She","year":"1974","previous":["343","1079","542","229","236","175","183","149","118","147","141","140","158","210","169","137"]},
+{"artist":"R.E.M.","title":"Everybody Hurts","year":"1993","previous":["31","0","50","61","58","61","58","66","99","68","76","66","59","101","122","138"]},
+{"artist":"Kings Of Leon","title":"Sex On Fire","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","966","122","122","98","139"]},
+{"artist":"Maaike Ouboter","title":"Dat Ik Je Mis","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","819","140"]},
+{"artist":"Radiohead","title":"Street Spirit","year":"1995","previous":["0","0","0","0","0","0","0","0","187","1078","92","132","142","125","99","141"]},
+{"artist":"Depeche Mode","title":"Enjoy The Silence","year":"1990","previous":["0","0","0","0","0","0","0","0","192","1120","177","213","181","174","158","142"]},
+{"artist":"Creedence Clearwater Revival","title":"I Put A Spell On You","year":"1972","previous":["56","36","38","54","53","49","56","60","61","54","83","53","77","132","152","143"]},
+{"artist":"Simon & Garfunkel","title":"The Boxer","year":"1969","previous":["165","212","178","174","221","197","200","193","307","205","180","166","141","120","123","144"]},
+{"artist":"The Common Linnets","title":"Calm After The Storm","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","145"]},
+{"artist":"Armin van Buuren","title":"This Is What It Feels Like","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1243","146"]},
+{"artist":"Nirvana","title":"Come As You Are","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1533","138","136","147"]},
+{"artist":"The Beatles","title":"A Day In The Life","year":"1967","previous":["83","66","87","98","122","127","107","76","49","75","71","75","78","82","126","148"]},
+{"artist":"U2 & Mary J Blige","title":"One","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","648","386","471","178","163","149"]},
+{"artist":"Jacques Brel","title":"Ne me Quitte Pas","year":"1965","previous":["66","195","134","133","101","113","86","82","88","90","94","72","118","130","93","150"]},
+{"artist":"Elvis Presley","title":"Suspicious Minds","year":"1969","previous":["112","140","281","130","86","107","84","97","81","89","108","77","120","135","153","151"]},
+{"artist":"The Doors","title":"The End","year":"1967","previous":["0","109","158","122","102","123","145","151","106","127","142","143","113","124","120","152"]},
+{"artist":"Amy Winehouse","title":"Back To Black","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1089","97","175","153"]},
+{"artist":"Leonard Cohen","title":"Hallelujah","year":"1984","previous":["0","0","0","0","0","0","0","0","0","0","1838","0","163","142","173","154"]},
+{"artist":"U2","title":"Bad","year":"1984","previous":["0","0","0","0","0","0","0","0","365","1608","171","162","213","166","171","155"]},
+{"artist":"Jimi Hendrix Experience","title":"All Along The Watchtower","year":"1968","previous":["107","130","242","146","146","136","162","158","147","142","120","138","131","123","97","156"]},
+{"artist":"Sting","title":"Fields Of Gold","year":"1993","previous":["530","451","379","283","265","303","349","276","266","273","353","278","227","198","127","157"]},
+{"artist":"Queen","title":"The Show Must Go On","year":"1991","previous":["0","0","0","0","0","0","175","186","298","368","239","238","183","189","165","158"]},
+{"artist":"Muse","title":"Uprising","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","1726","1202","255","175","137","159"]},
+{"artist":"Racoon","title":"Don't Give Up The Fight","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","156","151","160"]},
+{"artist":"Golden Earring","title":"When The Lady Smiles","year":"1984","previous":["43","52","84","89","98","96","81","111","165","109","136","135","138","177","146","161"]},
+{"artist":"3 Doors Down","title":"Kryptonite","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1514","192","186","162"]},
+{"artist":"Marillion","title":"Kayleigh","year":"1985","previous":["38","55","68","73","66","103","121","115","154","111","173","198","217","159","174","163"]},
+{"artist":"Oasis","title":"Wonderwall","year":"1995","previous":["0","0","0","0","0","0","312","159","195","346","150","190","136","133","133","164"]},
+{"artist":"The Scene","title":"Iedereen Is Van De Wereld","year":"1991","previous":["965","657","703","802","486","769","801","930","1178","818","856","828","877","919","832","165"]},
+{"artist":"Muse","title":"Knights Of Cydonia","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","235","186","128","166"]},
+{"artist":"Led Zeppelin","title":"Kashmir","year":"1975","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1032","520","167"]},
+{"artist":"Anouk","title":"Nobody's Wife","year":"1997","previous":["0","0","0","0","0","0","194","128","90","199","115","70","124","140","145","168"]},
+{"artist":"Herman Brood","title":"Saturday Night","year":"1978","previous":["245","419","161","142","170","139","204","100","210","141","135","124","134","162","178","169"]},
+{"artist":"Andre Hazes","title":"Bloed, Zweet En Tranen ","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","140","76","106","56","138","170"]},
+{"artist":"Pink Floyd","title":"Echoes","year":"1971","previous":["0","232","0","0","0","0","0","0","0","0","0","0","1467","232","180","171"]},
+{"artist":"Ramses Shaffy","title":"Zing Vecht Huil Bid Lach Werk En Bewonder","year":"1971","previous":["297","584","548","304","295","235","161","164","267","202","7","65","85","150","140","172"]},
+{"artist":"Bruce Springsteen","title":"Born To Run","year":"1975","previous":["223","210","105","90","120","131","189","206","149","145","128","144","179","179","135","173"]},
+{"artist":"Daft Punk","title":"Get Lucky","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","357","174"]},
+{"artist":"Red Hot Chili Peppers","title":"Californication ","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","490","128","99","108","109","175"]},
+{"artist":"The Beatles","title":"While My Guitar Gently Weeps","year":"1968","previous":["312","310","375","190","228","282","240","191","167","204","166","164","168","257","168","176"]},
+{"artist":"Elbow","title":"One Day Like This","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","0","228","285","237","177"]},
+{"artist":"Radiohead","title":"Paranoid Android","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","166","152","144","178"]},
+{"artist":"The Rolling Stones","title":"You Can't Always Get What You Want","year":"1969","previous":["198","293","266","46","169","199","203","207","288","186","231","229","238","325","196","179"]},
+{"artist":"Kensington","title":"Home Again","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1860","180"]},
+{"artist":"Neil Young","title":"Like A Hurricane","year":"1977","previous":["0","98","0","115","87","106","102","86","84","91","103","93","149","146","166","181"]},
+{"artist":"U2","title":"Beautiful Day","year":"2000","previous":["0","0","0","0","807","71","54","59","262","121","118","137","121","96","139","182"]},
+{"artist":"Bruce Springsteen","title":"Streets Of Philadelphia","year":"1994","previous":["0","0","76","159","162","116","136","147","114","131","170","161","140","171","143","183"]},
+{"artist":"Racoon","title":"Shoes Of Lightning","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","184"]},
+{"artist":"Kayak","title":"Ruthless Queen","year":"1979","previous":["251","113","110","157","115","147","130","120","142","129","104","108","148","164","170","185"]},
+{"artist":"The Who","title":"Baba O'Riley","year":"1971","previous":["0","401","0","0","0","0","393","288","273","516","148","167","178","137","141","186"]},
+{"artist":"Neil Young","title":"Heart Of Gold","year":"1972","previous":["125","155","145","148","153","174","202","165","228","169","175","157","196","187","157","187"]},
+{"artist":"Kate Bush","title":"The Man With The Child In His Eyes","year":"1978","previous":["263","304","316","289","209","86","216","240","256","188","184","183","192","251","248","188"]},
+{"artist":"Linkin Park","title":"In The End","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1100","612","189"]},
+{"artist":"Peter Gabriel & Kate Bush","title":"Don't Give Up","year":"1986","previous":["171","162","183","172","213","193","155","194","238","184","255","219","279","237","238","190"]},
+{"artist":"Stromae","title":"Papaoutai","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1470","191"]},
+{"artist":"10CC","title":"Dreadlock Holiday","year":"1978","previous":["62","61","43","45","41","52","59","61","37","47","113","303","91","214","298","192"]},
+{"artist":"Queen & David Bowie","title":"Under Pressure","year":"1981","previous":["133","265","332","185","308","273","345","493","524","376","229","352","324","265","192","193"]},
+{"artist":"Simple Minds","title":"Don't You (Forget About Me)","year":"1985","previous":["0","169","140","129","149","192","256","244","356","219","247","274","310","281","222","194"]},
+{"artist":"Coldplay","title":"Yellow","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","0","190","176","154","195"]},
+{"artist":"Pearl Jam","title":"Jeremy","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1497","602","196"]},
+{"artist":"Bryan Adams","title":"Summer Of '69","year":"1984","previous":["45","43","94","51","57","59","88","109","98","77","139","131","107","145","167","197"]},
+{"artist":"Guns N' Roses","title":"Paradise City","year":"1989","previous":["0","0","0","0","0","0","0","0","1128","0","225","200","207","173","150","198"]},
+{"artist":"Michael Jackson","title":"Man In The Mirror","year":"1988","previous":["0","0","0","0","0","0","0","0","0","0","326","1195","197","204","159","199"]},
+{"artist":"Mumford & Sons","title":"The Cave","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","1236","147","58","117","200"]},
+{"artist":"Foo Fighters","title":"Everlong","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1083","185","162","201"]},
+{"artist":"Ike & Tina Turner","title":"Proud Mary","year":"1971","previous":["141","132","168","144","136","114","139","139","223","138","205","193","182","225","224","202"]},
+{"artist":"Bon Jovi","title":"Bed Of Roses","year":"1993","previous":["0","0","0","0","0","0","112","112","80","160","151","127","133","157","188","203"]},
+{"artist":"Caro Emerald","title":"A Night Like This","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","22","48","100","155","204"]},
+{"artist":"The White Stripes","title":"Seven Nation Army","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1778","249","189","205"]},
+{"artist":"Triggerfinger","title":"I Follow Rivers","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","79","130","206"]},
+{"artist":"Paul Simon","title":"Graceland","year":"1987","previous":["172","205","170","187","225","238","193","223","286","217","218","180","200","161","185","207"]},
+{"artist":"Nirvana","title":"Lithium","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1818","957","208"]},
+{"artist":"Alice Cooper","title":"Halo Of Flies","year":"1973","previous":["63","24","19","21","35","39","57","78","56","51","91","85","109","167","191","209"]},
+{"artist":"Slayer","title":"Angel Of Death","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","199","0","210"]},
+{"artist":"Boudewijn De Groot","title":"Testament","year":"1967","previous":["40","41","51","31","31","31","31","42","54","39","86","92","130","170","202","211"]},
+{"artist":"Michael Jackson","title":"Thriller","year":"1983","previous":["81","187","162","239","340","309","408","246","506","324","52","126","144","181","176","212"]},
+{"artist":"Anouk","title":"Birds","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","398","213"]},
+{"artist":"Peter Fox","title":"Haus Am See","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","1730","1163","284","194","184","214"]},
+{"artist":"Genesis","title":"Mama","year":"1983","previous":["93","107","93","102","113","143","148","177","232","150","163","188","211","227","231","215"]},
+{"artist":"Santana","title":"Samba Pa Ti","year":"1973","previous":["127","150","153","176","188","177","182","184","257","182","161","154","221","276","295","216"]},
+{"artist":"De Dijk","title":"Als Ze Er Niet Is","year":"1994","previous":["204","193","218","149","92","134","125","99","126","119","152","139","150","193","206","217"]},
+{"artist":"Within Temptation","title":"Ice Queen","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","379","206","216","218"]},
+{"artist":"Queen","title":"I Want To Break Free","year":"1984","previous":["85","123","177","108","121","108","129","121","172","130","183","195","126","231","235","219"]},
+{"artist":"Coldplay","title":"Paradise","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","74","126","149","220"]},
+{"artist":"Radiohead","title":"Karma Police","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","361","196","204","131","147","221"]},
+{"artist":"The Scene","title":"Blauw","year":"1991","previous":["567","496","432","347","277","494","545","506","687","496","477","469","578","408","490","222"]},
+{"artist":"Boudewijn De Groot","title":"De Vondeling Van Ameland","year":"2004","previous":["0","0","0","0","0","0","0","55","22","117","55","61","110","149","181","223"]},
+{"artist":"Kansas","title":"Dust In The Wind","year":"1978","previous":["95","183","338","161","127","227","210","221","254","197","311","375","330","250","219","224"]},
+{"artist":"Aerosmith","title":"Dream On","year":"1973","previous":["0","0","0","0","0","0","0","1632","133","708","208","191","189","243","205","225"]},
+{"artist":"Ed Sheeran","title":"Give Me Love","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1261","226"]},
+{"artist":"Fleetwood Mac","title":"Sara","year":"1980","previous":["231","306","188","166","194","278","329","359","371","287","275","273","268","289","241","227"]},
+{"artist":"Live","title":"Lightning Crashes","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","240","270","204","228"]},
+{"artist":"Blof","title":"Zo Stil","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1576","852","229"]},
+{"artist":"Keane","title":"Somewhere Only We Know","year":"2004","previous":["0","0","0","0","0","0","128","152","248","299","319","329","335","268","182","230"]},
+{"artist":"Ed Sheeran","title":"The A Team","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","190","388","231"]},
+{"artist":"Scorpions","title":"Wind Of Change","year":"1991","previous":["222","0","232","177","140","236","293","315","421","265","312","291","250","283","260","232"]},
+{"artist":"Bob Marley & The Wailers","title":"No Woman No Cry","year":"1975","previous":["39","63","92","93","75","70","93","113","79","86","106","54","79","141","156","233"]},
+{"artist":"Dire Straits","title":"Money For Nothing","year":"1985","previous":["331","443","325","252","198","306","279","304","303","268","262","255","225","215","195","234"]},
+{"artist":"Neil Young","title":"Old Man","year":"1972","previous":["0","426","618","490","391","394","440","398","349","387","244","240","328","282","177","235"]},
+{"artist":"Avicii","title":"Wake Me Up","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1103","236"]},
+{"artist":"The Mamas & The Papas","title":"California Dreamin'","year":"1966","previous":["153","135","296","164","123","128","185","168","270","159","155","146","167","183","250","237"]},
+{"artist":"The Rolling Stones","title":"(I Can't Get No) Satisfaction","year":"1965","previous":["22","46","102","75","81","82","123","122","164","116","157","181","216","93","225","238"]},
+{"artist":"Jefferson Airplane","title":"White Rabbit","year":"1970","previous":["146","104","175","155","125","155","178","199","265","172","235","287","272","284","223","239"]},
+{"artist":"Herbert Gronemeyer","title":"Halt Mich","year":"1988","previous":["560","725","739","402","306","299","206","233","145","207","213","186","242","233","259","240"]},
+{"artist":"Eddie Vedder","title":"Society","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1295","1075","241"]},
+{"artist":"Queen","title":"These Are the Days Of Our Lives","year":"1991","previous":["0","0","0","0","0","0","269","336","418","573","306","340","282","422","261","242"]},
+{"artist":"ABBA","title":"Eagle","year":"1978","previous":["174","114","90","94","89","129","100","135","89","104","162","165","194","208","282","243"]},
+{"artist":"Eric Clapton","title":"Layla","year":"1992","previous":["0","184","149","188","175","187","199","211","274","200","194","217","186","262","198","244"]},
+{"artist":"Anouk","title":"Lost","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","189","322","172","151","217","245"]},
+{"artist":"Mr. Probz","title":"Nothing Really Matters","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","246"]},
+{"artist":"Bastille","title":"Pompeii","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1353","247"]},
+{"artist":"Sinead O'Connor","title":"Troy","year":"1987","previous":["122","72","124","123","131","140","177","195","268","162","221","254","273","275","267","248"]},
+{"artist":"Freddie Mercury","title":"Barcelona","year":"1987","previous":["140","134","189","160","186","251","201","180","181","175","241","147","162","105","200","249"]},
+{"artist":"Bob Marley & The Wailers","title":"Redemption Song","year":"1980","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1931","666","250"]},
+{"artist":"Boudewijn de Groot","title":"Verdronken Vlinder","year":"1966","previous":["102","95","95","72","47","65","51","62","63","55","105","109","153","238","232","251"]},
+{"artist":"Racoon","title":"Liverpool Rain","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","209","281","252"]},
+{"artist":"The Beach Boys","title":"Good Vibrations","year":"1966","previous":["52","54","75","83","85","73","91","117","68","83","98","105","116","245","265","253"]},
+{"artist":"The Script","title":"The Man Who Can't Be Moved","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1746","380","296","254"]},
+{"artist":"Ramses Shaffy & Liesbeth List & Alderliefste","title":"Laat Me (Vivre)","year":"2005","previous":["0","0","0","0","0","0","209","189","123","269","99","151","205","213","207","255"]},
+{"artist":"Racoon","title":"No Mercy","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","171","212","291","256"]},
+{"artist":"Bill Withers","title":"Ain't No Sunshine","year":"1971","previous":["864","0","771","969","761","570","851","1044","851","814","1099","649","298","217","209","257"]},
+{"artist":"Johnny Cash","title":"Ring Of Fire","year":"1963","previous":["1136","0","1058","1103","682","555","658","325","386","451","269","228","199","195","199","258"]},
+{"artist":"Iron Maiden","title":"Can I Play With Madness","year":"1988","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","259"]},
+{"artist":"The Cult","title":"She Sells Sanctuary","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","1914","0","526","332","293","260"]},
+{"artist":"Bob Dylan","title":"Like A Rollin' Stone","year":"1965","previous":["169","88","195","215","200","110","133","138","100","125","149","174","174","253","233","261"]},
+{"artist":"Peter Gabriel","title":"Solsbury Hill","year":"1977","previous":["315","272","343","186","197","200","252","261","369","246","243","230","275","295","258","262"]},
+{"artist":"Fleetwood Mac","title":"Dreams","year":"1977","previous":["0","1059","917","966","1018","984","1254","1132","1106","1096","924","946","692","585","336","263"]},
+{"artist":"The Cranberries","title":"Zombie","year":"1994","previous":["0","0","0","0","0","0","0","1040","245","944","308","285","223","241","246","264"]},
+{"artist":"Janis Joplin","title":"Me And Bobby McGee","year":"1971","previous":["185","181","191","181","196","179","172","162","200","165","182","152","215","267","285","265"]},
+{"artist":"Elvis Costello","title":"She","year":"1999","previous":["0","0","0","0","313","283","244","275","276","307","304","231","293","328","270","266"]},
+{"artist":"Van Morrison","title":"Have I Told You Lately That I Love You","year":"1989","previous":["226","297","154","134","105","130","108","110","77","99","110","123","143","248","245","267"]},
+{"artist":"Marvin Gaye","title":"What's Going On","year":"1971","previous":["0","0","0","0","321","297","509","219","212","284","200","268","246","264","264","268"]},
+{"artist":"Within Temptation","title":"Mother Earth","year":"2002","previous":["0","0","0","0","0","0","1652","1150","795","1507","343","425","337","259","257","269"]},
+{"artist":"Santana","title":"She's Not There","year":"1978","previous":["188","251","235","219","385","370","315","237","473","321","202","206","334","335","312","270"]},
+{"artist":"Normaal","title":"Oerend Hard","year":"1977","previous":["126","149","169","106","95","117","82","107","119","101","226","214","302","256","275","271"]},
+{"artist":"Boston","title":"More Than A Feeling","year":"1977","previous":["215","96","111","109","150","156","169","234","219","171","279","307","231","252","242","272"]},
+{"artist":"Skik","title":"Op Fietse","year":"1997","previous":["0","0","0","0","1082","526","328","432","299","445","181","279","315","314","324","273"]},
+{"artist":"Frank Boeijen Groep","title":"Kronenburg Park","year":"1985","previous":["151","93","133","139","119","145","132","130","162","134","159","170","230","247","230","274"]},
+{"artist":"Andre Hazes","title":"Zij Gelooft In Mij","year":"2000","previous":["0","0","0","0","1039","30","62","101","291","123","215","192","208","169","187","275"]},
+{"artist":"Cat Stevens","title":"Morning Has Broken","year":"1972","previous":["203","168","131","78","88","76","104","118","97","94","124","115","165","291","313","276"]},
+{"artist":"Pink Floyd","title":"Time","year":"1973","previous":["0","0","0","0","0","0","0","0","0","0","449","381","342","274","212","277"]},
+{"artist":"Peter Maffay","title":"Du","year":"1971","previous":["145","170","223","210","133","206","221","136","173","153","147","160","180","234","268","278"]},
+{"artist":"Earth Wind & Fire","title":"September","year":"1979","previous":["550","764","814","689","833","854","1043","813","1109","885","875","687","793","472","290","279"]},
+{"artist":"Creedence Clearwater Revival","title":"Have You Ever Seen The Rain","year":"1971","previous":["0","185","208","300","365","287","305","204","203","232","216","177","193","224","244","280"]},
+{"artist":"Alphaville","title":"Forever Young","year":"1984","previous":["150","100","70","69","68","102","97","131","95","96","187","149","195","266","253","281"]},
+{"artist":"Journey","title":"Don't Stop Believin'","year":"1981","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","385","251","282"]},
+{"artist":"Blof","title":"Liefs Uit Londen","year":"1998","previous":["189","81","55","57","62","55","63","83","75","65","131","129","151","200","228","283"]},
+{"artist":"A-Ha","title":"Take On Me","year":"1985","previous":["132","68","72","79","145","146","147","247","179","152","345","293","308","368","394","284"]},
+{"artist":"Bruce Springsteen","title":"Thunder Road","year":"1975","previous":["0","0","0","0","0","0","0","0","250","1321","373","384","397","409","240","285"]},
+{"artist":"Pink Floyd","title":"The Great Gig In The Sky","year":"1973","previous":["0","0","0","0","0","0","0","0","647","1925","355","370","360","312","252","286"]},
+{"artist":"The Police","title":"Roxanne","year":"1979","previous":["88","186","217","221","309","232","391","363","341","303","249","207","210","219","201","287"]},
+{"artist":"Snow Patrol","title":"Run","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","327","198","207","179","288"]},
+{"artist":"The Doors","title":"Light My Fire","year":"1967","previous":["60","99","129","113","96","126","157","166","218","143","201","222","203","196","229","289"]},
+{"artist":"10CC","title":"I'm Not In Love","year":"1975","previous":["42","53","27","53","50","64","71","95","60","64","138","437","154","272","404","290"]},
+{"artist":"Van Morrison","title":"Brown Eyed Girl","year":"1967","previous":["276","216","257","179","178","171","167","167","193","161","211","232","224","288","274","291"]},
+{"artist":"Tracy Chapman","title":"Fast Car","year":"1988","previous":["393","588","491","500","394","400","483","527","637","502","674","658","389","286","220","292"]},
+{"artist":"Bruce Springsteen","title":"Dancing In The Dark","year":"1984","previous":["318","144","150","183","220","217","287","274","236","231","350","380","222","327","236","293"]},
+{"artist":"U2","title":"Ordinary Love","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","294"]},
+{"artist":"Madness","title":"One Step Beyond","year":"1979","previous":["415","677","550","482","610","510","811","773","1116","729","421","463","508","384","373","295"]},
+{"artist":"Robbie Williams","title":"Feel","year":"2002","previous":["0","0","0","0","0","229","45","52","127","108","126","145","206","163","208","296"]},
+{"artist":"Elvis Costello","title":"I Want You","year":"1986","previous":["148","200","289","140","161","154","160","181","239","168","285","220","297","352","302","297"]},
+{"artist":"Gerry Rafferty","title":"Baker Street","year":"1978","previous":["309","421","384","473","532","539","427","549","742","547","672","726","396","330","349","298"]},
+{"artist":"Seal","title":"Kiss From A Rose","year":"1994","previous":["139","262","389","227","222","270","384","337","465","329","376","344","332","396","329","299"]},
+{"artist":"Guns N' Roses","title":"Knocking On Heaven's Door","year":"1992","previous":["0","0","100","145","134","121","151","176","271","157","212","175","212","222","226","300"]},
+{"artist":"Guus Meeuwis","title":"Geef Mij Je Angst","year":"2004","previous":["0","0","0","0","0","0","79","63","87","137","130","142","159","180","218","301"]},
+{"artist":"Muse","title":"Plug In Baby","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","343","298","211","302"]},
+{"artist":"Queensrÿche","title":"Silent Lucidity","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1789","1508","514","436","350","303"]},
+{"artist":"Vangelis","title":"Conquest Of Paradise","year":"1995","previous":["157","231","251","248","190","280","356","326","366","290","357","372","313","316","396","304"]},
+{"artist":"Joy Division","title":"Love Will Tear Us Apart","year":"1980","previous":["0","0","0","0","0","0","0","0","1424","0","337","394","294","278","221","305"]},
+{"artist":"Queen","title":"Killer Queen","year":"1974","previous":["179","146","173","154","155","185","230","257","512","250","257","333","248","261","288","306"]},
+{"artist":"Acda En De Munnik","title":"Lopen Tot De Zon Komt","year":"1997","previous":["0","0","0","0","0","0","0","0","184","1050","334","312","280","310","254","307"]},
+{"artist":"Damien Rice","title":"9 Crimes","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1492","943","308"]},
+{"artist":"Meat Loaf","title":"Bat Out Of Hell","year":"1977","previous":["0","0","0","0","0","0","0","252","337","644","340","280","285","228","310","309"]},
+{"artist":"Ultravox","title":"Vienna","year":"1981","previous":["147","106","136","138","152","220","272","290","387","242","220","264","349","378","359","310"]},
+{"artist":"Golden Earring","title":"Another 45 Miles","year":"1969","previous":["0","0","227","350","262","276","211","202","287","237","227","209","237","221","247","311"]},
+{"artist":"The Doors","title":"L.A. Woman","year":"1971","previous":["0","218","0","351","217","321","308","396","315","327","280","299","265","235","239","312"]},
+{"artist":"Herbert Gronemeyer","title":"Der Weg","year":"2002","previous":["0","0","0","0","0","0","591","389","243","577","360","356","354","271","279","313"]},
+{"artist":"Paul De Leeuw","title":"'K Heb Je Lief","year":"1997","previous":["248","247","311","452","461","350","179","93","136","148","143","227","270","287","332","314"]},
+{"artist":"Bob Marley & The Wailers","title":"Three Little Birds","year":"1977","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1356","242","243","315"]},
+{"artist":"Tom Odell","title":"Another Love","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","983","316"]},
+{"artist":"Sting","title":"Englishman In New York","year":"1988","previous":["154","280","272","234","219","252","322","249","332","256","331","262","260","230","194","317"]},
+{"artist":"The Temptations","title":"Papa Was A Rolling Stone","year":"1972","previous":["301","330","304","296","294","265","236","296","367","285","292","337","305","329","299","318"]},
+{"artist":"Blof","title":"Aan De Kust","year":"1998","previous":["162","57","64","121","91","95","111","123","104","100","176","173","239","155","255","319"]},
+{"artist":"Leonard Cohen","title":"Suzanne","year":"1968","previous":["390","395","434","400","320","341","392","280","327","320","206","281","326","302","314","320"]},
+{"artist":"Elvis Presley","title":"In The Ghetto","year":"1969","previous":["111","163","247","168","112","158","114","157","186","140","203","216","245","292","266","321"]},
+{"artist":"Eva Cassidy","title":"Fields Of Gold","year":"1998","previous":["0","0","0","0","0","0","1086","514","301","728","377","319","311","373","227","322"]},
+{"artist":"Pink Floyd","title":"Money","year":"1973","previous":["79","197","219","293","230","326","245","214","347","248","291","290","264","211","271","323"]},
+{"artist":"The Band","title":"The Weight","year":"1968","previous":["734","938","901","565","783","902","706","848","832","774","781","794","933","508","323","324"]},
+{"artist":"Eric Clapton","title":"Wonderful Tonight","year":"1988","previous":["91","214","116","156","180","150","124","153","191","146","251","239","274","349","321","325"]},
+{"artist":"Ilse DeLange","title":"I Still Cry","year":"2000","previous":["0","0","0","0","0","237","298","235","310","354","451","282","283","258","354","326"]},
+{"artist":"Sinead O'Connor","title":"Nothing Compares 2 U","year":"1990","previous":["90","115","200","216","126","172","247","224","343","203","254","269","300","348","364","327"]},
+{"artist":"Ed Sheeran","title":"Thinking Out Loud","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","328"]},
+{"artist":"Daniel Lohues","title":"Prachtig Mooie Dag","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","346","485","371","329"]},
+{"artist":"The Police","title":"Every Breath You Take","year":"1983","previous":["99","166","167","184","259","284","434","403","412","340","381","351","345","356","210","330"]},
+{"artist":"Green Day","title":"Boulevard Of Broken Dreams","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1322","824","331"]},
+{"artist":"Kiss","title":"I Was Made For Loving You","year":"1979","previous":["124","173","205","152","184","166","283","378","479","270","317","390","390","375","348","332"]},
+{"artist":"Jim Croce","title":"Time In A Bottle","year":"1973","previous":["557","559","599","682","644","592","578","529","719","598","647","543","622","616","360","333"]},
+{"artist":"America","title":"A Horse With No Name","year":"1972","previous":["175","245","141","96","109","135","119","155","113","126","199","184","244","223","297","334"]},
+{"artist":"Bruce Springsteen","title":"I'm On Fire","year":"1985","previous":["332","298","322","363","406","399","469","496","438","425","462","458","419","343","272","335"]},
+{"artist":"Daniel Lohues","title":"Hier Kom Ik Weg","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","403","338","473","570","497","336"]},
+{"artist":"Counting Crows & Blof","title":"Holiday In Spain","year":"2004","previous":["0","0","0","0","0","1885","0","77","92","201","185","168","226","269","249","337"]},
+{"artist":"Ram Jam","title":"Black Betty","year":"1978","previous":["688","312","757","909","626","575","496","872","822","678","760","838","735","421","428","338"]},
+{"artist":"Avicii","title":"Hey Brother","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1253","339"]},
+{"artist":"Henk Westbroek","title":"Zelfs Je Naam Is Mooi","year":"1998","previous":["137","129","210","171","97","144","122","96","124","113","190","141","232","260","320","340"]},
+{"artist":"Evanescence","title":"My Immortal","year":"2003","previous":["0","0","0","0","0","0","763","302","325","602","500","605","527","377","300","341"]},
+{"artist":"Ben Howard","title":"Keep Your Head Up","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","136","213","342"]},
+{"artist":"Jimi Hendrix Experience","title":"Hey Joe","year":"1967","previous":["77","105","182","163","167","151","174","196","220","170","179","204","161","203","215","343"]},
+{"artist":"Rowwen Heze","title":"November","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","259","267","280","234","344"]},
+{"artist":"Michel Fugain","title":"Une Belle Histoire","year":"1972","previous":["581","0","690","695","666","699","471","268","651","478","548","397","363","334","303","345"]},
+{"artist":"Faithless","title":"Insomnia","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1332","778","346"]},
+{"artist":"U2","title":"Pride","year":"1984","previous":["58","47","130","126","182","125","140","137","171","135","217","250","253","239","283","347"]},
+{"artist":"Eagles","title":"One Of These Nights","year":"1975","previous":["556","284","378","364","335","453","395","400","397","385","393","410","427","402","352","348"]},
+{"artist":"The Waterboys","title":"The Whole Of The Moon","year":"1986","previous":["0","279","423","299","350","486","397","412","396","394","407","392","382","394","408","349"]},
+{"artist":"Herman van Veen","title":"Liefde Van Later","year":"1969","previous":["0","575","546","442","362","433","288","277","174","254","271","288","309","475","403","350"]},
+{"artist":"Uriah Heep","title":"Easy Livin'","year":"1973","previous":["298","142","231","165","138","212","253","231","389","230","264","241","347","311","379","351"]},
+{"artist":"Editors","title":"Papillon","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","352"]},
+{"artist":"Dire Straits","title":"Romeo And Juliet","year":"1980","previous":["432","0","0","269","203","331","295","316","320","302","358","326","314","306","276","353"]},
+{"artist":"Marco Borsato","title":"Margherita","year":"1996","previous":["149","156","152","147","142","98","131","105","160","128","129","187","175","226","289","354"]},
+{"artist":"Dire Straits","title":"Walk Of Life","year":"1985","previous":["170","213","147","173","164","178","207","210","244","192","329","315","341","309","306","355"]},
+{"artist":"Mumford & Sons","title":"Little Lion Man","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","99","172","356"]},
+{"artist":"The Smiths","title":"There Is A Light That Never Goes Out","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1607","950","357"]},
+{"artist":"Neil Young","title":"Rockin' In The Free World","year":"1989","previous":["0","0","0","0","0","0","0","0","491","1789","367","286","359","359","287","358"]},
+{"artist":"Metallica","title":"Sad But True","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","1209","0","548","324","284","359"]},
+{"artist":"Van Halen","title":"Running With The Devil","year":"1980","previous":["0","250","303","359","232","352","492","517","754","458","481","547","532","443","392","360"]},
+{"artist":"Andre Hazes","title":"Kleine Jongen","year":"1990","previous":["0","0","0","0","0","0","454","353","417","626","842","304","405","445","356","361"]},
+{"artist":"Bruce Springsteen","title":"Badlands","year":"1978","previous":["0","0","0","0","0","0","0","0","0","0","389","360","415","320","280","362"]},
+{"artist":"Muse","title":"Starlight","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","418","404","273","363"]},
+{"artist":"Joe Cocker","title":"With A Little Help From My Friends","year":"1968","previous":["84","287","148","169","238","159","180","179","335","193","233","225","201","338","311","364"]},
+{"artist":"Golden Earring","title":"Twilight Zone","year":"1982","previous":["155","118","117","141","174","160","171","178","240","167","289","277","259","341","305","365"]},
+{"artist":"Lynyrd Skynyrd","title":"Free Bird","year":"1974","previous":["0","749","0","0","0","0","899","858","807","1206","512","550","446","347","294","366"]},
+{"artist":"Billy Joel","title":"Leningrad","year":"1989","previous":["355","327","164","217","437","312","303","461","378","352","351","378","425","399","397","367"]},
+{"artist":"Queen","title":"We Will Rock You","year":"1977","previous":["293","151","337","178","216","157","212","228","516","241","313","246","295","391","355","368"]},
+{"artist":"Creedence Clearwater Revival","title":"Bad Moon Rising","year":"1969","previous":["303","208","250","201","302","255","263","216","227","226","266","218","287","229","325","369"]},
+{"artist":"Phil Collins","title":"Against All Odds","year":"1984","previous":["98","152","132","153","159","170","238","230","395","215","274","308","394","240","307","370"]},
+{"artist":"Andre Hazes","title":"Geef Mij Je Angst","year":"1984","previous":["0","0","0","0","0","0","217","163","125","261","428","350","428","376","345","371"]},
+{"artist":"Genesis","title":"Follow You Follow Me","year":"1978","previous":["458","324","280","242","204","291","343","424","487","347","346","324","430","456","429","372"]},
+{"artist":"Ge Reinders","title":"Bloasmuziek","year":"1999","previous":["0","0","0","0","261","167","67","67","27","69","114","99","177","254","318","373"]},
+{"artist":"Marco Borsato","title":"Rood","year":"2006","previous":["0","0","0","0","0","0","0","17","30","73","79","133","187","263","342","374"]},
+{"artist":"The Kinks","title":"Lola","year":"1970","previous":["130","85","156","205","181","188","265","227","361","222","242","245","276","424","346","375"]},
+{"artist":"ABBA","title":"Thank You For The Music","year":"1978","previous":["50","201","264","267","248","210","170","243","137","178","284","310","409","374","460","376"]},
+{"artist":"Cockney Rebel","title":"Sebastian","year":"1973","previous":["61","84","49","76","90","92","116","146","151","120","191","172","170","244","334","377"]},
+{"artist":"Aerosmith","title":"I Don't Want To Miss A Thing","year":"1998","previous":["0","0","0","0","0","0","0","0","178","1030","441","294","278","419","369","378"]},
+{"artist":"Yes","title":"Owner Of A Lonely Heart","year":"1983","previous":["135","94","86","101","165","221","233","318","374","235","270","348","361","364","406","379"]},
+{"artist":"Goo Goo Dolls","title":"Iris","year":"1999","previous":["0","0","0","0","0","0","0","0","623","0","513","575","369","333","278","380"]},
+{"artist":"Earth Wind & Fire","title":"Fantasy","year":"1978","previous":["163","180","201","230","305","279","317","355","355","304","286","205","327","326","347","381"]},
+{"artist":"The Rolling Stones","title":"Wild Horses","year":"1971","previous":["421","0","0","352","323","397","449","306","571","412","426","413","438","480","402","382"]},
+{"artist":"Blof","title":"Harder Dan Ik Hebben Kan","year":"1999","previous":["0","0","112","85","107","74","120","132","128","118","263","276","317","315","327","383"]},
+{"artist":"Orchestral Manoeuvres In The Dark","title":"Joan Of Arc (Maid Of Orleans)","year":"1982","previous":["184","165","243","245","348","451","428","487","704","453","405","573","551","481","432","384"]},
+{"artist":"De Dijk","title":"Mag Het Licht Uit","year":"1987","previous":["0","269","0","243","158","214","149","144","157","154","230","224","236","323","375","385"]},
+{"artist":"Red Hot Chili Peppers","title":"Snow (Hey Oh)","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","193","275","261","290","269","386"]},
+{"artist":"Focus","title":"Hocus Pocus","year":"1971","previous":["314","350","228","253","206","342","415","439","559","380","259","215","277","340","292","387"]},
+{"artist":"Karin Bloemen","title":"Geen Kind Meer","year":"1996","previous":["197","413","268","254","263","295","197","161","152","177","209","201","316","392","395","388"]},
+{"artist":"Massive Attack","title":"Unfinished Sympathy","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","587","532","522","383","370","389"]},
+{"artist":"Oasis","title":"Don't Look Back In Anger","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","1928","0","470","381","316","390"]},
+{"artist":"Kings Of Leon","title":"Use Somebody","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","1619","491","229","331","262","391"]},
+{"artist":"Phil Collins","title":"Another Day In Paradise","year":"1989","previous":["113","253","233","225","166","207","250","323","567","281","436","439","367","322","286","392"]},
+{"artist":"Anouk","title":"Michel","year":"2000","previous":["0","0","0","0","0","0","475","295","196","468","278","503","304","319","376","393"]},
+{"artist":"Neil Diamond","title":"I Am... I Said","year":"1971","previous":["368","325","80","369","274","384","505","319","393","341","310","298","364","418","439","394"]},
+{"artist":"The Beatles","title":"Strawberry Fields Forever","year":"1967","previous":["97","131","180","214","207","259","261","187","183","189","204","247","271","308","301","395"]},
+{"artist":"Chef'Special","title":"In Your Arms","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","396"]},
+{"artist":"Santana","title":"Black Magic Woman","year":"1970","previous":["270","378","603","348","370","455","439","422","703","464","232","253","388","390","440","397"]},
+{"artist":"Fleetwood Mac","title":"Songbird","year":"1977","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1620","398"]},
+{"artist":"Scorpions","title":"Still Loving You","year":"1987","previous":["0","257","0","274","242","292","389","385","518","373","448","385","370","429","413","399"]},
+{"artist":"The Beatles","title":"Eleanor Rigby","year":"1966","previous":["236","323","420","372","377","338","411","327","292","328","273","320","303","321","308","400"]},
+{"artist":"Billy Joel","title":"She's Always A Woman To Me","year":"1978","previous":["238","308","261","211","243","198","276","339","302","260","315","267","348","504","431","401"]},
+{"artist":"The Black Eyed Peas","title":"I Gotta Feeling","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","188","369","365","402"]},
+{"artist":"Supertramp","title":"The Logical Song","year":"1979","previous":["152","154","198","158","252","288","342","366","422","317","453","474","421","452","319","403"]},
+{"artist":"Simply Red","title":"Holding Back The Years","year":"1985","previous":["435","465","569","661","319","408","379","454","633","446","378","363","357","451","478","404"]},
+{"artist":"De Dijk","title":"Dansen Op De Vulkaan","year":"1987","previous":["0","478","0","449","257","541","380","263","350","343","339","332","333","360","401","405"]},
+{"artist":"Andre Hazes","title":"De Vlieger","year":"1977","previous":["73","0","60","82","78","51","69","87","67","70","196","159","234","220","333","406"]},
+{"artist":"Frank Sinatra","title":"My Way","year":"1969","previous":["115","449","377","331","422","412","423","308","363","353","459","444","404","387","368","407"]},
+{"artist":"Creedence Clearwater Revival","title":"Fortunate Son","year":"1969","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1762","1013","408"]},
+{"artist":"Talking Heads","title":"Slippery People","year":"1985","previous":["0","448","541","538","637","708","800","703","1076","744","744","647","602","697","573","409"]},
+{"artist":"Louis Armstrong","title":"What A Wonderful World","year":"1968","previous":["183","473","658","574","433","345","371","281","399","350","476","464","464","423","343","410"]},
+{"artist":"The Alan Parsons Project","title":"The Turn Of A Friendly Card","year":"1980","previous":["0","0","0","0","132","181","188","245","202","210","281","272","375","386","405","411"]},
+{"artist":"U2","title":"New Years Day","year":"1983","previous":["0","79","121","112","143","152","165","172","215","155","307","377","407","339","381","412"]},
+{"artist":"Nena","title":"99 Luftballons","year":"1983","previous":["234","288","366","345","144","357","436","310","511","334","493","428","543","279","374","413"]},
+{"artist":"Al Stewart","title":"Year Of The Cat","year":"1977","previous":["71","60","36","55","63","77","83","127","78","79","198","169","241","358","380","414"]},
+{"artist":"Cream","title":"White Room","year":"1968","previous":["259","175","438","301","293","308","297","564","499","398","474","551","504","533","569","415"]},
+{"artist":"Mike Oldfield","title":"Tubular Bells","year":"1974","previous":["159","178","211","257","316","302","291","291","536","332","335","336","299","346","366","416"]},
+{"artist":"ZZ Top","title":"Gimme All Your Lovin'","year":"1984","previous":["201","174","118","170","124","196","192","239","242","187","321","341","355","624","519","417"]},
+{"artist":"Queen","title":"Radio Ga Ga","year":"1984","previous":["221","164","287","203","208","213","241","317","449","274","327","387","312","395","338","418"]},
+{"artist":"Michael Jackson","title":"Beat It","year":"1983","previous":["242","434","330","455","760","518","637","642","918","639","74","179","252","218","315","419"]},
+{"artist":"Led Zeppelin","title":"Immigrant Song","year":"1971","previous":["0","672","0","0","0","0","0","0","0","0","413","446","417","300","351","420"]},
+{"artist":"The Alan Parsons Project","title":"Eye In The Sky","year":"1982","previous":["0","0","0","1883","201","218","184","182","141","181","267","234","301","303","372","421"]},
+{"artist":"Lynyrd Skynyrd","title":"Sweet Home Alabama","year":"1974","previous":["405","453","329","355","270","256","237","376","428","323","268","354","377","441","344","422"]},
+{"artist":"Abel","title":"Onderweg","year":"2000","previous":["0","0","435","584","410","503","341","367","282","361","576","615","454","382","484","423"]},
+{"artist":"Fleetwood Mac","title":"Albatross","year":"1969","previous":["205","199","127","191","223","211","242","212","321","223","240","265","384","361","382","424"]},
+{"artist":"Krezip","title":"I Would Stay","year":"2000","previous":["0","0","327","202","139","386","290","360","249","262","167","251","362","405","426","425"]},
+{"artist":"Andrea Bocelli & Sarah Brightman","title":"Time To Say Goodbye","year":"1997","previous":["0","0","0","0","0","0","1841","174","91","293","301","212","251","370","353","426"]},
+{"artist":"Edith Piaf","title":"Non Je Ne Regrette Rien","year":"1961","previous":["106","234","403","507","312","313","309","236","158","224","277","328","263","413","363","427"]},
+{"artist":"Acda En De Munnik","title":"Ren Lenny Ren","year":"2002","previous":["0","0","0","0","415","261","228","299","231","300","569","477","530","687","605","428"]},
+{"artist":"Anouk","title":"For Bitter Or Worse","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","400","269","202","358","429"]},
+{"artist":"ZZ Top","title":"Sharp Dressed Man","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","740","675","562","693","544","430"]},
+{"artist":"Ilse DeLange","title":"Miracle","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","197","158","257","236","317","431"]},
+{"artist":"Chi Coltrane","title":"Go Like Elijah","year":"1973","previous":["328","285","207","135","189","228","368","209","182","198","238","237","358","362","449","432"]},
+{"artist":"Alice Cooper","title":"Poison","year":"1989","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1893","490","390","433"]},
+{"artist":"Mumford & Sons","title":"I Will Wait","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1149","214","434"]},
+{"artist":"Don McLean","title":"Vincent","year":"1972","previous":["219","202","225","273","241","162","304","266","285","240","395","297","350","502","512","435"]},
+{"artist":"Dolly Parton","title":"Jolene","year":"1974","previous":["1364","0","1471","1199","775","757","781","749","717","750","963","928","726","770","445","436"]},
+{"artist":"The Police","title":"Message In A Bottle","year":"1979","previous":["322","301","341","410","495","549","756","637","654","590","386","454","387","435","341","437"]},
+{"artist":"Status Quo","title":"Roll Over Lay Down","year":"1975","previous":["167","160","89","136","172","226","150","220","328","196","295","330","372","492","442","438"]},
+{"artist":"Joe Jackson","title":"Is She Really Going Out With Him","year":"1979","previous":["492","351","407","391","191","285","398","324","514","345","391","366","487","474","468","439"]},
+{"artist":"Blof","title":"Omarm","year":"2003","previous":["0","0","0","0","0","0","0","313","284","664","668","601","535","580","367","440"]},
+{"artist":"Ed Sheeran","title":"I See Fire","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","441"]},
+{"artist":"Venice","title":"The Family Tree","year":"1999","previous":["0","0","1805","0","579","294","198","171","177","221","234","339","426","501","277","442"]},
+{"artist":"Blof","title":"Dansen Aan Zee","year":"2000","previous":["0","0","0","0","103","163","186","226","190","190","336","263","292","307","386","443"]},
+{"artist":"Coldplay","title":"Trouble","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","381","297","322","444"]},
+{"artist":"The Beatles","title":"Norwegian Wood (This Bird Has Flown)","year":"1965","previous":["442","255","402","288","328","328","340","303","261","283","260","306","286","499","430","445"]},
+{"artist":"Whitney Houston","title":"I Will Always Love You","year":"1992","previous":["131","405","476","551","537","463","636","513","483","505","505","534","687","401","433","446"]},
+{"artist":"Fleetwood Mac","title":"Tusk","year":"1979","previous":["0","0","0","0","0","0","619","683","757","1029","432","440","492","626","422","447"]},
+{"artist":"Mark Knopfler","title":"What It Is","year":"2000","previous":["0","545","0","340","455","762","653","836","950","724","708","697","541","417","400","448"]},
+{"artist":"Amy Winehouse","title":"Rehab","year":"2007","previous":["0","0","0","0","0","0","0","0","322","1510","758","453","184","342","567","449"]},
+{"artist":"Michael Jackson","title":"Smooth Criminal","year":"1988","previous":["0","0","0","0","0","0","0","0","0","0","137","419","458","470","339","450"]},
+{"artist":"Fleetwood Mac","title":"Need Your Love So Bad","year":"1968","previous":["194","393","244","207","266","230","213","255","400","257","309","283","402","607","427","451"]},
+{"artist":"Toto","title":"Hold The Line","year":"1979","previous":["431","338","331","578","381","471","530","554","629","515","589","666","653","479","447","452"]},
+{"artist":"The Beatles","title":"The Long And Winding Road","year":"1970","previous":["341","358","256","220","195","298","284","298","252","252","341","296","393","398","393","453"]},
+{"artist":"Jimi Hendrix","title":"Little Wing","year":"1969","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1901","1070","454"]},
+{"artist":"New Order","title":"Blue Monday","year":"1983","previous":["0","497","442","495","475","466","548","483","792","545","622","768","760","478","424","455"]},
+{"artist":"Barry White","title":"You're The First The Last My Everything","year":"1974","previous":["531","664","317","399","380","266","262","345","233","277","446","391","403","617","570","456"]},
+{"artist":"The Stranglers","title":"Golden Brown","year":"1982","previous":["422","390","452","425","404","382","463","386","430","405","454","467","441","430","335","457"]},
+{"artist":"The Who","title":"Pinball Wizard","year":"1969","previous":["375","445","309","389","419","576","451","577","793","550","383","403","451","415","410","458"]},
+{"artist":"Van Halen","title":"Jump","year":"1984","previous":["181","111","194","246","255","348","370","375","500","349","519","555","542","449","483","459"]},
+{"artist":"Boudewijn de Groot","title":"Welterusten Meneer De President","year":"1966","previous":["114","126","71","91","70","68","85","80","96","78","160","194","219","457","362","460"]},
+{"artist":"Tavares","title":"Heaven Must Be Missing An Angel","year":"1976","previous":["439","569","455","567","467","525","521","511","599","523","457","402","599","565","580","461"]},
+{"artist":"Buena Vista Social Club","title":"Chan Chan","year":"1997","previous":["539","0","707","403","429","375","376","478","630","473","665","664","553","446","417","462"]},
+{"artist":"B.B. King","title":"The Thrill Is Gone","year":"1969","previous":["697","0","450","524","753","442","377","595","497","511","857","583","380","468","491","463"]},
+{"artist":"Frank Boeijen Groep","title":"De Verzoening","year":"1987","previous":["0","0","0","0","0","0","0","377","388","785","440","560","618","497","466","464"]},
+{"artist":"Elton John","title":"Your Song","year":"1971","previous":["363","399","339","307","330","346","501","462","460","410","404","500","429","437","407","465"]},
+{"artist":"Marco Borsato","title":"Afscheid Nemen Bestaat Niet","year":"2003","previous":["0","0","0","0","0","0","0","156","169","407","145","383","420","355","448","466"]},
+{"artist":"Johnny Cash","title":"A Boy Named Sue","year":"1969","previous":["1471","0","1296","1408","619","743","961","640","676","707","526","441","406","216","326","467"]},
+{"artist":"Amy Macdonald","title":"This Is The Life","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","146","121","243","299","467","468"]},
+{"artist":"Red Hot Chili Peppers","title":"Scar Tissue","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","469"]},
+{"artist":"Faithless","title":"God Is A DJ","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1911","1192","470"]},
+{"artist":"Foreigner","title":"I Want To Know What Love Is","year":"1984","previous":["161","221","151","200","283","173","301","285","461","271","372","374","423","591","624","471"]},
+{"artist":"Katie Melua","title":"Nine Million Bicycles","year":"2005","previous":["0","0","0","0","0","0","23","32","40","58","119","125","214","379","412","472"]},
+{"artist":"Beyoncé","title":"Halo","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1750","1089","473"]},
+{"artist":"Talk Talk","title":"Such A Shame","year":"1984","previous":["278","264","405","224","344","358","586","602","684","493","621","668","588","692","552","474"]},
+{"artist":"The Moody Blues","title":"Question","year":"1970","previous":["257","271","165","182","154","223","226","197","311","206","252","292","340","350","391","475"]},
+{"artist":"Cat Stevens","title":"Father And Son","year":"1971","previous":["284","0","286","237","352","497","271","259","247","278","214","211","289","460","414","476"]},
+{"artist":"David Bowie","title":"Life On Mars","year":"1971","previous":["0","0","0","0","0","0","1171","901","727","1261","653","698","738","649","482","477"]},
+{"artist":"Kate Bush","title":"Cloudbusting","year":"1985","previous":["0","0","0","0","0","0","767","896","909","1275","661","751","736","496","614","478"]},
+{"artist":"Acda en De Munnik","title":"Niet Of Nooit Geweest","year":"1998","previous":["44","40","48","36","74","87","94","150","108","93","272","243","254","447","542","479"]},
+{"artist":"Talking Heads","title":"Psycho Killer","year":"1978","previous":["387","618","411","594","721","535","882","785","715","680","579","595","450","703","528","480"]},
+{"artist":"Imagine Dragons","title":"On Top Of The World","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1052","481"]},
+{"artist":"Adele","title":"Chasing Pavements","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","530","309","209","246","437","482"]},
+{"artist":"Paul de Leeuw & Simone Kleinsma","title":"Zonder Jou","year":"1995","previous":["433","0","549","818","824","509","565","297","293","402","222","395","444","542","464","483"]},
+{"artist":"Alain Clark","title":"Father And Friend","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","153","94","156","345","387","484"]},
+{"artist":"Don Henley","title":"The Boys Of Summer","year":"1985","previous":["443","409","543","338","359","359","438","470","562","429","516","597","509","661","456","485"]},
+{"artist":"Guus Meeuwis","title":"Dat Komt Door Jou","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","462","296","451","486"]},
+{"artist":"The Beatles","title":"Fool On The Hill","year":"1967","previous":["168","190","294","137","199","209","196","203","189","183","256","221","291","389","510","487"]},
+{"artist":"Bob Dylan","title":"Blowing In The Wind","year":"1963","previous":["94","147","179","195","211","194","205","188","168","173","210","199","262","317","331","488"]},
+{"artist":"Bruce Springsteen","title":"Born In The USA","year":"1985","previous":["119","158","122","111","214","183","254","282","258","214","293","266","249","273","309","489"]},
+{"artist":"BAP","title":"Kristallnach","year":"1983","previous":["0","0","0","0","0","0","0","320","208","606","314","347","376","537","562","490"]},
+{"artist":"Eagles","title":"Take It Easy","year":"1972","previous":["847","0","640","658","662","780","635","646","522","619","557","549","639","531","457","491"]},
+{"artist":"The Babys","title":"Everytime I Think Of You","year":"1979","previous":["311","172","186","175","304","234","336","232","324","249","546","399","490","608","755","492"]},
+{"artist":"Billy Joel","title":"New York State Of Mind","year":"1976","previous":["0","1572","865","991","1705","1052","1149","1122","1009","1126","1216","891","1048","1214","973","493"]},
+{"artist":"Pink & Nate Ruess","title":"Just Give Me A Reason","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","590","494"]},
+{"artist":"Het Goede Doel","title":"Alles Geprobeerd","year":"1986","previous":["326","317","306","427","431","517","472","542","653","518","594","671","586","433","444","495"]},
+{"artist":"Foo Fighters","title":"Learn To Fly","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","496"]},
+{"artist":"Live","title":"Overcome","year":"2001","previous":["0","0","879","107","64","184","352","409","650","267","419","414","322","425","383","497"]},
+{"artist":"Kane","title":"Rain Down On Me","year":"2002","previous":["0","0","0","0","0","0","0","0","908","0","712","599","555","539","546","498"]},
+{"artist":"Nazareth","title":"Love Hurts","year":"1974","previous":["210","372","373","395","425","426","535","475","443","436","611","557","531","718","554","499"]},
+{"artist":"Toto","title":"Stop Loving You","year":"1988","previous":["362","263","203","306","281","459","493","537","595","455","614","565","667","615","487","500"]},
+{"artist":"The Doors","title":"People Are Strange","year":"1967","previous":["0","0","0","0","0","0","1099","724","739","1158","731","678","517","388","361","501"]},
+{"artist":"U2","title":"I Will Follow","year":"1982","previous":["0","248","464","266","469","368","425","452","463","419","645","638","745","407","523","502"]},
+{"artist":"Paolo Conte","title":"Max","year":"1988","previous":["643","636","495","783","498","678","712","770","882","702","521","411","566","527","630","503"]},
+{"artist":"Bon Jovi","title":"Living On A Prayer","year":"1986","previous":["0","176","258","198","256","337","363","671","478","409","501","482","436","416","328","504"]},
+{"artist":"Talking Heads","title":"Once In A Lifetime","year":"1981","previous":["0","758","671","662","570","689","949","790","1139","799","898","1197","812","887","785","505"]},
+{"artist":"Jimi Hendrix Experience","title":"The Wind Cries Mary","year":"1967","previous":["255","223","254","379","318","670","333","410","344","366","224","256","233","301","337","506"]},
+{"artist":"Lou Reed","title":"Walk On The Wild Side","year":"1973","previous":["292","125","562","437","299","448","605","597","835","533","588","677","625","729","263","507"]},
+{"artist":"Eagles","title":"New Kid In Town","year":"1977","previous":["791","595","456","472","456","577","515","480","434","474","508","523","549","544","521","508"]},
+{"artist":"Crosby, Stills, Nash & Young","title":"Almost Cut My Hair","year":"1971","previous":["283","0","157","249","297","317","643","213","277","276","261","257","352","414","378","509"]},
+{"artist":"Blof","title":"Mooie Dag","year":"2002","previous":["0","0","0","0","147","112","134","169","194","158","344","345","433","397","389","510"]},
+{"artist":"U2","title":"All I Want Is You","year":"1989","previous":["0","266","0","0","0","402","354","365","345","444","533","570","491","366","438","511"]},
+{"artist":"Queen","title":"Another One Bites The Dust","year":"1980","previous":["0","0","713","498","438","521","567","638","869","620","617","686","476","337","420","512"]},
+{"artist":"Nick & Simon","title":"Pak Maar M'n Hand","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","1352","317","218","512","459","513"]},
+{"artist":"Simple Minds","title":"Alive & Kicking","year":"1985","previous":["0","563","454","336","300","506","577","593","917","567","699","639","668","367","454","514"]},
+{"artist":"Gilbert O'Sullivan","title":"Nothing Rhymed","year":"1971","previous":["357","319","220","278","353","396","402","372","570","400","379","359","463","652","597","515"]},
+{"artist":"Air","title":"All I Need","year":"1999","previous":["0","0","0","0","0","0","690","415","201","559","461","480","414","432","539","516"]},
+{"artist":"Golden Earrings","title":"Just a Little Bit of Peace in My Heart","year":"1968","previous":["254","225","361","218","245","272","257","273","436","282","323","353","392","549","419","517"]},
+{"artist":"Marvin Gaye","title":"I Heard It Through The Grapevine","year":"1969","previous":["583","859","726","840","837","579","823","714","924","743","675","710","515","653","488","518"]},
+{"artist":"The Beatles","title":"Something","year":"1969","previous":["655","803","732","621","451","627","320","417","451","430","510","487","512","603","446","519"]},
+{"artist":"Fischer-Z","title":"So Long","year":"1980","previous":["0","228","159","263","249","201","542","453","621","382","456","433","499","589","548","520"]},
+{"artist":"Hozier","title":"Take Me To Church","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","521"]},
+{"artist":"Amy Winehouse","title":"Valerie","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","253","236","72","139","203","522"]},
+{"artist":"John Mayer","title":"Daughters","year":"2005","previous":["0","0","0","0","0","0","1890","344","729","884","469","364","378","344","304","523"]},
+{"artist":"Nits","title":"In The Dutch Mountains","year":"1987","previous":["437","363","390","636","250","483","486","458","697","477","408","316","493","494","588","524"]},
+{"artist":"Stevie Wonder","title":"Superstition","year":"1973","previous":["603","898","1102","949","1009","817","1124","1101","1188","1047","786","561","485","590","411","525"]},
+{"artist":"Anouk","title":"One Word","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","475","1371","776","581","574","526"]},
+{"artist":"The Killers","title":"Human","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","754","502","664","400","340","527"]},
+{"artist":"De Dijk","title":"Ik Kan Het Niet Alleen","year":"1989","previous":["591","466","733","483","374","479","432","322","413","389","392","323","266","431","530","528"]},
+{"artist":"The Beatles","title":"Penny Lane","year":"1967","previous":["266","366","284","322","502","447","510","438","429","424","324","406","443","462","441","529"]},
+{"artist":"The Cats","title":"Lea","year":"1968","previous":["623","527","669","494","513","468","528","361","416","423","385","382","486","493","609","530"]},
+{"artist":"3 Doors Down","title":"Here Without You","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1862","1147","531"]},
+{"artist":"The Who","title":"See Me Feel Me","year":"1970","previous":["235","243","234","233","226","0","448","433","569","494","402","488","534","498","583","532"]},
+{"artist":"Melissa Etheridge","title":"Like The Way I Do","year":"1989","previous":["0","191","222","209","235","267","445","445","459","356","629","623","561","510","563","533"]},
+{"artist":"Pink Floyd","title":"One Of These Days","year":"1971","previous":["0","270","0","463","269","495","654","561","941","581","539","632","524","495","522","534"]},
+{"artist":"Ike & Tina Turner","title":"River Deep Mountain High","year":"1966","previous":["269","483","417","335","398","271","372","238","489","331","511","435","437","523","462","535"]},
+{"artist":"Barbra Streisand","title":"Woman In Love","year":"1980","previous":["92","157","176","196","193","219","173","229","156","176","246","242","453","755","661","536"]},
+{"artist":"Bruce Springsteen","title":"My Hometown","year":"1986","previous":["604","0","497","468","471","395","458","416","281","381","600","590","600","573","453","537"]},
+{"artist":"Spandau Ballet","title":"Through The Barricades","year":"1986","previous":["225","291","221","290","371","439","522","548","635","486","578","541","620","844","709","538"]},
+{"artist":"Soundgarden","title":"Black Hole Sun","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","0","0","849","469","418","539"]},
+{"artist":"The Cats","title":"One Way Wind","year":"1971","previous":["224","198","300","328","282","327","280","217","204","233","298","311","411","596","668","540"]},
+{"artist":"Iron Butterfly","title":"In-A-Gadda-Da-Vida","year":"1970","previous":["156","148","333","291","148","268","307","331","372","272","387","398","500","461","558","541"]},
+{"artist":"Leonard Cohen","title":"So Long Marianne","year":"1968","previous":["654","894","842","547","473","551","555","474","468","495","265","368","484","471","509","542"]},
+{"artist":"Iggy Pop","title":"Lust For Life","year":"1977","previous":["249","318","461","411","524","380","552","547","680","527","471","445","467","521","495","543"]},
+{"artist":"Sam Smith","title":"Stay With Me","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","544"]},
+{"artist":"Elvis Presley","title":"Always On My Mind","year":"1972","previous":["0","652","524","383","278","332","255","314","263","279","320","325","459","353","423","545"]},
+{"artist":"De Dijk","title":"Kan Ik Iets Voor Je Doen?","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","438","477","546"]},
+{"artist":"Heart","title":"Alone","year":"1987","previous":["0","506","672","702","820","898","908","827","1080","863","792","803","866","509","615","547"]},
+{"artist":"The Blue Nile","title":"Tinseltown In The Rain","year":"1984","previous":["0","0","0","1247","445","532","459","567","537","552","816","879","887","749","759","548"]},
+{"artist":"The Script","title":"If You Could See Me Now","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1828","549"]},
+{"artist":"Dave Brubeck","title":"Take Five","year":"1962","previous":["279","621","741","526","392","485","602","586","604","537","577","724","734","529","506","550"]},
+{"artist":"Fleetwood Mac","title":"The Chain","year":"1977","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1835","551"]},
+{"artist":"Bastille","title":"Things We Lost In The Fire","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","552"]},
+{"artist":"Golden Earring","title":"Going To The Run","year":"1991","previous":["0","0","0","0","0","0","0","0","702","0","703","696","648","536","471","553"]},
+{"artist":"Tom Waits","title":"Tom Traubert's Blues","year":"1976","previous":["294","316","388","275","280","231","327","198","206","218","302","321","321","506","455","554"]},
+{"artist":"Frankie Goes To Hollywood","title":"The Power Of Love","year":"1984","previous":["334","430","458","413","561","424","639","515","679","543","718","684","702","623","565","555"]},
+{"artist":"Michael Jackson","title":"Ben","year":"1972","previous":["256","603","463","743","690","677","737","733","942","732","186","369","466","336","463","556"]},
+{"artist":"Joe Jackson","title":"Be My Number Two","year":"1984","previous":["0","548","566","521","515","435","482","530","678","524","555","584","764","467","503","557"]},
+{"artist":"Phil Collins","title":"You'll Be In My Heart","year":"1999","previous":["0","0","0","0","0","0","862","523","444","808","487","486","577","594","450","558"]},
+{"artist":"Niels Geusebroek","title":"Take Your Time Girl","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1171","559"]},
+{"artist":"Keane","title":"Sovereign Light Cafe","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","700","399","560"]},
+{"artist":"Eros Ramazzotti","title":"Musica E","year":"1989","previous":["227","467","383","333","384","319","277","307","330","310","354","355","400","442","415","561"]},
+{"artist":"Don McLean","title":"American Pie","year":"1972","previous":["384","252","335","310","530","383","310","544","553","439","585","556","465","372","409","562"]},
+{"artist":"Adele","title":"Turning Tables","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","168","425","563"]},
+{"artist":"Bon Jovi","title":"It's My Life","year":"2000","previous":["0","0","0","0","0","0","0","392","306","740","495","415","401","318","385","564"]},
+{"artist":"The Clash","title":"London Calling","year":"1979","previous":["0","0","0","0","0","0","0","0","589","1864","659","781","580","560","496","565"]},
+{"artist":"Barry Ryan","title":"Eloise","year":"1968","previous":["100","97","83","117","108","141","127","145","70","110","258","261","365","410","553","566"]},
+{"artist":"Fleetwood Mac","title":"Rhiannon","year":"1976","previous":["710","579","614","556","617","722","889","990","1030","824","813","817","794","797","538","567"]},
+{"artist":"Genesis","title":"Land Of Confusion","year":"1986","previous":["307","299","297","282","388","423","645","665","738","551","551","586","613","641","481","568"]},
+{"artist":"Earth Wind & Fire","title":"Boogie Wonderland","year":"1979","previous":["601","879","692","678","1164","1048","1153","1036","1165","1055","1002","916","1084","620","584","569"]},
+{"artist":"Men At Work","title":"Down Under","year":"1982","previous":["229","188","285","206","237","336","344","406","598","364","586","619","598","505","421","570"]},
+{"artist":"Joe Cocker","title":"You Are So Beautiful","year":"1975","previous":["290","398","487","643","289","258","225","256","410","291","390","376","422","518","476","571"]},
+{"artist":"Stromae","title":"Alors On Danse","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","572"]},
+{"artist":"David Bowie","title":"Ziggy Stardust","year":"1972","previous":["514","0","0","469","521","522","819","811","828","715","591","745","720","850","639","573"]},
+{"artist":"Thin Lizzy","title":"Whiskey In The Jar","year":"1973","previous":["268","258","477","486","376","431","457","488","652","480","478","558","521","583","505","574"]},
+{"artist":"John Mayer","title":"Gravity","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","635","330","575"]},
+{"artist":"De Poema's","title":"Zij Maakt Het Verschil","year":"2001","previous":["0","0","0","0","1373","122","146","190","314","234","300","300","356","483","384","576"]},
+{"artist":"Train","title":"Drops Of Jupiter (Tell Me)","year":"2001","previous":["0","0","0","0","551","515","765","702","878","735","1067","608","595","365","443","577"]},
+{"artist":"Lana Del Rey","title":"Video Games","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","371","465","578"]},
+{"artist":"Bee Gees","title":"Staying Alive","year":"1978","previous":["108","153","101","255","284","277","409","434","503","357","489","407","455","633","533","579"]},
+{"artist":"R.E.M.","title":"Man On The Moon","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","563","613","413","579","501","580"]},
+{"artist":"Kensington","title":"Streets","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","581"]},
+{"artist":"Neil Diamond","title":"Beautiful Noise","year":"1976","previous":["397","412","248","479","435","415","364","309","398","360","294","295","398","487","621","582"]},
+{"artist":"Coldplay","title":"Every Teardrop Is A Waterfall","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","258","411","434","583"]},
+{"artist":"De Dijk","title":"Bloedend Hart","year":"1982","previous":["258","0","279","270","171","244","218","170","296","211","245","260","247","363","493","584"]},
+{"artist":"Michael Jackson","title":"Dirty Diana","year":"1988","previous":["0","0","0","0","0","0","0","0","0","0","303","0","609","522","502","585"]},
+{"artist":"Jimi Hendrix","title":"Purple Haze","year":"1967","previous":["0","542","1236","570","491","457","421","608","636","542","382","602","329","406","377","586"]},
+{"artist":"Prince","title":"When Doves Cry","year":"1984","previous":["0","553","0","651","563","498","826","816","1050","759","863","616","678","611","543","587"]},
+{"artist":"Eagles","title":"Lyin' Eyes ","year":"1975","previous":["684","615","358","527","523","723","606","512","408","507","494","513","660","691","572","588"]},
+{"artist":"Europe","title":"The Final Countdown","year":"1986","previous":["129","87","166","180","202","189","227","283","452","247","538","497","545","519","436","589"]},
+{"artist":"De Poema's","title":"Mijn Houten Hart","year":"1999","previous":["0","0","0","0","0","0","791","293","431","645","332","346","386","562","494","590"]},
+{"artist":"Michael Buble","title":"Feeling Good","year":"2004","previous":["0","0","0","0","0","0","867","902","910","1315","788","1219","976","885","933","591"]},
+{"artist":"Nickelback","title":"How You Remind Me","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1783","592"]},
+{"artist":"Lisa Lois","title":"Hallelujah","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","409","296","393","458","593"]},
+{"artist":"Editors","title":"Smokers Outside The Hospital Doors","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","594"]},
+{"artist":"Green Day","title":"Wake Me Up When September Ends","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","595"]},
+{"artist":"Kate Bush","title":"Running Up That Hill","year":"1985","previous":["0","639","973","862","742","790","803","939","774","794","722","770","756","675","652","596"]},
+{"artist":"Joe Jackson","title":"Real Men","year":"1982","previous":["0","356","419","397","247","378","554","604","788","512","593","653","681","605","592","597"]},
+{"artist":"Ed Sheeran","title":"Lego House","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","725","1068","598"]},
+{"artist":"Green Day","title":"Basket Case","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","599"]},
+{"artist":"George Baker Selection","title":"Little Green Bag","year":"1969","previous":["338","417","628","514","432","324","464","459","656","465","535","579","583","738","641","600"]},
+{"artist":"Chris De Burgh","title":"The Lady In Red","year":"1986","previous":["182","268","290","208","177","169","156","148","134","144","297","305","395","575","532","601"]},
+{"artist":"Underworld","title":"Born Slippy","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","602"]},
+{"artist":"Alice Cooper","title":"How You Gonna See Me Now","year":"1979","previous":["142","136","91","128","168","132","166","289","170","163","414","248","368","711","626","603"]},
+{"artist":"Barbra Streisand","title":"Memory","year":"1982","previous":["337","0","315","302","408","330","314","267","197","255","328","343","440","621","696","604"]},
+{"artist":"Elbow","title":"Lippy Kids","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1442","586","599","605"]},
+{"artist":"Van Morrison","title":"Moondance","year":"1970","previous":["0","617","0","319","383","403","433","364","377","386","412","396","510","597","534","606"]},
+{"artist":"James Taylor","title":"You've Got A Friend","year":"1971","previous":["678","1128","734","583","636","617","647","444","626","564","592","504","718","699","694","607"]},
+{"artist":"Fleetwood Mac","title":"Don't Stop","year":"1977","previous":["636","566","527","586","767","669","762","794","748","709","749","760","827","696","527","608"]},
+{"artist":"Gary Jules","title":"Mad World","year":"2002","previous":["0","0","0","0","0","0","0","0","1802","0","1958","1448","1573","569","474","609"]},
+{"artist":"Fleetwood Mac","title":"Oh Well - Part 1","year":"1969","previous":["261","206","270","261","421","275","390","471","557","411","398","472","488","636","500","610"]},
+{"artist":"Ten Years After","title":"I'm Going Home","year":"1971","previous":["349","0","0","311","264","296","266","258","368","296","566","423","554","572","632","611"]},
+{"artist":"The Righteous Brothers","title":"Unchained Melody","year":"1965","previous":["186","377","239","247","163","354","378","328","435","319","406","505","540","655","613","612"]},
+{"artist":"Amy Winehouse","title":"You Know I'm No Good","year":"2007","previous":["0","0","0","0","0","0","0","0","351","1560","642","588","256","426","607","613"]},
+{"artist":"The Beatles","title":"Come Together","year":"1969","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1156","614"]},
+{"artist":"De Kast","title":"In Nije Dei","year":"1997","previous":["120","108","126","197","405","441","413","368","275","325","411","249","416","663","511","615"]},
+{"artist":"R.E.M.","title":"Nightswimming","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","616"]},
+{"artist":"Elvis Presley","title":"My Boy","year":"1975","previous":["484","541","472","428","367","487","275","390","455","393","401","476","603","535","601","617"]},
+{"artist":"Herman Van Veen","title":"Suzanne","year":"1969","previous":["346","0","635","356","436","339","292","269","289","306","374","438","507","657","640","618"]},
+{"artist":"JJ Cale","title":"After Midnight","year":"1972","previous":["913","0","961","1166","1366","1068","1035","565","755","792","663","627","651","704","485","619"]},
+{"artist":"Guus Meeuwis & Vagant","title":"Het Is Een Nacht","year":"1995","previous":["498","670","545","849","657","476","248","334","409","388","415","481","366","434","489","620"]},
+{"artist":"Jason Mraz","title":"I Won't Give Up","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","305","498","621"]},
+{"artist":"Madonna","title":"Frozen","year":"1998","previous":["0","0","0","0","0","0","523","536","808","927","506","594","579","477","589","622"]},
+{"artist":"Dire Straits","title":"Tunnel Of Love ","year":"1980","previous":["0","472","0","353","285","473","461","560","543","485","547","473","700","609","540","623"]},
+{"artist":"Kane","title":"No Surrender","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","178","331","627","690","624"]},
+{"artist":"The Who","title":"Won't Get Fooled Again","year":"1971","previous":["0","713","514","408","397","398","369","418","513","434","423","468","520","551","492","625"]},
+{"artist":"John Hiatt","title":"Have A Little Faith In Me","year":"1989","previous":["359","424","462","453","360","413","348","426","556","421","638","703","757","524","576","626"]},
+{"artist":"Chicago","title":"If You Leave Me Now","year":"1976","previous":["104","103","103","119","218","165","214","250","222","194","288","252","383","634","677","627"]},
+{"artist":"Wham","title":"Last Christmas","year":"1984","previous":["74","139","263","292","447","286","467","358","437","359","416","443","631","930","743","628"]},
+{"artist":"Status Quo","title":"Whatever You Want","year":"1979","previous":["525","397","298","286","479","425","383","500","561","449","540","603","669","651","636","629"]},
+{"artist":"Creedence Clearwater Revival","title":"Who'll Stop The Rain","year":"1970","previous":["260","546","202","236","183","215","243","215","246","212","287","244","385","517","551","630"]},
+{"artist":"Art Garfunkel","title":"Bright Eyes","year":"1979","previous":["46","51","53","100","137","120","154","222","140","136","347","223","281","455","470","631"]},
+{"artist":"Ilse DeLange","title":"So Incredible","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","158","134","307","500","435","632"]},
+{"artist":"Derek & The Dominos","title":"Layla","year":"1971","previous":["216","440","623","465","332","508","543","623","593","526","491","612","677","558","515","633"]},
+{"artist":"Youp van 't Hek","title":"Flappie","year":"1981","previous":["0","0","0","0","1856","245","316","379","456","441","427","361","571","751","650","634"]},
+{"artist":"The Who","title":"My Generation","year":"1965","previous":["211","385","344","377","339","445","512","589","627","497","396","448","482","444","475","635"]},
+{"artist":"Jethro Tull","title":"Locomotive Breath","year":"1972","previous":["313","226","224","326","231","311","306","270","405","292","480","431","498","540","600","636"]},
+{"artist":"K's choice","title":"Not An Addict","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1972","885","637"]},
+{"artist":"Carole King","title":"You've Got A Friend","year":"1971","previous":["450","582","444","505","487","367","536","456","454","438","550","484","608","702","734","638"]},
+{"artist":"Bachman Turner Overdrive","title":"You Ain't Seen Nothing Yet","year":"1974","previous":["895","161","216","192","246","421","267","374","352","314","482","461","533","877","937","639"]},
+{"artist":"Neil Diamond","title":"Sweet Caroline","year":"1969","previous":["792","721","697","1317","1470","1411","1247","1113","1135","1178","868","779","822","1207","867","640"]},
+{"artist":"John Denver","title":"Take Me Home, Country Roads","year":"1971","previous":["187","357","115","418","449","489","360","457","441","408","599","501","547","622","591","641"]},
+{"artist":"Simon & Garfunkel","title":"Mrs. Robinson","year":"1968","previous":["499","529","433","519","539","514","553","573","790","591","635","514","478","618","518","642"]},
+{"artist":"Otis Redding","title":"I've Got Dreams To Remember","year":"1968","previous":["676","991","843","880","762","633","524","693","688","648","707","507","505","659","536","643"]},
+{"artist":"Marco Borsato","title":"Zij","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","538","557","644"]},
+{"artist":"Bonnie Tyler","title":"Total Eclipse Of The Heart","year":"1983","previous":["86","133","142","124","215","208","264","352","316","245","486","478","503","629","579","645"]},
+{"artist":"Michael Jackson","title":"They Don't Care About Us","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","806","1059","596","646"]},
+{"artist":"Simple Minds","title":"Waterfront","year":"1984","previous":["0","797","0","0","0","0","0","0","0","0","884","0","1063","799","705","647"]},
+{"artist":"George Michael","title":"Careless Whisper","year":"1984","previous":["89","275","288","226","517","469","625","425","580","469","545","691","691","546","721","648"]},
+{"artist":"Lorde","title":"Royals","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1206","649"]},
+{"artist":"Rod Stewart","title":"Sailing","year":"1975","previous":["316","305","302","297","346","393","311","300","323","316","397","335","448","556","623","650"]},
+{"artist":"Meat Loaf","title":"I'd Do Anything For Love","year":"1993","previous":["416","0","190","260","234","389","497","348","446","370","623","690","581","593","638","651"]},
+{"artist":"Sting","title":"Russians","year":"1985","previous":["199","302","334","309","337","356","519","621","733","504","625","607","576","600","517","652"]},
+{"artist":"Tina Turner","title":"The Best","year":"1989","previous":["265","240","376","343","290","250","335","286","447","318","437","450","528","511","635","653"]},
+{"artist":"INXS","title":"Never Tear Us Apart","year":"1988","previous":["361","315","503","487","534","482","840","791","1079","705","946","842","765","871","714","654"]},
+{"artist":"Acda En De Munnik","title":"Als Het Vuur Gedoofd Is","year":"1997","previous":["0","0","0","0","185","216","215","248","175","216","435","434","489","516","545","655"]},
+{"artist":"Shocking Blue","title":"Venus","year":"1969","previous":["323","521","729","575","629","502","676","510","527","541","470","545","607","557","620","656"]},
+{"artist":"Krezip","title":"Sweet Goodbyes","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","97","163","338","552","688","657"]},
+{"artist":"Red Hot Chili Peppers","title":"Otherside","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","658"]},
+{"artist":"Split Enz","title":"Message To My Girl","year":"1984","previous":["386","343","260","281","363","417","442","540","614","466","624","711","740","941","839","659"]},
+{"artist":"Bryan Adams","title":"(Everything I Do) I Do It For You","year":"1991","previous":["55","69","63","131","128","153","220","208","229","166","483","459","469","197","581","660"]},
+{"artist":"Alanis Morissette","title":"Ironic","year":"1995","previous":["0","0","0","0","0","0","0","0","234","1259","1208","572","536","642","651","661"]},
+{"artist":"Wings","title":"Band On The Run","year":"1974","previous":["339","339","249","294","254","344","394","421","411","362","248","270","399","304","537","662"]},
+{"artist":"Queen","title":"'39","year":"1975","previous":["0","0","0","0","0","0","1431","725","771","1219","724","807","656","440","606","663"]},
+{"artist":"ABBA","title":"Mamma Mia","year":"1975","previous":["0","616","0","1067","673","379","355","485","481","479","366","331","480","567","692","664"]},
+{"artist":"Fish","title":"A Gentleman's Excuse Me","year":"1990","previous":["0","0","0","0","0","0","0","0","730","0","852","894","882","630","556","665"]},
+{"artist":"Bangles","title":"Eternal Flame","year":"1989","previous":["96","138","104","199","244","205","334","440","383","295","431","427","546","835","814","666"]},
+{"artist":"Coldplay","title":"A Sky Full Of Stars","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","667"]},
+{"artist":"Nina Simone","title":"Ain't Got No - I Got Life","year":"1968","previous":["745","687","926","988","782","702","660","613","661","651","720","569","573","294","461","668"]},
+{"artist":"The Rolling Stones","title":"Brown Sugar","year":"1971","previous":["351","647","564","517","434","533","590","465","575","508","631","611","624","465","627","669"]},
+{"artist":"Enya","title":"Only Time","year":"2000","previous":["0","0","0","0","0","0","0","0","583","1866","846","873","805","710","672","670"]},
+{"artist":"Gerry & The Pacemakers","title":"You'll Never Walk Alone","year":"1963","previous":["296","504","868","718","526","656","632","632","708","624","646","654","614","731","633","671"]},
+{"artist":"Queen","title":"We Are The Champions","year":"1977","previous":["78","128","319","223","267","247","222","271","655","301","424","470","412","601","555","672"]},
+{"artist":"Band Aid","title":"Do They Know It's Christmas","year":"1984","previous":["143","137","277","298","612","203","709","815","934","563","992","985","1203","1262","1225","673"]},
+{"artist":"Robin Thicke","title":"Blurred Lines","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","571","674"]},
+{"artist":"Pink","title":"Try","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1728","675"]},
+{"artist":"Yes","title":"Close To The Edge","year":"1972","previous":["0","259","0","0","0","0","593","562","592","828","468","531","657","548","644","676"]},
+{"artist":"Chris Rea","title":"Driving Home For Christmas","year":"1986","previous":["630","0","630","546","748","560","566","639","552","597","528","580","587","923","732","677"]},
+{"artist":"Doe Maar","title":"Sinds 1 Dag Of 2 (32 Jaar)","year":"1981","previous":["105","203","367","366","338","363","424","449","450","395","509","566","439","172","531","678"]},
+{"artist":"The Rolling Stones","title":"Waiting On A Friend","year":"1981","previous":["0","411","735","373","567","638","673","688","884","659","874","808","834","811","733","679"]},
+{"artist":"Eagles","title":"Tequila Sunrise","year":"1973","previous":["942","0","682","533","562","537","468","521","484","514","438","490","559","858","686","680"]},
+{"artist":"Aretha Franklin","title":"Think","year":"1968","previous":["212","273","308","305","301","241","339","384","259","288","583","314","374","459","631","681"]},
+{"artist":"Bob Dylan","title":"Knocking On Heaven's Door","year":"1973","previous":["271","222","393","358","357","264","366","354","237","286","442","388","477","534","473","682"]},
+{"artist":"Bee Gees","title":"How Deep Is Your Love","year":"1977","previous":["118","196","146","271","260","260","300","350","354","289","562","451","525","561","617","683"]},
+{"artist":"Rowwen Heze","title":"Limburg","year":"1996","previous":["396","171","278","244","151","149","61","92","103","105","207","226","318","357","416","684"]},
+{"artist":"David Bowie","title":"Let's Dance","year":"1983","previous":["0","927","553","690","982","831","999","941","933","895","885","906","916","1024","751","685"]},
+{"artist":"The Police","title":"Every Little Thing She Does Is Magic","year":"1981","previous":["540","606","677","721","643","679","911","989","1136","857","872","822","816","684","550","686"]},
+{"artist":"Supertramp","title":"Dreamer","year":"1974","previous":["353","380","246","360","401","347","347","451","423","383","541","508","552","453","486","687"]},
+{"artist":"Status Quo","title":"Down Down","year":"1975","previous":["0","509","262","381","418","414","381","455","563","432","496","512","675","576","681","688"]},
+{"artist":"Bon Jovi","title":"Always","year":"1994","previous":["0","76","128","143","176","204","289","330","308","238","520","577","495","420","499","689"]},
+{"artist":"Rob de Nijs","title":"Het Werd Zomer","year":"1977","previous":["401","436","215","376","428","371","324","311","531","365","479","522","567","741","680","690"]},
+{"artist":"Peter Gabriel","title":"Biko","year":"1980","previous":["420","0","0","462","472","437","476","587","713","566","502","515","647","694","578","691"]},
+{"artist":"John Denver","title":"Leaving On A Jet Plane","year":"1969","previous":["737","0","800","877","737","599","540","556","407","534","467","447","447","513","526","692"]},
+{"artist":"Paul Simon","title":"You Can Call Me Al","year":"1986","previous":["635","601","135","640","874","927","679","955","1238","837","927","1061","868","679","577","693"]},
+{"artist":"Anouk","title":"Three Days In A Row","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","1242","106","290","526","535","694"]},
+{"artist":"Tina Turner & David Bowie","title":"Tonight","year":"1988","previous":["354","458","647","670","592","444","494","441","458","463","685","609","703","863","783","695"]},
+{"artist":"Ennio Morricone","title":"Once Upon A Time In The West","year":"1968","previous":["262","482","578","694","623","499","599","600","646","582","784","799","739","578","698","696"]},
+{"artist":"Creedence Clearwater Revival","title":"I Heard It Through The Grapevine","year":"1973","previous":["505","261","269","434","606","416","466","535","467","467","463","421","496","682","547","697"]},
+{"artist":"Rob de Nijs","title":"Foto Van Vroeger","year":"1980","previous":["693","404","312","327","324","438","452","279","340","336","529","418","523","756","667","698"]},
+{"artist":"UB40","title":"Red Red Wine","year":"1983","previous":["480","427","660","471","586","373","562","541","691","535","691","629","744","912","665","699"]},
+{"artist":"The Beatles","title":"Get Back","year":"1969","previous":["395","381","353","272","286","411","420","351","312","339","352","365","461","450","648","700"]},
+{"artist":"The Hollies","title":"He Ain't Heavy He's My Brother","year":"1969","previous":["762","857","355","492","571","565","481","581","624","557","517","576","754","842","670","701"]},
+{"artist":"Paul de Leeuw & André Hazes","title":"Droomland","year":"1993","previous":["0","0","0","0","0","0","663","362","528","720","450","630","783","599","603","702"]},
+{"artist":"The Beatles","title":"Michelle","year":"1966","previous":["287","329","345","388","356","376","325","321","279","312","349","367","501","595","660","703"]},
+{"artist":"Linkin Park","title":"Breaking The Habit","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","704"]},
+{"artist":"Kraftwerk","title":"Autobahn","year":"1975","previous":["347","344","357","577","585","484","656","607","872","611","643","737","746","464","452","705"]},
+{"artist":"Blur","title":"Song 2","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","706"]},
+{"artist":"Rihanna feat. Mikky Ekko","title":"Stay","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1441","707"]},
+{"artist":"Eurythmics","title":"Sweet Dreams","year":"1983","previous":["472","457","924","600","853","544","582","674","802","654","728","655","474","666","507","708"]},
+{"artist":"Bob Dylan","title":"The Times Are A-Changing","year":"1964","previous":["291","410","555","563","699","557","617","539","420","519","492","462","494","547","469","709"]},
+{"artist":"Marvin Gaye","title":"Sexual Healing","year":"1982","previous":["589","931","1055","1202","903","588","774","569","871","699","823","674","742","790","742","710"]},
+{"artist":"Golden Earring","title":"She Flies On Strange Wings","year":"1971","previous":["0","374","326","334","361","490","473","414","657","460","570","617","574","709","656","711"]},
+{"artist":"John Mayer","title":"Slowdancing In A Burning Room","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1729","712"]},
+{"artist":"Herman van Veen","title":"Anne","year":"1986","previous":["451","522","499","544","577","429","362","340","309","358","420","426","457","588","669","713"]},
+{"artist":"Carly Simon","title":"You're So Vain","year":"1973","previous":["546","775","365","480","387","374","431","502","568","457","537","567","570","882","907","714"]},
+{"artist":"Sade","title":"Smooth Operator","year":"1984","previous":["1143","1043","1008","1093","947","1155","1269","1261","1678","1270","950","863","888","935","1031","715"]},
+{"artist":"Massive Attack","title":"Teardrop","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","716"]},
+{"artist":"Counting Crows","title":"Mr. Jones","year":"1994","previous":["0","0","0","0","0","0","0","0","391","1666","662","643","611","708","568","717"]},
+{"artist":"The Beatles","title":"I Am The Walrus","year":"1967","previous":["423","365","763","579","602","644","634","641","541","592","455","530","601","503","594","718"]},
+{"artist":"Paul Weller","title":"You Do Something To Me","year":"1995","previous":["0","0","0","0","707","602","768","736","906","784","658","761","817","722","707","719"]},
+{"artist":"The Rolling Stones","title":"Jumping Jack Flash","year":"1968","previous":["374","314","600","349","414","527","541","495","794","540","717","692","780","673","720","720"]},
+{"artist":"The Beach Boys","title":"Sloop John B","year":"1966","previous":["202","227","174","240","240","262","281","301","180","227","299","318","445","716","770","721"]},
+{"artist":"The Script & will.i.am","title":"Hall Of Fame","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1330","722"]},
+{"artist":"Prince","title":"Sign 'O' The Times","year":"1987","previous":["0","660","699","537","489","550","828","926","714","693","741","553","671","639","593","723"]},
+{"artist":"Boudewijn de Groot","title":"Jimmy","year":"1973","previous":["166","167","138","116","141","168","163","218","260","179","375","449","506","543","541","724"]},
+{"artist":"Lenny Kravitz","title":"Let Love Rule","year":"1989","previous":["0","391","0","614","509","449","683","691","818","637","768","784","829","952","911","725"]},
+{"artist":"John Denver","title":"Annie's Song","year":"1976","previous":["574","400","637","654","647","648","538","566","582","575","652","644","597","488","504","726"]},
+{"artist":"Queen","title":"Crazy Little Thing Called Love","year":"1979","previous":["0","463","602","601","529","458","479","582","720","565","639","727","460","525","575","727"]},
+{"artist":"Herbert Gronemeyer","title":"Mensch","year":"2004","previous":["0","0","0","0","0","0","1024","605","498","918","654","525","630","632","738","728"]},
+{"artist":"Jeff Wayne & Justin Hayward","title":"The Eve Of The War","year":"1978","previous":["449","653","641","628","710","1088","1075","1244","1287","1048","1065","878","1172","640","646","729"]},
+{"artist":"Survivor","title":"Eye Of The Tiger","year":"1982","previous":["244","403","604","380","378","464","615","712","863","600","1109","1113","934","764","637","730"]},
+{"artist":"Keane","title":"Bedshaped","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","800","0","901","669","561","731"]},
+{"artist":"Ten Sharp","title":"You","year":"1991","previous":["180","331","320","276","229","364","422","447","493","390","485","519","589","809","767","732"]},
+{"artist":"James Taylor & Mark Knopfler","title":"Sailing To Philadelphia","year":"2000","previous":["0","0","0","0","942","427","367","405","515","513","458","393","479","670","582","733"]},
+{"artist":"Whitesnake","title":"Here i go again","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","734"]},
+{"artist":"De Dijk","title":"De Blues Verlaat Je Nooit","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","448","618","735"]},
+{"artist":"David Bowie","title":"Ashes To Ashes","year":"1980","previous":["600","744","1081","744","677","839","1265","1056","1229","989","1030","945","1101","833","757","736"]},
+{"artist":"M.A.S.H.","title":"Suicide Is Painless","year":"1970","previous":["825","543","674","825","757","960","1212","1363","1614","1163","791","610","904","1047","1043","737"]},
+{"artist":"Phil Collins","title":"Can't Stop Loving You","year":"2002","previous":["0","0","0","0","0","0","0","388","448","845","556","537","663","563","586","738"]},
+{"artist":"Tina Turner","title":"Private Dancer","year":"1984","previous":["196","355","475","371","322","340","319","394","533","384","473","479","516","881","701","739"]},
+{"artist":"Madness","title":"Baggy Trousers","year":"1980","previous":["0","495","1021","1042","627","805","1089","1471","1542","1119","606","681","802","613","756","740"]},
+{"artist":"Creedence Clearwater Revival","title":"Suzie Q","year":"1968","previous":["459","0","307","337","276","186","258","294","319","263","325","313","408","528","524","741"]},
+{"artist":"Snow Patrol","title":"Just Say Yes","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","258","319","491","529","742"]},
+{"artist":"James Brown","title":"It's A Man's Man's World","year":"1966","previous":["813","1385","1474","888","987","903","1085","1300","1053","1085","1022","830","569","771","771","743"]},
+{"artist":"Live","title":"I Alone","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","544","758","593","667","622","744"]},
+{"artist":"Christina Aguilera","title":"Hurt","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","829","640","606","571","525","745"]},
+{"artist":"The Cure","title":"Lullaby","year":"1989","previous":["0","0","0","0","0","0","0","0","0","0","0","0","978","746","662","746"]},
+{"artist":"One Republic","title":"Counting Stars","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","747"]},
+{"artist":"Queen","title":"You're My Best Friend","year":"1976","previous":["545","505","397","439","700","620","695","765","1042","723","581","749","774","940","739","748"]},
+{"artist":"De Dijk","title":"Niemand In De Stad","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1732","1055","749"]},
+{"artist":"Chris Isaak","title":"Wicked Game","year":"1991","previous":["0","0","0","0","1577","573","0","843","830","1059","970","995","889","927","514","750"]},
+{"artist":"Crosby, Stills, Nash & Young","title":"Teach Your Children","year":"1970","previous":["128","145","78","150","130","142","159","160","199","149","237","208","325","628","513","751"]},
+{"artist":"Hero","title":"Toen Ik Je Zag","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1091","752"]},
+{"artist":"James Taylor","title":"Fire And Rain","year":"1970","previous":["1359","0","1408","1098","1152","1503","1297","820","987","1053","682","762","867","765","766","753"]},
+{"artist":"Blof","title":"Blauwe Ruis","year":"2002","previous":["0","0","0","0","1894","269","294","423","427","456","694","624","771","427","616","754"]},
+{"artist":"Crosby, Stills, Nash & Young","title":"Our House","year":"1970","previous":["241","239","192","204","173","233","234","265","300","236","322","271","391","602","508","755"]},
+{"artist":"Zucchero Fornaciari","title":"Il Volo","year":"1996","previous":["576","414","421","420","458","545","480","594","574","525","794","740","633","788","768","756"]},
+{"artist":"Cuby & The Blizzards","title":"Somebody Will Know Somebody","year":"1967","previous":["0","0","0","0","0","0","836","494","294","694","612","648","306","638","604","757"]},
+{"artist":"Snow Patrol","title":"Shut Your Eyes","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","228","460","339","473","479","758"]},
+{"artist":"Ilse DeLange","title":"I'm Not So Tough","year":"1998","previous":["0","0","0","0","288","422","506","341","404","418","697","538","714","685","628","759"]},
+{"artist":"R.E.M.","title":"The One I Love","year":"1987","previous":["0","241","0","493","468","470","662","598","858","612","572","535","564","819","642","760"]},
+{"artist":"Mumford & Sons","title":"Lover Of The Light","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1141","761"]},
+{"artist":"De Jeugd Van Tegenwoordig","title":"Sterrenstof","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","762"]},
+{"artist":"Coldplay","title":"Atlas","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1464","763"]},
+{"artist":"Jacques Brel","title":"Mijn Vlakke Land","year":"1965","previous":["321","442","470","393","368","304","330","292","331","315","359","404","565","681","610","764"]},
+{"artist":"Guus Meeuwis","title":"Tranen Gelachen","year":"2007","previous":["0","0","0","0","0","0","0","0","394","1675","399","420","497","713","663","765"]},
+{"artist":"JJ Cale","title":"Cocaine","year":"1976","previous":["1026","0","818","920","810","1004","1007","673","865","811","735","682","729","875","585","766"]},
+{"artist":"Simon & Garfunkel","title":"Scarborough Fair","year":"1966","previous":["0","0","0","0","0","0","1125","699","1078","1318","649","622","636","674","645","767"]},
+{"artist":"Robbie Williams","title":"Let Me Entertain You","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","768"]},
+{"artist":"De Dijk","title":"Binnen Zonder Kloppen","year":"1985","previous":["330","388","381","315","325","504","456","333","495","397","452","430","529","568","658","769"]},
+{"artist":"The Blues Brothers","title":"Everybody Needs Somebody To Love","year":"1989","previous":["243","389","238","367","253","335","455","507","466","403","561","528","626","507","625","770"]},
+{"artist":"ABBA","title":"Happy New Year","year":"1980","previous":["138","382","349","503","426","320","417","402","225","330","552","552","619","643","815","771"]},
+{"artist":"London Grammar","title":"Strong","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","772"]},
+{"artist":"Liquido","title":"Narcotic","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1344","773"]},
+{"artist":"The Shadows","title":"Apache","year":"1960","previous":["367","532","484","572","258","381","406","387","507","401","433","533","699","646","676","774"]},
+{"artist":"Queen","title":"A Kind Of Magic","year":"1986","previous":["0","322","489","392","584","562","525","601","732","583","573","672","537","403","760","775"]},
+{"artist":"Herman Brood","title":"Never Be Clever","year":"1979","previous":["744","1039","668","631","970","707","901","873","1243","891","818","903","713","769","703","776"]},
+{"artist":"The Beatles","title":"Sgt Pepper's Lonely Hearts Club Band","year":"1967","previous":["252","367","485","370","446","443","302","335","221","305","369","389","456","514","643","777"]},
+{"artist":"Blondie","title":"Denis","year":"1978","previous":["192","122","193","213","268","164","223","343","406","258","363","301","431","541","700","778"]},
+{"artist":"Nena & Kim Wilde","title":"Anyplace, Anywhere, Anytime","year":"2004","previous":["0","0","0","0","0","0","856","380","811","868","753","736","795","664","699","779"]},
+{"artist":"David Bowie","title":"China Girl","year":"1983","previous":["659","564","580","633","734","888","962","1079","1100","930","901","786","956","968","896","780"]},
+{"artist":"Poppys","title":"Non Non Rien N'A Changé ","year":"1971","previous":["532","407","418","485","582","477","403","446","645","490","571","667","634","686","697","781"]},
+{"artist":"Aretha Franklin","title":"Respect","year":"1967","previous":["402","447","518","409","314","254","418","588","313","367","715","342","434","665","598","782"]},
+{"artist":"Queen","title":"Breakthru","year":"1989","previous":["0","0","0","0","0","0","0","0","816","0","881","0","800","592","808","783"]},
+{"artist":"ABBA","title":"I Have A Dream","year":"1979","previous":["288","607","0","650","416","362","268","395","198","309","447","416","511","707","860","784"]},
+{"artist":"Bee Gees","title":"Massachusetts","year":"1967","previous":["214","233","171","295","227","253","259","287","230","243","425","349","468","802","870","785"]},
+{"artist":"Elvis Presley","title":"Jailhouse Rock","year":"1957","previous":["247","352","560","475","466","540","474","528","594","517","507","634","640","553","675","786"]},
+{"artist":"ABBA","title":"Chiquitita","year":"1979","previous":["281","244","372","382","463","434","296","479","255","348","531","442","610","532","829","787"]},
+{"artist":"Alice Cooper","title":"School's Out","year":"1972","previous":["319","124","119","125","156","148","208","338","209","191","417","334","353","645","649","788"]},
+{"artist":"Genesis","title":"Jesus He knows me","year":"1992","previous":["0","0","0","0","0","0","0","0","675","0","828","899","907","949","758","789"]},
+{"artist":"Michael Jackson","title":"Heal The World","year":"1992","previous":["365","551","535","963","777","989","1116","1169","1634","1115","250","536","674","689","729","790"]},
+{"artist":"Carpenters","title":"Top Of The World","year":"1973","previous":["408","0","567","518","652","496","491","492","517","520","499","456","698","672","805","791"]},
+{"artist":"Bee Gees","title":"Words","year":"1968","previous":["282","215","184","339","279","300","358","356","295","298","388","362","481","763","712","792"]},
+{"artist":"Aretha Franklin","title":"I Say A Little Prayer","year":"1968","previous":["407","438","465","440","766","456","517","504","360","448","821","498","519","606","803","793"]},
+{"artist":"Toto","title":"Rosanna","year":"1982","previous":["476","492","336","424","444","501","484","550","682","528","807","818","779","851","695","794"]},
+{"artist":"Elvis Presley","title":"I Just Can't Help Believin'","year":"1972","previous":["490","538","616","516","303","478","321","411","426","396","466","510","645","688","821","795"]},
+{"artist":"Midnight Oil","title":"Beds Are Burning","year":"1988","previous":["0","387","488","484","716","671","843","845","922","756","1009","915","953","743","747","796"]},
+{"artist":"Maarten van Roozendaal","title":"Red Mij Niet","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1521","797"]},
+{"artist":"David Bowie","title":"Sound And Vision","year":"1977","previous":["828","1008","1269","847","1098","843","1165","1211","1312","1125","1061","1090","1252","1005","847","798"]},
+{"artist":"4 Non Blondes","title":"What's Up","year":"1993","previous":["0","0","1908","0","0","0","181","463","216","461","368","771","323","855","965","799"]},
+{"artist":"Jeff Wayne & Justin Hayward","title":"Forever Autumn","year":"1978","previous":["0","0","0","0","1391","1233","1213","1189","1450","1374","1080","971","1179","758","689","800"]},
+{"artist":"Blue Oyster Cult","title":"Don't Fear The Reaper","year":"1976","previous":["0","0","0","0","0","0","0","0","947","0","1087","996","899","914","723","801"]},
+{"artist":"Queen","title":"I Want It All","year":"1989","previous":["0","0","0","0","0","0","0","0","1163","0","956","909","502","637","679","802"]},
+{"artist":"The Script","title":"Breakeven","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","803"]},
+{"artist":"Acda en De Munnik","title":"Mooi Liedje","year":"1997","previous":["0","0","0","0","893","419","286","469","338","437","613","633","727","798","754","804"]},
+{"artist":"Kylie Minogue & Nick Cave","title":"Where The Wild Roses Grow","year":"2002","previous":["0","0","0","0","0","0","0","0","1626","0","1497","1369","1350","1096","787","805"]},
+{"artist":"Coldplay","title":"Talk","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","595","683","701","695","566","806"]},
+{"artist":"The Police","title":"So Lonely","year":"1979","previous":["456","661","575","461","692","686","687","852","736","698","673","713","852","732","691","807"]},
+{"artist":"Adele","title":"Rumour Has It","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","220","277","611","808"]},
+{"artist":"One Direction","title":"Story Of My Life","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1787","809"]},
+{"artist":"Heart","title":"Crazy On You","year":"1977","previous":["882","649","831","668","890","955","997","1047","1176","996","763","756","1008","1033","977","810"]},
+{"artist":"The Fray","title":"How To Save A Life","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1767","1213","811"]},
+{"artist":"Seal","title":"Crazy","year":"1991","previous":["507","0","968","512","501","784","903","977","1141","856","934","942","969","1064","868","812"]},
+{"artist":"De Dijk","title":"Mijn Van Straat Geredde Roos","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","400","302","351","808","715","813"]},
+{"artist":"Brainbox","title":"Summertime","year":"1969","previous":["289","229","252","279","345","315","278","347","333","308","410","373","442","772","724","814"]},
+{"artist":"Labi Siffre","title":"(Something Inside) So Strong","year":"1987","previous":["475","583","424","626","836","673","734","668","776","684","855","846","878","428","922","815"]},
+{"artist":"Clannad","title":"In A Lifetime","year":"1986","previous":["0","349","259","280","403","430","503","503","521","454","651","642","563","779","765","816"]},
+{"artist":"Kansas","title":"Carry On Wayward Son","year":"1977","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1817","817"]},
+{"artist":"Blof","title":"Alles Is Liefde","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","445","429","594","293","684","818"]},
+{"artist":"Mike Oldfield & Maggie Reilly","title":"Moonlight Shadow","year":"1983","previous":["207","276","139","318","373","428","444","442","660","431","604","539","652","680","657","819"]},
+{"artist":"Michael Buble","title":"Home","year":"2004","previous":["0","0","0","0","0","0","313","460","329","603","430","517","710","712","830","820"]},
+{"artist":"Manic Street Preachers","title":"Motorcycle Emptiness","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","821"]},
+{"artist":"Japan","title":"Nightporter","year":"1980","previous":["0","354","0","0","0","0","500","648","658","892","747","778","843","792","796","822"]},
+{"artist":"Crowded House","title":"Four Seasons In One Day","year":"1992","previous":["0","0","0","0","494","593","628","596","547","613","742","706","475","832","711","823"]},
+{"artist":"Q65","title":"The Life I Live","year":"1966","previous":["675","429","460","590","372","536","633","532","804","571","488","679","568","784","967","824"]},
+{"artist":"Little River Band","title":"It's A Long Way There","year":"1976","previous":["640","530","573","423","635","658","648","716","892","677","719","604","842","1015","1030","825"]},
+{"artist":"Coldplay","title":"Speed Of Sound","year":"2005","previous":["0","0","0","0","0","0","0","1216","334","1140","542","636","591","737","704","826"]},
+{"artist":"Frank Sinatra","title":"Fly Me To The Moon","year":"1964","previous":["1388","0","1310","1401","1054","934","1092","871","1036","991","943","956","840","818","762","827"]},
+{"artist":"Youssou N'Dour & Neneh Cherry","title":"7 Seconds","year":"1994","previous":["280","321","429","416","516","462","539","576","616","530","518","540","781","705","782","828"]},
+{"artist":"Anouk","title":"Girl","year":"2004","previous":["0","0","0","0","0","0","168","143","163","264","370","701","550","454","716","829"]},
+{"artist":"Fats Domino","title":"Blueberry Hill","year":"1957","previous":["350","346","563","456","482","505","399","431","373","417","394","455","449","706","801","830"]},
+{"artist":"Michael Jackson","title":"Black Or White","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","276","1532","693","587","647","831"]},
+{"artist":"Meat Loaf","title":"You Took The Words Right Out Of My Mouth","year":"1979","previous":["870","0","314","699","443","711","935","651","689","642","834","742","920","1051","944","832"]},
+{"artist":"Cuby & The Blizzards","title":"Appleknockers Flophouse","year":"1969","previous":["0","311","0","314","411","390","419","430","425","420","465","457","288","554","678","833"]},
+{"artist":"Bruno Mars","title":"When I Was Your Man","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","834"]},
+{"artist":"The Rolling Stones","title":"Ruby Tuesday","year":"1967","previous":["440","335","480","446","375","492","561","525","789","544","609","546","841","838","737","835"]},
+{"artist":"Fleetwood Mac","title":"Little Lies","year":"1987","previous":["0","800","964","1016","1560","1358","1374","1458","1857","1486","1455","1464","1263","1098","877","836"]},
+{"artist":"Elton John","title":"Nikita","year":"1985","previous":["87","143","181","368","396","289","410","346","359","335","669","506","737","1046","917","837"]},
+{"artist":"Fools Garden","title":"Lemon Tree","year":"1996","previous":["854","0","1171","598","717","928","1012","958","1110","941","1119","953","1066","789","749","838"]},
+{"artist":"Bruce Springsteen","title":"Glory Days","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","1036","908","930","837","687","839"]},
+{"artist":"Madness","title":"Nightboat To Cairo","year":"1980","previous":["0","888","1570","945","671","833","1206","1424","1642","1171","836","933","980","944","858","840"]},
+{"artist":"Meat Loaf","title":"Two Out Of Three Ain't Bad","year":"1977","previous":["0","502","212","523","500","799","0","0","925","1244","809","831","755","829","816","841"]},
+{"artist":"The Moody Blues","title":"Tuesday Afternoon","year":"1968","previous":["1007","0","821","404","598","554","616","553","870","621","630","661","777","933","713","842"]},
+{"artist":"Radiohead","title":"Fake Plastic Trees","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","843"]},
+{"artist":"Ilse Delange","title":"Blue Bittersweet","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1352","844"]},
+{"artist":"Supertramp","title":"Breakfast In America","year":"1979","previous":["379","533","354","459","541","584","576","625","690","587","695","948","759","582","683","845"]},
+{"artist":"Bob Marley & The Wailers","title":"Could You Be Loved","year":"1980","previous":["522","735","557","709","1011","587","753","897","809","763","721","422","557","439","608","846"]},
+{"artist":"Chuck Berry","title":"Johnny B. Goode","year":"1958","previous":["714","786","650","914","839","760","914","1167","876","894","862","905","719","904","763","847"]},
+{"artist":"Janis Joplin","title":"Mercedes Benz","year":"1970","previous":["761","704","798","936","708","660","735","675","883","717","716","591","654","780","806","848"]},
+{"artist":"Guus Meeuwis","title":"De Weg","year":"2005","previous":["0","0","0","0","0","0","0","0","777","0","981","1048","898","690","800","849"]},
+{"artist":"The Cranberries","title":"Linger","year":"1993","previous":["0","0","0","0","0","0","0","0","901","0","1239","1051","927","1030","946","850"]},
+{"artist":"Duran Duran","title":"Ordinary World","year":"1993","previous":["0","0","0","0","0","0","0","0","1004","0","1169","1062","990","996","730","851"]},
+{"artist":"Red Hot Chili Peppers","title":"Dani California","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","338","1258","538","564","516","852"]},
+{"artist":"Smashing Pumpkins","title":"Disarm","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","853"]},
+{"artist":"The Rolling Stones","title":"Fool To Cry","year":"1976","previous":["506","723","574","548","613","611","694","715","1062","716","847","871","874","676","794","854"]},
+{"artist":"De Dijk","title":"Groot Hart","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1905","1153","855"]},
+{"artist":"The Rolling Stones","title":"Honky Tonk Women","year":"1969","previous":["470","571","554","362","369","488","560","558","695","532","678","704","649","796","831","856"]},
+{"artist":"Donna Summer","title":"State Of Independence","year":"1982","previous":["637","776","882","767","719","700","922","1016","1051","880","913","839","942","817","745","857"]},
+{"artist":"Neil Young","title":"Harvest","year":"1972","previous":["0","0","0","0","0","0","751","538","641","917","524","483","673","660","655","858"]},
+{"artist":"The Rolling Stones","title":"Miss You","year":"1978","previous":["0","597","1048","639","926","820","861","968","1358","956","1259","1077","1107","1006","748","859"]},
+{"artist":"Nits","title":"Nescio","year":"1983","previous":["340","211","352","436","311","558","513","635","815","560","738","625","711","747","891","860"]},
+{"artist":"Fleetwood Mac","title":"Everywhere","year":"1988","previous":["0","1097","866","1144","1180","1180","1426","1542","1722","1410","1399","1411","1310","1228","854","861"]},
+{"artist":"R.E.M.","title":"Drive","year":"1992","previous":["570","0","0","652","483","528","659","851","983","737","730","925","732","750","685","862"]},
+{"artist":"3JS","title":"Watermensen","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","1930","1015","373","872","549","863"]},
+{"artist":"De Dijk","title":"Nergens Goed Voor","year":"1989","previous":["764","0","399","656","400","600","600","533","746","580","752","631","617","840","866","864"]},
+{"artist":"Santana","title":"Europa (Earth's Cry Heaven Smile)","year":"1977","previous":["0","976","522","738","904","952","817","922","841","836","799","802","995","926","936","865"]},
+{"artist":"Lenny Kravitz","title":"Are You Gonna Go My Way","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","908","984","863","830","788","866"]},
+{"artist":"Justin Timberlake","title":"Mirrors","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1663","867"]},
+{"artist":"Emerson, Lake & Palmer","title":"Peter Gunn ","year":"1980","previous":["0","0","1438","1327","341","325","404","397","643","447","484","496","722","545","784","868"]},
+{"artist":"Frank Sinatra","title":"It Was A Very Good Year","year":"1965","previous":["0","0","0","0","0","0","1315","737","749","1196","1021","898","638","1018","828","869"]},
+{"artist":"Rare Earth","title":"Get Ready","year":"1970","previous":["595","567","876","476","347","622","611","757","907","640","826","816","813","983","927","870"]},
+{"artist":"The Boxer Rebellion","title":"Diamonds","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","871"]},
+{"artist":"Charles Aznavour","title":"Yesterday When I Was Young","year":"1970","previous":["1090","0","1338","940","778","961","704","721","545","697","812","844","1027","1021","629","872"]},
+{"artist":"Frank Zappa","title":"Dancin' Fool","year":"1979","previous":["0","605","586","696","631","746","649","660","509","608","690","765","857","662","750","873"]},
+{"artist":"The The","title":"Uncertain Smile","year":"1984","previous":["0","396","0","0","0","0","742","814","752","1104","953","1046","945","1160","913","874"]},
+{"artist":"Novastar","title":"Wrong","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","960","1423","803","853","790","875"]},
+{"artist":"Bruno Mars","title":"Locked Out of Heaven","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1283","876"]},
+{"artist":"Joe Cocker","title":"Unchain My Heart","year":"1987","previous":["352","560","596","610","723","461","532","477","631","536","567","499","560","754","727","877"]},
+{"artist":"The Rolling Stones","title":"Start Me Up","year":"1981","previous":["0","969","758","674","897","849","1208","841","1161","933","1092","1114","1120","920","970","878"]},
+{"artist":"Katy Perry","title":"Roar","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1654","879"]},
+{"artist":"Talking Heads","title":"Road To Nowhere","year":"1985","previous":["772","517","754","793","774","789","978","908","1181","899","1066","951","949","1152","1021","880"]},
+{"artist":"David Bowie","title":"Rebel Rebel","year":"1974","previous":["966","0","1436","1425","1372","1212","1257","1409","1060","1247","937","1353","1366","1296","1102","881"]},
+{"artist":"Snowy White","title":"Bird Of Paradise","year":"1984","previous":["534","745","959","811","795","801","916","931","1133","903","969","1188","1210","857","1058","882"]},
+{"artist":"Sam Cooke","title":"A Change Is Gonna Come","year":"1964","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1830","964","883"]},
+{"artist":"Steppenwolf","title":"Born To Be Wild","year":"1968","previous":["272","281","509","489","459","323","587","516","710","509","764","884","659","566","595","884"]},
+{"artist":"Passenger","title":"Holes","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","885"]},
+{"artist":"Earth & Fire","title":"Storm And Thunder","year":"1971","previous":["436","408","394","284","291","450","462","575","820","510","608","695","818","946","906","886"]},
+{"artist":"Madonna","title":"Like A Prayer","year":"1989","previous":["220","341","409","386","450","553","580","804","1082","656","942","949","943","932","929","887"]},
+{"artist":"Robert Long","title":"Kalverliefde","year":"1974","previous":["0","0","0","0","0","862","969","760","573","872","759","813","906","916","1126","888"]},
+{"artist":"Valensia","title":"Gaia","year":"1993","previous":["0","0","1053","801","1095","1005","874","1075","1013","1011","907","885","876","760","859","889"]},
+{"artist":"ABBA","title":"Waterloo","year":"1974","previous":["101","182","467","607","605","512","299","546","419","452","701","728","918","783","836","890"]},
+{"artist":"The Doors","title":"Touch Me","year":"1969","previous":["0","940","0","568","691","821","604","705","801","714","767","733","690","728","693","891"]},
+{"artist":"The Trammps","title":"Disco Inferno","year":"1977","previous":["1158","1096","944","816","1310","1109","1452","802","1122","1023","904","867","1073","862","710","892"]},
+{"artist":"Queens Of The Stone Age","title":"No One Knows","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","893"]},
+{"artist":"Lionel Richie","title":"Hello","year":"1984","previous":["110","267","351","430","480","305","550","489","694","483","666","665","682","753","905","894"]},
+{"artist":"John Farnham","title":"You're The Voice","year":"1987","previous":["509","662","838","649","729","781","692","689","881","726","938","1076","1000","748","726","895"]},
+{"artist":"Mike & The Mechanics","title":"The Living Years","year":"1989","previous":["686","900","719","1096","936","997","865","943","1119","954","1074","1081","1279","1037","945","896"]},
+{"artist":"Het Goede Doel","title":"Belgie","year":"1982","previous":["286","345","457","467","618","597","608","734","968","670","817","790","853","736","728","897"]},
+{"artist":"Andrea Bocelli","title":"Con Te Partiro","year":"1996","previous":["109","0","155","251","364","248","326","373","135","228","755","493","556","735","706","898"]},
+{"artist":"Elton John","title":"Candle In The Wind (1997)","year":"1997","previous":["37","80","293","405","424","372","429","357","376","351","610","475","650","806","777","899"]},
+{"artist":"Eva Cassidy","title":"Songbird","year":"1998","previous":["0","0","0","0","0","0","1517","995","664","1331","983","774","590","701","654","900"]},
+{"artist":"Prodigy","title":"Firestarter","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","901"]},
+{"artist":"UB40","title":"Kingston Town","year":"1990","previous":["488","574","664","725","622","606","579","696","673","627","837","744","772","1038","773","902"]},
+{"artist":"Rufus Wainwright","title":"Going To A Town","year":"2007","previous":["0","0","0","0","0","0","0","0","1056","0","979","1020","1039","1000","1011","903"]},
+{"artist":"Barbra Streisand","title":"Papa Can You Hear Me?","year":"1983","previous":["0","0","0","0","0","0","0","0","358","1577","532","465","627","793","895","904"]},
+{"artist":"The Cats","title":"Marian","year":"1969","previous":["995","0","737","659","697","701","609","534","565","594","543","571","792","828","1002","905"]},
+{"artist":"The Hollies","title":"The Air That I Breathe","year":"1974","previous":["411","336","404","466","505","571","504","490","620","521","660","669","814","1060","869","906"]},
+{"artist":"Donna Summer","title":"MacArthur Park","year":"1978","previous":["0","703","0","1017","862","761","847","849","783","810","870","821","833","868","878","907"]},
+{"artist":"Pat Benatar","title":"Love Is A Battlefield","year":"1984","previous":["429","392","853","871","951","893","1071","1227","1240","1060","1111","1035","962","1118","1182","908"]},
+{"artist":"Robert Plant","title":"Big Log","year":"1983","previous":["469","486","490","615","648","835","1097","1192","1142","939","1042","1189","1021","1012","924","909"]},
+{"artist":"David Guetta & Sia","title":"Titanium","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","910"]},
+{"artist":"Bruce Springsteen","title":"Waiting On A Sunny Day","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","1156","1158","1391","1164","664","911"]},
+{"artist":"Joe Cocker","title":"N'oubliez Jamais","year":"1997","previous":["0","0","0","0","1254","614","518","473","564","615","605","527","513","683","827","912"]},
+{"artist":"Portishead","title":"Glory Box","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","913"]},
+{"artist":"Ramones","title":"Rock 'n Roll Highschool","year":"1980","previous":["0","762","993","959","843","639","1070","1212","1102","971","1189","1319","1321","879","993","914"]},
+{"artist":"Damien Rice","title":"The Blower's Daughter","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","915"]},
+{"artist":"Radiohead","title":"No Surprises","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","916"]},
+{"artist":"John Lennon","title":"Working Class Hero","year":"1970","previous":["563","547","559","624","638","596","557","486","700","572","683","600","621","625","659","917"]},
+{"artist":"Fischer-Z","title":"The Worker","year":"1979","previous":["875","0","606","665","745","744","877","909","1235","889","677","780","752","866","1014","918"]},
+{"artist":"The Beatles","title":"Help","year":"1965","previous":["228","290","391","550","389","420","516","467","475","443","472","516","623","466","653","919"]},
+{"artist":"Stef Bos","title":"Ik Heb Je Lief","year":"1992","previous":["0","0","0","0","0","0","1145","680","628","1071","779","829","801","913","810","920"]},
+{"artist":"Dexy's Midnight Runners","title":"Come On Eileen","year":"1982","previous":["512","648","471","543","772","609","900","1046","902","803","1027","1106","1147","974","772","921"]},
+{"artist":"Celine Dion","title":"My Heart Will Go On","year":"1998","previous":["41","89","209","238","354","334","400","419","326","337","559","562","637","598","849","922"]},
+{"artist":"Ralph McTell","title":"Streets Of London","year":"1972","previous":["446","599","855","928","803","1313","766","799","915","842","958","932","1059","995","876","923"]},
+{"artist":"Veldhuis & Kemper","title":"Ik Wou Dat Ik Jou Was","year":"2003","previous":["0","0","0","0","0","0","0","0","683","0","761","849","763","900","888","924"]},
+{"artist":"10CC","title":"The Wall Street Shuffle","year":"1974","previous":["372","286","120","167","287","225","224","370","214","239","380","1112","410","873","1119","925"]},
+{"artist":"Talk Talk","title":"Life's What You Make It","year":"1985","previous":["0","0","0","0","0","0","0","1463","1494","1953","1101","1151","1055","1120","1028","926"]},
+{"artist":"Simon & Garfunkel","title":"El Condor Pasa","year":"1970","previous":["516","464","342","706","674","657","623","559","868","632","676","578","615","671","865","927"]},
+{"artist":"Tears For Fears","title":"Everybody Wants To Rule The World","year":"1985","previous":["891","953","958","1111","1302","1119","1409","1213","1361","1239","1059","1149","1137","1156","1000","928"]},
+{"artist":"Robert Long","title":"Flink Zijn","year":"1977","previous":["0","0","0","0","0","0","0","0","485","1784","636","795","815","1088","1092","929"]},
+{"artist":"Blof","title":"Aanzoek Zonder Ringen","year":"2007","previous":["0","0","0","0","0","0","0","0","251","1326","601","587","869","463","736","930"]},
+{"artist":"Supertramp","title":"Hide In Your Shell","year":"1974","previous":["0","0","0","0","0","0","1308","966","843","1399","914","976","1076","849","887","931"]},
+{"artist":"Elvis Presley","title":"Can't Help Falling In Love With You","year":"1961","previous":["273","0","835","927","528","772","681","611","649","635","627","731","845","894","811","932"]},
+{"artist":"Jason Mraz","title":"I'm Yours","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","575","598","686","574","774","933"]},
+{"artist":"George Harrison","title":"My Sweet Lord","year":"1970","previous":["740","1452","581","375","326","654","701","678","981","643","620","662","685","1008","902","934"]},
+{"artist":"Bruce Springsteen","title":"Working On A Dream","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","598","424","680","898","722","935"]},
+{"artist":"Talk Talk","title":"It's My Life","year":"1984","previous":["549","590","534","697","680","556","895","907","1277","816","892","1115","1004","1057","959","936"]},
+{"artist":"The Offspring","title":"Self Esteem","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","937"]},
+{"artist":"Matt Simons","title":"With You","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1716","938"]},
+{"artist":"Dan Hartman","title":"Relight My Fire","year":"1980","previous":["417","446","683","603","788","900","1207","1285","1377","1070","954","869","1020","918","958","939"]},
+{"artist":"Dire Straits","title":"On Every Street","year":"1992","previous":["0","0","0","0","0","0","1120","951","973","1439","931","955","975","836","823","940"]},
+{"artist":"George Michael","title":"Somebody To Love","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","575","847","838","941"]},
+{"artist":"A-Ha","title":"Hunting High And Low","year":"1986","previous":["0","364","0","0","0","0","592","818","605","962","844","720","917","950","1037","942"]},
+{"artist":"REO Speedwagon","title":"Keep On Loving You","year":"1981","previous":["383","481","440","515","412","582","718","792","960","673","835","904","936","979","989","943"]},
+{"artist":"Anita Meyer","title":"Why Tell Me Why","year":"1981","previous":["681","808","648","641","711","676","667","745","540","630","640","520","518","993","789","944"]},
+{"artist":"ABBA","title":"Lay All Your Love On Me","year":"1981","previous":["0","0","0","0","0","0","1259","1059","896","1477","692","738","911","961","953","945"]},
+{"artist":"Stevie Wonder","title":"I Wish","year":"1977","previous":["711","829","1157","726","1135","807","1093","1119","1107","1022","841","876","785","740","786","946"]},
+{"artist":"Killing Joke","title":"Love Like Blood","year":"1985","previous":["0","554","0","0","0","0","0","0","0","0","1227","0","1169","1229","988","947"]},
+{"artist":"Scott McKenzie","title":"San Francisco","year":"1967","previous":["441","641","1096","611","402","640","661","599","576","574","832","874","944","604","880","948"]},
+{"artist":"Richard Harris","title":"MacArthur Park","year":"1968","previous":["304","441","350","193","334","410","323","391","241","313","564","651","804","550","835","949"]},
+{"artist":"Sting","title":"Shape of my heart","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","950"]},
+{"artist":"U2","title":"Stuck In A Moment","year":"2000","previous":["0","0","0","0","1367","409","511","631","778","686","889","836","723","786","792","951"]},
+{"artist":"James Brown","title":"Sex Machine","year":"1970","previous":["658","1118","1068","892","661","798","1090","1077","982","934","876","852","985","1001","1081","952"]},
+{"artist":"The Beatles","title":"Lucy In The Sky With Diamonds","year":"1967","previous":["626","0","858","1015","975","1010","918","748","723","804","590","702","695","893","702","953"]},
+{"artist":"The Beatles","title":"When I'm Sixty Four","year":"1967","previous":["680","934","1194","705","802","739","835","695","669","701","684","796","910","880","863","954"]},
+{"artist":"The Rolling Stones","title":"As Tears Go By","year":"1966","previous":["0","1054","0","522","538","667","598","568","692","616","737","729","758","650","883","955"]},
+{"artist":"Yes","title":"Yours Is No Disgrace","year":"1971","previous":["0","0","0","0","0","0","642","719","840","1097","657","832","892","1192","968","956"]},
+{"artist":"No Doubt","title":"Don't Speak","year":"1996","previous":["0","0","0","0","0","0","1159","784","1124","1397","796","788","855","908","769","957"]},
+{"artist":"The Cats","title":"Scarlet Ribbons","year":"1969","previous":["0","0","0","554","493","718","629","526","639","610","702","645","741","1002","961","958"]},
+{"artist":"Daft Punk","title":"One More Time","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","959"]},
+{"artist":"Bon Jovi","title":"Wanted Dead Or Alive","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","1016","1016","992","774","818","960"]},
+{"artist":"Gloria Gaynor","title":"I Will Survive","year":"1979","previous":["345","573","556","704","831","753","883","860","888","796","1237","857","891","899","998","961"]},
+{"artist":"The Doobie Brothers","title":"Listen To The Music","year":"1972","previous":["385","425","408","361","531","585","477","429","504","471","727","641","821","1170","901","962"]},
+{"artist":"Bob Dylan","title":"I Want You","year":"1966","previous":["1021","0","1167","985","741","387","514","609","476","546","527","592","751","555","671","963"]},
+{"artist":"Roger Glover & Guests","title":"Love Is All","year":"1975","previous":["447","561","505","407","481","813","829","662","891","683","961","646","1057","854","850","964"]},
+{"artist":"Iggy Pop & Kate Pierson","title":"Candy","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1222","0","1052","965","932","965"]},
+{"artist":"Sam Cooke","title":"Wonderful World","year":"1960","previous":["888","847","1548","1531","556","1481","1442","1005","1174","1077","1153","998","790","1019","1086","966"]},
+{"artist":"George Michael","title":"Cowboys And Angels","year":"1990","previous":["0","0","0","0","0","0","1483","728","767","1221","962","893","865","936","1005","967"]},
+{"artist":"John Legend","title":"Ordinary People","year":"2005","previous":["0","0","0","0","0","0","1339","580","1028","1214","1160","940","584","907","480","968"]},
+{"artist":"The Beatles","title":"In My Life","year":"1965","previous":["0","415","459","596","514","631","589","584","539","562","619","700","837","759","825","969"]},
+{"artist":"Queen","title":"Bicycle Race","year":"1978","previous":["575","626","0","672","681","590","584","630","753","641","713","754","697","486","837","970"]},
+{"artist":"Simply Red","title":"If You Don't Know Me By Now","year":"1989","previous":["0","0","0","0","0","1057","1005","1039","1276","1349","1155","897","830","1132","857","971"]},
+{"artist":"Yes","title":"Roundabout ","year":"1972","previous":["0","246","204","194","317","465","603","614","681","506","554","689","679","928","791","972"]},
+{"artist":"David Bowie & Pat Metheny","title":"This Is Not America","year":"1985","previous":["0","623","905","1253","1284","1263","1629","1594","1751","1491","1854","1378","1373","1363","1038","973"]},
+{"artist":"Spinvis","title":"Voor Ik Vergeet","year":"2002","previous":["0","0","0","0","0","0","0","0","849","0","1012","1082","769","717","740","974"]},
+{"artist":"Peter Gabriel","title":"Sledgehammer","year":"1986","previous":["749","484","593","852","588","623","748","830","989","754","912","861","970","917","951","975"]},
+{"artist":"Paul McCartney","title":"We All Stand Together","year":"1985","previous":["471","0","759","1041","1287","1054","1052","1118","1363","1167","1212","1190","1229","992","1064","976"]},
+{"artist":"Depeche Mode","title":"Just Can't Get Enough","year":"1985","previous":["0","655","0","566","883","695","1004","904","1027","893","944","1042","972","1003","834","977"]},
+{"artist":"Queen","title":"Tie Your Mother Down","year":"1977","previous":["0","501","785","939","955","1015","932","1186","0","1389","918","1124","886","1108","904","978"]},
+{"artist":"Ray Charles","title":"Georgia On My Mind","year":"1960","previous":["1085","0","1718","1952","950","1102","677","723","990","870","949","927","716","810","840","979"]},
+{"artist":"Roxy Music","title":"Avalon","year":"1982","previous":["399","475","551","470","565","604","744","717","834","662","880","864","897","800","844","980"]},
+{"artist":"Bruce Hornsby & The Range","title":"The Way It Is","year":"1986","previous":["496","738","1073","715","667","868","945","1159","997","926","1508","1398","1371","1246","1293","981"]},
+{"artist":"Melanie","title":"Beautiful People","year":"1969","previous":["528","508","624","438","548","574","485","545","648","554","603","585","706","654","674","982"]},
+{"artist":"Steve Harley & Cockney Rebel","title":"Make Me Smile (Come Up And See Me)","year":"1975","previous":["391","300","283","412","522","665","499","590","698","569","1826","833","914","934","889","983"]},
+{"artist":"Cream","title":"Sunshine Of Your Love","year":"1968","previous":["912","840","1246","1369","957","826","953","1017","1085","988","1151","1256","1104","1167","1132","984"]},
+{"artist":"Emili Sandé","title":"Read All About It pt.III","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1017","985"]},
+{"artist":"Maggie MacNeal","title":"Terug Naar De Kust","year":"1976","previous":["491","471","629","739","650","569","549","592","584","576","687","753","1010","960","1139","986"]},
+{"artist":"Wings","title":"Mull Of Kintyre","year":"1977","previous":["206","238","107","321","393","353","414","401","572","399","371","401","558","987","931","987"]},
+{"artist":"David Bowie & Mick Jagger","title":"Dancing In The Street","year":"1985","previous":["641","0","723","780","997","816","926","1045","1090","967","824","806","939","1371","1054","988"]},
+{"artist":"The Rolling Stones","title":"She's A Rainbow","year":"1967","previous":["695","802","702","532","634","684","716","776","490","623","743","650","850","742","812","989"]},
+{"artist":"Alanis Morissette","title":"You Oughta Know","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","1244","1168","1061","975","1040","990"]},
+{"artist":"Acda en De Munnik","title":"De Kapitein Deel II","year":"2000","previous":["0","0","0","105","212","329","388","404","362","338","681","589","666","896","779","991"]},
+{"artist":"Deep Purple","title":"Black Night","year":"1970","previous":["0","781","0","552","407","643","724","752","860","691","775","743","894","614","735","992"]},
+{"artist":"Dire Straits","title":"Why Worry","year":"1985","previous":["0","0","0","0","0","0","1323","783","707","1198","897","826","964","834","947","993"]},
+{"artist":"Lucifer","title":"House For Sale","year":"1975","previous":["275","452","525","630","596","583","551","667","866","634","1024","890","836","883","920","994"]},
+{"artist":"Rowwen Heze","title":"Auto Vliegtuug","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","290","405","472","644","673","995"]},
+{"artist":"Of Monsters and Men","title":"Little Talks","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1418","719","996"]},
+{"artist":"The Beach Boys","title":"Tears in the morning","year":"1970","previous":["453","470","406","508","448","578","607","789","775","629","632","618","768","1433","1048","997"]},
+{"artist":"Creedence Clearwater Revival","title":"Proud Mary","year":"1969","previous":["0","256","426","406","569","520","450","481","586","500","733","568","712","958","861","998"]},
+{"artist":"Manic Street Preachers","title":"If You Tolerate This Your Children Will Be Next","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","999"]},
+{"artist":"Frank Boeijen","title":"Zwart Wit","year":"1984","previous":["467","602","744","907","848","712","952","949","1055","886","995","1227","1150","1191","1025","1000"]},
+{"artist":"U2","title":"Sometimes You Can't Make It On Your Own","year":"2004","previous":["0","0","0","0","0","0","0","0","445","1746","839","787","844","1150","744","1001"]},
+{"artist":"The Kinks","title":"Waterloo Sunset","year":"1967","previous":["722","772","663","996","738","857","888","750","770","764","830","881","998","909","930","1002"]},
+{"artist":"Green Day","title":"Good Riddance (Time Of Your Life)","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1003"]},
+{"artist":"Crowded House","title":"Don't Dream It's Over","year":"1987","previous":["160","220","356","332","474","436","574","655","724","555","766","757","786","1053","793","1004"]},
+{"artist":"Elton John","title":"Circle Of Life","year":"1994","previous":["493","0","0","925","639","736","998","819","1031","862","1115","1049","961","895","842","1005"]},
+{"artist":"Enya","title":"Orinoco Flow","year":"1988","previous":["427","556","673","432","477","475","437","497","535","484","656","747","694","794","843","1006"]},
+{"artist":"George Michael","title":"A Different Corner","year":"1986","previous":["460","813","605","717","1002","873","1064","826","1222","931","1330","1265","1216","658","1045","1007"]},
+{"artist":"Supertramp","title":"Give A Little Bit","year":"1977","previous":["250","217","229","354","409","529","453","572","577","489","860","805","875","719","746","1008"]},
+{"artist":"Neet Oet Lottum","title":"Hald Mich 's Vas","year":"2005","previous":["0","0","0","0","0","0","508","381","235","553","772","809","1094","1079","741","1009"]},
+{"artist":"John Denver","title":"Perhaps Love","year":"1981","previous":["543","490","940","774","594","672","703","768","848","713","726","732","808","852","969","1010"]},
+{"artist":"Bob Marley & The Wailers","title":"Stir It Up","year":"1979","previous":["625","0","768","666","595","392","588","661","611","578","641","554","644","721","764","1011"]},
+{"artist":"Elvis Presley","title":"An American Trilogy","year":"1972","previous":["0","0","0","0","0","0","0","0","712","0","849","870","1081","884","1034","1012"]},
+{"artist":"Nick & Simon","title":"Kijk Omhoog","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","133","663","483","911","879","1013"]},
+{"artist":"The Beatles","title":"She's Leaving Home","year":"1967","previous":["481","0","506","511","578","668","650","522","470","549","602","660","862","1094","935","1014"]},
+{"artist":"The Cure","title":"Close To Me","year":"1985","previous":["0","692","1101","770","758","653","937","839","856","780","1163","1164","1156","954","807","1015"]},
+{"artist":"Sammy Davis Jr.","title":"Mr. Bojangles","year":"1972","previous":["1696","0","0","0","0","1209","1235","1107","1428","1483","1093","1007","728","972","978","1016"]},
+{"artist":"Ramses Shaffy","title":"Sammy","year":"1966","previous":["806","1289","1010","953","1096","717","730","653","837","748","90","563","775","890","804","1017"]},
+{"artist":"Dusty Springfield","title":"Son Of A Preacher Man","year":"1968","previous":["687","733","680","735","659","460","689","666","544","593","655","511","665","839","822","1018"]},
+{"artist":"Keane","title":"Everybody's Changing","year":"2004","previous":["0","0","0","0","0","0","0","1162","555","1438","750","769","954","901","761","1019"]},
+{"artist":"Lady Antebellum","title":"Need You Now","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","210","661","727","955","1020"]},
+{"artist":"James Blunt","title":"You're Beautiful","year":"2005","previous":["0","0","0","0","0","0","135","264","375","428","667","494","616","619","798","1021"]},
+{"artist":"De Kast","title":"Hart Van Mijn Gevoel","year":"1999","previous":["0","0","0","0","0","0","1013","758","772","1185","1071","509","773","1042","925","1022"]},
+{"artist":"U2","title":"Vertigo","year":"2004","previous":["0","0","0","0","0","0","0","0","486","1785","637","606","709","724","708","1023"]},
+{"artist":"Skunk Anansie","title":"Weak","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","788","807","717","1024"]},
+{"artist":"Andrea Bocelli","title":"Vivo Per Lei","year":"1996","previous":["370","189","369","435","485","546","559","629","433","501","905","827","721","610","776","1025"]},
+{"artist":"Racoon","title":"Brother","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1459","973","1035","1026"]},
+{"artist":"Coldplay","title":"Magic","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1027"]},
+{"artist":"Moby","title":"Porcelain","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1028"]},
+{"artist":"Arctic Monkeys","title":"Do I Wanna Know","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1029"]},
+{"artist":"Roberta Flack","title":"The First Time Ever I Saw Your Face","year":"1972","previous":["747","0","1303","938","705","601","736","751","1127","779","947","705","966","986","781","1030"]},
+{"artist":"Spandau Ballet","title":"Gold","year":"1983","previous":["582","668","947","796","1023","874","972","1125","1241","1037","1063","1028","1102","1041","1113","1031"]},
+{"artist":"John Mayer","title":"Heartbreak Warfare","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","379","612","831","725","1032"]},
+{"artist":"Paul De Leeuw & Alderliefste","title":"Une Belle Histoire","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","1167","0","1292","1199","991","1033"]},
+{"artist":"Brainbox","title":"Down Man","year":"1969","previous":["0","295","0","419","382","349","332","407","381","378","504","582","724","867","872","1034"]},
+{"artist":"The Police","title":"Walking On The Moon","year":"1979","previous":["0","0","0","0","1052","935","1214","1366","1289","1297","1197","1174","1144","1159","890","1035"]},
+{"artist":"Tears For Fears","title":"Shout!","year":"1985","previous":["511","468","577","623","927","905","1199","993","1147","966","1140","1034","967","1013","1032","1036"]},
+{"artist":"Clouseau","title":"Daar Gaat Ze","year":"1990","previous":["267","219","230","378","272","263","246","284","253","253","464","529","596","677","921","1037"]},
+{"artist":"The Mamas & The Papas","title":"Monday Monday","year":"1966","previous":["673","824","927","857","910","728","830","628","803","727","680","937","838","1226","1291","1038"]},
+{"artist":"Dolly Parton & Kenny Rogers","title":"Islands In The Stream","year":"1983","previous":["1206","1176","1119","853","1288","1294","990","1147","1020","1103","1547","1277","1269","1343","1360","1039"]},
+{"artist":"The Buoys","title":"Give Up Your Guns","year":"1972","previous":["208","254","299","250","271","355","430","570","587","427","709","694","835","865","809","1040"]},
+{"artist":"Marco Borsato","title":"Binnen","year":"1999","previous":["0","0","0","415","342","161","187","251","346","251","282","652","747","577","846","1041"]},
+{"artist":"Earth & Fire","title":"Song Of The Marching Children","year":"1971","previous":["0","665","0","604","379","513","622","574","798","604","686","680","915","1177","1148","1042"]},
+{"artist":"Ben E. King","title":"Stand By Me","year":"1987","previous":["320","620","538","962","1229","710","852","953","622","768","1218","1125","872","1173","982","1043"]},
+{"artist":"Passenger","title":"The Wrong Direction","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1044"]},
+{"artist":"The Who","title":"Ouverture","year":"1969","previous":["356","376","214","303","327","511","435","399","566","422","362","408","435","776","851","1045"]},
+{"artist":"Bruce Springsteen","title":"Hungry Heart","year":"1980","previous":["0","0","0","0","0","0","0","0","0","0","1523","1231","1303","1266","1010","1046"]},
+{"artist":"Level 42","title":"Lessons In Love","year":"1986","previous":["617","634","666","700","1129","1240","1412","1270","1868","1312","1595","1358","1411","1526","1375","1047"]},
+{"artist":"Jean Michel Jarre","title":"Oxygene IV","year":"1977","previous":["660","596","469","815","1028","771","982","1032","969","916","1354","1107","1164","1004","1046","1048"]},
+{"artist":"Ilse DeLange","title":"World Of Hurt","year":"1998","previous":["0","0","0","0","233","365","412","305","560","413","757","495","544","766","884","1049"]},
+{"artist":"Phil Collins","title":"I Wish It Would Rain Down","year":"1990","previous":["0","0","0","0","0","0","1289","918","1048","1494","972","1026","974","1115","984","1050"]},
+{"artist":"Bee Gees","title":"I Started A Joke","year":"1969","previous":["713","608","340","645","504","680","601","612","494","558","922","911","940","1066","1018","1051"]},
+{"artist":"De Dijk","title":"Als Het Golft","year":"2000","previous":["0","0","0","0","0","0","913","468","462","782","633","548","683","678","753","1052"]},
+{"artist":"George Ezra","title":"Budapest","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1053"]},
+{"artist":"Bruce Springsteen","title":"The Rising","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","831","910","947","976","799","1054"]},
+{"artist":"Anouk","title":"I Don't Wanna Hurt","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","296","982","670","520","833","1055"]},
+{"artist":"James Blunt","title":"Goodbye My Lover","year":"2005","previous":["0","0","0","0","0","0","0","0","453","1753","745","709","770","762","841","1056"]},
+{"artist":"Rihanna","title":"Diamonds","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","559","1057"]},
+{"artist":"Tears For Fears","title":"Sowing The Seeds Of Love","year":"1989","previous":["696","765","662","746","822","1092","1391","1276","1442","1168","926","1000","1119","1129","1114","1058"]},
+{"artist":"Lou Reed","title":"Intro / Sweet Jane","year":"1974","previous":["0","1138","0","1810","1764","1188","921","1872","1832","1554","1895","1786","1290","1241","731","1059"]},
+{"artist":"Herman Brood","title":"Still Believe","year":"1978","previous":["0","0","0","0","0","0","0","0","1364","0","1035","930","848","1141","1250","1060"]},
+{"artist":"Mumford & Sons","title":"Babel","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1061"]},
+{"artist":"Birdy","title":"People Help The People","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","313","560","1062"]},
+{"artist":"Sandy Coast","title":"The Eyes Of Jenny","year":"1981","previous":["1119","1149","1208","1254","1621","1491","1422","1762","1894","1621","0","1401","1226","1172","1219","1063"]},
+{"artist":"Otis Redding","title":"I've Been Loving You Too Long","year":"1965","previous":["0","1264","1306","1348","1086","1181","1025","1108","1129","1127","976","901","946","860","1016","1064"]},
+{"artist":"U2","title":"Magnificent","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","330","432","662","775","775","1065"]},
+{"artist":"The Black Eyed Peas","title":"Where Is The Love","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","1034","1209","766","1113","956","1066"]},
+{"artist":"Zager & Evans","title":"In The Year 2525","year":"1969","previous":["410","500","515","609","423","480","426","692","740","570","536","673","787","1254","1315","1067"]},
+{"artist":"Cheap Trick","title":"I Want You To Want Me","year":"1979","previous":["677","572","738","903","813","703","940","832","814","778","1187","1193","1300","1225","1239","1068"]},
+{"artist":"Clannad","title":"Theme From Harry's game","year":"1983","previous":["253","309","414","417","457","531","646","704","785","605","996","1011","1019","1348","1238","1069"]},
+{"artist":"Canned Heat","title":"On The Road Again","year":"1968","previous":["779","444","840","629","854","1174","715","730","779","758","964","934","1003","1056","1188","1070"]},
+{"artist":"Chicago","title":"25 Or 6 To 4","year":"1970","previous":["457","433","382","394","439","566","729","684","745","618","804","800","935","889","960","1071"]},
+{"artist":"David Sylvian","title":"Forbidden Colours","year":"1983","previous":["0","0","0","0","0","0","0","0","0","0","1023","989","1038","1125","1130","1072"]},
+{"artist":"Bryan Adams","title":"Heaven","year":"1985","previous":["0","479","276","317","355","293","544","543","613","459","861","810","730","815","915","1073"]},
+{"artist":"Creedence Clearwater Revival","title":"Long As I Can See The Light","year":"1970","previous":["0","511","479","1011","787","748","802","934","937","819","1011","896","1006","1083","1024","1074"]},
+{"artist":"Supertramp","title":"Take The Long Way Home","year":"1979","previous":["0","0","0","0","0","0","0","0","1115","0","1041","1089","1115","1023","875","1075"]},
+{"artist":"Curtis Mayfield","title":"Move On Up","year":"1971","previous":["0","0","0","0","0","0","0","0","1939","0","0","0","0","1983","1015","1076"]},
+{"artist":"Patrick Bruel","title":"Casser La Voix (Live)","year":"1992","previous":["1084","0","1482","916","919","1154","1127","645","1353","945","1077","1010","1009","1036","1026","1077"]},
+{"artist":"George Michael","title":"Jesus To A Child","year":"1996","previous":["0","0","0","0","557","659","807","591","619","663","762","845","799","804","990","1078"]},
+{"artist":"Michael Prins","title":"Close To You","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1520","1079"]},
+{"artist":"Aretha Franklin","title":"You Make Me Feel Like A Natural Woman","year":"1967","previous":["0","965","902","970","779","406","498","677","578","588","815","436","684","1086","985","1080"]},
+{"artist":"Bronski Beat","title":"Smalltown Boy","year":"1984","previous":["495","420","568","441","611","666","946","945","824","753","1192","1057","1140","1269","1027","1081"]},
+{"artist":"John Mayer","title":"Waiting On The World To Change","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","871","1198","539","824","564","1082"]},
+{"artist":"Marco Borsato","title":"De Bestemming","year":"1998","previous":["0","0","653","622","771","343","502","563","659","556","422","1079","929","953","1049","1083"]},
+{"artist":"Barry Manilow","title":"Mandy","year":"1974","previous":["348","342","507","431","417","404","520","649","474","492","840","860","778","1245","1197","1084"]},
+{"artist":"Counting Crows","title":"A Long December","year":"1996","previous":["0","0","0","0","0","0","0","0","519","1824","746","848","807","859","892","1085"]},
+{"artist":"The Cure","title":"Friday I'm In Love","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1314","1155","938","1086"]},
+{"artist":"The Script","title":"For The First Time","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","604","805","893","1087"]},
+{"artist":"Live","title":"The Dolphin’s Cry","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1088"]},
+{"artist":"Doe Maar","title":"Belle Helene","year":"1982","previous":["0","294","841","771","889","1012","1091","1176","1186","1045","1165","1229","1015","530","795","1089"]},
+{"artist":"The Moody Blues","title":"Boulevard De La Madeleine","year":"1966","previous":["751","666","576","737","855","764","773","679","885","736","814","1003","1018","929","909","1090"]},
+{"artist":"Peter Frampton","title":"Show Me The Way","year":"1976","previous":["967","891","933","712","727","937","912","1062","1551","1028","1112","1128","1067","1069","1236","1091"]},
+{"artist":"Michael Jackson","title":"Human Nature","year":"1983","previous":["0","0","0","0","0","0","0","0","0","0","525","0","1072","1040","971","1092"]},
+{"artist":"Chris Rea","title":"Josephine","year":"1985","previous":["561","612","387","308","542","500","529","585","546","522","626","621","708","1082","919","1093"]},
+{"artist":"Black Crowes","title":"Remedy","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1094"]},
+{"artist":"Weather Girls","title":"It's Raining Men","year":"1983","previous":["376","727","655","708","943","1032","1130","1020","1389","1068","1551","1347","1231","1398","1366","1095"]},
+{"artist":"Jacques Brel","title":"Voir Un Ami Pleurer","year":"1961","previous":["977","0","1166","804","675","774","627","624","787","689","887","1036","1045","1050","923","1096"]},
+{"artist":"Caro Emerald","title":"Back It Up","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","197","585","668","752","1097"]},
+{"artist":"Michael Jackson","title":"The Way You Make Me Feel","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","534","0","1183","1470","962","1098"]},
+{"artist":"Maroon 5","title":"She Will Be Loved","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","1779","1425","965","902","972","1099"]},
+{"artist":"Santana & Rob Thomas","title":"Smooth","year":"1999","previous":["0","0","0","0","884","925","1175","1318","1641","1324","1361","1580","1315","1276","1110","1100"]},
+{"artist":"ABBA","title":"Fernando","year":"1976","previous":["380","369","502","422","508","534","470","524","348","433","782","722","782","777","1109","1101"]},
+{"artist":"Nielson & Miss Montreal","title":"Hoe","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1102"]},
+{"artist":"Rick Astley","title":"Never Gonna Give You Up","year":"1987","previous":["1535","1683","1654","638","0","0","0","0","0","0","723","1684","1074","1272","1534","1103"]},
+{"artist":"Extreme","title":"More Than Words","year":"1991","previous":["305","514","661","581","503","767","988","1099","1099","860","1025","823","1198","0","1312","1104"]},
+{"artist":"Bette Midler","title":"Beast Of Burden","year":"1984","previous":["521","459","346","595","751","547","571","782","756","650","899","825","1024","1280","1296","1105"]},
+{"artist":"Don Henley","title":"New York Minute","year":"1989","previous":["0","0","0","0","0","0","0","1295","1148","1843","1296","1380","1143","1234","1208","1106"]},
+{"artist":"Genesis","title":"No Son Of Mine","year":"1991","previous":["0","0","0","0","0","0","0","0","1649","0","1213","0","1260","1135","1128","1107"]},
+{"artist":"Boudewijn de Groot","title":"Het Land Van Maas En Waal","year":"1967","previous":["277","313","370","232","292","176","176","254","269","220","498","518","582","845","855","1108"]},
+{"artist":"Niels Geusebroek","title":"Year Of Summer (acoustic)","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1109"]},
+{"artist":"Donna Summer","title":"I Feel Love","year":"1977","previous":["777","1032","1040","1175","1278","1197","1335","1562","1394","1353","1467","1633","1302","1092","856","1110"]},
+{"artist":"Toto","title":"Mushanga","year":"1988","previous":["0","0","0","0","0","0","0","0","1523","0","1439","0","1445","1292","1131","1111"]},
+{"artist":"Imagine Dragons","title":"Demons","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1112"]},
+{"artist":"Frans Halsema & Jenny Arean","title":"Vluchten Kan Niet Meer","year":"1977","previous":["233","242","431","445","527","316","231","278","272","280","514","544","629","801","718","1113"]},
+{"artist":"Cyndi Lauper","title":"True Colours","year":"1986","previous":["465","890","1100","858","1460","811","1083","927","998","964","1026","912","628","969","826","1114"]},
+{"artist":"Them","title":"Gloria","year":"1967","previous":["388","260","430","528","390","452","478","466","644","475","688","657","717","924","1036","1115"]},
+{"artist":"The Cure","title":"Boys Don't Cry","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","1146","0","1100","1087","864","1116"]},
+{"artist":"Roy Orbison","title":"In Dreams","year":"1963","previous":["587","552","627","588","488","568","631","498","685","568","827","775","896","1020","1057","1117"]},
+{"artist":"Sniff 'n The Tears","title":"Driver's Seat","year":"1980","previous":["382","650","474","534","329","594","610","766","970","638","977","921","959","897","918","1118"]},
+{"artist":"Michael Buble","title":"Everything","year":"2007","previous":["0","0","0","0","0","0","0","0","424","1721","219","524","798","795","941","1119"]},
+{"artist":"Handsome Poets","title":"Sky On Fire","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1546","853","1120"]},
+{"artist":"Blof","title":"Wat Zou Je Doen","year":"1998","previous":["0","0","328","0","0","274","487","464","520","538","853","752","893","1035","975","1121"]},
+{"artist":"Vicki Brown & New London Chorale","title":"Stay With Me Till The Morning","year":"1986","previous":["310","681","267","822","628","538","708","491","750","596","549","614","811","1265","1313","1122"]},
+{"artist":"The Moody Blues","title":"Had To Fall In Love","year":"1978","previous":["1201","1025","712","680","894","1104","1194","1091","1196","1063","1316","1291","1438","994","992","1123"]},
+{"artist":"Bonnie Raitt","title":"I Can't Make You Love Me ","year":"1991","previous":["0","0","0","0","0","0","0","0","706","1957","1345","1138","1232","1137","619","1124"]},
+{"artist":"Herman van Veen","title":"Hilversum 3","year":"1984","previous":["639","0","621","901","1071","626","806","808","741","761","838","969","881","1123","1007","1125"]},
+{"artist":"Bryan Adams","title":"Run To You","year":"1985","previous":["419","659","392","664","726","616","777","798","797","711","1133","1121","1064","1058","1047","1126"]},
+{"artist":"The Rolling Stones","title":"Midnight Rambler","year":"1969","previous":["765","0","0","924","934","906","1040","853","1191","992","1142","1204","1389","1424","1069","1127"]},
+{"artist":"Dubliners","title":"Wild Rover","year":"1964","previous":["674","0","794","788","575","749","614","663","786","676","1044","1068","1046","905","1008","1128"]},
+{"artist":"Rob de Nijs","title":"Banger Hart","year":"1996","previous":["482","368","265","401","386","432","407","436","526","426","711","895","870","967","1122","1129"]},
+{"artist":"The Kinks","title":"Celluloid Heroes","year":"1973","previous":["588","102","0","520","560","605","664","618","638","601","822","993","991","1176","1044","1130"]},
+{"artist":"Janis Ian","title":"At Seventeen","year":"1975","previous":["894","716","613","741","792","621","857","761","743","719","867","773","824","767","994","1131"]},
+{"artist":"Ella Fitzgerald & Louis Armstrong","title":"Summertime","year":"1957","previous":["0","0","0","0","0","0","0","978","900","1660","1311","1152","1139","1146","1012","1132"]},
+{"artist":"Rod Stewart","title":"Maggie May","year":"1971","previous":["665","850","696","722","747","863","855","863","1058","850","777","792","952","1028","1101","1133"]},
+{"artist":"The Doors","title":"Love Her Madly","year":"1971","previous":["0","658","615","557","630","705","879","1009","1112","849","886","987","854","888","940","1134"]},
+{"artist":"Marc Cohn","title":"Walking In Memphis","year":"1991","previous":["971","1405","1876","1347","1263","1535","1487","1687","1482","1513","1683","1476","1650","1382","1095","1135"]},
+{"artist":"Marco Borsato","title":"Speeltuin","year":"1998","previous":["0","0","0","0","492","190","357","332","318","344","318","804","643","922","886","1136"]},
+{"artist":"Anouk","title":"Jerusalem","year":"2005","previous":["0","0","0","0","0","0","0","0","609","1891","900","0","988","821","987","1137"]},
+{"artist":"Daft Punk","title":"Around The World","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1138"]},
+{"artist":"Michael Buble","title":"It's  A Beautiful Day","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1139"]},
+{"artist":"Golden Earring","title":"Back Home","year":"1970","previous":["610","476","585","868","604","766","564","627","845","655","810","719","1011","734","995","1140"]},
+{"artist":"Coldplay","title":"Lost","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","497","699","658","761","845","1141"]},
+{"artist":"Soft Cell","title":"Tainted Love","year":"1981","previous":["584","643","656","683","1111","886","1185","1065","1343","1064","1260","1333","1188","1027","1165","1142"]},
+{"artist":"Santa Esmeralda","title":"Don't Let Me Be Misunderstood","year":"1977","previous":["904","1134","1007","867","1075","1065","1033","1021","1266","1084","966","1167","1186","1093","1251","1143"]},
+{"artist":"Neil Diamond","title":"September Morn'","year":"1979","previous":["860","1007","783","1077","1032","1135","1223","787","1052","963","1110","1160","1116","1353","1230","1144"]},
+{"artist":"Marco Borsato","title":"Dromen Zijn Bedrog","year":"1994","previous":["117","283","255","488","465","202","274","225","403","275","356","735","820","957","1065","1145"]},
+{"artist":"David Bowie","title":"Absolute Beginners","year":"1986","previous":["0","651","1414","1108","1228","1333","1534","1568","1788","1497","1391","1244","1591","1007","1116","1146"]},
+{"artist":"Fleetwood Mac","title":"Big Love","year":"1987","previous":["0","1818","0","1799","1838","0","0","0","0","0","1753","1844","1667","1300","903","1147"]},
+{"artist":"The Babys","title":"Isn't It Time","year":"1977","previous":["690","540","385","501","646","682","749","707","765","666","891","1019","1093","816","1420","1148"]},
+{"artist":"Andre Hazes","title":"Zeg Maar Niets Meer","year":"1982","previous":["0","386","745","819","988","552","782","1023","766","775","1418","1431","1476","1215","1183","1149"]},
+{"artist":"Muddy Waters","title":"Mannish Boy","year":"1988","previous":["0","0","0","0","1331","1295","1393","1445","1870","1596","1289","1349","1347","656","817","1150"]},
+{"artist":"Creedence Clearwater Revival","title":"Born On The Bayou","year":"1969","previous":["0","0","0","0","0","871","917","774","796","984","932","866","1041","874","1029","1151"]},
+{"artist":"Patti Smith","title":"Because The Night","year":"1978","previous":["839","1092","1019","669","994","855","1103","1168","1217","1057","1040","954","1130","1095","1019","1152"]},
+{"artist":"Chic","title":"Le Freak","year":"1978","previous":["845","861","980","1259","1533","915","1444","1361","1326","1263","1933","1583","1838","1693","1172","1153"]},
+{"artist":"Keane","title":"Bend And Break","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","1331","1225","1204","910","813","1154"]},
+{"artist":"Monty Python","title":"Always Look On The Bright Side Of Life","year":"1981","previous":["299","0","1221","856","986","916","1183","1182","1589","1181","1219","1576","1184","956","820","1155"]},
+{"artist":"Stevie Wonder","title":"Sir Duke","year":"1977","previous":["968","893","962","1323","1251","1256","1278","1198","1526","1286","1145","1058","922","1163","1039","1156"]},
+{"artist":"Marco Borsato","title":"De Waarheid","year":"1996","previous":["264","235","236","529","520","249","351","371","525","379","305","767","731","739","963","1157"]},
+{"artist":"Frank Boeijen","title":"Winter In Hamburg","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","1472","0","1891","1417","1479","1158"]},
+{"artist":"The Beatles","title":"All You Need Is Love","year":"1967","previous":["213","332","492","608","545","377","249","476","379","392","560","596","688","0","1459","1159"]},
+{"artist":"Drs. P","title":"Dodenrit","year":"1974","previous":["462","282","415","365","645","446","573","520","510","503","783","877","905","999","948","1160"]},
+{"artist":"The Rolling Stones","title":"Little Red Rooster","year":"1965","previous":["0","756","516","573","546","595","594","729","821","653","851","854","1097","1181","1129","1161"]},
+{"artist":"Duran Duran","title":"Save A Prayer ","year":"1985","previous":["0","493","813","458","701","812","1119","1177","1314","982","1230","1302","1098","1143","1137","1162"]},
+{"artist":"Sting","title":"Moon Over Bourbon Street","year":"1985","previous":["0","0","0","0","0","0","955","722","549","1005","0","688","749","977","894","1163"]},
+{"artist":"Editors","title":"A Ton of Love","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1164"]},
+{"artist":"Bruce Springsteen","title":"Human Touch","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","1363","0","1362","1279","1076","1165"]},
+{"artist":"Manu Chao","title":"Me Gustas Tu","year":"2000","previous":["0","0","0","0","0","0","0","0","1636","0","1407","1259","1142","1157","966","1166"]},
+{"artist":"The Alan Parsons Project","title":"Don't Answer Me","year":"1984","previous":["403","379","237","212","366","467","416","518","401","416","770","637","823","981","1051","1167"]},
+{"artist":"Roxette","title":"Listen To Your Heart","year":"1988","previous":["0","0","0","0","0","0","1003","801","1022","1352","1068","1272","1153","1323","1097","1168"]},
+{"artist":"Imagine Dragons","title":"Radioactive","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1169"]},
+{"artist":"Barbra Streisand","title":"The Way We Were","year":"1973","previous":["903","0","1005","733","913","859","964","806","442","688","790","837","983","1126","1104","1170"]},
+{"artist":"Paul Simon","title":"50 Ways To Leave Your Lover","year":"1976","previous":["836","0","617","1014","1043","985","1263","1202","1159","1135","1201","1070","1223","752","910","1171"]},
+{"artist":"Bram Vermeulen","title":"De Wedstrijd","year":"1991","previous":["0","0","0","0","0","0","866","713","542","983","780","834","925","906","939","1172"]},
+{"artist":"Mr Mister","title":"Broken Wings","year":"1986","previous":["329","347","443","553","597","845","973","975","1504","913","1267","1241","1485","1312","1134","1173"]},
+{"artist":"Blof & Sabrina Starke","title":"Meer Kan Het Niet Zijn","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1075","1072","1174"]},
+{"artist":"The Killers","title":"Mr. Brightside","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1175"]},
+{"artist":"Wet Wet Wet","title":"Love Is All Around","year":"1994","previous":["398","576","589","618","694","747","786","868","977","783","848","865","1091","1462","1576","1176"]},
+{"artist":"Focus","title":"Sylvia","year":"1972","previous":["1286","970","649","842","583","808","1018","980","1086","898","706","785","921","1049","997","1177"]},
+{"artist":"Smashing Pumpkins","title":"1979","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1178"]},
+{"artist":"Duncan Browne","title":"Wild Places","year":"1979","previous":["1039","646","809","720","773","726","595","998","905","787","1340","1224","1369","1201","1100","1179"]},
+{"artist":"Lee Towers","title":"You'll Never Walk Alone","year":"1976","previous":["0","1019","1497","1055","1217","1206","1497","1415","988","1217","1610","1549","1332","1337","1323","1180"]},
+{"artist":"3JS","title":"Geloven In Het Leven","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","819","642","1131","1255","1181"]},
+{"artist":"DC Lewis","title":"Mijn Gebed","year":"1970","previous":["842","528","918","973","591","792","750","647","392","579","801","856","1047","869","1127","1182"]},
+{"artist":"Stevie Wonder","title":"Isn't She Lovely","year":"1976","previous":["682","0","1339","1043","1073","759","787","746","823","800","1954","926","819","841","914","1183"]},
+{"artist":"Owl City","title":"Fireflies","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","471","924","971","1001","1184"]},
+{"artist":"Willie Nelson","title":"Always On My Mind","year":"1984","previous":["1185","0","1430","1835","1388","1482","1421","1098","1146","1260","1386","936","993","723","949","1185"]},
+{"artist":"Allman Brothers Band","title":"Jessica","year":"1976","previous":["394","439","274","312","187","407","353","408","304","326","615","581","762","955","952","1186"]},
+{"artist":"Marco Borsato & Trijntje Oosterhuis","title":"Ik zou het zo weer overdoen","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1187"]},
+{"artist":"Bruce Springsteen","title":"Brilliant Disguise","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","1484","0","1407","1112","1084","1188"]},
+{"artist":"Is Ook Schitterend","title":"Voltooid Verleden Tijd","year":"1997","previous":["0","0","0","0","0","0","0","0","1145","0","1869","1694","1696","1286","1264","1189"]},
+{"artist":"Birdy","title":"Skinny Love","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","957","412","682","1190"]},
+{"artist":"The Kinks","title":"Sunny Afternoon","year":"1966","previous":["1030","600","826","884","990","909","1079","877","1239","970","825","1030","1080","1205","1106","1191"]},
+{"artist":"John Denver","title":"Calypso","year":"1975","previous":["515","461","823","758","679","810","699","676","640","657","805","766","826","812","1033","1192"]},
+{"artist":"Mink DeVille","title":"Spanish Stroll","year":"1977","previous":["1261","932","832","1072","841","624","752","759","913","767","736","868","979","990","1088","1193"]},
+{"artist":"Kiss","title":"Sure Know Something","year":"1979","previous":["0","1082","824","926","830","1033","788","1405","1505","1137","1376","1407","1542","1600","1287","1194"]},
+{"artist":"Beth Hart","title":"Leave The Light On","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1609","1195"]},
+{"artist":"Coldplay","title":"The Hardest Part","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","568","835","810","822","926","1196"]},
+{"artist":"Paul De Leeuw","title":"Vlieg Met Me Mee","year":"1992","previous":["344","360","519","707","614","652","733","652","744","649","558","872","1050","1236","1297","1197"]},
+{"artist":"Roxy Music","title":"If There's Something","year":"1972","previous":["0","1267","0","0","0","1190","1321","1230","1198","1443","1325","1222","1386","1310","1232","1198"]},
+{"artist":"Johnny Cash","title":"A Thing Called Love","year":"1972","previous":["1325","1240","1299","1642","842","1420","1474","1100","945","1108","1390","1063","1040","698","862","1199"]},
+{"artist":"R.E.M.","title":"Shiny Happy People","year":"1991","previous":["0","0","0","0","0","0","0","1210","1367","1871","1038","1013","861","1375","1152","1200"]},
+{"artist":"Jim Croce","title":"I Got A Name","year":"1975","previous":["1404","1066","856","1524","1979","1786","1584","1644","1853","1662","1731","1672","1737","1919","1362","1201"]},
+{"artist":"Blof & Nielson","title":"Mannenharten","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1202"]},
+{"artist":"Marco Borsato","title":"Ik Leef Niet Meer Voor Jou","year":"1996","previous":["327","0","295","464","490","224","318","369","472","363","364","789","753","861","912","1203"]},
+{"artist":"Manfred Mann's Earth band","title":"Blinded By The Light","year":"1976","previous":["987","718","532","754","668","875","1023","1305","1580","1074","819","979","1111","1291","1190","1204"]},
+{"artist":"Michael Jackson","title":"Stranger In Moscow","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","725","0","1201","1390","1059","1205"]},
+{"artist":"Fun.","title":"Some Nights","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1448","908","1206"]},
+{"artist":"Ellen Foley","title":"We Belong To The Night","year":"1979","previous":["899","544","806","874","1007","840","944","892","1114","920","1170","1006","1316","1185","1286","1207"]},
+{"artist":"Barbra Streisand","title":"Guilty","year":"1980","previous":["592","669","539","752","686","519","401","482","464","488","596","489","725","931","1358","1208"]},
+{"artist":"Earth & Fire","title":"Memories","year":"1972","previous":["664","788","362","688","724","793","834","825","1285","841","975","862","971","1068","1268","1209"]},
+{"artist":"Cock Robin","title":"The Promise You Made","year":"1986","previous":["425","645","528","753","776","567","698","793","936","731","990","1092","1058","1365","1203","1210"]},
+{"artist":"Michael Jackson","title":"Don't Stop Till You Get Enough","year":"1979","previous":["0","1549","620","1013","1506","1376","1704","1647","0","1786","523","1170","1165","1025","1186","1211"]},
+{"artist":"Zucchero Fornaciari","title":"Senza Una Donna","year":"1988","previous":["605","0","788","1163","811","777","741","706","523","665","923","763","832","1288","1372","1212"]},
+{"artist":"Michel Sardou","title":"Les Lacs Du Connemara","year":"1982","previous":["662","0","781","869","1140","797","691","633","916","766","1014","918","1154","1048","1004","1213"]},
+{"artist":"Bee Gees","title":"Spicks And Specks","year":"1967","previous":["452","494","359","414","430","401","537","552","505","481","644","628","789","964","1209","1214"]},
+{"artist":"Prince","title":"1999","year":"1982","previous":["190","562","789","1008","791","1008","1504","1367","1540","1207","1527","1025","1136","823","1042","1215"]},
+{"artist":"Coldplay","title":"Life In Technicolor II","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","418","730","884","938","900","1216"]},
+{"artist":"Kane","title":"Damn Those Eyes","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","1081","0","1152","1148","1224","1217"]},
+{"artist":"Traveling Wilburys","title":"Handle With Care","year":"1988","previous":["0","0","0","0","1631","1456","0","1537","838","1525","1396","1383","1257","1119","1189","1218"]},
+{"artist":"Coldplay","title":"Violet Hill","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","0","767","876","780","1219"]},
+{"artist":"Simply Red","title":"Home","year":"2003","previous":["0","0","0","0","0","0","747","950","1034","1362","1228","1065","1168","937","1094","1220"]},
+{"artist":"Tanita Tikaram","title":"Twist In My Sobriety","year":"1988","previous":["763","742","670","951","935","1027","971","1042","1182","1017","1231","1565","984","1281","1227","1221"]},
+{"artist":"Annie Lennox","title":"Why","year":"1992","previous":["317","431","447","346","413","491","441","571","402","442","765","715","839","1117","1108","1222"]},
+{"artist":"Percy Sledge","title":"When A Man Loves A Woman","year":"1966","previous":["613","1123","1616","1478","868","864","754","1066","1160","975","1258","1110","1070","1277","1207","1223"]},
+{"artist":"The Script","title":"Superheroes","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1224"]},
+{"artist":"Toto","title":"I'll Be Over You","year":"1986","previous":["0","921","526","893","875","1191","1238","1191","1419","1149","1692","1315","1523","1391","1266","1225"]},
+{"artist":"Joe Cocker","title":"You Can Leave Your Hat On","year":"1986","previous":["811","0","626","750","1084","775","833","829","1069","873","933","797","1062","1109","1090","1226"]},
+{"artist":"Hans De Booij","title":"Annabel","year":"1983","previous":["609","945","862","935","665","693","863","952","1070","854","998","1180","879","959","1173","1227"]},
+{"artist":"Van Morrison","title":"Bright Side Of The Road","year":"1979","previous":["1071","2000","727","616","744","795","910","711","773","739","802","791","937","1062","1120","1228"]},
+{"artist":"The B-52'S","title":"Love Shack","year":"1989","previous":["0","0","0","0","0","0","0","0","0","0","1053","750","883","1473","1289","1229"]},
+{"artist":"The Jam","title":"A Town Called Malice","year":"1980","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1067","1248","1230"]},
+{"artist":"Prince","title":"Raspberry Beret","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","1715","1306","1419","1454","1271","1231"]},
+{"artist":"Charlie Daniels Band","title":"The Devil Went Down To Georgia","year":"1979","previous":["754","0","607","878","1209","1235","1395","1328","1410","1282","1214","1293","1472","1504","1477","1232"]},
+{"artist":"Maitre Gims","title":"J'me Tire","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1233"]},
+{"artist":"Backstreet Boys","title":"I Want It That Way","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","1569","1977","1543","1645","1074","1234"]},
+{"artist":"Coldplay","title":"Charlie Brown","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","631","797","1235"]},
+{"artist":"Bad Company","title":"Feel Like Making Love","year":"1975","previous":["0","0","0","0","0","0","0","0","0","0","1377","1322","1379","1687","1947","1236"]},
+{"artist":"Marianne Rosenberg","title":"Ich Bin Wie Du","year":"1976","previous":["715","726","582","513","850","923","868","911","1097","876","1062","929","1180","1134","1259","1237"]},
+{"artist":"Prince","title":"Kiss","year":"1986","previous":["0","0","1095","1311","1114","957","0","1566","1620","1581","1592","1088","1401","1179","1204","1238"]},
+{"artist":"Crash Test Dummies","title":"Mmm Mmm Mmm Mmm","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","1503","1458","1248","1328","1269","1239"]},
+{"artist":"The Moody Blues","title":"I'm Just A Singer (In A Rock & Roll Band)","year":"1973","previous":["0","701","777","823","882","944","885","887","1339","950","1051","1132","1382","1196","1096","1240"]},
+{"artist":"Doe Maar","title":"Is Dit Alles","year":"1982","previous":["333","326","977","841","846","847","923","1018","984","907","1032","1033","851","785","897","1241"]},
+{"artist":"Whitney Houston","title":"One Moment In Time","year":"1988","previous":["0","1041","1508","0","1596","1626","1903","1520","1337","1571","1824","1815","1948","1383","1415","1242"]},
+{"artist":"Phil Collins & Philip Bailey","title":"Easy Lover","year":"1985","previous":["503","627","679","660","654","716","994","1110","1371","943","1336","1381","1509","991","1214","1243"]},
+{"artist":"Katie Melua","title":"The Closest Thing To Crazy","year":"2004","previous":["0","0","0","0","0","1926","72","134","217","225","460","521","873","1121","1079","1244"]},
+{"artist":"Norah Jones","title":"Don't Know Why","year":"2002","previous":["0","0","0","0","0","314","361","685","819","674","806","914","1112","982","928","1245"]},
+{"artist":"Bob Dylan","title":"Lay Lady Lay","year":"1969","previous":["858","0","1110","830","755","650","666","720","608","661","751","707","860","1111","999","1246"]},
+{"artist":"Twarres","title":"Wer Bisto","year":"2000","previous":["0","0","213","241","351","732","722","854","825","647","1001","1022","1090","1213","1193","1247"]},
+{"artist":"Moby","title":"Why Does My Heart Feel So Bad?","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1248"]},
+{"artist":"Bette Midler","title":"Wind Beneath My Wings","year":"1980","previous":["0","0","0","0","0","0","626","603","471","817","858","746","902","1301","1445","1249"]},
+{"artist":"David Bowie","title":"Golden Years","year":"1976","previous":["672","1259","1051","838","914","1100","1137","1362","1566","1225","1134","1173","1262","1197","1199","1250"]},
+{"artist":"Blof","title":"Later Als Ik Groter Ben","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","942","1455","1251"]},
+{"artist":"Neil Diamond","title":"Love On The Rocks","year":"1980","previous":["538","0","517","1064","964","1116","1221","969","1503","1130","1321","1234","1221","1237","1324","1252"]},
+{"artist":"Tim Hardin","title":"How Can We Hang On To A Dream","year":"1967","previous":["434","570","521","478","632","564","685","690","737","633","948","859","864","1274","1098","1253"]},
+{"artist":"Paul Simon","title":"Still Crazy After All These Years","year":"1975","previous":["0","0","0","0","0","0","1471","974","1234","1631","1064","947","1157","1521","1361","1254"]},
+{"artist":"Kim Wilde","title":"Cambodia","year":"1981","previous":["559","423","513","768","603","919","975","1131","1105","922","1175","1037","1268","1335","1307","1255"]},
+{"artist":"Level 42","title":"Love Games","year":"1981","previous":["596","1449","501","997","1172","1810","1674","1741","1767","1562","1783","1701","1787","1712","1815","1256"]},
+{"artist":"Queen","title":"Heaven For Everyone","year":"1995","previous":["0","0","0","0","0","0","0","0","877","0","993","0","761","778","1082","1257"]},
+{"artist":"Jim Croce","title":"I'll Have To Say I Love You In A Song","year":"1974","previous":["769","831","892","627","805","802","812","779","1075","815","1013","851","1035","1381","1212","1258"]},
+{"artist":"Het Goede Doel","title":"Vriendschap","year":"1983","previous":["232","292","481","540","693","619","680","732","880","681","984","1080","1117","1104","1144","1259"]},
+{"artist":"The Moody Blues","title":"Go Now","year":"1965","previous":["900","827","1335","870","845","969","995","1104","1179","1033","1174","1286","1518","1238","1140","1260"]},
+{"artist":"Emerson, Lake & Palmer","title":"Lucky Man","year":"1971","previous":["409","237","416","385","296","418","443","501","693","472","628","718","912","998","1121","1261"]},
+{"artist":"ABBA","title":"Does Your Mother Know","year":"1979","previous":["1163","882","1027","1051","1020","1069","825","1193","850","961","1128","981","1141","1089","1410","1262"]},
+{"artist":"Gilbert Becaud","title":"Nathalie","year":"1964","previous":["526","1113","908","632","573","727","572","509","482","548","930","855","797","827","981","1263"]},
+{"artist":"Brian May","title":"Too Much Love Will Kill You","year":"1992","previous":["424","0","652","429","519","586","720","1012","1015","769","1130","1350","1211","1127","1071","1264"]},
+{"artist":"Tom Jones","title":"Green Green Grass Of Home","year":"1966","previous":["694","0","780","895","956","809","794","659","781","749","1094","958","1159","1643","1331","1265"]},
+{"artist":"Simply Red","title":"Fairground","year":"1995","previous":["0","0","0","0","0","0","0","1181","1434","1878","1019","1073","1029","980","1215","1266"]},
+{"artist":"George Michael","title":"Father Figure","year":"1988","previous":["0","0","0","0","0","0","0","0","1518","0","1832","0","1700","1376","1422","1267"]},
+{"artist":"Steely Dan","title":"Do It Again","year":"1972","previous":["634","498","453","587","566","675","896","1041","1111","823","1004","963","1085","1107","1112","1268"]},
+{"artist":"Barbra Streisand & Neil Diamond","title":"You Don't Bring Me Flowers","year":"1978","previous":["619","685","427","1665","1793","1321","1243","987","1347","1188","1355","1216","1714","1779","1381","1269"]},
+{"artist":"Live","title":"Run To The Water","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1270"]},
+{"artist":"Elvis Presley","title":"Burning Love","year":"1972","previous":["0","0","0","0","835","825","563","775","813","797","895","986","1123","945","1077","1271"]},
+{"artist":"ABBA","title":"Knowing Me Knowing You","year":"1977","previous":["541","753","721","904","706","823","759","917","663","746","1007","941","1103","1158","1368","1272"]},
+{"artist":"Michael Jackson","title":"Will You Be There","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","584","0","1177","1293","1200","1273"]},
+{"artist":"Anouk","title":"Sacrifice","year":"1998","previous":["0","0","0","0","0","0","675","420","440","722","671","725","847","782","1061","1274"]},
+{"artist":"Deep Purple","title":"Woman From Tokyo","year":"1973","previous":["0","865","0","882","670","920","977","1043","1213","1001","1047","1085","1218","1052","1073","1275"]},
+{"artist":"Lange Frans & Thé Lau","title":"Zing Voor Me","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1276"]},
+{"artist":"Eagle Eye Cherry","title":"Save Tonight","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","1797","1588","1367","1585","1548","1277"]},
+{"artist":"Bruno Mars","title":"Just The Way You Are","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1278"]},
+{"artist":"Armand","title":"Ben Ik Te Min","year":"1967","previous":["508","402","540","457","442","307","382","508","382","404","893","676","796","715","1022","1279"]},
+{"artist":"Labrinth feat. Emeli Sandé","title":"Beneath Your Beautiful","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1442","1280"]},
+{"artist":"Doe Maar","title":"De Bom","year":"1982","previous":["237","224","687","742","1070","954","1108","1111","1120","1002","1288","1389","1001","647","882","1281"]},
+{"artist":"Electric Light Orchestra","title":"Don't Bring Me Down","year":"1979","previous":["698","535","533","813","1127","979","927","1034","1293","1032","967","994","1002","1294","1180","1282"]},
+{"artist":"The Beatles","title":"For No One","year":"1966","previous":["0","0","0","0","0","0","1161","698","596","1052","789","875","932","988","871","1283"]},
+{"artist":"Cat Stevens","title":"Lady d'Arbanville","year":"1970","previous":["706","633","396","562","440","603","612","744","686","622","580","593","828","1017","1281","1284"]},
+{"artist":"Ellen Ten Damme & 3JS","title":"Wat Is Dromen","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","357","155","781","1162","1285"]},
+{"artist":"ABBA","title":"One Of Us","year":"1981","previous":["0","851","570","657","536","704","671","777","538","628","1060","1099","1068","1026","1284","1286"]},
+{"artist":"David Bowie","title":"The Jean Genie","year":"1973","previous":["0","868","1272","952","1048","1285","1491","1420","1736","1390","1320","1359","1540","1351","1391","1287"]},
+{"artist":"Electric Light Orchestra","title":"Can't Get It Out Of My Head","year":"1975","previous":["608","462","282","325","273","589","739","850","1061","646","894","777","1437","1180","1151","1288"]},
+{"artist":"Aerosmith","title":"Love In An Elevator","year":"1989","previous":["0","0","0","0","0","0","0","0","0","0","1205","1008","997","1297","1279","1289"]},
+{"artist":"Anouk","title":"Modern World","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","769","1230","1403","1282","1457","1290"]},
+{"artist":"The Communards","title":"Don't Leave Me This Way","year":"1986","previous":["657","853","951","845","1270","1988","1345","1650","1789","1535","1804","1828","1917","1894","1503","1291"]},
+{"artist":"Crowded House","title":"Into Temptation","year":"1989","previous":["369","510","425","387","484","474","674","700","665","586","911","943","968","1204","1158","1292"]},
+{"artist":"Jefferson Airplane","title":"Somebody To Love","year":"1970","previous":["701","619","945","902","815","836","1146","1013","1342","1015","1249","1399","1244","1138","1174","1293"]},
+{"artist":"Robbie Williams","title":"The Road To Mandalay","year":"2001","previous":["0","0","0","0","0","0","0","0","1218","0","986","917","1095","1308","979","1294"]},
+{"artist":"The Cats","title":"Why","year":"1969","previous":["1060","0","1108","1252","1133","1103","1211","842","1065","1020","957","977","1247","1554","1369","1295"]},
+{"artist":"UK","title":"Rendez-Vous 6:02","year":"1979","previous":["580","373","498","558","511","779","943","940","1209","822","928","970","1256","1230","1335","1296"]},
+{"artist":"The Beatles","title":"Twist And Shout","year":"1963","previous":["0","941","1279","1204","1285","1310","1377","1358","1259","1304","1069","1117","1124","1124","874","1297"]},
+{"artist":"Spice Girls","title":"Wannabe","year":"1996","previous":["0","0","0","0","0","0","0","0","1921","0","1967","1730","1694","1187","1277","1298"]},
+{"artist":"Eva De Roovere","title":"Fantastig Toch","year":"2007","previous":["0","0","0","0","0","0","0","0","336","1528","618","693","928","773","1159","1299"]},
+{"artist":"Neil Diamond","title":"Girl You'll Be A Woman Soon","year":"1971","previous":["0","915","790","1102","1019","939","1042","959","1168","1012","988","997","1126","1342","1242","1300"]},
+{"artist":"David Bowie","title":"Fame","year":"1975","previous":["0","1253","1179","1292","1477","1287","1576","1811","0","1812","1774","1627","1861","1578","1582","1301"]},
+{"artist":"Kayak","title":"Starlight Dancer","year":"1977","previous":["1116","720","691","646","696","1074","1034","1170","1629","1093","698","1093","938","1055","1163","1302"]},
+{"artist":"Dolly Parton","title":"I Will Always Love You","year":"1983","previous":["632","0","941","829","1262","837","832","855","805","844","1191","1066","1318","1428","1469","1303"]},
+{"artist":"Stealers Wheel","title":"Stuck In The Middle With You","year":"1973","previous":["1355","1047","1107","1186","1348","1013","1181","1430","1336","1262","1323","1334","1195","1195","934","1304"]},
+{"artist":"ABBA","title":"Gimme Gimme Gimme","year":"1979","previous":["0","0","851","865","1085","987","568","1019","768","839","1135","1210","1056","1022","1308","1305"]},
+{"artist":"Dr Hook","title":"Sylvia's Mother","year":"1972","previous":["468","642","360","499","510","366","526","555","558","499","734","670","705","1217","1178","1306"]},
+{"artist":"Mariah Carey","title":"All I Want For Christmas Is You","year":"1994","previous":["0","0","0","0","0","0","0","1338","1024","1819","1096","1123","1246","1189","1149","1307"]},
+{"artist":"Eagles","title":"Peaceful Easy Feelin'","year":"1972","previous":["1375","0","0","934","1355","1337","1133","1060","1093","1173","1149","1139","1214","1405","1378","1308"]},
+{"artist":"Boudewijn de Groot","title":"Meester Prikkebeen","year":"1968","previous":["585","328","413","262","336","318","386","519","488","415","679","798","880","1139","1066","1309"]},
+{"artist":"The Byrds","title":"Mr. Tambourine Man","year":"1965","previous":["302","277","323","324","349","281","365","472","439","375","696","485","707","1512","1009","1310"]},
+{"artist":"Robert Long","title":"Liefste Mijn Liefste","year":"1974","previous":["0","0","0","0","0","1280","0","1233","862","1530","873","1137","1092","1667","1616","1311"]},
+{"artist":"Keane","title":"Silenced By The Night","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1029","942","1312"]},
+{"artist":"Nina Simone","title":"My Baby Just Cares For Me","year":"1987","previous":["908","1143","1440","1617","1282","1001","1072","838","1037","1000","1091","1027","1161","1054","1067","1313"]},
+{"artist":"Cliff Richard & The Young Ones","title":"Living Doll","year":"1986","previous":["134","371","374","450","1008","696","967","1081","1103","887","916","973","1049","1574","1160","1314"]},
+{"artist":"Nina Hagen","title":"Unbeschreiblich Weiblich","year":"1979","previous":["0","806","1063","1031","958","881","1420","1292","1351","1176","917","824","1189","1171","1218","1315"]},
+{"artist":"U2","title":"Angel Of Harlem","year":"1988","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1316"]},
+{"artist":"The Common Linnets","title":"Love Goes On","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1317"]},
+{"artist":"The Black Keys","title":"Little Black Submarines","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1318"]},
+{"artist":"Bob Dylan","title":"Subterranean Homesick Blues","year":"1965","previous":["0","0","0","0","0","0","1538","916","827","1388","919","1032","1082","1442","873","1319"]},
+{"artist":"Kaiser Chiefs","title":"Ruby","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","1039","1275","1208","1284","1198","1320"]},
+{"artist":"Bon Jovi","title":"You Give Love A Bad Name","year":"1986","previous":["0","0","0","0","0","0","0","0","948","0","1006","957","1032","1090","1006","1321"]},
+{"artist":"Pink Floyd","title":"Arnold Layne","year":"1971","previous":["0","0","0","0","0","0","0","0","0","0","1073","1298","1178","1298","1157","1322"]},
+{"artist":"Blunt, James","title":"Bonfire Heart","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1323"]},
+{"artist":"The Kinks","title":"You Really Got Me","year":"1964","previous":["861","503","1289","1173","1392","1162","1396","1378","1527","1347","1048","1255","1131","1255","1050","1324"]},
+{"artist":"The Rolling Stones","title":"It's All Over Now","year":"1964","previous":["414","480","473","390","395","548","527","450","632","498","704","772","903","1065","1181","1325"]},
+{"artist":"UB40","title":"Food For Thought","year":"1980","previous":["0","822","0","1022","1013","1028","1480","1470","1684","1378","1379","1288","1331","1416","1392","1326"]},
+{"artist":"Scorpions","title":"Send me an angel","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1327"]},
+{"artist":"Jan Smit","title":"Als De Morgen Is Gekomen","year":"2006","previous":["0","0","0","0","0","0","0","1855","131","725","316","526","632","985","1155","1328"]},
+{"artist":"The Walker Brothers","title":"No Regrets","year":"1976","previous":["1036","706","639","851","1083","1031","1067","1248","1292","1136","989","1050","1075","1627","1648","1329"]},
+{"artist":"Nick & Simon","title":"Rosanne","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","384","417","336","925","954","1330"]},
+{"artist":"Philip Lynott","title":"Old Town","year":"1982","previous":["0","0","0","0","1160","1389","569","1011","1195","1086","982","1169","1313","1106","1187","1331"]},
+{"artist":"Marco Borsato","title":"Waarom Nou Jij","year":"1994","previous":["335","274","226","510","420","195","385","382","554","374","333","1060","955","1305","1338","1332"]},
+{"artist":"Level 42","title":"It's Over","year":"1987","previous":["817","0","565","1121","1215","1365","1583","1607","1799","1508","1706","1382","1600","1482","1515","1333"]},
+{"artist":"Eric Clapton","title":"Let It Grow","year":"1974","previous":["897","959","592","784","793","822","845","834","935","813","1076","1038","1270","1256","1309","1334"]},
+{"artist":"Macklemore & Ryan Lewis","title":"Same Love","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1335"]},
+{"artist":"Michael Jackson","title":"Off The Wall","year":"1979","previous":["0","0","0","0","0","0","0","0","0","0","1176","0","1751","1496","1601","1336"]},
+{"artist":"The Cure","title":"In Between Days","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","1582","0","1636","1339","1304","1337"]},
+{"artist":"Carpenters","title":"(They Long To Be) Close To You","year":"1970","previous":["579","565","752","1024","730","846","1160","1205","1008","978","987","975","1173","966","1367","1338"]},
+{"artist":"Madonna","title":"Live To Tell","year":"1986","previous":["392","614","811","1141","1162","1465","1546","1401","1794","1420","1429","1617","1784","1619","1423","1339"]},
+{"artist":"ZZ en de Maskers","title":"La Comparsa","year":"1964","previous":["0","631","708","854","525","572","547","578","529","561","0","1146","1339","1666","1757","1340"]},
+{"artist":"Billy Joel","title":"Honesty","year":"1979","previous":["616","700","625","772","863","892","797","954","898","846","1247","1131","1345","1395","1501","1341"]},
+{"artist":"Paul Simon","title":"Late In The Evening","year":"1980","previous":["0","988","698","944","991","1254","1365","1232","1485","1234","1434","1310","1551","1321","1332","1342"]},
+{"artist":"Kid Rock","title":"All Summer Long","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","1440","1305","1212","1045","1210","1343"]},
+{"artist":"Status Quo","title":"Rockin' All Over The World","year":"1977","previous":["0","763","665","710","1016","829","641","876","939","812","910","962","986","1103","1123","1344"]},
+{"artist":"The Trammps","title":"Shout","year":"1975","previous":["941","1224","903","913","857","908","985","935","976","924","1250","1012","1196","1202","1280","1345"]},
+{"artist":"Blof","title":"Hou Vol Hou Vast","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","696","1063","1299","1346"]},
+{"artist":"George Michael & Elton John","title":"Don't Let The Sun Go Down On Me","year":"1991","previous":["646","736","880","761","870","1035","1383","1049","1193","1065","1402","1103","1233","1303","1150","1347"]},
+{"artist":"Shirley Bassey","title":"This Is My Life","year":"1979","previous":["614","973","850","530","939","1023","1002","915","1117","947","959","1172","1192","1358","1393","1348"]},
+{"artist":"The Rolling Stones","title":"Lady Jane","year":"1966","previous":["494","592","681","571","714","641","644","636","873","667","896","739","973","978","1105","1349"]},
+{"artist":"The Robert Cray Band","title":"Right Next Door","year":"1987","previous":["1051","967","1485","1466","1443","1594","1362","1015","1081","1195","1671","1408","1320","1224","1228","1350"]},
+{"artist":"Sade","title":"No Ordinary Love","year":"1992","previous":["0","1621","0","1302","1490","1808","0","0","0","0","1852","1760","1589","1670","1803","1351"]},
+{"artist":"Pink","title":"Family Portrait","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1352"]},
+{"artist":"Chris De Burgh","title":"The Head And The Heart","year":"1984","previous":["0","0","0","0","0","0","0","900","662","1419","999","889","908","1311","1389","1353"]},
+{"artist":"The Cats","title":"Where Have I Been Wrong","year":"1970","previous":["0","798","715","1057","873","981","1233","984","1130","1027","985","952","1261","1913","1444","1354"]},
+{"artist":"Bee Gees","title":"Nights On Broadway","year":"1975","previous":["0","705","511","606","616","803","775","920","1026","807","1114","1134","1296","1099","1270","1355"]},
+{"artist":"Dave Berry","title":"This Strange Effect","year":"1965","previous":["921","760","1114","974","838","993","966","985","1041","972","906","847","1322","1644","1575","1356"]},
+{"artist":"Ilse DeLange","title":"Hurricane","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","354","848","1357"]},
+{"artist":"Beyoncé","title":"If I Were A Boy","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1358"]},
+{"artist":"Matthias Reim","title":"Verdammt Ich Lieb' Dich","year":"1990","previous":["1176","1477","1278","1156","888","1320","1330","1143","1720","1279","1301","1271","1383","1222","1282","1359"]},
+{"artist":"Sugarhill Gang","title":"Rappers Delight","year":"1979","previous":["0","0","0","0","0","0","0","1795","1886","0","0","0","1725","1589","1267","1360"]},
+{"artist":"Bob Dylan","title":"Just Like A Woman","year":"1966","previous":["760","0","718","679","427","507","630","701","585","595","771","620","809","1136","1145","1361"]},
+{"artist":"Elvis Presley","title":"Love Me Tender","year":"1956","previous":["0","0","0","1839","540","388","686","654","709","631","774","708","999","1031","1143","1362"]},
+{"artist":"Dido","title":"White Flag","year":"2003","previous":["0","0","0","0","0","57","164","448","634","322","980","967","1017","1232","1211","1363"]},
+{"artist":"Duran Duran","title":"The Reflex","year":"1984","previous":["454","622","714","545","624","720","976","1085","1104","883","1441","1325","1353","1394","1154","1364"]},
+{"artist":"The Beatles","title":"Here There And Everywhere","year":"1966","previous":["726","1028","685","1007","709","681","810","807","726","733","866","755","1026","1309","1060","1365"]},
+{"artist":"Robert Palmer","title":"Every Kinda People","year":"1978","previous":["0","0","0","0","1441","1433","1935","1789","1729","1741","1696","1424","1642","1649","1688","1366"]},
+{"artist":"Doe Maar","title":"Smoorverliefd","year":"1981","previous":["0","0","802","866","995","1078","1076","1307","1383","1190","1383","1505","1145","826","1080","1367"]},
+{"artist":"The Who","title":"Who Are You","year":"1978","previous":["0","0","0","0","0","0","0","0","1246","0","1198","1232","1358","1175","1107","1368"]},
+{"artist":"Amy Macdonald","title":"Mr. Rock & Roll","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","365","289","572","814","1083","1369"]},
+{"artist":"The Doors","title":"Waiting For The Sun","year":"1971","previous":["500","0","767","0","0","0","0","0","0","0","1217","1176","1215","1259","996","1370"]},
+{"artist":"The Mavericks","title":"Dance The Night Away","year":"1998","previous":["896","947","988","776","864","1151","960","1070","1121","1021","1369","1040","1182","1091","1226","1371"]},
+{"artist":"Foreigner","title":"Cold As Ice","year":"1977","previous":["782","667","654","617","720","694","714","929","1283","835","1166","1344","1217","1287","1418","1372"]},
+{"artist":"Norah Jones","title":"Sunrise","year":"2004","previous":["0","0","0","0","0","405","447","735","951","776","756","1273","1134","1221","1053","1373"]},
+{"artist":"Pink Floyd","title":"See Emily Play","year":"1967","previous":["0","515","0","930","656","763","986","869","847","820","1000","1039","1086","1331","1078","1374"]},
+{"artist":"Maroon 5 & Christina Aguilera","title":"Moves Like Jagger","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","371","757","1146","1375"]},
+{"artist":"Jewel","title":"Foolish Games","year":"1997","previous":["0","0","466","320","331","598","696","687","674","589","1045","1177","1133","1270","1136","1376"]},
+{"artist":"Gladys Knight & The Pips","title":"Midnight Train To Georgia","year":"1973","previous":["1082","1724","1407","1644","1635","1299","1414","1374","1539","1435","1509","1183","1185","1516","1343","1377"]},
+{"artist":"Amanda Marshall","title":"Beautiful Goodbye","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1378"]},
+{"artist":"Magna Carta","title":"Lord Of The Ages","year":"1973","previous":["0","512","0","0","0","0","0","0","0","0","1373","1133","1259","1212","1432","1379"]},
+{"artist":"Boudewijn de Groot","title":"Een Meisje Van 16","year":"1965","previous":["371","333","478","316","310","333","346","413","480","372","705","714","858","733","980","1380"]},
+{"artist":"Dire Straits","title":"So Far Away","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","1307","1294","1446","1307","1278","1381"]},
+{"artist":"Blof","title":"Hemingway","year":"2007","previous":["0","0","0","0","0","0","0","0","380","1643","797","776","1114","1073","1205","1382"]},
+{"artist":"Marianne Faithfull","title":"The Ballad Of Lucy Jordan","year":"1979","previous":["732","644","791","723","905","715","688","835","975","798","1003","1097","1255","1487","1452","1383"]},
+{"artist":"China Crisis","title":"Wishful Thinking","year":"1984","previous":["0","873","1371","824","1072","1115","1347","1744","1774","1426","1825","1782","1978","1561","1732","1384"]},
+{"artist":"Long John Baldry","title":"(Walk Me Out) In The Morning Dew","year":"1981","previous":["1095","871","1132","1114","1005","1042","1273","982","846","977","1162","1274","1291","843","1262","1385"]},
+{"artist":"Steve Miller Band","title":"Fly Like An Eagle","year":"1976","previous":["788","697","897","719","749","729","1038","780","1064","829","1015","935","871","1009","1320","1386"]},
+{"artist":"Caro Emerald","title":"That Man","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","605","943","916","1387"]},
+{"artist":"Robbie Williams","title":"She's The One","year":"1999","previous":["0","0","1091","374","205","301","219","383","806","377","939","1075","1245","1273","1020","1388"]},
+{"artist":"The Script","title":"Six Degrees of Separation","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1498","1389"]},
+{"artist":"Frank Sinatra","title":"I've Got You Under My Skin","year":"1956","previous":["1046","1174","1409","1180","1170","911","1152","1288","1200","1155","1248","1267","1272","1407","1244","1390"]},
+{"artist":"Madonna","title":"La Isla Bonita","year":"1987","previous":["501","632","779","827","966","1234","1151","1497","1656","1281","1385","1507","1502","1325","1510","1391"]},
+{"artist":"Alannah Myles","title":"Black Velvet","year":"1990","previous":["0","549","510","593","651","742","941","1072","760","786","1739","1428","1280","1239","1413","1392"]},
+{"artist":"Zucchero Fornaciari","title":"Diamante","year":"1986","previous":["0","0","0","0","0","0","1250","967","725","1319","1171","1002","1053","1268","1433","1393"]},
+{"artist":"Al Green","title":"Let's Stay Together","year":"1971","previous":["0","0","0","0","0","0","0","1200","826","1702","1347","1071","1132","1122","1133","1394"]},
+{"artist":"Rita Hovink","title":"Laat Me Alleen","year":"1977","previous":["518","754","960","911","976","713","270","620","705","599","634","883","989","1010","1272","1395"]},
+{"artist":"Simon & Garfunkel","title":"Cecilia","year":"1970","previous":["776","1311","730","1206","1390","1219","1011","1195","1470","1220","1232","1246","1167","1114","1241","1396"]},
+{"artist":"Crosby, Stills & Nash","title":"Suite: Judy Blue Eyes","year":"1969","previous":["0","469","0","585","754","697","725","823","844","762","878","1018","1007","1168","1118","1397"]},
+{"artist":"Bob Marley & The Wailers","title":"One Love - People Get Ready","year":"1984","previous":["0","0","0","0","0","0","0","1400","1154","1863","1172","1223","825","820","1117","1398"]},
+{"artist":"Mecano","title":"Hijo De La Luna","year":"1990","previous":["444","628","774","749","593","1018","987","932","954","859","997","1111","1088","1169","1201","1399"]},
+{"artist":"Crosby, Stills, Nash & Young","title":"Carry On","year":"1970","previous":["949","586","0","642","576","818","839","905","1029","838","935","978","982","846","1003","1400"]},
+{"artist":"Bob Seger","title":"Against The Wind","year":"1980","previous":["881","715","483","477","543","664","581","650","283","482","798","782","846","962","1125","1401"]},
+{"artist":"Pet Shop Boys","title":"West End Girls","year":"1986","previous":["0","933","1346","1023","1458","1486","1979","1801","0","1852","1936","1864","1807","1764","1555","1402"]},
+{"artist":"Trockener Kecks","title":"Met Hart En Ziel","year":"1990","previous":["0","0","0","0","0","0","0","1509","1392","1945","1479","1545","1406","1539","1564","1403"]},
+{"artist":"Joe Jackson","title":"Steppin' Out","year":"1982","previous":["0","0","0","0","0","0","0","0","0","0","1687","0","1760","1330","1350","1404"]},
+{"artist":"Bad English","title":"Time Stood Still","year":"1991","previous":["0","0","0","0","0","0","0","0","1095","0","1374","1314","1284","1501","1569","1405"]},
+{"artist":"Rowwen Hèze","title":"De Peel In Brand","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1846","1406"]},
+{"artist":"Mocedades","title":"Eres Tu","year":"1973","previous":["418","696","619","757","916","783","531","739","721","690","971","968","1239","1014","1221","1407"]},
+{"artist":"Boston","title":"Don't Look Back","year":"1978","previous":["0","680","0","0","0","0","0","1375","1152","1839","1421","1461","1685","1319","1340","1408"]},
+{"artist":"Earth Wind & Fire","title":"After The Love Has Gone","year":"1979","previous":["1390","0","1037","1215","1783","1685","1676","1788","1704","1672","1452","1355","1580","1362","1559","1409"]},
+{"artist":"Prince","title":"Let's Go Crazy","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1503","1434","1524","1410"]},
+{"artist":"Candy Dulfer & Dave Stewart","title":"Lily Was Here","year":"1989","previous":["1081","1891","0","1711","0","1959","0","0","0","0","0","0","0","1523","1881","1411"]},
+{"artist":"ZZ Top","title":"Legs","year":"1985","previous":["0","0","0","0","0","0","0","0","0","0","1416","0","1412","1474","1587","1412"]},
+{"artist":"Loreen","title":"Euphoria","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","484","881","1413"]},
+{"artist":"Bruno Mars","title":"Grenade","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","320","768","898","1414"]},
+{"artist":"Pet Shop Boys","title":"It's A Sin","year":"1987","previous":["537","611","845","762","1236","1241","1262","1618","1792","1387","1574","1678","1681","1794","1571","1415"]},
+{"artist":"Racoon","title":"Freedom","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1124","1416"]},
+{"artist":"Skunk Anansie","title":"Hedonism","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1417"]},
+{"artist":"Rene Klijn","title":"Mr. Blue","year":"1993","previous":["400","488","881","747","689","838","956","895","1067","861","1097","1233","1187","1400","1135","1418"]},
+{"artist":"Vaya con Dios","title":"What's A Woman","year":"1990","previous":["804","1153","849","1001","794","880","894","938","952","888","920","1004","1225","1432","1668","1419"]},
+{"artist":"Freddie Aguilar","title":"Anak","year":"1980","previous":["963","815","709","1209","1156","1326","770","1136","1385","1124","1555","1634","1249","1206","1041","1420"]},
+{"artist":"Lenny Kravitz","title":"Always On The Run","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","1538","1651","1759","1397","1348","1421"]},
+{"artist":"Toto","title":"Pamela","year":"1988","previous":["0","801","588","1426","1116","1121","1320","1541","1647","1358","1603","1572","1463","1378","1179","1422"]},
+{"artist":"The Osmonds","title":"Crazy Horses","year":"1972","previous":["939","794","587","755","1004","787","1078","1087","1356","1035","1049","1119","1333","1357","1356","1423"]},
+{"artist":"Faithless","title":"We Come 1","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1424"]},
+{"artist":"Zijlstra","title":"Durgerdam Slaapt","year":"2002","previous":["0","0","0","0","0","0","711","708","492","909","597","764","919","1105","1216","1425"]},
+{"artist":"Genesis","title":"I Can't Dance","year":"1992","previous":["0","0","693","1161","1042","1227","1240","1559","1862","1415","1521","1595","1611","1622","1402","1426"]},
+{"artist":"Rob de Nijs","title":"Malle Babbe","year":"1975","previous":["542","406","451","619","743","635","672","731","1167","742","903","1044","1125","1559","1386","1427"]},
+{"artist":"Kensington","title":"All For Nothing","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1428"]},
+{"artist":"Outkast","title":"Hey Ya!","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1429"]},
+{"artist":"The 5th Dimension","title":"Aquarius / Let The Sunshine In","year":"1969","previous":["406","507","437","396","512","361","359","484","290","369","429","1095","452","1151","1288","1430"]},
+{"artist":"Frankie goes to Hollywood","title":"Relax","year":"1984","previous":["0","394","634","620","685","737","1224","1240","1681","1051","1384","1466","1579","1299","1650","1431"]},
+{"artist":"Boudewijn de Groot","title":"Als De Rook Om Je Hoofd Is Verdwenen","year":"1972","previous":["0","693","439","677","552","637","575","610","603","585","864","939","1721","984","1274","1432"]},
+{"artist":"Prodigy","title":"Out Of Space","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1433"]},
+{"artist":"Neil Diamond","title":"Song Sung Blue","year":"1972","previous":["653","895","520","1112","1169","1216","1226","886","1047","1006","1152","1212","1436","1706","1547","1434"]},
+{"artist":"Al Stewart","title":"On The Border","year":"1977","previous":["602","320","197","189","298","360","374","435","339","342","859","564","859","1128","1354","1435"]},
+{"artist":"Raymond van het Groenewoud","title":"Je Veux De L'amour","year":"1980","previous":["683","0","930","941","564","647","783","840","810","745","845","892","994","1573","1317","1436"]},
+{"artist":"Rob de Nijs","title":"Open Einde","year":"1987","previous":["876","0","500","693","800","773","779","764","1068","806","1183","1184","1361","1743","1623","1437"]},
+{"artist":"Vitesse","title":"Rosalyn","year":"1982","previous":["0","1117","0","1019","1119","1449","1141","1123","1310","1228","1827","1689","1562","1598","1560","1438"]},
+{"artist":"Waylon","title":"Wicked Way","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","723","831","1344","1677","1439"]},
+{"artist":"Al Jarreau","title":"Roof Garden","year":"1982","previous":["486","455","395","384","641","613","621","740","390","539","1104","801","996","1346","1486","1440"]},
+{"artist":"Bee Gees","title":"Tragedy","year":"1979","previous":["0","0","291","745","892","815","924","937","964","864","1138","1101","1330","1388","1336","1441"]},
+{"artist":"The Zombies","title":"Time Of The Season","year":"1969","previous":["1294","0","827","1353","1136","734","710","762","903","809","843","1135","1264","1352","1412","1442"]},
+{"artist":"Simple Minds","title":"Promised You A Miracle","year":"1982","previous":["0","1521","1099","885","866","1141","1343","1402","1692","1307","1672","1793","1811","1569","1458","1443"]},
+{"artist":"Neil Diamond","title":"Hello Again","year":"1981","previous":["0","906","0","1382","1308","1391","1392","1314","1341","1359","1195","1185","1375","1525","1557","1444"]},
+{"artist":"Crowded House","title":"Weather With You","year":"1992","previous":["378","334","348","474","535","608","792","809","606","625","978","920","950","1250","1099","1445"]},
+{"artist":"Suzanne Vega","title":"Luka","year":"1987","previous":["727","0","967","1177","1109","1192","1301","1406","1359","1300","1684","1454","1447","1402","1449","1446"]},
+{"artist":"Racoon","title":"Laugh About It","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","833","1551","1395","1304","1355","1447"]},
+{"artist":"David Bowie","title":"Where Are We Now","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1448"]},
+{"artist":"Randy Newman","title":"Birmingham","year":"1974","previous":["793","717","1042","773","869","959","1020","1038","1265","1026","1054","1186","1385","1625","1514","1449"]},
+{"artist":"Rowwen Heze","title":"Bestel Mar","year":"1992","previous":["733","0","643","542","462","322","153","262","213","244","503","574","733","892","899","1450"]},
+{"artist":"Neil Young","title":"Only Love Can Break Your Heart","year":"1970","previous":["704","0","1061","982","908","884","920","957","1137","968","0","1109","1404","1741","1194","1451"]},
+{"artist":"Anouk","title":"R U Kiddin' Me","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1452"]},
+{"artist":"Fleetwood Mac","title":"You Make Lovin' Fun","year":"1978","previous":["0","0","0","0","1762","1740","1719","0","0","0","1969","1683","1887","1725","1379","1453"]},
+{"artist":"Marco Borsato & Trijntje Oosterhuis","title":"Wereld Zonder Jou","year":"1997","previous":["178","230","206","342","343","182","235","342","579","311","443","793","1099","1410","1023","1454"]},
+{"artist":"Ronan Keating","title":"When You Say Nothing At All","year":"1999","previous":["0","0","1112","653","746","870","864","1030","1215","958","1120","1300","1175","1392","1351","1455"]},
+{"artist":"Amy Winehouse","title":"Our Day Will Come","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","744","1328","1456"]},
+{"artist":"Karin Bloemen","title":"Zuid-Afrika","year":"1991","previous":["0","0","0","0","0","0","1080","531","625","955","915","923","1190","1349","1231","1457"]},
+{"artist":"Vangelis","title":"Chariots Of Fire","year":"1982","previous":["0","0","807","992","1128","1112","1363","1229","1456","1251","1528","1467","1588","1110","1465","1458"]},
+{"artist":"Electric Light Orchestra","title":"Livin' Thing","year":"1976","previous":["0","1507","747","1227","1181","1325","1403","1619","1852","1496","1485","1719","1236","1190","1407","1459"]},
+{"artist":"De Dijk","title":"Mooier Dan Nu","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","522","412","646","1140","1217","1460"]},
+{"artist":"Alphaville","title":"Big In Japan","year":"1984","previous":["568","477","468","426","763","721","640","1080","961","789","1358","1014","1135","1409","1384","1461"]},
+{"artist":"Justin Timberlake","title":"Cry Me A River","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1462"]},
+{"artist":"Barbra Streisand","title":"Tell Him","year":"1997","previous":["158","303","273","323","506","385","375","437","477","414","748","659","856","1436","1606","1463"]},
+{"artist":"Heart","title":"Magic man","year":"1976","previous":["0","0","0","0","0","0","0","0","1652","0","1254","1360","1587","1749","1589","1464"]},
+{"artist":"Saybia","title":"The Day After Tomorrow","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1465"]},
+{"artist":"Therapy?","title":"Diane","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1466"]},
+{"artist":"Coolio","title":"Gangsta's Paradise","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1467"]},
+{"artist":"Roxy Music","title":"Love Is The Drug","year":"1976","previous":["679","638","756","667","1066","830","1188","1071","1348","1054","1122","1296","1363","1545","1325","1468"]},
+{"artist":"The Rolling Stones","title":"Memory Motel","year":"1976","previous":["0","0","0","0","0","1179","1294","1302","1250","1514","1302","980","1312","1220","1454","1469"]},
+{"artist":"Metallica","title":"Master of Puppets","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1470"]},
+{"artist":"U2","title":"Walk On","year":"2000","previous":["0","0","0","0","0","0","1319","781","764","1236","1037","1064","1113","1097","1093","1471"]},
+{"artist":"The Cats","title":"Times Were When","year":"1968","previous":["0","0","1320","1083","1142","1036","1129","1035","1089","1101","1028","1181","1357","1656","1506","1472"]},
+{"artist":"Reinhard Mey","title":"Als De Dag Van Toen","year":"1975","previous":["743","848","1297","826","967","938","822","606","791","741","811","931","1051","1080","1234","1473"]},
+{"artist":"Motörhead","title":"Ace Of Spades","year":"1980","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1474"]},
+{"artist":"The Pointer Sisters","title":"Fire","year":"1979","previous":["794","1098","1022","785","953","768","853","557","886","730","1079","1100","1230","1440","1085","1475"]},
+{"artist":"Ekseption","title":"The 5th","year":"1969","previous":["889","0","775","983","1155","982","989","964","1045","1008","1168","1171","1325","891","1603","1476"]},
+{"artist":"Enigma","title":"Sadeness Part 1","year":"1990","previous":["0","580","889","763","655","1176","1316","1115","1387","1094","1705","1495","1482","1071","1364","1477"]},
+{"artist":"Frank Sinatra","title":"Theme From 'New York, New York'","year":"1980","previous":["474","998","1054","1100","1015","1040","951","1050","1216","1067","1215","1166","1078","1426","1258","1478"]},
+{"artist":"Jon & Vangelis","title":"I'll Find My Way Home","year":"1982","previous":["611","656","400","447","790","709","761","682","1073","738","1150","1159","1240","1278","1333","1479"]},
+{"artist":"Grace Jones","title":"La Vie En Rose","year":"1977","previous":["907","995","925","778","1182","975","1268","1164","1294","1146","1338","1031","1378","1165","1275","1480"]},
+{"artist":"City To City","title":"The Road Ahead","year":"1999","previous":["1999","0","572","536","607","791","670","824","889","747","1380","1339","1243","1385","1526","1481"]},
+{"artist":"Barry White","title":"Let The Music Play","year":"1976","previous":["0","0","0","0","1235","865","905","1290","926","1106","1433","1370","1408","1302","1641","1482"]},
+{"artist":"Barry McGuire","title":"Eve Of Destruction","year":"1965","previous":["373","296","380","285","454","391","534","551","508","476","945","900","1014","1235","1373","1483"]},
+{"artist":"Katy Perry","title":"Firework","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1484"]},
+{"artist":"Laura Pausini","title":"La Solitudine","year":"1993","previous":["960","0","837","1220","1185","1085","979","1003","1273","1112","1257","1336","1567","1370","1365","1485"]},
+{"artist":"PHD","title":"I Won't Let You Down","year":"1981","previous":["648","830","645","728","649","523","1041","1029","1038","831","1106","1237","1174","1444","1220","1486"]},
+{"artist":"Alanis Morissette","title":"Thank You","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1487"]},
+{"artist":"ABC","title":"All Of My Heart","year":"1982","previous":["955","793","597","803","840","1070","1167","1319","1017","1056","1505","1390","1664","1671","1834","1488"]},
+{"artist":"Johnny Guitar Watson","title":"A Real Mother For Ya ","year":"1977","previous":["824","1089","1541","1104","992","988","1390","1600","1390","1309","1372","1182","1441","963","1184","1489"]},
+{"artist":"The Beatles","title":"I Saw Her Standing There","year":"1963","previous":["0","986","1196","1122","828","1072","1057","1076","1131","1058","1050","1029","1197","1198","1292","1490"]},
+{"artist":"Elvis Presley","title":"Are You Lonesome Tonight","year":"1960","previous":["0","0","0","0","0","691","585","664","530","734","739","814","1037","803","1260","1491"]},
+{"artist":"Van Dik Hout","title":"Laat Het Los","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","1357","0","1453","1534","1539","1492"]},
+{"artist":"Wham","title":"Wake Me Up Before You Gogo","year":"1984","previous":["0","1018","982","1065","1240","1150","1399","1249","1519","1299","1489","1638","1919","1650","1488","1493"]},
+{"artist":"Eric Clapton","title":"Forever Man","year":"1985","previous":["1066","1209","939","1281","1292","1371","1566","1665","1602","1503","1453","1373","1486","1313","1170","1494"]},
+{"artist":"Ike & Tina Turner","title":"Nutbush City Limits","year":"1974","previous":["818","889","701","993","1405","941","1232","1152","1374","1166","1539","1415","1421","1147","1175","1495"]},
+{"artist":"Ruth Jacott","title":"Leun Op Mij","year":"1999","previous":["0","0","0","0","0","0","1612","965","1357","1670","1221","1239","1200","1386","1285","1496"]},
+{"artist":"The Cranberries","title":"Ode To My Family","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","1604","0","1450","1318","1374","1497"]},
+{"artist":"Golden Earring","title":"I've Just Lost Somebody","year":"1968","previous":["0","0","0","0","0","0","799","616","842","1075","952","1041","1025","1437","1300","1498"]},
+{"artist":"Charles Aznavour","title":"La Mamma","year":"1964","previous":["1112","0","1467","1298","1297","1175","1044","831","763","923","1018","1108","1176","1393","1294","1499"]},
+{"artist":"Benny Neyman","title":"Waarom Fluister Ik Je Naam Nog","year":"1985","previous":["705","0","537","729","907","481","546","634","384","531","553","542","791","1203","1536","1500"]},
+{"artist":"Eagles","title":"Witchy Woman","year":"1972","previous":["0","0","0","0","1683","1686","1585","1714","1804","1750","1200","1297","1425","1477","1329","1501"]},
+{"artist":"Whitney Houston","title":"Greatest Love Of All","year":"1986","previous":["638","1321","1261","1639","1899","1877","0","1869","1784","1832","1847","1810","0","1651","1468","1502"]},
+{"artist":"Jonathan Jeremiah","title":"Happiness","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1509","1229","1503"]},
+{"artist":"Françoise Hardy","title":"Tous Les Garcons Et Les Filles","year":"1963","previous":["868","901","1163","1455","587","706","624","644","874","695","808","1021","1158","1161","1301","1504"]},
+{"artist":"Billy Joel","title":"Just The Way You Are","year":"1978","previous":["1034","1444","769","1207","1176","1140","954","1161","921","1034","1446","1055","1431","1672","1530","1505"]},
+{"artist":"Elvis vs JXL","title":"A Little Less Conversation","year":"2002","previous":["0","0","0","0","0","0","0","0","1567","0","1292","1481","1566","745","1240","1506"]},
+{"artist":"Peter Koelewijn","title":"KL 204 (Als Ik God Was)","year":"1978","previous":["628","526","678","599","834","913","785","756","957","790","883","843","1033","1588","1472","1507"]},
+{"artist":"ABBA","title":"Take A Chance On Me","year":"1977","previous":["0","694","610","1005","1257","1039","1218","1294","1153","1152","1397","1257","1557","1334","1523","1508"]},
+{"artist":"The Kinks","title":"Days","year":"1968","previous":["885","159","1127","1115","1234","1386","1689","1287","1458","1308","1447","1557","1668","1641","1480","1509"]},
+{"artist":"The Four Seasons","title":"December 1963 (Oh What A Night)","year":"1976","previous":["1349","1624","1523","1974","1862","0","1984","0","1758","1999","0","0","0","0","1702","1510"]},
+{"artist":"Billy Idol","title":"Eyes Without A Face","year":"1984","previous":["0","0","0","0","0","0","1749","1499","1230","1793","1734","1575","1575","1824","1814","1511"]},
+{"artist":"The Moody Blues","title":"The Story In Your Eyes","year":"1971","previous":["0","0","0","0","0","0","0","1651","0","0","1601","0","1955","1825","1429","1512"]},
+{"artist":"Golden Earrings","title":"Sound Of The Screaming Day","year":"1967","previous":["661","896","1075","799","1175","1087","897","981","1425","1079","1057","1024","1160","1766","1371","1513"]},
+{"artist":"Jan Smit","title":"Laura","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","409","759","672","1154","1303","1514"]},
+{"artist":"Acda en De Munnik","title":"Voetstuk Staan","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1144","1425","1515"]},
+{"artist":"Earth & Fire","title":"Weekend","year":"1979","previous":["0","790","594","792","961","995","1049","1126","1369","1090","1282","1254","1461","1568","1580","1516"]},
+{"artist":"Smashing Pumpkins","title":"Tonight Tonight","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1517"]},
+{"artist":"Peter Sarstedt","title":"Where Do You Go To My Lovely","year":"1969","previous":["748","1051","1495","1052","912","1059","934","936","1083","981","1342","1192","1532","1324","1502","1518"]},
+{"artist":"Tori Amos","title":"Cornflake Girl","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","1387","0","1374","1384","1434","1519"]},
+{"artist":"The Wiz Stars","title":"A Brand New Day","year":"1978","previous":["766","714","923","994","1233","1322","1429","1528","1492","1370","1585","1585","1907","787","1321","1520"]},
+{"artist":"Caro Emerald","title":"Liquid Lunch","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1521"]},
+{"artist":"Ilse DeLange","title":"The Great Escape","year":"2007","previous":["0","0","0","0","0","0","0","0","357","1575","773","626","951","948","1142","1522"]},
+{"artist":"Simon & Garfunkel","title":"Homeward Bound","year":"1966","previous":["932","1170","1013","1160","1205","1226","1312","1245","1417","1258","1241","1251","1219","1452","1456","1523"]},
+{"artist":"The Beatles","title":"A Hard Day's Night","year":"1964","previous":["502","875","965","1028","931","824","893","890","857","848","936","922","941","648","1161","1524"]},
+{"artist":"Mud","title":"Dynamite","year":"1974","previous":["799","825","695","671","633","758","796","669","839","712","1132","1140","1351","1459","1385","1525"]},
+{"artist":"Toontje Lager","title":"Stiekem Gedanst","year":"1983","previous":["846","518","731","612","756","730","705","786","971","765","1542","1421","1202","1253","1339","1526"]},
+{"artist":"Manfred Mann's Earth band","title":"Davy's On The Road Again","year":"1978","previous":["852","820","657","848","1060","1149","1202","1308","1915","1298","1100","972","1340","1847","1625","1527"]},
+{"artist":"Saybia","title":"I Surrender ","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1528"]},
+{"artist":"Roxy Music","title":"Jealous Guy","year":"1981","previous":["959","923","787","759","880","698","1048","1027","1340","980","1255","1365","1344","1463","1398","1529"]},
+{"artist":"Laura Jansen","title":"Use Somebody","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","358","655","1076","1195","1530"]},
+{"artist":"Hot Chocolate","title":"Emma","year":"1974","previous":["863","811","1078","1003","581","872","1055","1120","1175","965","1264","1203","1630","1978","1669","1531"]},
+{"artist":"XTC","title":"Making Plans For Nigel","year":"1979","previous":["0","0","0","0","0","0","0","0","0","0","1367","1419","1593","0","1978","1532"]},
+{"artist":"Supertramp","title":"Goodbye Stranger","year":"1979","previous":["0","0","0","0","1241","1392","1180","1364","1418","1421","1593","1469","1528","1399","1252","1533"]},
+{"artist":"Madonna","title":"Vogue","year":"1990","previous":["0","0","0","0","0","0","0","0","1846","0","1256","1628","1652","1580","1357","1534"]},
+{"artist":"Sam & Dave","title":"Soul Man","year":"1967","previous":["1170","1743","1763","0","1517","1723","1686","0","0","0","1567","1494","1423","1422","1742","1535"]},
+{"artist":"Prince","title":"I Would Die 4 U","year":"1984","previous":["0","0","0","0","0","0","0","1585","1703","1993","1791","1330","1405","1194","1257","1536"]},
+{"artist":"The Rolling Stones","title":"Time Is On My Side","year":"1965","previous":["569","939","976","1000","768","1044","1126","1154","1261","1082","1058","1266","1458","1532","1316","1537"]},
+{"artist":"Elvis Costello","title":"Good Year For The Roses","year":"1981","previous":["1002","750","776","791","739","827","878","821","1021","830","1235","964","1328","1570","1419","1538"]},
+{"artist":"Golden Earring","title":"Weekend Love","year":"1979","previous":["0","979","795","1181","1303","1037","1369","1144","1345","1203","1522","1582","1444","1714","1552","1539"]},
+{"artist":"Jackson 5","title":"I Want You Back","year":"1970","previous":["0","0","0","0","0","0","0","0","0","0","1660","1990","1968","0","2000","1540"]},
+{"artist":"Michael Jackson","title":"Wanna Be Startin' Something","year":"1983","previous":["0","0","0","0","0","0","0","0","0","0","650","1144","1323","1626","1326","1541"]},
+{"artist":"The Rolling Stones","title":"Time Waits For No One","year":"1974","previous":["0","1402","0","0","0","0","0","0","0","0","1870","0","1841","1871","1363","1542"]},
+{"artist":"Yazoo","title":"Don't Go","year":"1982","previous":["925","722","786","782","1143","1239","1561","1498","1735","1381","1493","1710","1656","1837","1727","1543"]},
+{"artist":"A Balladeer","title":"Swim With Sam","year":"2002","previous":["0","0","0","0","0","0","0","0","550","0","1184","1096","958","1360","1411","1544"]},
+{"artist":"Lady Gaga","title":"Bad Romance","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","676","903","1056","1545"]},
+{"artist":"Stevie Wonder","title":"As","year":"1976","previous":["0","0","0","0","0","0","0","0","1467","0","1291","1318","1163","1507","1062","1546"]},
+{"artist":"Queen","title":"You Don't Fool Me","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1547"]},
+{"artist":"Frankie goes to Hollywood","title":"Two Tribes","year":"1984","previous":["0","0","0","0","0","0","0","0","1687","0","1663","1729","1940","1506","1597","1548"]},
+{"artist":"Bill Withers","title":"Lovely Day","year":"1978","previous":["1567","0","1385","1535","1722","1523","1800","1856","1781","1712","0","1823","1634","1594","1387","1549"]},
+{"artist":"Randy Crawford","title":"One Day I'll Fly Away","year":"1980","previous":["827","1394","1617","1342","1204","1327","1410","1026","1284","1211","1052","1087","1582","1522","1527","1550"]},
+{"artist":"Motions","title":"Wasted Words","year":"1965","previous":["1290","1406","1631","1073","929","1336","1163","1097","1433","1193","1480","1524","1842","1821","1653","1551"]},
+{"artist":"The Beatles","title":"Yellow Submarine","year":"1966","previous":["774","837","1468","971","1397","1051","1177","1185","1202","1160","1118","1129","1105","1449","1166","1552"]},
+{"artist":"Ekseption","title":"Air","year":"1969","previous":["972","1020","969","967","1093","990","700","899","829","852","1144","1141","1306","1166","1417","1553"]},
+{"artist":"Beyoncé","title":"Single Ladies (put a ring on it)","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1554"]},
+{"artist":"Michael Jackson","title":"Bad","year":"1987","previous":["0","1310","736","1313","1712","1467","1798","1551","0","1807","439","965","1087","878","1063","1555"]},
+{"artist":"Anouk","title":"Woman","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","656","1220","1145","1485","1556"]},
+{"artist":"John Mayer & Taylor Swift","title":"Half Of My Heart","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","811","1327","864","986","1557"]},
+{"artist":"White Soxx","title":"Versailles","year":"1981","previous":["0","1196","766","736","713","858","873","1187","1005","932","1337","1311","1536","1314","1439","1558"]},
+{"artist":"Bon Jovi","title":"In These Arms","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1559"]},
+{"artist":"Reinhard Mey","title":"Gute Nacht Freunde","year":"1974","previous":["1032","1494","1634","1398","1384","1329","1402","1293","1618","1402","1243","1388","1416","1604","1341","1560"]},
+{"artist":"Racoon","title":"Took A Hit","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","909","1016","1177","1561"]},
+{"artist":"Steely Dan","title":"Rikki Don't Lose That Number","year":"1974","previous":["728","839","792","613","827","926","980","1121","1144","986","1178","1153","1287","1564","1390","1562"]},
+{"artist":"Enrique Iglesias","title":"Hero","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","1113","1213","1129","1476","1540","1563"]},
+{"artist":"Mink DeVille","title":"Demasiado Corazon","year":"1984","previous":["1157","0","1615","1138","1433","1753","1053","1061","1488","1303","1020","1104","1253","1315","1497","1564"]},
+{"artist":"The Police","title":"Don't Stand To Close To Me","year":"1980","previous":["0","0","0","0","0","0","0","1660","1728","0","1417","1465","1466","1451","1290","1565"]},
+{"artist":"Living Colour","title":"Love Rears Its Ugly Head","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1566"]},
+{"artist":"The Beatles","title":"We Can Work It Out","year":"1965","previous":["738","1044","724","843","941","992","1201","1069","930","985","1078","1240","1380","1261","1408","1567"]},
+{"artist":"Phil Collins","title":"You Can't Hurry Love","year":"1982","previous":["0","0","799","846","722","800","842","961","1291","938","1360","1269","1493","1689","1436","1568"]},
+{"artist":"ABBA","title":"The Name Of The Game","year":"1977","previous":["750","769","936","1126","1481","1470","1485","1648","1269","1396","1442","1640","1752","1500","1690","1569"]},
+{"artist":"Steve Winwood","title":"While You See A Chance","year":"1981","previous":["1238","1235","884","1123","1112","1213","1251","1392","1313","1248","1419","1352","1501","1327","1451","1570"]},
+{"artist":"UB40","title":"Sing Our Own Song","year":"1986","previous":["0","834","1162","1375","1442","1330","1654","1637","1917","1594","0","1957","0","0","1692","1571"]},
+{"artist":"Christina Aguilera","title":"Beautiful","year":"2003","previous":["0","0","0","0","0","0","0","0","867","0","1203","1130","913","870","1265","1572"]},
+{"artist":"Wings","title":"Maybe I'm Amazed","year":"1977","previous":["0","0","0","0","1394","1363","1601","1843","1741","1705","1915","1917","1866","1831","1542","1573"]},
+{"artist":"Jacques Brel","title":"Marieke","year":"1961","previous":["1049","0","1180","1131","808","1073","858","913","1044","946","1188","1487","1524","1419","1376","1574"]},
+{"artist":"John Mayer","title":"Who Says","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1575"]},
+{"artist":"Madness","title":"Embarrassment","year":"1981","previous":["0","1251","1705","1218","1476","1590","1981","0","0","0","1517","1704","0","1704","1624","1576"]},
+{"artist":"Bee Gees","title":"You Win Again","year":"1987","previous":["0","812","386","1282","781","887","915","1139","1001","940","1335","1432","1571","1602","1404","1577"]},
+{"artist":"Trijntje Oosterhuis","title":"De Zee","year":"1996","previous":["0","0","0","0","0","0","0","499","716","1144","820","748","960","1102","1500","1578"]},
+{"artist":"Dotan","title":"Fall","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1579"]},
+{"artist":"Blind Melon","title":"No Rain","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1580"]},
+{"artist":"Ultravox","title":"Dancing With Tears In My Eyes","year":"1984","previous":["1056","1094","1071","900","1053","1193","1336","1617","1698","1392","1365","1410","1637","1833","1529","1581"]},
+{"artist":"System Of A Down","title":"Chop Suey!","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1582"]},
+{"artist":"The Kooks","title":"She Moves In Her Own Way","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1583"]},
+{"artist":"The Specials","title":"A Message To You Rudy","year":"1980","previous":["0","1650","1560","0","1564","1003","1897","0","0","0","0","1884","1874","1186","1494","1584"]},
+{"artist":"Chris Isaak","title":"Blue Hotel","year":"1987","previous":["759","719","978","832","876","754","1111","1460","1274","1092","1370","1309","1207","1373","1185","1585"]},
+{"artist":"John Lennon","title":"Woman","year":"1981","previous":["707","908","667","872","725","930","892","898","1172","904","1276","988","1034","1350","1427","1586"]},
+{"artist":"Orchestral Manoeuvres In The Dark","title":"Enola Gay ","year":"1980","previous":["0","695","313","965","963","1292","1329","1731","1972","1403","1432","1731","1779","1874","1438","1587"]},
+{"artist":"Kraftwerk","title":"The Model","year":"1978","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1588"]},
+{"artist":"Style Council","title":"My Ever Changing Moods","year":"1984","previous":["0","1183","1198","1335","1212","1143","1309","1508","1376","1341","1290","1561","1581","1614","1474","1589"]},
+{"artist":"Procol Harum","title":"A Salty Dog","year":"1969","previous":["755","838","1271","591","985","899","907","870","1113","914","1072","1260","1276","1077","1443","1590"]},
+{"artist":"Phil Collins","title":"Something Happened On The Way To Heaven","year":"1990","previous":["0","0","0","0","0","0","0","0","1730","0","1856","1895","1830","0","1405","1591"]},
+{"artist":"Carpenters","title":"Yesterday Once More","year":"1973","previous":["699","809","796","732","998","991","938","924","1156","960","1271","888","1278","1320","1665","1592"]},
+{"artist":"Ry Cooder","title":"He'll Have To Go","year":"1976","previous":["988","0","875","756","814","731","778","874","1072","851","968","990","1286","1544","976","1593"]},
+{"artist":"The Lumineers","title":"Ho Hey","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1673","1594"]},
+{"artist":"Dusty Springfield","title":"I Close My Eyes (And Count To Ten)","year":"1968","previous":["892","990","909","850","1171","1017","992","767","590","771","776","734","1028","1251","1447","1595"]},
+{"artist":"Patrick Hernandez","title":"Born To Be Alive","year":"1979","previous":["1337","1547","1779","0","0","1937","0","1672","0","0","0","0","0","1787","1840","1596"]},
+{"artist":"The Rolling Stones","title":"Under My Thumb","year":"1966","previous":["0","902","893","1205","973","1056","1132","1246","1486","1194","1412","1366","1494","1333","1246","1597"]},
+{"artist":"John Legend","title":"This Time","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1548","1258","802","1598"]},
+{"artist":"Aerosmith","title":"Crying","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1599"]},
+{"artist":"UB40 & Chrissie Hynde","title":"I Got You Babe","year":"1985","previous":["923","799","910","1301","1165","1075","1260","1411","1491","1290","1615","1483","1614","1776","1738","1600"]},
+{"artist":"Taylor Swift ft. Ed Sheeran","title":"Everything Has Changed","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1601"]},
+{"artist":"Dan Fogelberg","title":"Netherlands","year":"1977","previous":["0","755","595","995","878","1083","1060","1321","1251","1128","1137","1292","1569","1406","1694","1602"]},
+{"artist":"Zen","title":"Hair","year":"1968","previous":["802","698","448","675","625","543","841","946","904","755","793","840","1016","1285","1752","1603"]},
+{"artist":"Beyoncé","title":"Crazy In Love","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1604"]},
+{"artist":"John Newman","title":"Love me again","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1605"]},
+{"artist":"Rufus & Chaka Khan","title":"Ain't Nobody","year":"1984","previous":["712","0","1199","806","1132","1211","1439","1504","1231","1287","1630","1444","1433","1612","1671","1606"]},
+{"artist":"Edward Sharpe & The Magnetic Zeros","title":"Home","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1182","1087","1607"]},
+{"artist":"The Doobie Brothers","title":"Long Train Runnin'","year":"1973","previous":["924","1276","991","1278","1125","1049","1205","1351","1562","1289","1459","1367","1598","1637","1481","1608"]},
+{"artist":"Yes","title":"I've Seen All Good People","year":"1971","previous":["0","499","0","559","621","936","1140","1117","1162","990","1095","1161","1428","1719","1610","1609"]},
+{"artist":"Pussycat","title":"Mississippi","year":"1975","previous":["430","555","929","794","702","832","655","626","696","660","0","1005","1266","1633","1595","1610"]},
+{"artist":"Tina Turner & Eros Ramazzotti","title":"Cose Della Vita","year":"1998","previous":["590","0","0","681","844","918","848","1007","1199","994","1313","1083","1238","1193","1395","1611"]},
+{"artist":"The Verve","title":"The drugs don't work","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1612"]},
+{"artist":"Pink","title":"Raise Your Glass","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1613"]},
+{"artist":"Foreigner","title":"That Was Yesterday","year":"1985","previous":["0","0","1146","810","1094","1186","1358","1370","1683","1355","1609","1621","1628","1665","1679","1614"]},
+{"artist":"Lady Gaga","title":"Poker Face","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","704","915","1167","1615"]},
+{"artist":"Jacques Dutronc","title":"Il Est Cinq Heures Paris S'Éveille","year":"1968","previous":["873","1559","1411","1366","1395","1160","1203","970","1627","1226","1411","1636","1496","1638","1504","1616"]},
+{"artist":"Diana Ross","title":"Theme From Mahogany","year":"1976","previous":["809","739","728","1068","1199","1136","1186","1114","1309","1153","1252","1316","1601","1795","1707","1617"]},
+{"artist":"Tom Petty","title":"Refugee","year":"1980","previous":["0","0","0","0","0","0","0","1736","1645","0","1841","1728","1651","1478","1437","1618"]},
+{"artist":"Bee Gees","title":"Night Fever","year":"1978","previous":["461","353","241","539","740","618","880","861","799","718","1136","1150","1138","1011","1310","1619"]},
+{"artist":"The Cars","title":"Drive","year":"1984","previous":["631","524","808","922","925","877","1045","1347","1447","1134","1341","1341","1480","1864","1922","1620"]},
+{"artist":"Gnarls Barkley","title":"Crazy","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","1811","1604","1825","1508","1462","1621"]},
+{"artist":"Kyu Sakamoto","title":"Sukiyaki","year":"1963","previous":["0","0","0","0","0","0","0","1870","0","0","1662","1533","1609","1679","1680","1622"]},
+{"artist":"Counting Crows","title":"Accidentally In Love","year":"2004","previous":["0","0","0","0","0","0","0","0","0","0","1305","1323","1065","726","1168","1623"]},
+{"artist":"Andre Hazes","title":"'n Beetje Verliefd","year":"1981","previous":["535","348","710","569","572","454","570","727","612","584","1269","1249","1298","458","1322","1624"]},
+{"artist":"Bruce Springsteen","title":"Secret Garden","year":"1995","previous":["1169","0","828","979","981","1170","1244","1309","1164","1182","1781","1713","1643","1676","1233","1625"]},
+{"artist":"Elvis Presley","title":"You're The Devil In Disguise","year":"1963","previous":["577","1305","1215","1760","928","1117","1022","1130","1370","1157","1075","1283","1499","1429","1453","1626"]},
+{"artist":"Paul Simon","title":"Boy In The Bubble","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1789","1116","1327","1627"]},
+{"artist":"BZN","title":"Mon Amour","year":"1976","previous":["607","384","857","844","974","630","373","443","317","435","850","913","1305","1502","1583","1628"]},
+{"artist":"Creedence Clearwater Revival","title":"Down On The Corner","year":"1969","previous":["0","0","0","0","0","0","0","1180","1256","1837","1281","1072","1275","1267","1409","1629"]},
+{"artist":"The Police","title":"Can't Stand Losing You","year":"1979","previous":["787","1364","1195","1261","1401","1167","1716","1683","1487","1470","1324","1262","1434","1174","1249","1630"]},
+{"artist":"Velvet Underground","title":"Sweet Jane","year":"1974","previous":["0","0","0","0","0","0","0","0","0","0","1435","1455","1487","1840","1256","1631"]},
+{"artist":"Santana","title":"Oye Como Va","year":"1971","previous":["1174","1283","1247","1416","1644","1413","1437","1569","1691","1536","1306","1280","1510","1605","1709","1632"]},
+{"artist":"Sam Smith","title":"I'm Not The Only One","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1633"]},
+{"artist":"Bruce Springsteen","title":"Jungleland","year":"1975","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1634"]},
+{"artist":"Slade","title":"Merry Xmas Everybody","year":"1973","previous":["0","593","816","897","937","946","1168","1172","1346","1105","1103","1199","1309","1711","1550","1635"]},
+{"artist":"Plain White T'S","title":"Hey There Delilah","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","1680","1480","1504","1519","1247","1636"]},
+{"artist":"Simply Red","title":"Stars","year":"1991","previous":["0","0","0","0","0","1222","1622","1794","1851","1796","1519","1468","1392","1542","1683","1637"]},
+{"artist":"Bryan Ferry","title":"Let's Stick Together","year":"1976","previous":["1005","610","1181","923","859","714","963","1171","1155","974","1273","1217","1462","1742","1796","1638"]},
+{"artist":"Eurythmics","title":"There Must Be An Angel","year":"1985","previous":["573","740","755","808","1047","806","789","963","1054","901","994","1045","1096","1550","1478","1639"]},
+{"artist":"Roy Orbison","title":"Oh, Pretty Woman","year":"1964","previous":["544","678","801","647","499","782","776","657","780","675","1102","961","1122","1443","1273","1640"]},
+{"artist":"Eric Clapton","title":"After Midnight","year":"1970","previous":["0","0","0","0","938","1497","1708","1272","1631","1485","1473","1308","1644","1034","1509","1641"]},
+{"artist":"Rod Stewart","title":"I Don't Want To Talk About It","year":"1977","previous":["1166","0","1427","1712","1715","1561","1655","1557","1973","1668","1575","1528","1753","1809","1773","1642"]},
+{"artist":"Madonna","title":"Ray Of Light","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","1571","1400","1711","1715","1615","1643"]},
+{"artist":"Bread","title":"If","year":"1971","previous":["620","539","675","496","663","740","726","753","800","704","941","853","1060","1485","1693","1644"]},
+{"artist":"Q65","title":"Ann","year":"1966","previous":["0","0","0","0","0","0","1200","771","914","1305","854","902","977","1316","1476","1645"]},
+{"artist":"Adamo","title":"Vous Permettez Monsieur","year":"1964","previous":["358","337","318","277","333","243","232","272","146","209","664","492","635","1243","1484","1646"]},
+{"artist":"Redbone","title":"We Were All Wounded At Wounded Knee","year":"1973","previous":["893","711","916","1062","759","819","959","1138","1427","1036","1456","1578","1451","0","1995","1647"]},
+{"artist":"Doe Maar","title":"Pa","year":"1983","previous":["785","578","1590","1236","1408","1265","1459","1636","1726","1499","1697","1801","1547","997","1254","1648"]},
+{"artist":"The Righteous Brothers","title":"You've Lost That Loving Feeling","year":"1965","previous":["586","944","989","797","664","977","1059","1197","1170","1014","1207","1384","1574","1786","1482","1649"]},
+{"artist":"Cyndi Lauper","title":"Time After Time","year":"1984","previous":["735","710","839","1046","1189","1158","1324","1341","1381","1246","1382","1537","1432","1872","1566","1650"]},
+{"artist":"Free","title":"All Right Now","year":"1970","previous":["651","778","1141","837","765","1024","1017","1439","1281","1129","1364","1201","1625","1248","1406","1651"]},
+{"artist":"Bruno Mars","title":"Treasure","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1652"]},
+{"artist":"Blof","title":"Hier","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1653"]},
+{"artist":"Dire Straits","title":"Water Of Love","year":"1978","previous":["981","0","0","933","1001","1217","1184","1224","1685","1317","1634","1372","1731","1596","1632","1654"]},
+{"artist":"Harry Nilsson","title":"Without You","year":"1972","previous":["742","907","859","790","952","1105","1021","1096","1416","1111","1618","1581","1519","1674","1607","1655"]},
+{"artist":"Steely Dan","title":"Reelin' In The Years","year":"1973","previous":["1266","1286","1510","1319","1332","1480","1608","1538","1844","1565","1233","1317","1381","1555","1549","1656"]},
+{"artist":"Icehouse","title":"Crazy","year":"1987","previous":["0","0","0","0","1337","1524","0","1580","0","1981","1613","1602","1739","0","1905","1657"]},
+{"artist":"Clean Bandit","title":"Rather Be","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1658"]},
+{"artist":"The Beatles","title":"Lady Madonna","year":"1968","previous":["851","926","598","1050","851","1171","1032","844","1000","928","879","887","1042","1219","1138","1659"]},
+{"artist":"Black Crowes","title":"Hard to handle","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1660"]},
+{"artist":"Stone Roses","title":"Fools Gold","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1661"]},
+{"artist":"Ramses Shaffy","title":"We Zullen Doorgaan","year":"1975","previous":["0","0","0","0","1587","1526","1540","1480","1601","1628","174","1120","1044","1593","1400","1662"]},
+{"artist":"Bee Gees","title":"Don't Forget To Remember","year":"1969","previous":["0","0","486","711","678","688","727","656","469","609","869","783","1013","1404","1428","1663"]},
+{"artist":"The Baseballs","title":"Umbrella","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","748","1223","1584","1664"]},
+{"artist":"ABBA","title":"S.O.S.","year":"1975","previous":["463","640","530","731","728","940","942","1175","1098","949","1082","1053","1206","1377","1570","1665"]},
+{"artist":"Paul Young","title":"Love Of The Common People","year":"1984","previous":["1208","787","829","1081","1091","1122","1469","1737","731","1107","1886","1780","0","1975","1721","1666"]},
+{"artist":"Natalie Imbruglia","title":"Torn","year":"1997","previous":["497","581","1273","919","1012","1093","1136","1518","0","1598","0","0","2000","1249","1496","1667"]},
+{"artist":"Blof","title":"Dichterbij Dan Ooit","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1668"]},
+{"artist":"Laura Jansen","title":"Queen Of Elba","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1669"]},
+{"artist":"Ilse DeLange","title":"Next To Me","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1346","1379","1522","1670"]},
+{"artist":"Backstreet Boys","title":"Everybody","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","1762","0","0","0","1768","1671"]},
+{"artist":"Small Faces","title":"Tin Soldier","year":"1968","previous":["0","1013","0","1439","1101","1061","1252","1327","1595","1339","1501","1698","1797","0","1546","1672"]},
+{"artist":"Procol Harum","title":"Grand Hotel","year":"1973","previous":["0","782","0","836","899","1200","818","888","1166","973","1319","1346","1301","1467","1640","1673"]},
+{"artist":"Ramses Shaffy & Liesbeth List","title":"Shaffy Cantate","year":"1965","previous":["1371","0","0","1154","1821","1195","1135","1133","1444","1322","178","1094","1148","1533","1525","1674"]},
+{"artist":"Black","title":"Wonderful Life","year":"1987","previous":["555","432","720","734","798","814","755","875","852","777","1463","1327","1469","1499","1435","1675"]},
+{"artist":"The Byrds","title":"Turn Turn Turn","year":"1965","previous":["594","625","748","833","1031","907","1062","1137","1101","1025","1468","1285","1364","1468","1370","1676"]},
+{"artist":"Volumia!","title":"Hou Me Vast","year":"1998","previous":["274","307","436","798","906","516","657","803","711","668","1129","1067","963","1540","1414","1677"]},
+{"artist":"Ilse DeLange","title":"We Are One","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1388","1678"]},
+{"artist":"Lenny Kravitz","title":"It Ain't Over Till It's Over","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","1960","1811","1761","0","1795","1679"]},
+{"artist":"Snow Patrol","title":"Crack The Shutters","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","732","1098","1054","1408","1237","1680"]},
+{"artist":"The Rolling Stones","title":"Dead Flowers","year":"1971","previous":["0","0","0","0","940","994","0","956","1296","1350","1500","1379","1400","1244","1626","1681"]},
+{"artist":"Frida Boccara","title":"Cent Mille Chansons","year":"1969","previous":["808","1057","1006","1099","1214","964","771","622","890","791","1329","1179","1561","1368","1440","1682"]},
+{"artist":"Neil Young","title":"Alabama","year":"1972","previous":["0","1201","1386","1189","1218","1019","1169","1106","1203","1147","1294","1312","1539","1074","1298","1683"]},
+{"artist":"Santana feat. Product G&B","title":"Maria Maria","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1684"]},
+{"artist":"Fleetwood Mac","title":"The Green Manalishi","year":"1970","previous":["0","1065","0","0","0","1237","1593","1487","1594","1682","1545","1669","1675","1861","1629","1685"]},
+{"artist":"Spider Murphy Gang","title":"Skandal Im Sperrbezirk","year":"1982","previous":["1077","1291","1097","1192","1326","1319","1544","1781","1976","1602","1846","1834","1954","1494","1667","1686"]},
+{"artist":"David Gray","title":"Babylon","year":"2000","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1687"]},
+{"artist":"Elton John","title":"Sorry Seems To Be The Hardest Word","year":"1976","previous":["757","1080","890","964","856","841","1037","1306","1448","1123","1392","1391","1293","1853","1519","1688"]},
+{"artist":"Tom Petty","title":"A Face In The Crowd","year":"1990","previous":["0","0","0","0","0","0","0","0","1773","0","0","1889","1981","1039","1345","1689"]},
+{"artist":"The Cats","title":"The End Of The Show","year":"1980","previous":["0","0","0","1277","1239","1225","1405","1221","1384","1337","1277","1439","1669","1946","1670","1690"]},
+{"artist":"INXS","title":"Need You Tonight","year":"1987","previous":["0","0","0","0","1478","1164","1707","1526","1929","1655","1948","1816","1857","1563","1631","1691"]},
+{"artist":"The Doobie Brothers","title":"What A Fool Believes","year":"1978","previous":["773","0","985","1274","1432","1066","1416","1377","1598","1379","1942","1485","1610","1863","1684","1692"]},
+{"artist":"Carel Kraayenhof ","title":"Adios Nonino","year":"2002","previous":["0","0","0","0","0","0","0","1310","999","1800","1596","1263","1299","1218","1955","1693"]},
+{"artist":"Aerosmith","title":"Crazy","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1694"]},
+{"artist":"Fatboy Slim","title":"Praise You","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1695"]},
+{"artist":"Michael Buble","title":"Haven't Met You Yet","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","371","750","1070","1295","1696"]},
+{"artist":"Earth & Fire","title":"Seasons","year":"1970","previous":["1237","1006","1067","1085","559","1050","1128","1215","1541","1116","1350","1321","1568","1775","1962","1697"]},
+{"artist":"Marianne Faithfull","title":"As Tears Go By","year":"1964","previous":["1031","0","1251","1287","978","1060","1248","914","1096","1049","1105","1194","1237","1271","1487","1698"]},
+{"artist":"Genesis","title":"Invisible Touch","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","1738","1851","1963","1788","1753","1699"]},
+{"artist":"Keane","title":"This Is The Last Time","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","1261","1420","1612","1480","1302","1700"]},
+{"artist":"Buffalo Springfield","title":"For What It's Worth","year":"1967","previous":["1104","0","981","716","989","869","1094","1408","1401","1170","1565","1536","1341","1461","1115","1701"]},
+{"artist":"Pearl Jam","title":"Oceans","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1702"]},
+{"artist":"Bob Marley & The Wailers","title":"Get Up Stand Up","year":"1973","previous":["0","0","0","0","971","0","0","0","0","0","951","815","931","1072","1111","1703"]},
+{"artist":"John Denver","title":"Thank God I'm a Country Boy","year":"1975","previous":["2000","737","1226","1262","1179","1303","1031","1174","1185","1161","1466","1512","1479","1675","1657","1704"]},
+{"artist":"The Beatles","title":"Across The Universe","year":"1970","previous":["945","0","1283","0","933","1183","1139","1004","769","998","925","1178","1128","951","1164","1705"]},
+{"artist":"Fleetwood Mac","title":"As Long As You Follow","year":"1988","previous":["0","1481","0","0","1829","1894","0","1967","0","0","1985","1992","0","1778","1793","1706"]},
+{"artist":"Celine Dion","title":"Pour Que Tu M'Aimes Encore","year":"1995","previous":["295","0","716","787","769","796","898","910","986","867","1181","1220","1319","1252","1621","1707"]},
+{"artist":"Dire Straits","title":"Calling Elvis","year":"1991","previous":["0","0","0","0","0","0","0","1484","1565","1967","1530","1493","1808","1421","1551","1708"]},
+{"artist":"Zucchero Fornaciari","title":"Cosi Celeste","year":"1997","previous":["1092","0","0","1690","1667","1483","1293","1281","932","1253","1913","1496","1443","1541","1592","1709"]},
+{"artist":"Bruce Springsteen","title":"War","year":"1980","previous":["0","0","0","0","0","0","0","0","1206","0","1580","0","1508","1988","1672","1710"]},
+{"artist":"Kane & Ilse DeLange","title":"Before You Let Me Go","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1711"]},
+{"artist":"Heart","title":"All I Wanna Do Is Make Love To You","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1802","1705","0","0","1992","1712"]},
+{"artist":"John Mayall","title":"Room To Move","year":"1970","previous":["898","637","1072","1095","703","968","1015","828","1108","908","1236","1165","1413","1636","1538","1713"]},
+{"artist":"Rein de Vries","title":"Patsy","year":"1965","previous":["0","1284","1425","1385","999","1261","1158","1178","1366","1213","1507","1546","1534","1907","1642","1714"]},
+{"artist":"The Clash","title":"Should I Stay Or Should I Go","year":"1982","previous":["0","0","0","0","0","0","0","0","1745","0","1768","1925","1831","0","1946","1715"]},
+{"artist":"Stealers Wheel","title":"Late Again","year":"1973","previous":["810","674","820","748","806","867","902","1002","1087","925","1223","1261","1227","1491","1537","1716"]},
+{"artist":"Gerard Lenorman","title":"La Ballade Des Gens Heureux","year":"1976","previous":["1127","1502","1209","1720","1689","1519","1354","1282","1764","1489","1945","1700","1780","1329","1935","1717"]},
+{"artist":"Kate Bush","title":"Babooshka","year":"1980","previous":["0","1245","0","1321","1290","1267","1406","1433","1500","1413","1366","1422","1448","947","1396","1718"]},
+{"artist":"Kamahl","title":"The Elephant Song","year":"1975","previous":["775","1167","1189","1505","1245","1331","1322","1280","1571","1354","1719","1615","1620","1458","1561","1719"]},
+{"artist":"Santana & John Lee Hooker","title":"The Healer","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","0","1981","1860","1380","1347","1720"]},
+{"artist":"The Cats","title":"Rock 'n Roll","year":"1974","previous":["0","1116","1159","1232","1253","882","745","743","677","770","882","886","1108","1558","1658","1721"]},
+{"artist":"Genesis","title":"Hold On My Heart","year":"1992","previous":["1271","0","1033","1562","1611","1706","1891","1901","1588","1685","1669","1803","1906","1938","1737","1722"]},
+{"artist":"The Cats","title":"Vaya Con Dios","year":"1972","previous":["0","0","0","1990","1120","1249","1166","1083","1157","1197","1196","1235","1520","1535","1725","1723"]},
+{"artist":"Di-rect","title":"Times Are Changing","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1724"]},
+{"artist":"The Shoes","title":"Osaka","year":"1970","previous":["0","0","1540","1812","1413","1629","1379","1641","1635","1586","1624","1784","1297","1472","1919","1725"]},
+{"artist":"Saybia","title":"The Second You Sleep","year":"2002","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1726"]},
+{"artist":"Womack & Womack","title":"Teardrops","year":"1988","previous":["946","1192","1503","1456","1226","1374","1638","1837","1552","1543","1790","1558","0","0","1839","1727"]},
+{"artist":"Roxy Music","title":"More Than This","year":"1982","previous":["0","1451","0","1783","1751","1911","0","1953","1975","1897","1970","1935","0","0","1758","1728"]},
+{"artist":"Bob Carlisle","title":"Butterfly Kisses","year":"1997","previous":["816","1199","1644","1151","1318","1229","1283","1231","718","1038","1590","1707","1755","1659","1556","1729"]},
+{"artist":"Oleta Adams","title":"Get Here","year":"1990","previous":["669","1552","1175","1256","1037","1312","1564","1466","1872","1464","1983","1794","1365","1673","1545","1730"]},
+{"artist":"Jackson Browne","title":"The Pretender","year":"1976","previous":["0","1581","0","961","1208","1062","1592","1540","1514","1411","1591","1456","1572","1789","1842","1731"]},
+{"artist":"The Clash","title":"Rock The Casbah","year":"1982","previous":["0","0","0","0","0","0","0","0","0","0","1645","1740","1659","1698","1516","1732"]},
+{"artist":"The Jacksons","title":"Can You Feel It","year":"1981","previous":["730","1162","1094","1444","1499","1884","1959","0","0","0","0","0","0","1729","1874","1733"]},
+{"artist":"Steve Miller Band","title":"The Joker","year":"1973","previous":["1283","869","1123","1034","1414","1064","1529","1758","1680","1478","1211","1091","1151","1354","1399","1734"]},
+{"artist":"The Monkees","title":"I'm A Believer","year":"1966","previous":["918","1719","1313","1508","817","755","1256","947","1278","1010","1194","1143","1191","1200","1222","1735"]},
+{"artist":"Bruno Mars","title":"Marry You","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1341","1276","1736"]},
+{"artist":"De Dijk","title":"Laat Het Vanavond Gebeuren","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","1778","0","1585","1724","1627","1737"]},
+{"artist":"Bill Medley & Jennifer Warnes","title":"I've Had The Time Of My Life","year":"1987","previous":["615","741","998","1248","1445","1317","1511","1524","1666","1463","0","1809","1994","1887","1851","1738"]},
+{"artist":"USA for Africa","title":"We Are The World","year":"1985","previous":["336","774","631","975","1252","1107","1671","1821","1770","1481","1518","1499","1802","1726","1568","1739"]},
+{"artist":"Chicago","title":"You're The Inspiration ","year":"1985","previous":["771","0","1016","955","1232","1402","1435","1447","1402","1367","1873","1649","1653","1918","1841","1740"]},
+{"artist":"Robbie Williams","title":"Candy","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","482","974","1741"]},
+{"artist":"The Rolling Stones","title":"Let's Spend The Night Together","year":"1967","previous":["0","759","995","625","979","891","1063","921","1422","1007","1139","1054","1415","1538","1383","1742"]},
+{"artist":"Joe Cocker & Jennifer Warnes","title":"Up Where We Belong","year":"1982","previous":["869","1195","1023","1195","1429","1224","1356","1426","1373","1344","1747","1764","1834","1852","1810","1743"]},
+{"artist":"Falco","title":"Rock Me Amadeus","year":"1986","previous":["0","1188","1045","1033","1986","1660","1631","1667","0","1848","0","0","1814","1760","1704","1744"]},
+{"artist":"Jack Johnson","title":"Sitting, Waiting, Wishing","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","1229","1356","1224","1263","1191","1745"]},
+{"artist":"Procol Harum","title":"Homburg","year":"1967","previous":["871","671","990","504","796","967","798","894","1138","881","1270","1290","1324","1531","1517","1746"]},
+{"artist":"Stereophonics","title":"Maybe Tomorrow","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1747"]},
+{"artist":"T'Pau","title":"China In Your Hand","year":"1987","previous":["597","982","891","899","1431","1133","1193","1399","1290","1240","1502","1518","1537","1562","1644","1748"]},
+{"artist":"Julio Iglesias","title":"Un Canto A Galicia","year":"1972","previous":["798","1014","1124","1172","1325","1507","1275","1188","1432","1302","1651","1409","1719","1609","1964","1749"]},
+{"artist":"Buffalo Springfield","title":"Expecting To Fly","year":"1968","previous":["324","0","0","443","568","581","758","805","666","672","1121","1023","1242","1520","1563","1750"]},
+{"artist":"The Walker Brothers","title":"The Sun Ain't Gonna Shine Anymore","year":"1966","previous":["692","937","676","886","1017","910","1095","1054","1066","1003","1017","1102","1121","1680","0","1751"]},
+{"artist":"Sandy Coast","title":"True Love That's A Wonder","year":"1971","previous":["1630","1403","1052","1452","1555","1473","1563","1546","1867","1590","1287","1510","1744","1956","0","1752"]},
+{"artist":"Herman van Veen","title":"Toveren","year":"1987","previous":["865","0","0","1384","1237","1142","1074","1346","1033","1200","1226","1307","1368","1584","1596","1753"]},
+{"artist":"The Dizzy Man's Band","title":"The Opera","year":"1975","previous":["1423","1049","410","701","1033","745","844","906","1035","858","1326","1340","1546","1885","1605","1754"]},
+{"artist":"Jamiroquai","title":"Virtual Insanity","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1755"]},
+{"artist":"Glennis Grace","title":"Afscheid","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","641","559","1346","1756"]},
+{"artist":"U2","title":"Stay (So Close Far Away)","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1757"]},
+{"artist":"Nielson","title":"Sexy Als Ik Dans","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1758"]},
+{"artist":"The Babys","title":"A Piece Of The Action","year":"1978","previous":["0","0","793","931","1159","1198","1542","1444","1475","1356","1524","1616","1851","1566","1849","1759"]},
+{"artist":"Run D.M.C.","title":"Walk This Way","year":"1986","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1760"]},
+{"artist":"Commodores","title":"Three Times A Lady","year":"1978","previous":["553","520","810","691","736","607","490","795","938","700","1083","880","1023","1572","1471","1761"]},
+{"artist":"Gare Du Nord","title":"Beautiful day","year":"2007","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1762"]},
+{"artist":"Beck","title":"Loser","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1763"]},
+{"artist":"Sparks","title":"This Town Ain't Big Enough For Both Of Us","year":"1974","previous":["1024","683","1205","727","797","1029","1077","1014","1247","1024","1298","1430","1619","1621","1717","1764"]},
+{"artist":"Crosby, Stills, Nash & Young","title":"Helpless","year":"1970","previous":["510","1027","0","1010","712","765","849","881","1016","865","1029","992","1069","1260","1382","1765"]},
+{"artist":"Little River Band","title":"Home On A Monday","year":"1977","previous":["1443","1106","1057","937","1358","1421","1473","1613","1987","1546","1829","1623","1952","1933","1984","1766"]},
+{"artist":"Katrina & the Waves","title":"Walking On Sunshine","year":"1985","previous":["1318","1300","1689","1326","1562","1205","1314","1301","1901","1440","1837","1776","0","0","1913","1767"]},
+{"artist":"Wings","title":"Live And Let Die","year":"1973","previous":["671","1506","1044","1264","946","1041","1530","1398","1617","1333","1084","1205","1234","1336","1532","1768"]},
+{"artist":"Madonna","title":"Papa Don't Preach","year":"1986","previous":["0","1000","1621","1586","1457","1505","1603","1897","0","1862","1926","1577","0","0","1998","1769"]},
+{"artist":"George Michael","title":"Faith","year":"1987","previous":["0","913","955","1179","1836","1382","1664","1258","1643","1444","1359","1450","1254","1208","1460","1770"]},
+{"artist":"Michael Jackson","title":"Rock With You","year":"1979","previous":["0","0","0","0","0","0","0","0","0","0","1107","1845","1937","1560","1736","1771"]},
+{"artist":"Village People","title":"YMCA","year":"1978","previous":["377","684","711","887","550","922","1068","994","1302","948","1788","1813","0","0","1772","1772"]},
+{"artist":"Katie Melua","title":"If You Were A Sailboat","year":"2007","previous":["0","0","0","0","0","0","0","0","101","696","693","716","1079","1479","1431","1773"]},
+{"artist":"Alessandro Safina","title":"Luna","year":"2000","previous":["0","0","172","235","210","351","405","670","415","406","1245","1196","1012","1447","1770","1774"]},
+{"artist":"U2","title":"Mysterious Ways","year":"1991","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1775"]},
+{"artist":"Styx","title":"Babe","year":"1979","previous":["0","691","659","698","609","866","968","983","1140","900","1454","1396","1457","1211","1714","1776"]},
+{"artist":"Sam Brown","title":"Stop","year":"1988","previous":["958","835","1650","1588","1311","1440","1908","1994","0","1874","1896","1862","1854","0","0","1777"]},
+{"artist":"George Michael","title":"You Have Been Loved","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1818","1989","1712","1778"]},
+{"artist":"Het Goede Doel","title":"Hou Van Mij","year":"1983","previous":["0","629","1034","1030","1291","1253","1270","1395","1805","1384","1553","1403","1491","1528","1649","1779"]},
+{"artist":"The Beach Boys","title":"Wouldn't It Be Nice","year":"1966","previous":["0","1410","1792","1184","1437","1223","1630","1693","1400","1471","1299","1136","1106","1581","1305","1780"]},
+{"artist":"Diesel","title":"Sausolito Summernight","year":"1980","previous":["1376","0","984","1722","1709","1550","1789","1984","2000","1759","1469","1586","1858","1699","1730","1781"]},
+{"artist":"Paul De Leeuw","title":"Blijf Bij Mij","year":"1993","previous":["0","0","1025","977","821","1011","669","579","923","751","888","1155","1355","1130","1421","1782"]},
+{"artist":"Paul Weller","title":"Wild wood","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1783"]},
+{"artist":"Michael Buble","title":"Lost","year":"2007","previous":["0","0","0","0","0","0","0","0","432","1730","582","1043","1342","1374","1594","1784"]},
+{"artist":"Dusty Springfield","title":"Summer Is Over","year":"1965","previous":["1180","836","1084","908","789","1185","1027","1051","1077","1019","1125","999","1282","1660","1602","1785"]},
+{"artist":"The Human League","title":"Don't You Want Me","year":"1982","previous":["928","1250","1464","1528","1729","1992","0","0","0","0","0","0","0","0","1908","1786"]},
+{"artist":"Berlin","title":"Take My Breath Away","year":"1986","previous":["647","734","646","760","1198","1038","1660","1592","1479","1328","0","0","0","1904","1986","1787"]},
+{"artist":"Rod Stewart","title":"You're In My Heart","year":"1977","previous":["1310","0","1381","1350","1446","1659","1519","1423","1604","1523","1617","1629","1839","1701","1588","1788"]},
+{"artist":"R. Kelly","title":"I Believe I Can Fly","year":"1997","previous":["466","0","888","1152","1286","1264","1640","1588","0","1772","0","0","1904","1772","0","1789"]},
+{"artist":"Propaganda","title":"Duel (Eye To Eye)","year":"1985","previous":["0","810","740","809","1062","1168","1231","1228","1808","1265","973","1377","1798","1592","1535","1790"]},
+{"artist":"Celine Dion","title":"The Power Of Love","year":"1994","previous":["523","0","644","812","1006","786","814","893","761","802","1344","1208","1393","612","1705","1791"]},
+{"artist":"The Beatles","title":"All My Loving","year":"1964","previous":["1025","1362","1077","1689","1124","1098","1348","1208","1126","1184","1368","1490","1388","1043","1493","1792"]},
+{"artist":"Anna & Kate McGarrigle","title":"Complainte Pour Ste. Catherine","year":"1976","previous":["536","604","504","637","804","612","697","817","670","679","1427","1264","1418","1527","1862","1793"]},
+{"artist":"Green Day","title":"When I Come Around","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1794"]},
+{"artist":"Barbra Streisand","title":"Evergreen","year":"1977","previous":["1078","0","1536","1853","1752","1349","1386","1235","963","1242","1185","1116","1806","1733","1751","1795"]},
+{"artist":"Inxs","title":"Original Sin","year":"1984","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1796"]},
+{"artist":"Bruce Springsteen","title":"We Take Care Of Our Own","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","939","1176","1797"]},
+{"artist":"Billie Holiday","title":"Strange Fruit","year":"1939","previous":["0","0","0","0","0","0","1651","1574","1003","1760","1482","1440","1258","1895","1745","1798"]},
+{"artist":"The Rolling Stones","title":"The Last Time","year":"1965","previous":["520","682","1284","549","786","794","1964","812","991","905","1108","1215","1398","1361","1359","1799"]},
+{"artist":"Frank Sinatra","title":"Strangers In The Night","year":"1966","previous":["721","0","1314","1500","918","1165","1276","1277","1608","1301","1625","1612","1624","1827","1577","1800"]},
+{"artist":"Nancy Sinatra","title":"These Boots Are Made For Walking","year":"1966","previous":["1624","1639","1903","0","1870","1380","1366","1713","1530","1615","1996","1667","1646","1529","1823","1801"]},
+{"artist":"Maroon 5","title":"This Love","year":"2004","previous":["0","0","0","0","0","0","875","925","1219","1448","1328","1279","1170","1290","1430","1802"]},
+{"artist":"One Republic","title":"Secrets","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1803"]},
+{"artist":"Julien Clerc","title":"This Melody","year":"1976","previous":["1144","0","1498","1158","1321","1245","723","755","1171","951","1314","1520","1372","1752","1639","1804"]},
+{"artist":"John Mayer","title":"Perfectly Lonely","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1617","1202","1805"]},
+{"artist":"Elvis Presley","title":"Heartbreak Hotel","year":"1956","previous":["558","699","1113","1191","1092","974","769","960","1237","995","1278","1351","1439","1233","1512","1806"]},
+{"artist":"Booker T & The MG's ","title":"Green Onions","year":"1962","previous":["0","0","0","0","0","0","0","1750","1471","1985","1460","1598","1417","1623","1492","1807"]},
+{"artist":"The Animals","title":"We've Got To Get Out Of This Place","year":"1965","previous":["993","903","915","984","1049","725","958","1082","919","929","1622","1268","1552","1963","1533","1808"]},
+{"artist":"Simply Red","title":"Sunrise","year":"2003","previous":["0","0","0","0","0","0","0","1239","1537","1921","1443","1442","1495","1632","1490","1809"]},
+{"artist":"Michael Kiwanuka","title":"Home Again","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1142","1263","1810"]},
+{"artist":"Lenny Kravitz","title":"Fly Away","year":"1998","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1811"]},
+{"artist":"Alicia Keys","title":"Girl On Fire","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1826","1223","1812"]},
+{"artist":"Them","title":"It's All Over Now, Baby Blue","year":"1966","previous":["0","673","797","786","826","856","931","864","1043","875","1220","1228","1277","1751","1799","1813"]},
+{"artist":"The Sweet","title":"The Ballroom Blitz","year":"1973","previous":["0","179","0","531","553","645","772","1074","1254","843","1492","1527","1512","0","1565","1814"]},
+{"artist":"Take That","title":"The Flood","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1329","1587","1824","1815"]},
+{"artist":"Matia Bazar","title":"Ti Sento","year":"1986","previous":["910","1010","938","684","996","1021","1515","1554","1902","1369","1865","1766","1871","1702","1638","1816"]},
+{"artist":"Roxette","title":"It Must Have Been Love","year":"1990","previous":["342","416","547","580","464","851","904","1201","1489","919","1436","1712","1768","1949","1703","1817"]},
+{"artist":"Andrew Gold","title":"Lonely Boy","year":"1977","previous":["953","676","412","597","965","973","1050","1350","1403","1109","0","1822","1473","1943","1981","1818"]},
+{"artist":"The Monkees","title":"Daydream Believer","year":"1967","previous":["1480","1248","906","1233","1150","1315","1472","1427","1682","1404","1268","1329","1497","1488","1306","1819"]},
+{"artist":"Alquin","title":"Wheelchair Groupie","year":"1975","previous":["0","0","0","0","0","0","890","1053","1260","1551","0","974","1181","1483","1763","1820"]},
+{"artist":"Blondie","title":"Heart Of Glass","year":"1979","previous":["0","795","1295","1025","1269","1360","1513","1937","1581","1532","1552","1671","1627","1723","1759","1821"]},
+{"artist":"Charles Trenet","title":"La Mer","year":"1952","previous":["1249","0","1400","1463","1386","1399","1342","1058","1404","1292","1498","1753","1772","1668","1888","1822"]},
+{"artist":"Demis Roussos","title":"My Friend The Wind","year":"1973","previous":["1011","1077","571","795","887","844","808","800","912","805","1210","1147","1308","1754","1713","1823"]},
+{"artist":"Boney M","title":"Rivers Of Babylon","year":"1978","previous":["381","207","445","564","732","440","533","615","502","529","1143","950","1030","1662","1483","1824"]},
+{"artist":"Deep Blue Something","title":"Breakfast At Tiffany's","year":"1996","previous":["0","0","0","0","0","0","0","0","1399","0","0","1924","1635","1583","1450","1825"]},
+{"artist":"Foreigner","title":"Waiting For A Girl Like You","year":"1982","previous":["1043","1015","886","1145","1000","1356","1498","1703","1945","1519","0","1727","0","1586","1912","1826"]},
+{"artist":"A-Ha","title":"The Sun Always Shines On TV","year":"1986","previous":["0","870","494","357","909","1273","1190","1627","1272","1159","1716","1635","1710","1713","0","1827"]},
+{"artist":"Rammstein","title":"Sonne","year":"2001","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1828"]},
+{"artist":"Will And The People","title":"Lion In The Morning Sun","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","730","1235","1829"]},
+{"artist":"Harry Klorkestein","title":"Oh Oh Den Haag","year":"1982","previous":["815","999","950","1471","1613","1680","1663","1419","1978","1599","1888","1848","0","1681","1886","1830"]},
+{"artist":"Eros Ramazzotti","title":"Un Emozione Per Sempre","year":"2003","previous":["0","0","0","0","0","0","0","0","0","0","1807","1741","1956","1411","1573","1831"]},
+{"artist":"Michael Jackson","title":"I Just Can't Stop Loving You","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","714","0","1484","1990","1634","1832"]},
+{"artist":"10CC","title":"I'm Mandy Fly Me","year":"1976","previous":["0","832","0","576","554","687","1046","857","734","757","909","1817","1127","1683","1858","1833"]},
+{"artist":"Eurythmics","title":"Here Comes The Rain Again","year":"1983","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1834"]},
+{"artist":"Tom Browne","title":"Funkin' For Jamaica","year":"1981","previous":["1080","1495","1641","1807","1694","1536","0","1991","1225","1726","0","0","0","1948","1710","1835"]},
+{"artist":"Andre Hazes","title":"Het Is Koud Zonder Jou","year":"1980","previous":["0","0","0","0","0","0","0","1206","1150","1818","0","1870","1987","1648","1844","1836"]},
+{"artist":"Laura Pausini","title":"Strani Amori","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","1822","1792","0","1805","1915","1837"]},
+{"artist":"Phil Collins","title":"One More Night","year":"1985","previous":["883","0","1026","1312","962","933","1107","1033","1242","1091","1607","1703","1815","1848","1991","1838"]},
+{"artist":"Adamo","title":"Tombe La Neige","year":"1964","previous":["464","531","347","506","496","493","387","427","226","355","795","635","895","1475","1743","1839"]},
+{"artist":"Wild Cherry","title":"Play That Funky Music","year":"1976","previous":["1259","1518","1433","1652","1575","1588","1802","1913","1814","1710","0","1916","1985","1944","1790","1840"]},
+{"artist":"Gavin DeGraw","title":"Soldier","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1414","1528","1841"]},
+{"artist":"Tom Petty","title":"Into The Great Wide Open","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1842"]},
+{"artist":"Jethro Tull","title":"Bourrée","year":"1969","previous":["720","0","0","686","865","828","831","810","1063","882","1173","1127","1384","1466","1590","1843"]},
+{"artist":"Vaya con Dios","title":"Nah Neh Nah","year":"1990","previous":["1093","997","1504","1344","1149","1301","1110","1257","1436","1267","1310","1498","1475","1347","1943","1844"]},
+{"artist":"Mika","title":"Grace Kelly","year":"2007","previous":["0","0","0","0","0","0","0","0","364","1606","670","1017","1449","1401","1578","1845"]},
+{"artist":"The Boomtown Rats","title":"I Don't Like Mondays","year":"1979","previous":["479","437","584","644","770","646","746","710","759","685","1476","1338","1440","1707","1342","1846"]},
+{"artist":"James Blake","title":"Limit To Your Love","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1847"]},
+{"artist":"Pet Shop Boys","title":"Always On My Mind","year":"1987","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1848"]},
+{"artist":"Piet Veerman","title":"Sailing Home","year":"1987","previous":["1175","1468","1847","0","1163","661","1061","1196","1288","1132","0","1853","0","1846","1907","1849"]},
+{"artist":"Andre Hazes","title":"'n Vriend","year":"1980","previous":["1160","0","1062","0","1106","879","1150","1661","1125","1249","0","1903","1935","848","1637","1850"]},
+{"artist":"The Animals","title":"Bring It On Home To Me","year":"1965","previous":["837","460","531","481","620","542","678","741","551","607","1141","991","1289","1552","1585","1851"]},
+{"artist":"Percy Sledge","title":"My Special Prayer","year":"1969","previous":["666","1184","1724","1294","1147","924","795","976","1071","987","1334","1270","1370","1548","1780","1852"]},
+{"artist":"Chicken Shack","title":"I'd Rather Go Blind","year":"1969","previous":["1061","630","833","828","1036","914","1249","1441","1330","1177","1586","1718","1884","1615","1726","1853"]},
+{"artist":"Guus Meeuwis & Vagant","title":"Per Spoor (Kedeng Kedeng)","year":"1996","previous":["1396","0","0","1646","1510","1397","1026","992","1187","1199","1085","1218","1267","1498","1403","1854"]},
+{"artist":"The Rolling Stones","title":"Tumbling Dice","year":"1972","previous":["0","1085","0","1404","1544","1720","0","1669","0","1979","0","1936","1969","1841","1774","1855"]},
+{"artist":"Jamiroquai","title":"Seven Days In Sunny June","year":"2005","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1856"]},
+{"artist":"ABBA","title":"Super Trouper","year":"1980","previous":["0","0","1176","1155","832","1334","1307","1407","1094","1205","1531","1433","1662","1801","1800","1857"]},
+{"artist":"Leo Sayer","title":"Orchard Road","year":"1983","previous":["805","730","870","1027","872","1000","886","882","1194","942","1266","1559","1535","1791","1865","1858"]},
+{"artist":"The Script","title":"Nothing","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1859"]},
+{"artist":"Creedence Clearwater Revival","title":"Up Around The Bend","year":"1970","previous":["0","0","0","0","1102","1199","1155","1391","1498","1400","1351","1417","1559","1445","1562","1860"]},
+{"artist":"Maria Mena","title":"Just Hold Me","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1861"]},
+{"artist":"John Lennon","title":"Jealous Guy","year":"1971","previous":["0","0","0","0","0","0","1331","933","1446","1638","1280","1238","1352","1081","1377","1862"]},
+{"artist":"Bots","title":"Zeven Dagen Lang","year":"1976","previous":["1064","0","750","589","683","719","597","883","581","669","1626","1404","1427","1366","1499","1863"]},
+{"artist":"Little River Band","title":"Forever Blue","year":"1995","previous":["1246","984","854","890","1178","1238","1210","1379","1451","1274","1819","1601","1835","1973","1819","1864"]},
+{"artist":"Paul De Leeuw","title":"Blijf Tot De Zon Je Komt Halen ","year":"2007","previous":["0","0","0","0","0","0","0","0","353","1564","616","1059","1307","1692","1678","1865"]},
+{"artist":"Tsjechov","title":"Vanmorgen Vloog Ze Nog","year":"1988","previous":["612","0","0","1109","1014","953","870","865","722","853","1225","0","1397","1423","1674","1866"]},
+{"artist":"Guns N' Roses","title":"Estranged","year":"1994","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1867"]},
+{"artist":"Mama Cass","title":"Dream A Little Dream Of Me","year":"1968","previous":["1103","1597","1476","1647","1756","1455","1626","1570","1528","1558","1758","1738","1742","1914","1769","1868"]},
+{"artist":"Caro Emerald","title":"Tangled Up","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1869"]},
+{"artist":"Duffy","title":"Warwick Avenue","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","710","721","923","1247","1426","1870"]},
+{"artist":"Kelly Clarkson","title":"Because Of You","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","1246","1331","1530","1387","1513","1871"]},
+{"artist":"Sade","title":"The Sweetest Taboo","year":"1985","previous":["1224","0","1572","0","0","1764","0","0","0","0","0","1879","1970","0","0","1872"]},
+{"artist":"Blaudzun","title":"Promises Of No Man's Land","year":"2014","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1873"]},
+{"artist":"Elvis Presley","title":"One Night","year":"1959","previous":["622","0","1264","1113","784","962","743","778","974","847","1033","1299","1679","1613","1813","1874"]},
+{"artist":"George Harrison","title":"What Is Life","year":"1971","previous":["1511","1644","966","1094","1050","1232","1533","1674","1573","1423","1549","1750","1855","0","1918","1875"]},
+{"artist":"Pet Shop Boys","title":"Go West","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","0","1785","1992","0","1958","1876"]},
+{"artist":"Astrud Gilberto","title":"The Girl From Ipanema","year":"1964","previous":["548","0","887","433","642","724","827","919","854","773","1646","1477","1799","1891","1766","1877"]},
+{"artist":"Paul De Leeuw","title":"Ik Wil Niet Dat Je Liegt","year":"1993","previous":["0","0","0","0","0","0","0","0","0","0","940","1427","1595","1951","1785","1878"]},
+{"artist":"David Guetta & Kelly Rowland","title":"When Love Takes Over","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1879"]},
+{"artist":"The Moody Blues","title":"Ride My See-Saw","year":"1968","previous":["0","1465","1389","1762","0","1732","1888","1956","0","1995","0","0","0","0","1767","1880"]},
+{"artist":"Bob Seger","title":"Mainstreet","year":"1977","previous":["874","0","446","525","801","904","850","972","861","834","1043","1009","1110","1456","1611","1881"]},
+{"artist":"Robert Palmer","title":"Best Of Both Worlds","year":"1978","previous":["1199","0","1483","1148","1081","1118","1463","1353","1771","1394","1401","1543","1657","1799","1708","1882"]},
+{"artist":"Whitney Houston","title":"I Wanna Dance With Somebody","year":"1987","previous":["872","1263","1723","0","0","0","0","0","0","0","0","0","0","1412","1973","1883"]},
+{"artist":"Boudewijn De Groot","title":"Een Tip Van De Sluier","year":"1980","previous":["0","843","612","891","555","636","558","619","817","636","1070","1324","1511","1484","1660","1884"]},
+{"artist":"Raymond Van Het Groenewoud","title":"Twee Meisjes","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","1453","1633","1700","1719","1885"]},
+{"artist":"Joni Mitchell","title":"Big Yellow Taxi","year":"1970","previous":["0","1819","1990","1765","1369","1276","1860","1896","1744","1658","1526","1368","1564","1489","1463","1886"]},
+{"artist":"The Beach Boys","title":"I Can Hear Music","year":"1969","previous":["1086","858","878","981","1022","1002","1100","1269","1226","1139","1161","1078","1338","0","1887","1887"]},
+{"artist":"Outsiders","title":"Lying All The Time","year":"1966","previous":["0","0","0","0","0","0","1454","1084","1282","1688","1202","1281","1565","1867","1797","1888"]},
+{"artist":"Melanie & Edwin Hawkins Singers","title":"Lay Down","year":"1970","previous":["879","1070","928","781","809","861","996","1145","1350","1041","1587","1436","1586","1514","1636","1889"]},
+{"artist":"Elton John","title":"Daniel","year":"1973","previous":["689","975","913","990","1056","1014","1008","1105","1192","1076","1353","1207","1387","1606","1805","1890"]},
+{"artist":"Marco Borsato & Ali B","title":"Wat Zou Je Doen","year":"2004","previous":["0","0","0","0","0","0","0","1025","699","1537","689","1175","1071","0","1572","1891"]},
+{"artist":"The Rolling Stones","title":"Beast Of Burden","year":"1978","previous":["0","0","0","0","1361","1496","0","1666","0","1988","0","1824","1749","1209","1466","1892"]},
+{"artist":"Haddaway","title":"What Is Love","year":"1992","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1893"]},
+{"artist":"Donovan","title":"Atlantis","year":"1969","previous":["478","585","591","676","896","690","757","822","1046","801","1186","1295","1343","1420","1567","1894"]},
+{"artist":"De Kast","title":"Eltse Grins Foarby","year":"1997","previous":["702","0","363","635","1531","1545","1272","1345","1323","1273","1695","1157","1683","1616","1666","1895"]},
+{"artist":"Roy Orbison","title":"Only The Lonely","year":"1960","previous":["831","920","1148","861","441","885","1084","796","1118","826","1343","1242","1288","1430","1604","1896"]},
+{"artist":"The Everly Brothers","title":"On The Wings Of A Nightingale","year":"1984","previous":["571","557","187","1058","1030","738","693","754","782","721","1206","1211","1334","0","0","1897"]},
+{"artist":"Four Tops","title":"Reach Out I'll Be There","year":"1966","previous":["1020","1351","1663","1557","1177","1451","1489","1596","1890","1556","1525","1573","1959","1967","1664","1898"]},
+{"artist":"Vera Lynn","title":"We'll Meet Again","year":"1939","previous":["554","789","1325","1297","718","1269","930","1278","1286","1117","1285","1250","1604","1688","1718","1899"]},
+{"artist":"Joe Jackson","title":"Happy Ending","year":"1984","previous":["0","0","0","0","0","0","0","0","1663","0","0","1788","0","1780","1959","1900"]},
+{"artist":"Joshua Kadison","title":"Jessie","year":"1994","previous":["663","796","1266","1222","752","1247","1355","1605","1557","1327","0","1999","1660","1635","1662","1901"]},
+{"artist":"Flash & The Pan","title":"Hey St. Peter","year":"1977","previous":["1202","828","1117","1140","852","1270","1332","1320","1612","1284","1548","1677","0","0","1838","1902"]},
+{"artist":"Bread","title":"The Guitar Man","year":"1972","previous":["606","568","590","460","533","655","665","694","617","614","929","850","1146","1450","1687","1903"]},
+{"artist":"Golden Earring","title":"Bombay","year":"1976","previous":["0","707","0","1420","1289","1236","1457","1237","1354","1325","1627","1622","1456","1471","1598","1904"]},
+{"artist":"Coldplay","title":"Lovers In Japan","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","434","741","900","1184","1319","1905"]},
+{"artist":"Jason Mraz","title":"Butterfly","year":"2009","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1906"]},
+{"artist":"Rihanna","title":"Man Down","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1907"]},
+{"artist":"Status Quo","title":"In The Army Now","year":"1986","previous":["0","992","900","1365","1498","1692","1295","1547","1824","1545","1909","1855","1728","1556","1809","1908"]},
+{"artist":"The Beatles","title":"I Want To Hold Your Hand","year":"1964","previous":["964","1328","1702","1734","1426","1368","1445","1973","1252","1492","1659","1608","1522","1708","1397","1909"]},
+{"artist":"Kayak","title":"Wintertime","year":"1974","previous":["0","1157","957","1092","1482","1341","1613","1590","0","1779","902","1563","1235","1595","1647","1910"]},
+{"artist":"Fugees","title":"Killing Me Softly","year":"1996","previous":["0","0","0","0","0","0","0","0","0","0","0","1643","1872","1815","1697","1911"]},
+{"artist":"Red Hot Chili Peppers","title":"Tell Me Baby","year":"2006","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1912"]},
+{"artist":"Vader Abraham","title":"Het Kleine Cafe Aan De Haven","year":"1976","previous":["564","785","1715","1127","1184","876","906","884","965","921","1414","1749","1603","1879","0","1913"]},
+{"artist":"Script","title":"Millionaires","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1914"]},
+{"artist":"Racoon","title":"Lucky All My Life","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","0","1656","1878","1557","1850","1915"]},
+{"artist":"Billy Joel","title":"The Longest Time","year":"1984","previous":["944","1150","725","1185","1277","1513","1418","1517","1653","1442","1863","1591","0","0","1970","1916"]},
+{"artist":"Cyndi Lauper","title":"Girls Just Want To Have Fun","year":"1984","previous":["948","948","1029","1137","1670","1077","1344","1555","1699","1434","1935","1554","0","1959","1741","1917"]},
+{"artist":"Elton John","title":"Can You Feel The Love Tonight","year":"1994","previous":["708","1246","1466","1494","1224","1080","1615","1313","1395","1330","1702","1872","1526","1486","1461","1918"]},
+{"artist":"Supersister","title":"She Was Naked","year":"1970","previous":["841","456","0","560","589","848","838","1129","1262","936","1126","1247","1335","1551","1749","1919"]},
+{"artist":"Chi Coltrane","title":"You Were My Friend","year":"1973","previous":["1008","943","544","448","1021","948","957","1348","1006","999","1159","1148","1578","0","1711","1920"]},
+{"artist":"The Beatles","title":"And I Love Her","year":"1964","previous":["0","1160","1144","1283","860","1163","1098","991","831","959","1199","1142","1118","1162","1424","1921"]},
+{"artist":"Nina Simone","title":"Don't Let Me Be Misunderstood","year":"1964","previous":["0","1707","0","0","1882","1888","0","1624","1738","1850","1872","1797","1788","1453","1731","1922"]},
+{"artist":"Earth & Fire","title":"Maybe Tomorrow Maybe Tonight","year":"1973","previous":["1040","0","772","863","881","1156","1271","1286","1521","1223","1300","1187","1531","1866","1957","1923"]},
+{"artist":"Rob de Nijs","title":"Alles Wat Ademt","year":"1985","previous":["724","1053","608","1020","1197","1016","965","971","1032","997","1395","1429","1576","1782","1792","1924"]},
+{"artist":"The Kinks","title":"Dedicated Follower Of Fashion","year":"1966","previous":["951","587","1240","1587","1435","1379","1482","1412","1609","1431","1318","1538","1833","1953","1746","1925"]},
+{"artist":"Feargal Sharkey","title":"A Good Heart","year":"1985","previous":["1018","766","1059","943","1465","1406","1575","1522","1534","1437","1786","1722","1631","1188","1855","1926"]},
+{"artist":"Willy Alberti","title":"De Glimlach Van Een Kind","year":"1968","previous":["529","950","979","1266","1195","921","1114","1158","1360","1145","1581","1665","1682","1610","1681","1927"]},
+{"artist":"Genesis","title":"Firth Of Fifth","year":"1973","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1928"]},
+{"artist":"O'Jays","title":"Backstabbers","year":"1972","previous":["1756","1817","1559","1931","1654","0","1642","0","0","0","0","0","0","1577","1875","1929"]},
+{"artist":"Roy Orbison","title":"You Got It","year":"1989","previous":["822","874","911","1120","1393","1161","1372","1354","1546","1342","1577","1686","1704","1740","1776","1930"]},
+{"artist":"Gers Pardoel","title":"Ik Neem Je Mee","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","515","1349","1931"]},
+{"artist":"Linda Ronstadt","title":"Blue Bayou","year":"1977","previous":["1044","0","987","1430","1183","901","1117","1010","1177","1089","1478","1459","1701","1661","1761","1932"]},
+{"artist":"Eros Ramazzotti & Anastacia","title":"I Belong To You","year":"2005","previous":["0","0","0","0","0","0","0","0","1190","0","1511","1337","1626","1654","1706","1933"]},
+{"artist":"Billy Joel","title":"We didn't start the fire","year":"1989","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1934"]},
+{"artist":"Rammstein","title":"Du hast","year":"1997","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1935"]},
+{"artist":"The Beatles","title":"Love Me Do","year":"1963","previous":["0","1387","1600","1238","1399","1357","1467","1606","1331","1424","1572","1596","1773","1306","1401","1936"]},
+{"artist":"Chaka Khan","title":"I'm Every Woman","year":"1979","previous":["866","1107","1079","1143","1773","1311","1505","1853","1749","1607","2000","1304","1680","1738","1832","1937"]},
+{"artist":"Neil Diamond","title":"Pretty Amazing Grace","year":"2008","previous":["0","0","0","0","0","0","0","0","0","0","921","919","1359","1855","1782","1938"]},
+{"artist":"The Sweet","title":"Fox On The Run","year":"1975","previous":["566","194","125","491","497","561","507","837","1429","671","1405","1472","1745","1669","1739","1939"]},
+{"artist":"UB40","title":"Can't Help Falling In Love","year":"1993","previous":["985","0","1387","1273","1379","1210","1350","1602","1591","1458","0","1799","1733","1958","1701","1940"]},
+{"artist":"Train","title":"Hey Soul Sister","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","685","1193","1078","1544","1941"]},
+{"artist":"PSY","title":"Gangnam Style","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","476","1311","1942"]},
+{"artist":"INXS","title":"Suicide Blonde","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1924","0","1908","1969","1715","1943"]},
+{"artist":"The Beatles","title":"Girl","year":"1965","previous":["0","1319","1233","1183","1057","1108","974","1006","855","976","1154","1145","1273","1289","1475","1944"]},
+{"artist":"Julie Covington","title":"Don't Cry For Me Argentina","year":"1977","previous":["360","362","1140","1056","1323","1166","731","1094","1214","1040","1744","1733","1915","1747","1659","1945"]},
+{"artist":"Fleetwood Mac","title":"Man Of The World","year":"1969","previous":["1441","963","778","1193","1244","1127","1305","1604","1848","1427","1668","1745","1975","1878","1755","1946"]},
+{"artist":"Kelly Family","title":"David's Song","year":"1979","previous":["0","435","1363","1235","1863","1640","1682","1706","1765","1641","1992","0","0","1960","1910","1947"]},
+{"artist":"Alicia Keys","title":"Fallin'","year":"2001","previous":["0","0","0","0","0","0","618","1052","1271","1432","1238","938","1199","1178","1446","1948"]},
+{"artist":"Adiemus","title":"Adiemus","year":"1995","previous":["0","0","638","1387","825","965","929","1207","887","969","1717","1449","1349","1326","1617","1949"]},
+{"artist":"Michael Jackson","title":"P.Y.T.","year":"1982","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1950"]},
+{"artist":"Charles Aznavour","title":"For Me Formidable","year":"1963","previous":["0","0","0","0","0","0","0","1909","1882","0","0","0","0","0","1543","1951"]},
+{"artist":"Bee Gees","title":"To Love Somebody","year":"1967","previous":["0","0","609","1649","1247","1172","1109","1236","1151","1179","1537","1438","1720","1964","1863","1952"]},
+{"artist":"Bruno Mars","title":"The Lazy Song","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","432","1227","1467","1953"]},
+{"artist":"The Byrds","title":"Eight Miles High","year":"1966","previous":["565","550","803","451","799","751","728","979","1007","821","1177","1226","1326","1718","1682","1954"]},
+{"artist":"Andre Rieu","title":"Second Waltz","year":"1994","previous":["0","0","1449","1221","1479","1009","884","1140","615","911","1190","1278","1736","1513","1985","1955"]},
+{"artist":"Chris Rea","title":"On The Beach","year":"1986","previous":["929","1345","1001","976","1304","1101","1241","1352","1396","1269","1424","1426","1414","1774","1914","1956"]},
+{"artist":"Adamski","title":"Killer","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1897","0","1590","1658","1971","1957"]},
+{"artist":"The Amazing Stroopwafels","title":"Ik Ga Naar Frankrijk","year":"1984","previous":["0","0","0","0","0","0","805","879","600","1088","1279","1086","1213","1736","1685","1958"]},
+{"artist":"B.B. King","title":"Ain't Nobody Home","year":"1971","previous":["0","0","0","0","0","0","0","0","1253","0","1748","1568","1283","1543","0","1959"]},
+{"artist":"Ilse DeLange","title":"Beautiful Distraction","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","1162","1085","1337","1960"]},
+{"artist":"Spandau Ballet","title":"True","year":"1983","previous":["998","805","896","1132","1434","1560","1796","1812","0","1835","1965","0","0","0","0","1961"]},
+{"artist":"The Beatles","title":"Paperback Writer","year":"1966","previous":["1211","1517","1790","1671","1684","1383","1450","1529","1664","1548","1431","1655","1722","1771","1686","1962"]},
+{"artist":"The Offspring","title":"Pretty Fly (For A White Guy)","year":"1999","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1963"]},
+{"artist":"Lou Reed","title":"Satellite Of Love","year":"1972","previous":["1415","0","0","0","0","0","0","0","0","0","0","0","0","0","1196","1964"]},
+{"artist":"Neil Diamond","title":"Play Me","year":"1972","previous":["0","929","0","0","0","0","0","0","0","0","0","0","1810","0","0","1965"]},
+{"artist":"Ilse DeLange","title":"Winter Of Love","year":"2012","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1554","1966"]},
+{"artist":"Carole King","title":"It's Too Late","year":"1971","previous":["1615","0","1301","1279","1503","1767","1650","1753","1779","1669","1782","1673","1824","1695","1921","1967"]},
+{"artist":"Clouseau","title":"Passie","year":"1995","previous":["533","594","694","947","1078","834","824","891","1023","896","1540","1441","1516","1870","1696","1968"]},
+{"artist":"The Shirts","title":"Tell Me Your Plans","year":"1978","previous":["1262","0","1046","1239","1451","1279","1732","1817","0","1833","1949","1681","1762","1691","1676","1969"]},
+{"artist":"America","title":"Ventura Highway","year":"1972","previous":["0","0","0","0","1314","1712","1428","1680","1474","1625","1599","1418","1697","1940","1876","1970"]},
+{"artist":"Rod Stewart","title":"Reason To Believe","year":"1971","previous":["1178","1186","1211","905","1089","1430","1253","1343","1378","1291","1381","1445","1706","1897","1938","1971"]},
+{"artist":"The Hollies","title":"The Day That Curly Billy Show Down Crazy Sam McGee","year":"1973","previous":["1551","936","869","989","1110","1298","1246","1222","0","1589","1193","1470","1880","0","0","1972"]},
+{"artist":"Adamo","title":"Inch' Allah","year":"1967","previous":["0","0","0","0","0","0","984","686","501","957","1123","983","1171","1634","1960","1973"]},
+{"artist":"ABBA","title":"Voulez-Vous","year":"1979","previous":["0","0","1413","1917","0","1801","1506","1963","1964","1828","1520","1692","1894","1748","1889","1974"]},
+{"artist":"King Crimson","title":"Starless","year":"1974","previous":["0","689","0","0","0","0","0","0","0","0","0","0","0","0","0","1975"]},
+{"artist":"David Bowie","title":"Young Americans","year":"1975","previous":["1378","0","0","1719","1811","0","0","0","0","0","0","0","0","0","0","1976"]},
+{"artist":"Buddy Holly","title":"Peggy Sue","year":"1957","previous":["483","489","651","454","307","524","488","505","457","450","1046","960","1155","1441","1507","1977"]},
+{"artist":"Willeke Alberti","title":"Telkens Weer","year":"1975","previous":["551","519","863","1203","983","850","837","718","833","781","1055","1284","1570","1591","1612","1978"]},
+{"artist":"Donna Summer","title":"Last Dance","year":"1978","previous":["1242","1677","1378","1592","1566","1799","0","1779","1822","1804","0","0","0","1790","1902","1979"]},
+{"artist":"Oleta Adams","title":"Window Of Hope","year":"1993","previous":["1111","0","1811","1390","1213","1489","1432","1579","1380","1445","0","1777","1715","0","1999","1980"]},
+{"artist":"Paul Simon","title":"Kodachrome","year":"1973","previous":["0","1273","700","1243","1491","1608","1726","1656","1861","1618","1723","1630","1793","1816","1689","1981"]},
+{"artist":"Di-rect","title":"This Is Who We Are","year":"2010","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1982"]},
+{"artist":"Gavin DeGraw","title":"Not Over You","year":"2011","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","1356","1579","1983"]},
+{"artist":"Radiohead","title":"High And Dry","year":"1995","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1984"]},
+{"artist":"George Michael","title":"Freedom","year":"1990","previous":["0","0","0","0","0","0","0","0","0","0","1980","0","1961","1579","1786","1985"]},
+{"artist":"Chicago","title":"Hard To Say I'm Sorry","year":"1982","previous":["0","985","1350","839","1090","1314","1578","1936","1757","1540","0","1919","1984","1849","1900","1986"]},
+{"artist":"Eros Ramazzotti","title":"Se Bastasse Una Canzone","year":"1990","previous":["1109","1191","1255","1433","867","1369","1036","1291","1352","1210","1688","1594","1695","1781","1820","1987"]},
+{"artist":"The Hollies","title":"Bus Stop","year":"1966","previous":["1555","1131","1293","1324","1480","1552","1357","1165","1543","1365","1315","1484","1767","1987","1699","1988"]},
+{"artist":"Herman Brood & Henny Vrienten","title":"Als Je Wint","year":"1984","previous":["0","0","0","0","0","0","0","1586","0","0","0","0","1957","1495","1897","1989"]},
+{"artist":"Miley Cyrus","title":"Wrecking Ball","year":"2013","previous":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1990"]},
+{"artist":"The Motors","title":"Airport","year":"1978","previous":["0","1091","1336","1091","1346","632","950","1102","1536","1083","1558","1605","1732","1389","1618","1991"]},
+{"artist":"The Beatles","title":"Back In The USSR","year":"1968","previous":["0","876","1183","958","898","735","869","1068","931","902","974","907","1005","1084","1643","1992"]},
+{"artist":"Joan Jett & The Blackhearts","title":"I Love Rock 'N' Roll","year":"1982","previous":["1523","1607","1129","1730","1675","1731","0","0","0","0","0","0","0","1709","1961","1993"]},
+{"artist":"Grand Funk Railroad","title":"Some Kind Of Wonderful","year":"1975","previous":["996","864","1256","1088","1365","1131","1341","1414","1632","1361","1616","1626","1865","1941","1953","1994"]},
+{"artist":"Smokie","title":"Living Next Door To Alice","year":"1977","previous":["642","878","898","1069","1087","1137","993","1031","1344","1114","1309","1406","1517","1898","1972","1995"]},
+{"artist":"Backstreet Boys","title":"As Long As You Love Me","year":"1997","previous":["404","0","1213","1333","1542","1129","1039","1616","1307","1340","1425","1126","1881","0","1885","1996"]},
+{"artist":"Barclay James Harvest","title":"Titles","year":"1976","previous":["934","525","536","805","932","1130","1385","1833","1208","1232","1882","1814","1980","1858","1936","1997"]},
+{"artist":"The Who","title":"Substitute","year":"1966","previous":["758","1004","784","1089","1118","1152","1047","1266","1303","1174","1327","1362","1492","1628","1691","1998"]},
+{"artist":"Madonna","title":"Borderline","year":"1986","previous":["0","911","1217","1502","1530","1748","1411","1877","0","1855","0","1934","0","1882","0","1999"]},
+{"artist":"Stevie Wonder","title":"Master Blaster (Jammin')","year":"1980","previous":["0","823","1355","1516","1767","1790","1896","0","0","0","0","0","1771","1653","1760","2000"]}
 ]

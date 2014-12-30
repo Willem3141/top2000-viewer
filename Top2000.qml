@@ -13,17 +13,59 @@ Rectangle {
     property string previousArtist;
     property string previousTitle;
     
+    property bool showInfoPanel;
+    
     id: page
     width: 1280
     height: 720
     color: "white"
     
+    state: "showInfo"
+    
+    // TODO: remove
+    MouseArea {
+        anchors.fill: parent
+        onClicked: {
+            if (page.state == "showPlaylist")
+                page.state = "showInfo"
+            else
+                page.state = "showPlaylist"
+        }
+    }
+    
+    states: [
+        State {
+            name: "showPlaylist"
+            PropertyChanges { target: playlist; y: 0; height: parent.height - 55 }
+            PropertyChanges { target: infobox; opacity: 0 }
+        },
+        State {
+            name: "showInfo"
+            PropertyChanges { target: playlist; y: -1.5 * parent.height + 100; height: parent.height * 3 }
+            PropertyChanges { target: infobox; opacity: 1 }
+        }
+    ]
+    transitions: Transition {
+        from: "showPlaylist"; to: "showInfo"
+        reversible: true
+        SequentialAnimation {
+            ParallelAnimation {
+                NumberAnimation { properties: "y"; duration: 1000; easing.type: Easing.InOutQuad }
+                NumberAnimation { properties: "height"; duration: 1000; easing.type: Easing.InOutQuad }
+            }
+            NumberAnimation { properties: "opacity"; duration: 1000; easing.type: Easing.InOutQuad }
+        }
+    }
+    
     ColumnLayout {
+        
+        id: playlist
+        
         spacing: 20
-        anchors.left: page.left
-        anchors.right: page.right
-        anchors.top: page.top
-        anchors.bottom: infoBar.top
+        x: 0
+        y: 0
+        width: parent.width
+        height: parent.height - 55 // hoogte van de infobar
     
         Rectangle {
             Layout.preferredWidth: parent.width
@@ -129,6 +171,7 @@ Rectangle {
             }
             
             Rectangle {
+                id: currentNumberBlob
                 color: "#D8141A"
                 radius: 50
                 x: -40
@@ -178,6 +221,34 @@ Rectangle {
                 font.family: "NPO Sans"
                 font.bold: true
             }
+        }
+    }
+    
+    Item {
+        id: infobox
+        x: 440
+        y: 200
+        width: parent.width - 440 - 40
+        height: parent.height - 200
+        
+        Text {
+            id: currentSongYear
+            anchors.left: parent.left
+            anchors.top: parent.top
+            font.family: "NPO Sans"
+            font.pointSize: 31
+            color: "black"
+        }
+        
+        
+        
+        Text {
+            id: position1999
+            anchors.left: parent.left
+            anchors.top: parent.top
+            font.family: "NPO Sans"
+            font.pointSize: 31
+            color: "black"
         }
     }
     
@@ -286,6 +357,9 @@ Rectangle {
             numberText.text = closestMatch + 1;
             artistText.text = Top2000.top2000[closestMatch].artist;
             titleText.text = Top2000.top2000[closestMatch].title;
+            
+            currentSongYear.text = "uit " + Top2000.top2000[closestMatch].year;
+            chart.data = Top2000.top2000[closestMatch].data;
             
             if (closestMatch < 1999) {
                 previousNumberText.text = closestMatch + 2;
