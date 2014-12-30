@@ -235,14 +235,28 @@ Rectangle {
         
         Chart {
             id: positionChart;
-            anchors.top: currentSongYear.bottom;
-            anchors.left: parent.left;
-            anchors.right: parent.right;
-            anchors.bottom: parent.bottom;
+            x: 0
+            y: currentSongYear.height;
+            width: parent.width;
+            height: parent.width;
             chartAnimated: true;
-            chartAnimationEasing: Easing.InOutElastic;
+            chartAnimationEasing: Easing.OutQuad;
             chartAnimationDuration: 2000;
             chartType: Charts.ChartType.BAR;
+            chartOptions: {
+                "barShowStroke": false,
+                "responsive": true,
+                "scaleFontColor": "black",
+                "scaleFontFamily": "'NPO Sans', sans-serif",
+                "scaleFontSize": 25,
+                "scaleGridLineColor": "#ffffff",
+                "scaleGridLineWidth": 1.7,
+                "scaleOverlay": true,
+                "scaleOverride": false,
+                "scaleStartValue": 0,
+                "scaleSteps": 8,
+                "scaleStepWidth": 250
+            };
             chartData: GraphData.defaultData
         }
     }
@@ -301,6 +315,8 @@ Rectangle {
         progressBar.width = ratio * (progressBar.parent.width - 440 - 40);
         
         infoBarClock.text = new Date().toLocaleTimeString(Qt.locale("nl_NL"), "HH:mm")
+        positionChart.width = positionChart.parent.width;
+        positionChart.height = positionChart.parent.height;
     }
     
     function getData() {
@@ -354,20 +370,18 @@ Rectangle {
             artistText.text = Top2000.top2000[closestMatch].artist;
             titleText.text = Top2000.top2000[closestMatch].title;
             
-            currentSongYear.text = "uit " + Top2000.top2000[closestMatch].year;
+            currentSongYear.text = "(" + Top2000.top2000[closestMatch].year + ")";
             
             var previousData = [];
             for (var j = 0; j < Top2000.top2000[closestMatch].previous.length; j++) {
                 previousData.push(parseInt(Top2000.top2000[closestMatch].previous[j], 10));
             }
-            console.log(JSON.stringify(positionChart.chartData, null, 4));
             positionChart.chartData.datasets = [{
                 fillColor: "#D8141A",
                 strokeColor: "#D8141A",
                 data: previousData
             }]
             console.log(JSON.stringify(positionChart.chartData, null, 4));
-            positionChart.update();
             
             if (closestMatch < 1999) {
                 previousNumberText.text = closestMatch + 2;
@@ -409,8 +423,8 @@ Rectangle {
         id: showInfoTimer
         interval: 5000
         onTriggered: {
-            console.log("showInfoTimer triggered");
             page.state = "showInfo";
+            positionChart.update();
             positionChart.repaint();
             showPlaylistTimer.start();
         }
@@ -420,7 +434,6 @@ Rectangle {
         id: showPlaylistTimer
         interval: 15000
         onTriggered: {
-            console.log("showPlaylistTimer triggered");
             page.state = "showPlaylist";
         }
     }
