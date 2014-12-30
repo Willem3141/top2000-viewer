@@ -310,9 +310,9 @@ Rectangle {
             if (!previousArtist) {
                 startdatetime = Date.parse(json["results"][0]["startdatetime"]) + 15000;
             } else {
-                startdatetime = new Date().getTime();
+                startdatetime = new Date().getTime() + 1000;
             }
-            stopdatetime = Date.parse(json["results"][0]["stopdatetime"]);
+            stopdatetime = Date.parse(json["results"][0]["stopdatetime"]) + 10000;
             console.log(artistText.text + " - " + titleText.text + ": " + startdatetime + " - " + stopdatetime);
             
             previousArtist = newArtist;
