@@ -2,8 +2,11 @@ import QtQuick 2.1
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 1.2
 
+import jbQuick.Charts 1.0
+
 import "top2014.js" as Top2000
 import "levenshtein.js" as Levenshtein
+import "GraphData.js" as GraphData
 
 Rectangle {
     
@@ -20,18 +23,7 @@ Rectangle {
     height: 720
     color: "white"
     
-    state: "showInfo"
-    
-    // TODO: remove
-    MouseArea {
-        anchors.fill: parent
-        onClicked: {
-            if (page.state == "showPlaylist")
-                page.state = "showInfo"
-            else
-                page.state = "showPlaylist"
-        }
-    }
+    state: "showPlaylist"
     
     states: [
         State {
@@ -229,26 +221,29 @@ Rectangle {
         x: 440
         y: 200
         width: parent.width - 440 - 40
-        height: parent.height - 200
+        height: parent.height - 200 - 55 - 40
         
         Text {
             id: currentSongYear
             anchors.left: parent.left
             anchors.top: parent.top
+            anchors.right: parent.right;
             font.family: "NPO Sans"
             font.pointSize: 31
             color: "black"
         }
         
-        
-        
-        Text {
-            id: position1999
-            anchors.left: parent.left
-            anchors.top: parent.top
-            font.family: "NPO Sans"
-            font.pointSize: 31
-            color: "black"
+        Chart {
+            id: positionChart;
+            anchors.top: currentSongYear.bottom;
+            anchors.left: parent.left;
+            anchors.right: parent.right;
+            anchors.bottom: parent.bottom;
+            chartAnimated: true;
+            chartAnimationEasing: Easing.InOutElastic;
+            chartAnimationDuration: 2000;
+            chartType: Charts.ChartType.BAR;
+            chartData: GraphData.defaultData
         }
     }
     
@@ -272,10 +267,10 @@ Rectangle {
         font.pointSize: 31
         font.bold: true
         font.family: "NPO Sans"
-        text: "16:07"
     }
     
     Timer {
+        id: progressBarUpdateTimer
         interval: 50
         running: true
         repeat: true
@@ -283,6 +278,7 @@ Rectangle {
     }
     
     Timer {
+        id: dataUpdateTimer
         interval: 2500
         running: true
         repeat: true
@@ -359,7 +355,19 @@ Rectangle {
             titleText.text = Top2000.top2000[closestMatch].title;
             
             currentSongYear.text = "uit " + Top2000.top2000[closestMatch].year;
-            chart.data = Top2000.top2000[closestMatch].data;
+            
+            var previousData = [];
+            for (var j = 0; j < Top2000.top2000[closestMatch].previous.length; j++) {
+                previousData.push(parseInt(Top2000.top2000[closestMatch].previous[j], 10));
+            }
+            console.log(JSON.stringify(positionChart.chartData, null, 4));
+            positionChart.chartData.datasets = [{
+                fillColor: "#D8141A",
+                strokeColor: "#D8141A",
+                data: previousData
+            }]
+            console.log(JSON.stringify(positionChart.chartData, null, 4));
+            positionChart.update();
             
             if (closestMatch < 1999) {
                 previousNumberText.text = closestMatch + 2;
@@ -383,14 +391,37 @@ Rectangle {
             
             if (!previousArtist) {
                 startdatetime = Date.parse(json["results"][0]["startdatetime"]) + 15000;
+                showInfoTimer.start();
+                showPlaylistTimer.start();
             } else {
                 startdatetime = new Date().getTime() + 1000;
+                showInfoTimer.start();
             }
             stopdatetime = Date.parse(json["results"][0]["stopdatetime"]) + 10000;
             console.log(artistText.text + " - " + titleText.text + ": " + startdatetime + " - " + stopdatetime);
             
             previousArtist = newArtist;
             previousTitle = newTitle;
+        }
+    }
+    
+    Timer {
+        id: showInfoTimer
+        interval: 5000
+        onTriggered: {
+            console.log("showInfoTimer triggered");
+            page.state = "showInfo";
+            positionChart.repaint();
+            showPlaylistTimer.start();
+        }
+    }
+    
+    Timer {
+        id: showPlaylistTimer
+        interval: 15000
+        onTriggered: {
+            console.log("showPlaylistTimer triggered");
+            page.state = "showPlaylist";
         }
     }
 }
