@@ -323,6 +323,55 @@ Rectangle {
         onTriggered: getData()
     }
     
+    Item {
+        id: newYear
+        anchors.fill: parent
+        
+        states: State {
+            name: "countdown"
+            PropertyChanges { target: newYearBackdrop; opacity: 0.7 }
+            PropertyChanges { target: newYearAnalogClock; y: parent.height * 0.1 }
+            PropertyChanges { target: newYearClock; y: parent.height * 0.75 }
+        }
+        transitions: Transition {
+            from: ""; to: "countdown"
+            reversible: true
+            SequentialAnimation {
+                NumberAnimation { properties: "opacity"; duration: 5000; easing.type: Easing.InOutQuad }
+                NumberAnimation { properties: "y"; duration: 5000; easing.type: Easing.InOutQuad }
+            }
+        }
+        
+        Rectangle {
+            id: newYearBackdrop
+            anchors.fill: parent
+            color: "white"
+            opacity: 0
+        }
+        
+        Clock {
+            id: newYearAnalogClock
+            x: parent.width * 0.1
+            y: -parent.height * 0.6
+            width: parent.width * 0.8
+            height: parent.height * 0.6
+        }
+        
+        Text {
+            id: newYearClock
+            color: "black"
+            x: 0
+            y: parent.height
+            width: parent.width
+            height: parent.height / 2
+            font.pointSize: 60
+            font.bold: true
+            font.family: "NPO Sans"
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignTop
+        }
+    }
+    
     function updateProgress() {
         var time = new Date().getTime();
         
@@ -338,7 +387,11 @@ Rectangle {
         
         progressBar.width = ratio * (progressBar.parent.width - 440 - 40);
         
-        infoBarClock.text = new Date().toLocaleTimeString(Qt.locale("nl_NL"), "HH:mm")
+        infoBarClock.text = new Date().toLocaleTimeString(Qt.locale("nl_NL"), "HH:mm");
+        newYearAnalogClock.hours = new Date().getHours();
+        newYearAnalogClock.minutes = new Date().getMinutes();
+        newYearAnalogClock.seconds = new Date().getSeconds();
+        newYearClock.text = new Date().toLocaleTimeString(Qt.locale("nl_NL"), "HH:mm:ss");
         positionChart.width = positionChart.parent.width;
         positionChart.height = positionChart.parent.height;
     }
@@ -415,7 +468,6 @@ Rectangle {
                 strokeColor: "#D8141A",
                 data: previousData
             }]
-            console.log(JSON.stringify(positionChart.chartData, null, 4));
             
             if (closestMatch < 1999) {
                 previousNumberText.text = closestMatch + 2;
@@ -435,6 +487,10 @@ Rectangle {
                 nextNumberText.text = "";
                 nextArtistText.text = "";
                 nextTitleText.text = "";
+            }
+            
+            if (closestMatch == 0) {
+                showClockTimer.start();
             }
             
             if (!previousArtist) {
@@ -469,6 +525,14 @@ Rectangle {
         interval: 15000
         onTriggered: {
             page.state = "showPlaylist";
+        }
+    }
+    
+    Timer {
+        id: showClockTimer
+        interval: 0000
+        onTriggered: {
+            newYear.state = "countdown";
         }
     }
 }
