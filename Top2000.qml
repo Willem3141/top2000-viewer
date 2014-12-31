@@ -293,7 +293,7 @@ Rectangle {
     
     Timer {
         id: dataUpdateTimer
-        interval: 2500
+        interval: 5000
         running: true
         repeat: true
         onTriggered: getData()
