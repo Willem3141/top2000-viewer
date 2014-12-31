@@ -272,6 +272,30 @@ Rectangle {
     }
     
     Text {
+        id: connectionProblem
+        text: "Er kan geen verbinding gemaakt worden..."
+        color: "white"
+        opacity: 0
+        anchors.top: infoBar.top
+        anchors.bottom: infoBar.bottom
+        anchors.leftMargin: 10
+        anchors.left: infoBar.left
+        font.pointSize: 31
+        font.bold: true
+        font.family: "NPO Sans"
+        
+        states: State {
+            name: "problems"
+            PropertyChanges { target: connectionProblem; opacity: 1 }
+        }
+        transitions: Transition {
+            from: ""; to: "problems"
+            reversible: true
+            NumberAnimation { properties: "opacity"; duration: 500; easing.type: Easing.InOutQuad }
+        }
+    }
+    
+    Text {
         id: infoBarClock
         color: "white"
         anchors.top: infoBar.top
@@ -331,8 +355,18 @@ Rectangle {
         
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                connectionProblem.state = "";
                 updatePlayedSong(xmlhttp.responseText);
             }
+            if (xmlhttp.readyState == 4 && xmlhttp.status != 200) {
+                console.log("Cannot connect to the server (" + xmlhttp.status + ")");
+                connectionProblem.state = "problems";
+            }
+        }
+        xmlhttp.timeout = 4500;
+        xmlhttp.ontimeout = function() {
+            console.log("Cannot connect to the server (timeout)");
+            connectionProblem.state = "problems";
         }
         xmlhttp.open("GET", url, true);
         xmlhttp.send();
