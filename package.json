@@ -1,0 +1,10 @@
+{
+  "name": "top2000-viewer",
+  "version": "0.0.1",
+  "description": "A website to view the currently playing song in the Top 2000",
+  "dependencies": {
+    "express": "^4.10.2",
+    "node-schedule": "^0.6.0",
+    "socket.io": "^1.3.5"
+  }
+}

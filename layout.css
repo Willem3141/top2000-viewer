@@ -1,0 +1,486 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700);
+
+html {
+    height: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: #B2DBD6;
+    overflow: hidden;
+}
+
+#main-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: height 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#main-view.notification-shown {
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+#top2000-id-container {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 300px;
+    height: 300px;
+    transition: top 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.song-detail #top2000-id-container {
+    top: 15%;
+}
+
+#top2000-id-square {
+    position: absolute;
+    background-color: #FEE163;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    animation: breathing-square 6s ease-in-out infinite normal;
+    animation-delay: -1s;
+}
+
+@keyframes breathing-square {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(45deg);
+    transform: translate(0, 0) rotate(45deg);
+    width: 300px;
+    height: 300px;
+  }
+
+  50% {
+    -webkit-transform: translate(-10px, -10px) rotate(45deg);
+    transform: translate(-10px, -10px) rotate(45deg);
+    width: 320px;
+    height: 320px;
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0) rotate(45deg);
+    transform: translate(0, 0) rotate(45deg);
+    width: 300px;
+    height: 300px;
+  }
+}
+
+#top2000-id-square-shadow-1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    -webkit-transform: translate(-60px, -60px) rotate(45deg);
+    transform: translate(-60px, -60px) rotate(45deg);
+    width: 420px;
+    height: 420px;
+    border-radius: 20px;
+    animation: breathing-shadow-1 6s ease-in-out infinite normal;
+}
+
+@keyframes breathing-shadow-1 {
+  0% {
+    -webkit-transform: translate(-60px, -60px) rotate(45deg);
+    transform: translate(-60px, -60px) rotate(45deg);
+    width: 420px;
+    height: 420px;
+  }
+
+  50% {
+    -webkit-transform: translate(-70px, -70px) rotate(45deg);
+    transform: translate(-70px, -70px) rotate(45deg);
+    width: 440px;
+    height: 440px;
+  }
+
+  100% {
+    -webkit-transform: translate(-60px, -60px) rotate(45deg);
+    transform: translate(-60px, -60px) rotate(45deg);
+    width: 420px;
+    height: 420px;
+  }
+}
+
+#top2000-id-square-shadow-2 {
+    position: absolute;
+    background-color: rgba(190, 190, 190, 0.1);
+    -webkit-transform: translate(-120px, -120px) rotate(45deg);
+    transform: translate(-120px, -120px) rotate(45deg);
+    width: 540px;
+    height: 540px;
+    border-radius: 20px;
+    animation: breathing-shadow-2 6s ease-in-out infinite normal;
+    animation-delay: 1s;
+}
+
+@keyframes breathing-shadow-2 {
+  0% {
+    -webkit-transform: translate(-120px, -120px) rotate(45deg);
+    transform: translate(-120px, -120px) rotate(45deg);
+    width: 540px;
+    height: 540px;
+  }
+
+  50% {
+    -webkit-transform: translate(-130px, -130px) rotate(45deg);
+    transform: translate(-130px, -130px) rotate(45deg);
+    width: 560px;
+    height: 560px;
+  }
+
+  100% {
+    -webkit-transform: translate(-120px, -120px) rotate(45deg);
+    transform: translate(-120px, -120px) rotate(45deg);
+    width: 540px;
+    height: 540px;
+  }
+}
+
+#top2000-id {
+    position: absolute;
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 270px;
+    color: #454E59;
+}
+
+#current-song-container {
+    position: absolute;
+    top: 50%;
+    left: 400px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: calc(100% - 400px);
+    transition: top 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.song-detail #current-song-container {
+    top: 15%;
+}
+
+#current-song-artist {
+    font-size: 50px;
+    color: #454E59;
+}
+
+#current-song-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #454E59;
+}
+
+#progress-bar {
+    width: calc(100% - 15px);
+    height: 7px;
+    margin-top: 12px;
+    background-color: #454E59;
+}
+
+#progress-bar-fill {
+    width: 0%;
+    height: 100%;
+    background-color: #FEE163;
+}
+
+#progress-bar-knob {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: -15px;
+    -webkit-transform: translateX(-11px);
+    transform: translateX(-11px);
+    border: 4px solid #FEE163;
+    border-radius: 15px;
+    background-color: #B2DBD6;
+}
+
+/* current song additional info */
+#current-song-extra-info {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #454E59;
+    width: calc(100% - 15px);
+    opacity: 0;
+    transition: opacity 2s;
+    text-align: center;
+}
+.song-detail #current-song-extra-info {
+    opacity: 1;
+}
+
+/* previous and next songs */
+
+#previous-id {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: right;
+    width: 360px;
+    font-size: 60px;
+    color: #454E59;
+    transition: top 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.song-detail #previous-id {
+    top: -65%;
+}
+
+#previous-song-container {
+    position: absolute;
+    top: 15%;
+    left: 400px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: calc(100% - 400px);
+    transition: top 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.song-detail #previous-song-container {
+    top: -65%;
+}
+
+#previous-song-artist {
+    font-size: 32px;
+    color: #454E59;
+}
+
+#previous-song-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #454E59;
+}
+
+#next-id {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: right;
+    width: 360px;
+    font-size: 60px;
+    color: #454E59;
+    transition: top 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.song-detail #next-id {
+    top: 165%;
+}
+
+#next-song-container {
+    position: absolute;
+    top: 85%;
+    left: 400px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: calc(100% - 400px);
+    transition: top 2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.song-detail #next-song-container {
+    top: 165%;
+}
+
+#next-song-artist {
+    font-size: 32px;
+    color: #454E59;
+}
+
+#next-song-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #454E59;
+}
+
+/* hour overview */
+
+#hour-overview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#hour-overview.visible {
+    opacity: 1;
+}
+
+#hour-overview-dialog {
+    position: absolute;
+    background-color: rgba(69, 78, 89, 0.9);
+    color: white;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    overflow-y: hidden;
+}
+
+#hour-overview-header {
+    border-bottom: 1px solid white;
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#hour-overview-body {
+    height: 100%;
+    margin: 20px;
+    font-size: 30px;
+    overflow-y: hidden;
+}
+
+.hour-overview-song {
+    padding-bottom: 10px;
+}
+
+.hour-overview-id {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 16px;
+}
+
+.hour-overview-diff {
+    font-size: 20px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding-right: 16px;
+    margin-top: 8px;
+}
+
+.hour-overview-diff.climbs::before {
+    content: "\25B4  ";
+    color: #3AAA35;
+}
+.hour-overview-diff.descends::before {
+    content: "\25BE  ";
+    color: #D8141A;
+}
+.hour-overview-diff.equal::before {
+    content: "\26AB  ";
+    color: #D8141A;
+}
+
+.hour-overview-title {
+    width: calc(100% - 201px);
+    display: inline-block;
+}
+
+/* difference graph */
+
+#difference-graph {
+    font-size: 30px;
+    display: none;
+}
+#difference-graph .axis {
+    stroke: #454E59;
+}
+#difference-graph .y-label {
+    text-anchor: end;
+}
+
+/* huge ID flasher */
+
+#huge-id-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #B2DBD6;
+    transition: opacity 1s;
+}
+.id-flash #huge-id-container {
+    opacity: 1;
+}
+
+#huge-id-square-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#huge-id-square {
+    position: absolute;
+    background-color: #FEE163;
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+    -webkit-transform: translate(-50%, -50%) scale(0) rotate(45deg);
+    transform: translate(-50%, -50%) scale(0) rotate(45deg);
+    transition: transform 1s;
+}
+
+#huge-id-square-shadow-1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 750px;
+    height: 750px;
+    border-radius: 40px;
+    -webkit-transform: translate(-50%, -50%) scale(0) rotate(45deg);
+    transform: translate(-50%, -50%) scale(0) rotate(45deg);
+    transition: transform 1s;
+}
+
+#huge-id-square-shadow-2 {
+    position: absolute;
+    background-color: rgba(190, 190, 190, 0.1);
+    width: 900px;
+    height: 900px;
+    border-radius: 40px;
+    -webkit-transform: translate(-50%, -50%) scale(0) rotate(45deg);
+    transform: translate(-50%, -50%) scale(0) rotate(45deg);
+    transition: transform 1s;
+}
+
+.id-flash #huge-id-square,
+.id-flash #huge-id-square-shadow-1,
+.id-flash #huge-id-square-shadow-2 {
+    -webkit-transform: translate(-50%, -50%) scale(1) rotate(45deg);
+    transform: translate(-50%, -50%) scale(1) rotate(45deg);
+}
+
+#huge-id {
+    position: absolute;
+    font-size: 200px;
+    transform: translate(-50%, -50%);
+    color: #454E59;
+}
+
+/* notification */
+
+#notification {
+    position: absolute;
+    top: 100%;
+    height: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #454E59;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.notification-message {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    line-height: 30px;
+}

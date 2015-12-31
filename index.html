@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Top 2000-viewer</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+  </head>
+  <body>
+    <div id="main-view">
+      <div id="top2000-id-container">
+        <div id="top2000-id-square-shadow-2"></div>
+        <div id="top2000-id-square-shadow-1"></div>
+        <div id="top2000-id-square"></div>
+        <div id="top2000-id"></div>
+      </div>
+      <div id="current-song-container">
+        <div>
+          <span id="current-song-title">...</span>
+        </div>
+        <div>
+          <span id="current-song-artist">...</span>
+        </div>
+        <div id="progress-bar">
+          <div id="progress-bar-fill">
+          </div>
+          <div id="progress-bar-knob">
+          </div>
+        </div>
+        <div id="current-song-extra-info">
+          <p>(<span id="current-song-year"></span>)</p>
+          <svg id="difference-graph" width="800" height="300">
+            <line class="axis" x1="50" y1="10" x2="50" y2="250"/>
+            <text class="y-label" x="50" y="10">2000</text>
+            <text class="y-label" x="50" y="250">0</text>
+            <line class="axis" x1="50" y1="250" x2="700" y2="250"/>
+            <g id="difference-bars"></g>
+          </svg>
+        </div>
+      </div>
+      <div id="previous-id">
+      </div>
+      <div id="previous-song-container">
+        <div>
+          <span id="previous-song-title"></span>
+        </div>
+        <div>
+          <span id="previous-song-artist"></span>
+        </div>
+      </div>
+      <div id="next-id">
+      </div>
+      <div id="next-song-container">
+        <div>
+          <span id="next-song-title"></span>
+        </div>
+        <div>
+          <span id="next-song-artist"></span>
+        </div>
+      </div>
+      <div id="hour-overview">
+        <div id="hour-overview-dialog">
+          <div id="hour-overview-header">
+            Uur ...
+          </div>
+          <div id="hour-overview-body">
+            ...
+          </div>
+        </div>
+      </div>
+      <div id="huge-id-container">
+        <div id="huge-id-square-container">
+          <div id="huge-id-square-shadow-2"></div>
+          <div id="huge-id-square-shadow-1"></div>
+          <div id="huge-id-square"></div>
+          <div id="huge-id"></div>
+        </div>
+      </div>
+      <div id="notification">
+      </div>
+    </div>
+    
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      var startTime = 0;
+      var stopTime = 0;
+      
+      var socket = io();
+      
+      socket.on('new song', function(msg) {
+        $('#huge-id').html(msg.currentSong.id);
+        
+        $('#main-view').addClass("id-flash");
+        $('#main-view').removeClass('notification-shown');
+        
+        setTimeout(function() {
+          $('#current-song-artist').html(msg.currentSong.artist);
+          $('#current-song-title').html(msg.currentSong.title);
+          $('#top2000-id').html(msg.currentSong.id);
+          
+          $('#current-song-year').html(msg.currentSong.year);
+          startTime = msg.currentSong.startTime;
+          stopTime = msg.currentSong.stopTime;
+          
+          if (msg.previousSong) {
+            $('#previous-song-artist').html(msg.previousSong.artist);
+            $('#previous-song-title').html(msg.previousSong.title);
+            $('#previous-id').html(msg.previousSong.id);
+          } else {
+            $('#previous-song-artist').html('');
+            $('#previous-song-title').html('');
+            $('#previous-id').html('');
+          }
+          
+          if (msg.nextSong) {
+            $('#next-song-artist').html(msg.nextSong.artist);
+            $('#next-song-title').html(msg.nextSong.title);
+            $('#next-id').html(msg.nextSong.id);
+          } else {
+            $('#next-song-artist').html('');
+            $('#next-song-title').html('');
+            $('#next-id').html('');
+          }
+            $('#main-view').addClass("song-detail");
+        }, 1000);
+        
+        setTimeout(function() {
+          $('#main-view').removeClass("id-flash");
+        }, 3000);
+        
+        setTimeout(function() {
+          $('#main-view').removeClass("song-detail");
+        }, 10000);
+      });
+      setInterval(updateProgressBar, 0.25);
+      
+      socket.on('error', function(message) {
+        $('#main-view').addClass('notification-shown');
+        $('#notification').html("Het lijkt erop dat de Radio 2-site niet bereikbaar is...<br><span class='notification-message'>" + message + "</span>");
+      });
+      
+      function updateProgressBar() {
+        var fraction = 100 * (new Date().getTime() - startTime) / (stopTime - startTime);
+        if (fraction > 100) {
+          fraction = 100;
+        }
+        $('#progress-bar-fill').css('width', fraction + '%');
+        $('#progress-bar-knob').css('left', fraction + '%');
+      }
+      
+      socket.on('hour overview', function(msg) {
+        $('#hour-overview').addClass('visible');
+        $('#hour-overview-header').html('Uur ' + msg.hourCount);
+        $('#hour-overview-body').html('');
+        for (var i = 0; i < msg.songs.length; i++) {
+          var s = msg.songs[i];
+          var difference = s.previous[s.previous.length - 2] - s.previous[s.previous.length - 1];
+          if (s.previous[s.previous.length - 2] === 0) {
+            var diffString = '<div class="hour-overview-diff new">&#9899;</div>';
+          } else if (difference > 0) {
+            var diffString = '<div class="hour-overview-diff climbs">' + difference + '</div>';
+          } else if (difference < 0) {
+            var diffString = '<div class="hour-overview-diff descends">' + -difference + '</div>';
+          } else {
+            var diffString = '<div class="hour-overview-diff equal">=</div>';
+          }
+          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.previous[s.previous.length - 1] + '</div>' + diffString + '<div class="hour-overview-title"><b>' + s.title + '</b><br>' + s.artist + '</div></div>');
+        }
+        setTimeout(function() {
+          $('#hour-overview').removeClass('visible');
+        }, 120000);
+      });
+    </script>
+  </body>
+</html>

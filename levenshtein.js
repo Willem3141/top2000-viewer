@@ -42,3 +42,7 @@ function getEditDistance(a, b){
 
   return matrix[b.length][a.length];
 };
+
+module.exports = {
+    getEditDistance: getEditDistance
+}
