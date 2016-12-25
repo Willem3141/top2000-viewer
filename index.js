@@ -8,8 +8,8 @@ var schedule = require('node-schedule');
 
 var levenshtein = require('./levenshtein');
 
-var songs = JSON.parse(fs.readFileSync('top2015/songs.js'));
-var hours = JSON.parse(fs.readFileSync('top2015/hours.js'));
+var songs = JSON.parse(fs.readFileSync('top2016/songs.js'));
+var hours = JSON.parse(fs.readFileSync('top2016/hours.js'));
 var config = JSON.parse(fs.readFileSync('config.json'));
 
 var currentSong = {
@@ -102,7 +102,7 @@ function getData() {
                     var closestMatch = -1;
                     var closestLevenshtein = 10000000;
                     
-                    for (var i = Math.min(2000, hourStart + 5); i > Math.max(hourEnd - 5, 1); i--) {
+                    for (var i = Math.min(1999, hourStart + 5); i > Math.max(hourEnd - 5, 0); i--) {
                         var l = levenshtein.getEditDistance(newArtist, songs[i - 1].artist);
                         l += levenshtein.getEditDistance(newTitle, songs[i - 1].title);
                         if (l < closestLevenshtein) {
