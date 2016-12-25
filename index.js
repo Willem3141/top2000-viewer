@@ -64,8 +64,22 @@ function getData() {
     
     require('http').get(options, function(response) {
         response.setEncoding('utf8');
-        response.on('data', function(data) {
-            var json = JSON.parse(data);
+
+        var data = '';
+        response.on('data', function(chunk) {
+            data += chunk;
+        });
+
+        response.on('end', function() {
+            try {
+                var json = JSON.parse(data);
+            } catch (e) {
+                console.log("Error while parsing JSON: " + e.message);
+                console.log("    in JSON string: " + data);
+                io.emit('error', 'Returned JSON was invalid: ' + e.message);
+                // ...
+                return;
+            }
             
             var newArtist = json["results"][0]["songfile"]["artist"]
             var newTitle = json["results"][0]["songfile"]["title"]
