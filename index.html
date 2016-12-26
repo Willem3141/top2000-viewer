@@ -86,10 +86,18 @@
       
       var socket = io();
       
+      var currentId = -1;
+      
       socket.on('new song', function(msg) {
-        $('#huge-id').html(msg.currentSong.id);
-        
-        $('#main-view').addClass("id-flash");
+        if (msg.currentSong.id !== currentId) {
+            $('#huge-id').html(msg.currentSong.id);
+            
+            $('#main-view').addClass("id-flash");
+            
+            setTimeout(function() {
+            $('#main-view').removeClass("id-flash");
+            }, 3000);
+        }
         $('#main-view').removeClass('notification-shown');
         
         setTimeout(function() {
@@ -120,16 +128,17 @@
             $('#next-song-title').html('');
             $('#next-id').html('');
           }
+          if (msg.currentSong.id !== currentId) {
+            currentId = msg.currentSong.id;
             $('#main-view').addClass("song-detail");
+          }
         }, 1000);
         
-        setTimeout(function() {
-          $('#main-view').removeClass("id-flash");
-        }, 3000);
-        
-        setTimeout(function() {
-          $('#main-view').removeClass("song-detail");
-        }, 10000);
+        if (msg.currentSong.id !== currentId) {
+          setTimeout(function() {
+            $('#main-view').removeClass("song-detail");
+          }, 10000);
+        }
       });
       setInterval(updateProgressBar, 0.25);
       
@@ -153,17 +162,17 @@
         $('#hour-overview-body').html('');
         for (var i = 0; i < msg.songs.length; i++) {
           var s = msg.songs[i];
-          var difference = s.previous[s.previous.length - 2] - s.previous[s.previous.length - 1];
-          if (s.previous[s.previous.length - 2] === 0) {
-            var diffString = '<div class="hour-overview-diff new">&#9899;</div>';
-          } else if (difference > 0) {
-            var diffString = '<div class="hour-overview-diff climbs">' + difference + '</div>';
-          } else if (difference < 0) {
-            var diffString = '<div class="hour-overview-diff descends">' + -difference + '</div>';
-          } else {
-            var diffString = '<div class="hour-overview-diff equal">=</div>';
-          }
-          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.previous[s.previous.length - 1] + '</div>' + diffString + '<div class="hour-overview-title"><b>' + s.title + '</b><br>' + s.artist + '</div></div>');
+          //var difference = s.previous[s.previous.length - 2] - s.previous[s.previous.length - 1];
+          //if (s.previous[s.previous.length - 2] === 0) {
+            //var diffString = '<div class="hour-overview-diff new">&#9899;</div>';
+          //} else if (difference > 0) {
+            //var diffString = '<div class="hour-overview-diff climbs">' + difference + '</div>';
+          //} else if (difference < 0) {
+            //var diffString = '<div class="hour-overview-diff descends">' + -difference + '</div>';
+          //} else {
+            //var diffString = '<div class="hour-overview-diff equal">=</div>';
+          //}
+          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id /*+ s.previous[s.previous.length - 1]*/ + '</div>'/* + diffString */+ '<div class="hour-overview-title"><b>' + s.title + '</b><br>' + s.artist + '</div></div>');
         }
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');

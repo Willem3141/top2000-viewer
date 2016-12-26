@@ -195,7 +195,9 @@ function showHourOverview() {
         var hourEnd = hours[findHour(date, hour) + 1].start_id - 1;
         
         for (var i = hourStart; i > hourEnd; i--) {
-            songsInHour.push(songs[i]);
+            var song = songs[i];
+            song['id'] = i + 1;
+            songsInHour.push(song);
         }
         
         io.emit('hour overview', {date: date, hour: hour, hourCount: getHourCount(date, hour), songs: songsInHour});
