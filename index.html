@@ -132,6 +132,12 @@
             currentId = msg.currentSong.id;
             $('#main-view').addClass("song-detail");
           }
+          if (msg.currentSong.startTime && msg.currentSong.stopTime) {
+            updateProgressBar();
+            $('#progress-bar').css('opacity', 1);
+          } else {
+            $('#progress-bar').css('opacity', 0);
+          }
         }, 1000);
         
         if (msg.currentSong.id !== currentId) {
@@ -151,6 +157,7 @@
         var fraction = 100 * (new Date().getTime() - startTime) / (stopTime - startTime);
         if (fraction > 100) {
           fraction = 100;
+          $('#progress-bar').css('opacity', 0);
         }
         $('#progress-bar-fill').css('width', fraction + '%');
         $('#progress-bar-knob').css('left', fraction + '%');

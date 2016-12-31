@@ -182,6 +182,7 @@ body {
     height: 7px;
     margin-top: 12px;
     background-color: #454E59;
+    transition: opacity .4s;
 }
 
 #progress-bar-fill {
