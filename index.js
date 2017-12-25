@@ -8,9 +8,21 @@ var schedule = require('node-schedule');
 
 var levenshtein = require('./levenshtein');
 
-var songs = JSON.parse(fs.readFileSync('top2016/songs.js'));
-var hours = JSON.parse(fs.readFileSync('top2016/hours.js'));
+var songs = JSON.parse(fs.readFileSync('top2017/songs.js'));
+var hours = JSON.parse(fs.readFileSync('top2017/hours.js'));
+var votes = JSON.parse(fs.readFileSync('top2017/votes.js'));
+var presenters = JSON.parse(fs.readFileSync('top2017/presenters.js'));
 var config = JSON.parse(fs.readFileSync('config.json'));
+
+for (var i = 0; i < 1999; i++) {
+    songs[i].voters = ['M', 'W'];
+}
+
+for (var i = 0; i < votes.length; i++) {
+    for (var j = 0; j < votes[i].votes.length; j++) {
+        songs[i].voters.push(votes[i].abbreviation);
+    }
+}
 
 var lastRequestTime = 0;
 
@@ -62,7 +74,7 @@ function getData() {
     }
     
     // okay, song finished... if Top 2000 is in progress, just assume next song has started
-    if (currentSong.id && currentSong.id != '...' && currentSong.id > 1) {
+    if (currentSong.id && currentSong.id != '...' && currentSong.id > 2) {
         io.emit('new song', {currentSong: songAt(currentSong.id - 1),
             previousSong: songAt(currentSong.id),
             nextSong: songAt(currentSong.id - 2)
@@ -127,15 +139,23 @@ function handleResponse(data) {
         var date = d.getDate();
         var hour = d.getHours();
         
-        if (d.getMonth() === 11 && (date >= 26 || (date === 25 && hour >= 9))) {
+        if (config.testMode || (d.getMonth() === 11 && (date >= 26 || (date === 25 && hour >= 9)))) {
             
-            var hourStart = hours[findHour(date, hour)].start_id - 1;
-            var hourEnd = hours[findHour(date, hour) + 1].start_id - 1;
+            if (!config.testMode) {
+                var hourStart = hours[findHour(date, hour)].start_id - 1;
+                var hourEnd = hours[findHour(date, hour) + 1].start_id - 1;
+                var searchFrom = Math.min(2000, hourStart + 5);
+                var searchTo = Math.max(hourEnd - 5, 1);
+            
+            } else {
+                var searchFrom = 2000;
+                var searchTo = 1;
+            }
             
             var closestMatch = -1;
             var closestLevenshtein = 10000000;
-            
-            for (var i = Math.min(1999, hourStart + 5); i > Math.max(hourEnd - 5, 0); i--) {
+
+            for (var i = searchFrom; i >= searchTo; i--) {
                 var l = levenshtein.getEditDistance(newArtist, songs[i - 1].artist);
                 l += levenshtein.getEditDistance(newTitle, songs[i - 1].title);
                 if (l < closestLevenshtein) {
@@ -182,13 +202,7 @@ function handleResponse(data) {
 }
 
 function songAt(id) {
-    song = {
-        'title': songs[id - 1].title,
-        'artist': songs[id - 1].artist,
-        'id': id,
-        'year': songs[id - 1].year
-    };
-    return song;
+    return songs[id - 1];
 }
 
 function findHour(date, hour) {
@@ -202,16 +216,25 @@ function findHour(date, hour) {
 }
 
 var everyHour = new schedule.RecurrenceRule();
-everyHour.minute = 0;
 var j = schedule.scheduleJob(everyHour, showHourOverview);
+j.minute = 0;
+
+if (config.testMode) {
+    setInterval(showHourOverview, 5000);
+}
 
 function showHourOverview() {
-    console.log('hour overview');
+    console.log('showing hour overview');
     
     var d = new Date();
     d.setTime(d.getTime() + config.tz * 60 * 60 * 1000);
     var date = d.getDate();
     var hour = d.getHours();
+
+    if (config.testMode) {
+        date = 27;
+        hour = 9;
+    }
     
     if (d.getMonth() === 11 && (date >= 26 || (date == 25 && hour >= 9))) {
         var songsInHour = [];

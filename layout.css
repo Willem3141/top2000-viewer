@@ -175,6 +175,41 @@ body {
     font-weight: 700;
     font-size: 60px;
     color: #454E59;
+    margin-right: 4px;
+}
+
+.vote-badge {
+    display: inline-block;
+    font-weight: bold;
+    background-color: #454E59;
+    color: #B2DBD6;
+    text-align: center;
+    position: relative;
+}
+
+#current-song-container .vote-badge {
+    border-radius: 36px;
+    margin-left: 30px;
+    width: 30px;
+    height: 36px;
+    top: -9px;
+    padding: 3px 16px;
+    font-size: 30px;
+}
+
+#previous-song-container .vote-badge,
+#next-song-container .vote-badge {
+    border-radius: 30px;
+    margin-left: 25px;
+    width: 25px;
+    height: 30px;
+    top: -7px;
+    padding: 2px 13px;
+    font-size: 24px;
+}
+
+#current-song-difference {
+    margin-left: 250px;
 }
 
 #progress-bar {
