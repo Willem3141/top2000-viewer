@@ -15,7 +15,11 @@ var presenters = JSON.parse(fs.readFileSync('top2017/presenters.js'));
 var config = JSON.parse(fs.readFileSync('config.json'));
 
 for (var i = 0; i < 1999; i++) {
-    songs[i].voters = ['M', 'W'];
+    if (config.testMode) {
+        songs[i].voters = ['M', 'W'];
+    } else {
+        songs[i].voters = [];
+    }
 }
 
 for (var i = 0; i < votes.length; i++) {
@@ -216,8 +220,8 @@ function findHour(date, hour) {
 }
 
 var everyHour = new schedule.RecurrenceRule();
+everyHour.minute = 0;
 var j = schedule.scheduleJob(everyHour, showHourOverview);
-j.minute = 0;
 
 if (config.testMode) {
     setInterval(showHourOverview, 5000);
