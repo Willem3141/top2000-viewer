@@ -266,5 +266,5 @@ var j = schedule.scheduleJob(everyHour, function() {
 });
 
 function getHourCount(date, hour) {
-    return 24 * (date - 25) + hour - 8;
+    return 24 * (date - 25) + hour - 7;
 }
