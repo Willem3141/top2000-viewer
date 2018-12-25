@@ -8,10 +8,10 @@ var schedule = require('node-schedule');
 
 var levenshtein = require('./levenshtein');
 
-var songs = JSON.parse(fs.readFileSync('top2017/songs.js'));
-var hours = JSON.parse(fs.readFileSync('top2017/hours.js'));
-var votes = JSON.parse(fs.readFileSync('top2017/votes.js'));
-var presenters = JSON.parse(fs.readFileSync('top2017/presenters.js'));
+var songs = JSON.parse(fs.readFileSync('top2018/songs.js'));
+var hours = JSON.parse(fs.readFileSync('top2018/hours.js'));
+var votes = JSON.parse(fs.readFileSync('top2018/votes.js'));
+var presenters = JSON.parse(fs.readFileSync('top2018/presenters.js'));
 var config = JSON.parse(fs.readFileSync('config.json'));
 
 for (var i = 0; i < 1999; i++) {
@@ -24,7 +24,7 @@ for (var i = 0; i < 1999; i++) {
 
 for (var i = 0; i < votes.length; i++) {
     for (var j = 0; j < votes[i].votes.length; j++) {
-        songs[i].voters.push(votes[i].abbreviation);
+        songs[votes[i].votes[j] - 1].voters.push(votes[i].abbreviation);
     }
 }
 
@@ -78,7 +78,7 @@ function getData() {
     }
     
     // okay, song finished... if Top 2000 is in progress, just assume next song has started
-    if (currentSong.id && currentSong.id != '...' && currentSong.id > 2) {
+    if (currentSong.id && currentSong.id != '...' && currentSong.id >= 2) {  // TODO if currentSong.id == 2, we can still do this, but we shouldn't try to fetch songAt(0) ...
         io.emit('new song', {currentSong: songAt(currentSong.id - 1),
             previousSong: songAt(currentSong.id),
             nextSong: songAt(currentSong.id - 2)
@@ -143,7 +143,7 @@ function handleResponse(data) {
         var date = d.getDate();
         var hour = d.getHours();
         
-        if (config.testMode || (d.getMonth() === 11 && (date >= 26 || (date === 25 && hour >= 9)))) {
+        if (config.testMode || (d.getMonth() === 11 && (date >= 26 || (date === 25 && hour >= 8)))) {
             
             if (!config.testMode) {
                 var hourStart = hours[findHour(date, hour)].start_id - 1;
@@ -155,7 +155,7 @@ function handleResponse(data) {
                 var searchFrom = 2000;
                 var searchTo = 1;
             }
-            
+
             var closestMatch = -1;
             var closestLevenshtein = 10000000;
 
@@ -182,10 +182,10 @@ function handleResponse(data) {
                 nextSong = null;
             } else {
                 currentSong = songAt(closestMatch);
-                if (closestMatch < 1999) {
+                if (closestMatch < 2000) {
                     previousSong = songAt(closestMatch + 1);
                 }
-                if (closestMatch > 0) {
+                if (closestMatch > 1) {
                     nextSong = songAt(closestMatch - 1);
                 }
             }
@@ -210,6 +210,7 @@ function songAt(id) {
 }
 
 function findHour(date, hour) {
+	console.log("time " + date + " " + hour);
     for (var i = 0; i < hours.length; i++) {
         if (hours[i].day === date && hours[i].hour === hour) {
             return i;
