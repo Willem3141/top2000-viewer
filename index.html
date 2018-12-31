@@ -59,6 +59,13 @@
           </div>
         </div>
       </div>
+      <div id="clock">
+        <img id="clock-image" src="timezones/0.png">
+        </img>
+        <div id="clock-timer">
+          23:59:59
+        </div>
+      </div>
       <div id="huge-id-container">
         <div id="huge-id-square-container">
           <div id="huge-id-square-shadow-2"></div>
@@ -207,6 +214,38 @@
           $('#hour-overview').removeClass('visible');
         }, 120000);
       });
+
+      setInterval(updateClock, 1000);
+
+      function updateClock() {
+        let date = new Date();
+        // show clock only on 31 December or 1 Jan
+        if (!((date.getMonth() === 11 && date.getDate() === 31 && date.getHours() >= 12) ||
+              (date.getMonth() === 0 && date.getDate() === 1 && date.getHours() === 0 && date.getMinutes() < 15))) {
+          $('#clock').toggleClass('visible', false);
+          return;
+        }
+        $('#clock-timer').html(date.getHours() + ":" +
+            (date.getMinutes() < 10 ? "0" : "") +
+            date.getMinutes() + ":" +
+            (date.getSeconds() < 10 ? "0" : "") +
+            date.getSeconds());
+        $('#clock-image').attr('src', 'timezones/' + date.getHours() + '.png');
+        
+        let showClock = false;
+        // show clock around each hour
+        if (date.getMinutes() === 59 && date.getSeconds() > 50) {
+          showClock = true;
+        }
+        if (date.getMinutes() === 0 && date.getSeconds() < 20) {
+          showClock = true;
+        }
+        // also show it after New Year
+        if (date.getMonth() === 0) {
+          showClock = true;
+        }
+        $('#clock').toggleClass('visible', showClock);
+      }
     </script>
   </body>
 </html>

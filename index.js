@@ -1,6 +1,7 @@
 var fs = require('fs');
 
-var app = require('express')();
+var express = require('express');
+var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
@@ -56,6 +57,8 @@ app.get('/', function(req, res) {
 app.get('/layout.css', function(req, res) {
     res.sendFile(__dirname + '/layout.css');
 });
+
+app.use(express.static('public'))
 
 io.on('connection', function(socket) {
     console.log('a user connected');
@@ -244,8 +247,10 @@ function showHourOverview() {
     if (d.getMonth() === 11 && (date >= 26 || (date == 25 && hour >= 9))) {
         var songsInHour = [];
         
-        var hourStart = hours[findHour(date, hour)].start_id - 1;
-        var hourEnd = hours[findHour(date, hour) + 1].start_id - 1;
+        var topHour = findHour(date, hour) + 1;
+        
+        var hourStart = hours[topHour].start_id - 1;
+        var hourEnd = hours[topHour + 1].start_id - 1;
         
         for (var i = hourStart; i > hourEnd; i--) {
             var song = songs[i];
@@ -253,7 +258,7 @@ function showHourOverview() {
             songsInHour.push(song);
         }
         
-        io.emit('hour overview', {date: date, hour: hour, hourCount: getHourCount(date, hour), songs: songsInHour});
+        io.emit('hour overview', {date: date, hour: hour + 1, hourCount: getHourCount(date, hour), songs: songsInHour});
     }
 }
 
