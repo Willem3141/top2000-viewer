@@ -241,6 +241,10 @@
           showClock = true;
         }
         // also show it after New Year
+        if (date.getHours() === 23 &&
+            date.getMinutes() === 56 && date.getSeconds() > 0) {
+          showClock = true;
+        }
         if (date.getMonth() === 0) {
           showClock = true;
         }
