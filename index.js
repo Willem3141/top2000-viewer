@@ -9,10 +9,10 @@ var schedule = require('node-schedule');
 
 var levenshtein = require('./levenshtein');
 
-var songs = JSON.parse(fs.readFileSync('top2018/songs.js'));
-var hours = JSON.parse(fs.readFileSync('top2018/hours.js'));
-var votes = JSON.parse(fs.readFileSync('top2018/votes.js'));
-var presenters = JSON.parse(fs.readFileSync('top2018/presenters.js'));
+var songs = JSON.parse(fs.readFileSync('top2019/songs.js'));
+var hours = JSON.parse(fs.readFileSync('top2019/hours.js'));
+var votes = JSON.parse(fs.readFileSync('top2019/votes.js'));
+var presenters = JSON.parse(fs.readFileSync('top2019/presenters.js'));
 var config = JSON.parse(fs.readFileSync('config.json'));
 
 for (var i = 0; i < 1999; i++) {
