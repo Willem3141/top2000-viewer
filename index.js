@@ -50,6 +50,9 @@ var nextSong = {
     'stopTime': 0
 };
 
+var previousTitle = '';
+var previousArtist = '';
+
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
 });
@@ -136,7 +139,10 @@ function handleResponse(data) {
     
     console.log("current song: " + newArtist + " - " + newTitle);
     
-    if (currentSong.artist !== newArtist || currentSong.title !== newTitle) {
+    if (previousArtist !== newArtist || previousTitle !== newTitle) {
+        previousArtist = newArtist;
+        previousTitle = newTitle;
+
         console.log('this is indeed a new song; send update signal');
         
         previousSong = currentSong;
