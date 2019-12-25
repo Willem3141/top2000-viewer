@@ -491,7 +491,7 @@ body {
 
 #hour-overview {
     color: #454E59;
-    padding: 25px;
+    padding-top: 25px;
 }
 
 #hour-overview-header {
@@ -502,7 +502,6 @@ body {
 }
 
 #hour-overview-body {
-    height: 100%;
     margin: 20px;
     font-size: 30px;
     overflow-y: hidden;

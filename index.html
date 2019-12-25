@@ -211,6 +211,8 @@
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');
         }, 120000);
+
+        startHourOverviewScroll();
       });
 
       setInterval(updateClock, 1000);
@@ -251,6 +253,26 @@
 
       function addNonBoldSpan(text) {
         return text.replace(/\([^)]*\)/, '<span class="non-bold">$&</span>');
+      }
+
+      function startHourOverviewScroll() {
+        let $list = $('#hour-overview-body');
+        let availableSpace = $('body').height() - $list.offset().top;
+        let scrollDistance = $list.height() - availableSpace;
+        console.log($list.height(), $('body').height(), $list.offset().top, scrollDistance);
+
+        $list.height(availableSpace);
+
+        // durations
+        let initialWaitDuration = 3000;
+        let scrollDuration = scrollDistance * 10;
+
+        // do the animations
+        setTimeout(function() {
+          $list.animate({
+            scrollTop: scrollDistance
+          }, scrollDuration);
+        }, initialWaitDuration);
       }
     </script>
   </body>
