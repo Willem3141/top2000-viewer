@@ -250,6 +250,10 @@
         }
         $('#clock').toggleClass('visible', showClock);
       }
+
+      function addNonBoldSpan(text) {
+        return text.replace(/\)[^)]*\)/, '<span class="non-bold">$&</span>');
+      }
     </script>
   </body>
 </html>

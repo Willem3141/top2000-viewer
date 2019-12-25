@@ -178,6 +178,10 @@ body {
     margin-right: 4px;
 }
 
+#current-song-title .non-bold {
+    font-weight: 400;
+}
+
 .vote-badge {
     display: inline-block;
     font-weight: bold;

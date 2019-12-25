@@ -164,7 +164,7 @@ function handleResponse(data) {
 
             for (var i = searchFrom; i >= searchTo; i--) {
                 var l = levenshtein.getEditDistance(newArtist, songs[i - 1].artist);
-                l += levenshtein.getEditDistance(newTitle, songs[i - 1].title);
+                l += levenshtein.getEditDistance(removeParentheses(newTitle), removeParentheses(songs[i - 1].title));
                 if (l < closestLevenshtein) {
                     closestMatch = i;
                     closestLevenshtein = l;
@@ -286,3 +286,6 @@ function presenterInHour(hour) {
     return '(DJ onbekend)';
 }
 
+function removeParentheses(text) {
+    return text.replace(/\)[^)]*\)/, '');
+}
