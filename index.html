@@ -102,7 +102,7 @@
         
         setTimeout(function() {
           $('#current-song-artist').html(msg.currentSong.artist);
-          $('#current-song-title').html(msg.currentSong.title);
+          $('#current-song-title').html(addNonBoldSpan(msg.currentSong.title));
           $('#current-song-votes').html(createVotesText(msg.currentSong));
           $('#top2000-id').html(msg.currentSong.id);
           
@@ -127,7 +127,7 @@
           
           if (msg.previousSong) {
             $('#previous-song-artist').html(msg.previousSong.artist);
-            $('#previous-song-title').html(msg.previousSong.title);
+            $('#previous-song-title').html(addNonBoldSpan(msg.previousSong.title));
             $('#previous-song-votes').html(createVotesText(msg.previousSong));
             $('#previous-id').html(msg.previousSong.id);
           } else {
@@ -138,7 +138,7 @@
           
           if (msg.nextSong) {
             $('#next-song-artist').html(msg.nextSong.artist);
-            $('#next-song-title').html(msg.nextSong.title);
+            $('#next-song-title').html(addNonBoldSpan(msg.nextSong.title));
             $('#next-song-votes').html(createVotesText(msg.nextSong));
             $('#next-id').html(msg.nextSong.id);
           } else {
@@ -208,7 +208,7 @@
           } else {
             var diffString = '<div class="hour-overview-diff equal">=</div>';
           }
-          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + s.title + '</b><br>' + s.artist + '</div></div>');
+          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br>' + s.artist + '</div></div>');
         }
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');
@@ -252,7 +252,7 @@
       }
 
       function addNonBoldSpan(text) {
-        return text.replace(/\)[^)]*\)/, '<span class="non-bold">$&</span>');
+        return text.replace(/\([^)]*\)/, '<span class="non-bold">$&</span>');
       }
     </script>
   </body>

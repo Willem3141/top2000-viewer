@@ -423,6 +423,11 @@ body {
 .hour-overview-title {
     width: calc(100% - 201px);
     display: inline-block;
+    font-weight: 700;
+}
+
+#hour-overview-title .non-bold {
+    font-weight: 400;
 }
 
 /* difference graph */
