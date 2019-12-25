@@ -337,99 +337,6 @@ body {
     font-size: 40px;
     color: #454E59;
 }
-
-/* hour overview */
-
-#hour-overview {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-#hour-overview.visible {
-    opacity: 1;
-}
-
-#hour-overview-dialog {
-    position: absolute;
-    background-color: rgba(69, 78, 89, 0.9);
-    color: white;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
-    border-radius: 20px;
-    overflow-y: hidden;
-}
-
-#hour-overview-header {
-    border-bottom: 1px solid white;
-    margin: 20px;
-    padding-bottom: 10px;
-    font-size: 50px;
-    text-align: center;
-}
-
-#hour-overview-body {
-    height: 100%;
-    margin: 20px;
-    font-size: 30px;
-    overflow-y: hidden;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-}
-
-.hour-overview-song {
-    padding-bottom: 10px;
-}
-
-.hour-overview-id {
-    width: 80px;
-    display: inline-block;
-    text-align: right;
-    vertical-align: top;
-    padding-right: 16px;
-}
-
-.hour-overview-diff {
-    font-size: 20px;
-    width: 80px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    padding-right: 16px;
-    margin-top: 8px;
-}
-
-.hour-overview-diff.climbs::before {
-    content: "\25B4  ";
-    color: #3AAA35;
-}
-.hour-overview-diff.descends::before {
-    content: "\25BE  ";
-    color: #D8141A;
-}
-.hour-overview-diff.equal::before {
-    content: "\26AB  ";
-    color: #D8141A;
-}
-
-.hour-overview-title {
-    width: calc(100% - 201px);
-    display: inline-block;
-    font-weight: 700;
-}
-
-.hour-overview-title .non-bold {
-    font-weight: 400;
-}
-
 /* difference graph */
 
 #difference-graph {
@@ -533,9 +440,9 @@ body {
     line-height: 30px;
 }
 
-/* clock */
+/* overlays */
 
-#clock {
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -544,11 +451,114 @@ body {
     background-color: #B2DBD6;
     opacity: 0;
     transition: opacity 1s;
+}
+
+.overlay:before {
+    content: '&nbsp;';
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(190, 190, 190, 0.1);
+    -webkit-transform: translate(-120px, -120px) rotate(45deg);
+    transform: translate(-120px, -120px) rotate(45deg);
+    width: 540px;
+    height: 540px;
+    border-radius: 20px;
+    animation: breathing-shadow-2 6s ease-in-out infinite normal;
+    animation-delay: 1s;
+}
+.overlay:after {
+    content: '&nbsp;';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.45);
+    -webkit-transform: translate(-60px, -60px) rotate(45deg);
+    transform: translate(-60px, -60px) rotate(45deg);
+    width: 420px;
+    height: 420px;
+    border-radius: 20px;
+    animation: breathing-shadow-1 6s ease-in-out infinite normal;
+}
+
+.overlay.visible {
+    opacity: 1;
+}
+
+/* hour overview */
+
+#hour-overview {
+    color: #454E59;
+    padding: 25px;
+}
+
+#hour-overview-header {
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
     text-align: center;
 }
 
-#clock.visible {
-    opacity: 1;
+#hour-overview-body {
+    height: 100%;
+    margin: 20px;
+    font-size: 30px;
+    overflow-y: hidden;
+}
+
+.hour-overview-song {
+    padding-bottom: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hour-overview-id {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 16px;
+}
+
+.hour-overview-diff {
+    font-size: 20px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding-right: 16px;
+    margin-top: 8px;
+}
+
+.hour-overview-diff.climbs:before {
+    content: "\25B4  ";
+    color: #3AAA35;
+}
+.hour-overview-diff.descends:before {
+    content: "\25BE  ";
+    color: #D8141A;
+}
+.hour-overview-diff.equal:before {
+    content: "\26AB  ";
+    color: #D8141A;
+}
+
+.hour-overview-title {
+    width: calc(100% - 201px);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.hour-overview-title .non-bold {
+    font-weight: 400;
+}
+
+/* clock */
+
+#clock {
+    text-align: center;
 }
 
 #clock #clock-image {
@@ -559,3 +569,4 @@ body {
     color: #454E59;
     font-size: 60px;
 }
+

@@ -49,17 +49,15 @@
           <span id="next-song-artist"></span>
         </div>
       </div>
-      <div id="hour-overview">
-        <div id="hour-overview-dialog">
-          <div id="hour-overview-header">
-            Uur ...
-          </div>
-          <div id="hour-overview-body">
-            ...
-          </div>
+      <div id="hour-overview" class="overlay">
+        <div id="hour-overview-header">
+          Uur ...
+        </div>
+        <div id="hour-overview-body">
+          ...
         </div>
       </div>
-      <div id="clock">
+      <div id="clock" class="overlay">
         <img id="clock-image" src="timezones/0.png">
         </img>
         <div id="clock-timer">
@@ -208,7 +206,7 @@
           } else {
             var diffString = '<div class="hour-overview-diff equal">=</div>';
           }
-                                   $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br><span class="non-bold">' + s.artist + '</span></div></div>');
+          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br><span class="non-bold">' + s.artist + '</span></div></div>');
         }
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');
@@ -248,6 +246,7 @@
         if (date.getMonth() === 0) {
           showClock = true;
         }
+        showClock = true;
         $('#clock').toggleClass('visible', showClock);
       }
 
