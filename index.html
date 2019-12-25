@@ -208,7 +208,7 @@
           } else {
             var diffString = '<div class="hour-overview-diff equal">=</div>';
           }
-          $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br>' + s.artist + '</div></div>');
+                                   $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br><span class="non-bold">' + s.artist + '</span></div></div>');
         }
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');
