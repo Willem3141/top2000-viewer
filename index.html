@@ -194,7 +194,7 @@
       
       socket.on('hour overview', function(msg) {
         $('#hour-overview').addClass('visible');
-        $('#hour-overview-header').html('Uur ' + (msg.hourCount + 1));
+          $('#hour-overview-header').html('<b>Uur ' + msg.hourCount + ':</b> ' + msg.presenter);
         $('#hour-overview-body').html('');
         for (var i = 0; i < msg.songs.length; i++) {
           var s = msg.songs[i];

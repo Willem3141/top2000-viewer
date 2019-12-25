@@ -240,14 +240,14 @@ function showHourOverview() {
     var hour = d.getHours();
 
     if (config.testMode) {
-        date = 27;
-        hour = 9;
+        date = 25;
+        hour = 8;
     }
     
-    if (d.getMonth() === 11 && (date >= 26 || (date == 25 && hour >= 9))) {
+    if (config.testMode || (d.getMonth() === 11 && (date >= 26 || (date == 25 && hour >= 8)))) {
         var songsInHour = [];
         
-        var topHour = findHour(date, hour) + 1;
+        var topHour = findHour(date, hour);
         
         var hourStart = hours[topHour].start_id - 1;
         var hourEnd = hours[topHour + 1].start_id - 1;
@@ -258,7 +258,8 @@ function showHourOverview() {
             songsInHour.push(song);
         }
         
-        io.emit('hour overview', {date: date, hour: hour + 1, hourCount: getHourCount(date, hour), songs: songsInHour});
+        var presenter = presenterInHour(hour);
+        io.emit('hour overview', {date: date, hour: hour, hourCount: getHourCount(date, hour), songs: songsInHour, presenter: presenter});
     }
 }
 
@@ -273,3 +274,15 @@ var j = schedule.scheduleJob(everyHour, function() {
 function getHourCount(date, hour) {
     return 24 * (date - 25) + hour - 7;
 }
+
+// given an hour of the day (0-23), figures out which DJ is presenting then
+function presenterInHour(hour) {
+    for (let i = presenters.length - 1; i >= 0; i--) {
+        let presenter = presenters[i];
+        if (hour >= presenter['hour']) {
+            return presenter['name'];
+        }
+    }
+    return '(DJ onbekend)';
+}
+
