@@ -76,7 +76,7 @@ setInterval(getData, 1000);
 function getData() {
     
     // if the song is still playing, we don't need to do anything
-    var now = new Date().getTime() + config.tz * 60 * 60 * 1000;
+    var now = new Date().getTime();
     console.log("current time = " + now +
         ", song ending at = " + currentSong.stopTime);
     if (now < currentSong.stopTime + 3000) {  // three seconds slack
@@ -148,7 +148,7 @@ function handleResponse(data) {
         previousSong = currentSong;
         
         var d = new Date();
-        d.setTime(d.getTime() + (1 - config.tz) * 60 * 60 * 1000);
+        d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);
         var date = d.getDate();
         var hour = d.getHours();
         
@@ -241,7 +241,7 @@ function showHourOverview() {
     console.log('showing hour overview');
     
     var d = new Date();
-    d.setTime(d.getTime() + config.tz * 60 * 60 * 1000);
+    d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);
     var date = d.getDate();
     var hour = d.getHours();
 
@@ -273,7 +273,7 @@ var everyMinute = new schedule.RecurrenceRule();
 var j = schedule.scheduleJob(everyHour, function() {
     console.log('time update');
     var d = new Date();
-    d.setTime(d.getTime() + config.tz * 60 * 60 * 1000);
+    d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);
     io.emit('time', {hour: d.getHours(), minute: d.getMinutes(), second: d.getSeconds()});
 });
 

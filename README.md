@@ -16,6 +16,11 @@ The installation procedure varies based on how the server is setup but should lo
 
 * Clone this repository: `git clone https://gitlab.com/Willem3141/top2000-viewer.git`
 * Install dependencies: `npm install`
-* Edit `config.json` to contain the correct port and the server timezone
+* Edit `config.json` to contain the correct port and the server timezone (see below)
 * Run the application: `node index.js`
+
+Timezones
+---------
+
+To ensure that the correct hour is shown in the overview, it is necessary to set the server timezone in the configuration. (This also used to be necessary to ensure that song start and stop times were interpreted correctly, but the current Radio 2 API returns those times in UTC.) The `tz` setting in `config.json` should be set to the number of hours that the server timezone is different from Dutch local time (Europe/Amsterdam). In other words, if your server has its timezone set to UTC, this should be `-1`; if it uses the Dutch timezone itself, it should be `0`. Note that the timezone of your development system (for doing local testing) may be different from the server timezone, so you should have a separate `config.json` file for development and production (also because the port may be different).
 
