@@ -84,11 +84,24 @@ function getData() {
     }
     
     // okay, song finished... if Top 2000 is in progress, just assume next song has started
-    if (currentSong.id && currentSong.id != '...' && currentSong.id >= 2) {  // TODO if currentSong.id == 2, we can still do this, but we shouldn't try to fetch songAt(0) ...
-        io.emit('new song', {currentSong: songAt(currentSong.id - 1),
-            previousSong: songAt(currentSong.id),
-            nextSong: songAt(currentSong.id - 2)
-        });
+    if (currentSong.id && currentSong.id != '...') {
+        // don't do this if this is the last song of the hour, because then
+        // we'll get the news first
+        if (!isLastSongInHour(currentSong.id)) {
+            // note that currentSong.id is 1-based
+            if (currentSong.id >= 2) {
+                io.emit('new song', {
+                    currentSong: songAt(currentSong.id - 1),
+                    previousSong: songAt(currentSong.id),
+                    nextSong: songAt(currentSong.id - 2)
+                });
+            } else if (currentSong.id === 2) {
+                io.emit('new song', {
+                    currentSong: songAt(currentSong.id - 1),
+                    previousSong: songAt(currentSong.id)
+                });
+            }
+        }
     }
     
     // do request
@@ -295,3 +308,14 @@ function presenterInHour(hour) {
 function removeParentheses(text) {
     return text.replace(/\)[^)]*\)/, '');
 }
+
+// given an (1-based) song ID, check if this is the last song of an hour
+function isLastSongInHour(id) {
+    for (let i = 0; i < hours.length; i++) {
+        if (id === hours[i]['start_id'] + 1) {
+            return true;
+        }
+    }
+    return false;
+}
+
