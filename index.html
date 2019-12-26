@@ -208,9 +208,10 @@
           }
           $('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br><span class="non-bold">' + s.artist + '</span></div></div>');
         }
+        // 2 minutes and 2 seconds (to allow the ID flash of the next song to be shown)
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');
-        }, 120000);
+        }, 122000);
 
         startHourOverviewScroll();
       });
@@ -264,15 +265,26 @@
         $list.height(availableSpace);
 
         // durations
-        let initialWaitDuration = 3000;
-        let scrollDuration = scrollDistance * 10;
+        let initialWaitDuration = 5000;
+        let scrollDuration = scrollDistance * 50;
+        let intermediateWaitDuration = 3000;
 
         // do the animations
         setTimeout(function() {
           $list.animate({
             scrollTop: scrollDistance
-          }, scrollDuration);
+          }, {
+            duration: scrollDuration,
+            easing: 'linear'
+          });
         }, initialWaitDuration);
+
+        /*setTimeout(function() {
+          $list.fadeOut(250);
+        }, initialWaitDuration + scrollDuration + intermediateWaitDuration);
+        setTimeout(function() {
+          $list.fadeIn(250);
+        }, initialWaitDuration + scrollDuration + intermediateWaitDuration + 300);*/
       }
     </script>
   </body>

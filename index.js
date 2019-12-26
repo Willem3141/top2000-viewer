@@ -76,7 +76,8 @@ setInterval(getData, 1000);
 function getData() {
     
     // if the song is still playing, we don't need to do anything
-    var now = new Date().getTime();
+    var date = new Date();
+    var now = date.getTime();
     console.log("current time = " + now +
         ", song ending at = " + currentSong.stopTime);
     if (now < currentSong.stopTime + 3000) {  // three seconds slack
@@ -87,7 +88,9 @@ function getData() {
     if (currentSong.id && currentSong.id != '...') {
         // don't do this if this is the last song of the hour, because then
         // we'll get the news first
-        if (!isLastSongInHour(currentSong.id)) {
+        // (except if the minute is >= 2, because then the news has ended)
+        if (!isLastSongInHour(currentSong.id) ||
+                    (date.getMinutes() >= 2 && date.getMinutes() < 30)) {
             // note that currentSong.id is 1-based
             if (currentSong.id >= 2) {
                 io.emit('new song', {
