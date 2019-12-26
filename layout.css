@@ -505,12 +505,21 @@ body {
     margin: 20px;
     font-size: 30px;
     overflow-y: hidden;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+#hour-overview-body.hidden {
+    opacity: 0;
 }
 
 .hour-overview-song {
     padding-bottom: 10px;
     max-width: 1200px;
     margin: auto;
+}
+
+.hour-overview-song:last-child {
+    padding-bottom: 50px;
 }
 
 .hour-overview-id {

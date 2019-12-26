@@ -211,6 +211,7 @@
         // 2 minutes and 2 seconds (to allow the ID flash of the next song to be shown)
         setTimeout(function() {
           $('#hour-overview').removeClass('visible');
+          clearTimeout(nextScrollTimer);
         }, 122000);
 
         startHourOverviewScroll();
@@ -256,18 +257,22 @@
         return text.replace(/\([^)]*\)/, '<span class="non-bold">$&</span>');
       }
 
+      let nextScrollTimer;
+
       function startHourOverviewScroll() {
         let $list = $('#hour-overview-body');
+        $list.scrollTop(0);
+        $list.removeClass('hidden');
+        $list.height('auto');
+
         let availableSpace = $('body').height() - $list.offset().top;
         let scrollDistance = $list.height() - availableSpace;
-        console.log($list.height(), $('body').height(), $list.offset().top, scrollDistance);
 
         $list.height(availableSpace);
 
         // durations
-        let initialWaitDuration = 5000;
-        let scrollDuration = scrollDistance * 50;
-        let intermediateWaitDuration = 3000;
+        let waitDuration = 5000;
+        let scrollDuration = scrollDistance * 25;
 
         // do the animations
         setTimeout(function() {
@@ -277,14 +282,18 @@
             duration: scrollDuration,
             easing: 'linear'
           });
-        }, initialWaitDuration);
+        }, waitDuration);
 
-        /*setTimeout(function() {
-          $list.fadeOut(250);
-        }, initialWaitDuration + scrollDuration + intermediateWaitDuration);
         setTimeout(function() {
-          $list.fadeIn(250);
-        }, initialWaitDuration + scrollDuration + intermediateWaitDuration + 300);*/
+          $list.addClass('hidden');
+        }, 2 * waitDuration + scrollDuration);
+        setTimeout(function() {
+          $list.scrollTop(0);
+        }, 2 * waitDuration + scrollDuration + 550);
+
+        // recursive call to do the next scroll
+        nextScrollTimer = setTimeout(startHourOverviewScroll,
+                2 * waitDuration + scrollDuration + 600);
       }
     </script>
   </body>

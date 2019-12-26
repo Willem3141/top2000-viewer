@@ -66,6 +66,9 @@ app.use(express.static('public'))
 io.on('connection', function(socket) {
     console.log('a user connected');
     socket.emit('new song', {currentSong: currentSong, previousSong: previousSong, nextSong: nextSong});
+    if (config.testMode) {
+        setTimeout(showHourOverview, 5000);
+    }
 });
 
 http.listen(config.port);
@@ -248,10 +251,6 @@ function findHour(date, hour) {
 var everyHour = new schedule.RecurrenceRule();
 everyHour.minute = 0;
 var j = schedule.scheduleJob(everyHour, showHourOverview);
-
-if (config.testMode) {
-    setInterval(showHourOverview, 5000);
-}
 
 function showHourOverview() {
     console.log('showing hour overview');
