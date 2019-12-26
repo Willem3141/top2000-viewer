@@ -299,6 +299,10 @@ body {
     color: #454E59;
 }
 
+#previous-song-title .non-bold {
+    font-weight: 400;
+}
+
 #next-id {
     position: absolute;
     top: 85%;
@@ -337,6 +341,11 @@ body {
     font-size: 40px;
     color: #454E59;
 }
+
+#next-song-title .non-bold {
+    font-weight: 400;
+}
+
 /* difference graph */
 
 #difference-graph {
