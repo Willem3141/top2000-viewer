@@ -2,7 +2,7 @@
     {"name": "Leo Blokhuis", "hour": 0},
     {"name": "Rick van Velthuijzen", "hour": 2},
     {"name": "Frank van 't Hof", "hour": 4},
-    {"name": "Emmely de Wild", "hour": 6},
+    {"name": "Emmely de Wilt", "hour": 6},
     {"name": "Jan-Willem Roodbeen", "hour": 8},
     {"name": "Bart Arens", "hour": 10},
     {"name": "Gijs Staverman", "hour": 12},
