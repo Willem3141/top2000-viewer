@@ -61,6 +61,10 @@ app.get('/layout.css', function(req, res) {
     res.sendFile(__dirname + '/layout.css');
 });
 
+app.get('/client.js', function(req, res) {
+    res.sendFile(__dirname + '/client.js');
+});
+
 app.use(express.static('public'))
 
 io.on('connection', function(socket) {
