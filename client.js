@@ -126,7 +126,11 @@ $(function () {
 			} else {
 				var diffString = '<div class="hour-overview-diff equal">=</div>';
 			}
-			$('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b><br><span class="non-bold">' + s.artist + '</span></div></div>');
+			let votesString = '';
+			for (let i = 0; i < s['voters'].length; i++) {
+				votesString += ' <div class="vote-badge">' + s['voters'][i] + '</div>';
+			}
+			$('#hour-overview-body').append('<div class="hour-overview-song"><div class="hour-overview-id">' + s.id + '</div>'+ diffString + '<div class="hour-overview-title"><b>' + addNonBoldSpan(s.title) + '</b>' + votesString + '<br><span class="non-bold">' + s.artist + '</span></div></div>');
 		}
 		// 2 minutes and 2 seconds (to allow the ID flash of the next song to be shown)
 		setTimeout(function() {
