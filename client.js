@@ -7,7 +7,8 @@ $(function () {
 	var currentId = -1;
 
 	socket.on('new song', function(msg) {
-		if (msg.currentSong.id !== currentId) {
+		console.log(msg);
+		if (msg.currentSong.hasOwnProperty('id') && msg.currentSong.id !== currentId) {
 			$('#huge-id').html(msg.currentSong.id);
 
 			$('#main-view').addClass("id-flash");
@@ -22,22 +23,34 @@ $(function () {
 			$('#current-song-artist').html(msg.currentSong.artist);
 			$('#current-song-title').html(addNonBoldSpan(msg.currentSong.title));
 			$('#current-song-votes').html(createVotesText(msg.currentSong));
-			$('#top2000-id').html(msg.currentSong.id);
-
-			$('#current-song-year').html(msg.currentSong.year);
-
-			var difference = msg.currentSong.previous - msg.currentSong.id;
-			if (msg.currentSong.previous === 0) {
-				$('#current-song-difference').html('&#9899;');
-
-			} else if (difference > 0) {
-				$('#current-song-difference').html("&#9652; " + difference);
-
-			} else if (difference < 0) {
-				$('#current-song-difference').html("&#9662; " + (-difference));
-
+			if (msg.currentSong.id) {
+				$('#top2000-id').html(msg.currentSong.id);
 			} else {
-				$('#current-song-difference').html("&#8226; 0");
+				$('#top2000-id').html('');
+			}
+
+			if (msg.currentSong.year) {
+				$('#current-song-year').html(msg.currentSong.year);
+			} else {
+				$('#current-song-year').html('');
+			}
+
+			if (msg.currentSong.hasOwnProperty('previous')) {
+				var difference = msg.currentSong.previous - msg.currentSong.id;
+				if (msg.currentSong.previous === 0) {
+					$('#current-song-difference').html('&#9899;');
+
+				} else if (difference > 0) {
+					$('#current-song-difference').html("&#9652; " + difference);
+
+				} else if (difference < 0) {
+					$('#current-song-difference').html("&#9662; " + (-difference));
+
+				} else {
+					$('#current-song-difference').html("&#8226; 0");
+				}
+			} else {
+				$('#current-song-difference').html("");
 			}
 
 			startTime = msg.currentSong.startTime;
@@ -51,6 +64,7 @@ $(function () {
 			} else {
 				$('#previous-song-artist').html('');
 				$('#previous-song-title').html('');
+				$('#previous-song-votes').html('');
 				$('#previous-id').html('');
 			}
 
@@ -62,9 +76,10 @@ $(function () {
 			} else {
 				$('#next-song-artist').html('');
 				$('#next-song-title').html('');
+				$('#next-song-votes').html('');
 				$('#next-id').html('');
 			}
-			if (msg.currentSong.id !== currentId) {
+			if (msg.currentSong.hasOwnProperty('id') && msg.currentSong.id !== currentId) {
 				currentId = msg.currentSong.id;
 				$('#main-view').addClass("song-detail");
 			}
