@@ -219,6 +219,8 @@ function handleResponse(data) {
                 }
                 if (closestMatch > 1) {
                     nextSong = songAt(closestMatch - 1);
+                } else {
+                    nextSong = null;
                 }
             }
         } else {
